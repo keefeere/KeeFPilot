@@ -41,7 +41,7 @@ on:
 
 env:
   BASEDIR: "${{ github.workspace }}"
-  BUILD_DIR: /data/openpilot
+  BUILD_DIR: "${{ github.workspace }}"
   OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}"
 
 jobs:
