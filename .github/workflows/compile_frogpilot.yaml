@@ -46,7 +46,7 @@ env:
 
 jobs:
   get_branch:
-    runs-on: [self-hosted, c3x]
+    runs-on: ubuntu-latest
     outputs:
       branch: ${{ steps.get_branch.outputs.branch }}
       python_version: ${{ steps.get_python_version.outputs.python_version }}
@@ -128,7 +128,7 @@ jobs:
       - get_branch
       - translate
     if: always()
-    runs-on: [self-hosted, c3x]
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     defaults:
@@ -150,6 +150,12 @@ jobs:
             git fetch origin ${{ needs.get_branch.outputs.branch }}
             git reset --hard FETCH_HEAD
           fi
+
+      - name: Install build deps
+        run: |
+          sudo apt update
+          sudo apt install -y build-essential scons qtbase5-dev qttools5-dev-tools python3-pyqt5
+          pip install poetry
 
       - name: Take Ownership of Build
         run: |
