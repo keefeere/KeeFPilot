@@ -32,15 +32,15 @@
     </message>
     <message>
         <source>Only Onroad</source>
-        <translation>Тільки в дорозі</translation>
+        <translation>В дор.</translation>
     </message>
     <message>
         <source>Until Reboot</source>
-        <translation>До перезавантаження</translation>
+        <translation>До перезав.</translation>
     </message>
     <message>
         <source>Enable Tethering</source>
-        <translation>Ввімкнути точку доступу</translation>
+        <translation>Ввімкнути роздачу</translation>
     </message>
     <message>
         <source>Allow tethering with your data SIM and keep it active either while driving or continuously.</source>
@@ -123,11 +123,11 @@
     </message>
     <message>
         <source>LIMIT</source>
-        <translation>ОБМЕЖЕННЯ</translation>
+        <translation>ЛІМІТ</translation>
     </message>
     <message>
         <source>SPEED</source>
-        <translation>ШВИДКІСТЬ</translation>
+        <translation>ШВИДК.</translation>
     </message>
 </context>
 <context>
@@ -258,7 +258,7 @@
     <name>DevicePanel</name>
     <message>
         <source>Dongle ID</source>
-        <translation>ІД Пристр</translation>
+        <translation>ІД Пристрою</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -314,11 +314,11 @@
     </message>
     <message>
         <source>Review Training Guide</source>
-        <translation>Дивитись навчальний посібник</translation>
+        <translation>Передивитись навчальний посібник</translation>
     </message>
     <message>
         <source>REVIEW</source>
-        <translation>ОЗНАЙОМЛЕН</translation>
+        <translation>ПЕРЕДИВ</translation>
     </message>
     <message>
         <source>Review the rules, features, and limitations of openpilot</source>
@@ -334,11 +334,11 @@
     </message>
     <message>
         <source>Regulatory</source>
-        <translation>Регулятори</translation>
+        <translation>Нормативні відомості</translation>
     </message>
     <message>
         <source>VIEW</source>
-        <translation>ОТОБРАЗИТИ</translation>
+        <translation>ДИВИСЬ</translation>
     </message>
     <message>
         <source>Change Language</source>
@@ -346,7 +346,7 @@
     </message>
     <message>
         <source>CHANGE</source>
-        <translation>ЗМІНА</translation>
+        <translation>ЗМІНИТИ</translation>
     </message>
     <message>
         <source>Select a language</source>
@@ -366,7 +366,7 @@
     </message>
     <message>
         <source> Your device is pointed %1° %2 and %3° %4.</source>
-        <translation>Ваш пристрій спрямований на %1° %2 і %3° %4.</translation>
+        <translation> Ваш пристрій спрямований на %1° %2 і %3° %4.</translation>
     </message>
     <message>
         <source>down</source>
@@ -417,7 +417,7 @@
     </message>
     <message>
         <source>KM</source>
-        <translation>КМ</translation>
+        <translation>Км</translation>
     </message>
     <message>
         <source>Miles</source>
@@ -428,470 +428,470 @@
     <name>DriverViewWindow</name>
     <message>
         <source>camera starting</source>
-        <translation>камера стартує</translation>
+        <translation>Камера стартує</translation>
     </message>
 </context>
 <context>
     <name>ExperimentalModeButton</name>
     <message>
         <source>EXPERIMENTAL MODE ON</source>
-        <translation>ЕКСПЕРИМЕНТАЛЬНИЙ РЕЖИМ УВІМКНЕНО</translation>
+        <translation>ЕКСПЕРИМЕНТАЛЬН РЕЖ</translation>
     </message>
     <message>
         <source>CHILL MODE ON</source>
-        <translation>СПОКІЙНИЙ РЕЖИМ ВВІМКНЕНО</translation>
+        <translation>СПОКІЙНИЙ РЕЖИМ</translation>
     </message>
 </context>
 <context>
     <name>FrogPilotAnnotatedCameraWidget</name>
     <message>
         <source> m/s²</source>
-        <translation type="unfinished"></translation>
+        <translation> м/с²</translation>
     </message>
     <message>
         <source> meters</source>
-        <translation type="unfinished"></translation>
+        <translation> метрів</translation>
     </message>
     <message>
         <source> m/s</source>
-        <translation type="unfinished"></translation>
+        <translation> м/c</translation>
     </message>
     <message>
         <source> km/h</source>
-        <translation type="unfinished"></translation>
+        <translation> км/г</translation>
     </message>
     <message>
         <source> ft/s²</source>
-        <translation type="unfinished"></translation>
+        <translation> фт/с²</translation>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished"></translation>
+        <translation> фут</translation>
     </message>
     <message>
         <source> mph</source>
-        <translation type="unfinished"></translation>
+        <translation> мнг</translation>
     </message>
     <message>
         <source>Vehicle in blind spot</source>
-        <translation type="unfinished"></translation>
+        <translation>ТЗ в мертвій зоні</translation>
     </message>
     <message>
         <source>PENDING</source>
-        <translation type="unfinished"></translation>
+        <translation>ОЧІКУВ.</translation>
     </message>
     <message>
         <source>LIMIT</source>
-        <translation type="unfinished"></translation>
+        <translation>ЛІМІТ</translation>
     </message>
 </context>
 <context>
     <name>FrogPilotConfirmationDialog</name>
     <message>
         <source>Reboot required to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Треба перезавантажити для змін</translation>
     </message>
     <message>
         <source>Reboot Now</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантажити зараз</translation>
     </message>
     <message>
         <source>Reboot Later</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантажити пізніше</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Так</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Ні</translation>
     </message>
 </context>
 <context>
     <name>FrogPilotDataPanel</name>
     <message>
         <source>Delete Driving Footage and Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити відеозаписи та дані про водіння</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛ.</translation>
     </message>
     <message>
         <source>Deletes all stored driving footage and data from your device. Ideal for maintaining privacy or for simply freeing up space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Видаляє всі збережені відеозаписи та дані з вашого пристрою. Ідеально підходить для збереження конфіденційності або просто для звільнення місця.</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all of your driving footage and data?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі ваші відеозаписи та дані про водіння?</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <source>Deleting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалення...</translation>
     </message>
     <message>
         <source>Deleted!</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалено!</translation>
     </message>
     <message>
         <source>Delete Error Logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити журнали помилок</translation>
     </message>
     <message>
         <source>Deletes all stored error logs from your device. Ideal for freeing up space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Видаляє всі збережені журнали помилок з вашого пристрою. Ідеально підходить для звільнення місця.</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all of the error logs?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі журнали помилок?</translation>
     </message>
     <message>
         <source>Screen Recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Записи екрану</translation>
     </message>
     <message>
         <source>Manage your screen recordings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте своїми записами екрана.</translation>
     </message>
     <message>
         <source>DELETE ALL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛ. ВСЕ</translation>
     </message>
     <message>
         <source>RENAME</source>
-        <translation type="unfinished"></translation>
+        <translation>ПЕРЕЙМЕНУВАТИ</translation>
     </message>
     <message>
         <source>Select a recording to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть запис, який потрібно видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this recording?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити цей запис?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all screen recordings?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі записи екрана?</translation>
     </message>
     <message>
         <source>Delete All</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити все</translation>
     </message>
     <message>
         <source>Select a recording to rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть запис, який потрібно перейменувати</translation>
     </message>
     <message>
         <source>Enter a new name</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть нове ім&apos;я</translation>
     </message>
     <message>
         <source>Rename Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейменувати запис</translation>
     </message>
     <message>
         <source>A recording with this name already exists. Please choose a different name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Запис з такою назвою вже існує. Будь ласка, виберіть іншу назву.</translation>
     </message>
     <message>
         <source>Renaming...</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейменування...</translation>
     </message>
     <message>
         <source>Renamed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейменовано!</translation>
     </message>
     <message>
         <source>FrogPilot Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>Бєкапи FrogPilot</translation>
     </message>
     <message>
         <source>Manage your FrogPilot backups.</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте резервними копіями FrogPilot.</translation>
     </message>
     <message>
         <source>BACKUP</source>
-        <translation type="unfinished"></translation>
+        <translation>БЕКАП</translation>
     </message>
     <message>
         <source>RESTORE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВІДНОВ.</translation>
     </message>
     <message>
         <source>Name your backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Назвіть резервну копію</translation>
     </message>
     <message>
         <source>A backup with this name already exists. Please choose a different name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Резервна копія з такою назвою вже існує. Виберіть іншу назву.</translation>
     </message>
     <message>
         <source>Do you want to compress this backup? This will take a few minutes, but the final result will be smaller and run in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиснути цю резервну копію? Це займе кілька хвилин, але кінцевий результат буде меншим і працюватиме у фоновому режимі.</translation>
     </message>
     <message>
         <source>Backing up...</source>
-        <translation type="unfinished"></translation>
+        <translation>Резервне копіювання...</translation>
     </message>
     <message>
         <source>Compressing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Стискання...</translation>
     </message>
     <message>
         <source>Backup created!</source>
-        <translation type="unfinished"></translation>
+        <translation>Резервна копія створена!</translation>
     </message>
     <message>
         <source>Select a backup to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть резервну копію для видалення</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this backup?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити цю резервну копію?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all FrogPilot backups?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі резервні копії FrogPilot?</translation>
     </message>
     <message>
         <source>Select a restore point</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть точку відновлення</translation>
     </message>
     <message>
         <source>Are you sure you want to restore this version of FrogPilot?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете відновити цю версію FrogPilot?</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновити</translation>
     </message>
     <message>
         <source>Restoring...</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновлення...</translation>
     </message>
     <message>
         <source>Extracting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Видобування...</translation>
     </message>
     <message>
         <source>Restored!</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновлено!</translation>
     </message>
     <message>
         <source>Rebooting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантаження...</translation>
     </message>
     <message>
         <source>Toggle Backups</source>
-        <translation type="unfinished"></translation>
+        <translation>Бєкапи налаштувань</translation>
     </message>
     <message>
         <source>Manage your toggle backups.</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте своїми резервними копіями.</translation>
     </message>
     <message>
         <source>Name your toggle backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Назвіть свою резервну копію налаштувань</translation>
     </message>
     <message>
         <source>A toggle backup with this name already exists. Please choose a different name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Резервна копія налаштувань з такою назвою вже існує. Виберіть іншу назву.</translation>
     </message>
     <message>
         <source>Select a toggle backup to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть резервну копію налаштувань, щоб видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete this toggle backup?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити цю резервну копію налаштувань?</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all toggle backups?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі резервні копії налаштувань?</translation>
     </message>
     <message>
         <source>Select a toggle restore point</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть точку відновлення налаштувань</translation>
     </message>
     <message>
         <source>Are you sure you want to restore this toggle backup?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете відновити цю резервну копію налаштувань?</translation>
     </message>
 </context>
 <context>
     <name>FrogPilotDevicePanel</name>
     <message>
         <source>Device Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування пристрою</translation>
     </message>
     <message>
         <source>Settings that control device behavior.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування, що контролюють поведінку пристрою.</translation>
     </message>
     <message>
         <source>Battery Shutdown Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Напруга акумулятора до відключення</translation>
     </message>
     <message>
         <source>Automatically shut down the device when the vehicle&apos;s battery voltage reaches the set threshold preventing excessive battery drain to protect the battery.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично вимикає пристрій, коли напруга акумулятора автомобіля досягає встановленого порогу, запобігаючи надмірному розрядженню акумулятора для його захисту.</translation>
     </message>
     <message>
         <source>Device Shutdown Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Таймер вимкнення пристрою</translation>
     </message>
     <message>
         <source>How long the device stays on for after you go offroad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як довго пристрій залишається увімкненим при зупинці.</translation>
     </message>
     <message>
         <source>Disable Data Logging</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути логування даних</translation>
     </message>
     <message>
         <source>WARNING: This will prevent your drives from being recorded and all data will be unobtainable!</source>
-        <translation type="unfinished"></translation>
+        <translation>УВАГА: Це попередить запису ваших поїздок, і всі дані стануть недоступними!</translation>
     </message>
     <message>
         <source>Disable all data logging to improve privacy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкніть всі функції реєстрації даних, щоб підвищити рівень конфіденційності.</translation>
     </message>
     <message>
         <source>Disable Data Uploads</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути завантаження даних</translation>
     </message>
     <message>
         <source>WARNING: This will prevent your drives from appearing on &lt;b&gt;comma connect&lt;/b&gt; which may impact debugging and support!</source>
-        <translation type="unfinished"></translation>
+        <translation>УВАГА: Це завадить вашим поїздкам з&apos;являтися на &lt;b&gt;comma connect&lt;/b&gt;, що може вплинути на зневадження та підтримку!</translation>
     </message>
     <message>
         <source>Prevent the device from sending any data to &lt;b&gt;comma&lt;/b&gt;&apos;s servers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Запобігайте надсиланню пристроєм будь-яких даних на сервери &lt;b&gt;comma&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>High Bitrate Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Запис з високою швидкістю передачі даних</translation>
     </message>
     <message>
         <source>Record driving footage at double the standard bitrate for improved video quality in driving logs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Записувати відео з подвійною стандартною швидкістю передачі даних для поліпшення якості відео в журналах водіння.</translation>
     </message>
     <message>
         <source>Increase Thermal Safety Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Підвищення межі теплової безпеки</translation>
     </message>
     <message>
         <source>WARNING: This can damage your device by exceeding safe temperature limits!</source>
-        <translation type="unfinished"></translation>
+        <translation>УВАГА: Це може пошкодити ваш пристрій через перевищення безпечних температурних обмежень!</translation>
     </message>
     <message>
         <source>Allow the device to run hotter than comma recommended limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дозвольте пристрою працювати при температурі, що перевищує рекомендовану межу.</translation>
     </message>
     <message>
         <source>Use Konik&apos;s Server Instead of comma&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте сервер Konik замість comma</translation>
     </message>
     <message>
         <source>Upload your driving data to &lt;b&gt;connect.konik.ai&lt;/b&gt; instead of &lt;b&gt;connect.comma.ai&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажте свої дані про водіння на &lt;b&gt;connect.konik.ai&lt;/b&gt; замість &lt;b&gt;connect.comma.ai&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Screen Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування екрану</translation>
     </message>
     <message>
         <source>Settings that control screen behavior.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування, що контролюють поведінку екрану.</translation>
     </message>
     <message>
         <source>Screen Brightness (Offroad)</source>
-        <translation type="unfinished"></translation>
+        <translation>Яскравість екрану (зупинка)</translation>
     </message>
     <message>
         <source>The screen brightness when not driving.</source>
-        <translation type="unfinished"></translation>
+        <translation>Яскравість екрану під час зупинки.</translation>
     </message>
     <message>
         <source>Screen Brightness (Onroad)</source>
-        <translation type="unfinished"></translation>
+        <translation>Яскравість екрану (на дорозі)</translation>
     </message>
     <message>
         <source>The screen brightness while driving.</source>
-        <translation type="unfinished"></translation>
+        <translation>Яскравість екрану під час руху.</translation>
     </message>
     <message>
         <source>Screen Recorder</source>
-        <translation type="unfinished"></translation>
+        <translation>Запис екрану</translation>
     </message>
     <message>
         <source>Enable a button in the driving screen to record the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вмикає кнопку на екрані водіння, щоб записати екран.</translation>
     </message>
     <message>
         <source>Screen Timeout (Offroad)</source>
-        <translation type="unfinished"></translation>
+        <translation>Таймер екрану (зупинка)</translation>
     </message>
     <message>
         <source>How long it takes for the screen to turn off when not driving.</source>
-        <translation type="unfinished"></translation>
+        <translation>Часу до вимкнення екрану, коли ви не їдете.</translation>
     </message>
     <message>
         <source>Screen Timeout (Onroad)</source>
-        <translation type="unfinished"></translation>
+        <translation>Час очікування екрану (на дорозі)</translation>
     </message>
     <message>
         <source>How long it takes for the screen to turn off while driving.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скільки часу потрібно, щоб екран вимкнувся під час руху.</translation>
     </message>
     <message>
         <source>5 mins</source>
-        <translation type="unfinished"></translation>
+        <translation>5 mins</translation>
     </message>
     <message>
         <source> mins</source>
-        <translation type="unfinished"></translation>
+        <translation> мін</translation>
     </message>
     <message>
         <source> hour</source>
-        <translation type="unfinished"></translation>
+        <translation> год</translation>
     </message>
     <message>
         <source> hours</source>
-        <translation type="unfinished"></translation>
+        <translation> годин</translation>
     </message>
     <message>
         <source>Only Disable While Onroad</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути тільки під час руху</translation>
     </message>
     <message>
         <source> volts</source>
-        <translation type="unfinished"></translation>
+        <translation> вольт</translation>
     </message>
     <message>
         <source>Screen Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Екран вимкнено</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто</translation>
     </message>
     <message>
         <source>Start Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Почати запис</translation>
     </message>
     <message>
         <source>Stop Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Зупинити запис</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>.секунд</translation>
     </message>
 </context>
 <context>
