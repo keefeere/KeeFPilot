@@ -2620,123 +2620,123 @@ It will reset in %1 hours and %2 minutes.</source>
     <name>FrogPilotSettingsWindow</name>
     <message>
         <source>MANAGE</source>
-        <translation type="unfinished"></translation>
+        <translation>КЕРУВАТИ</translation>
     </message>
     <message>
         <source>DRIVING MODEL</source>
-        <translation type="unfinished"></translation>
+        <translation>МОДЕЛЬ ВОДІННЯ</translation>
     </message>
     <message>
         <source>GAS / BRAKE</source>
-        <translation type="unfinished"></translation>
+        <translation>ГАЗ / ГАЛЬМ</translation>
     </message>
     <message>
         <source>STEERING</source>
-        <translation type="unfinished"></translation>
+        <translation>КЕРМУВ.</translation>
     </message>
     <message>
         <source>MAP DATA</source>
-        <translation type="unfinished"></translation>
+        <translation>ДАНІ МАП</translation>
     </message>
     <message>
         <source>NAVIGATION</source>
-        <translation type="unfinished"></translation>
+        <translation>НАВІГАЦІЯ</translation>
     </message>
     <message>
         <source>DATA</source>
-        <translation type="unfinished"></translation>
+        <translation>ДАНІ</translation>
     </message>
     <message>
         <source>DEVICE CONTROLS</source>
-        <translation type="unfinished"></translation>
+        <translation>НАЛАШТ. ПРИСТР.</translation>
     </message>
     <message>
         <source>UTILITIES</source>
-        <translation type="unfinished"></translation>
+        <translation>УТИЛІТИ</translation>
     </message>
     <message>
         <source>APPEARANCE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИГЛЯД</translation>
     </message>
     <message>
         <source>THEME</source>
-        <translation type="unfinished"></translation>
+        <translation>ТЕМА</translation>
     </message>
     <message>
         <source>VEHICLE SETTINGS</source>
-        <translation type="unfinished"></translation>
+        <translation>НАЛАШТУВАННЯ Т/З</translation>
     </message>
     <message>
         <source>WHEEL CONTROLS</source>
-        <translation type="unfinished"></translation>
+        <translation>КНОПКИ КЕРМА</translation>
     </message>
     <message>
         <source>Alerts and Sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Сповіщення та звуки</translation>
     </message>
     <message>
         <source>FrogPilot settings for alert volumes and custom notifications to stay informed about important driving events.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування FrogPilot для гучності сповіщень та індивідуальних повідомлень, щоб бути в курсі важливих подій під час руху.</translation>
     </message>
     <message>
         <source>Driving Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Налашт. водіння</translation>
     </message>
     <message>
         <source>FrogPilot settings for acceleration, braking, and steering.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування FrogPilot для прискорення, гальмування та керування.</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Навігація</translation>
     </message>
     <message>
         <source>Download map data for &lt;b&gt;Curve Speed Control&lt;/b&gt;, &lt;b&gt;Speed Limit Controller&lt;/b&gt;, and set up &lt;b&gt;Navigate on openpilot (NOO)&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажте картографічні дані для &lt;b&gt;Контролер швидкості у вигинах&lt;/b&gt;, &lt;b&gt;Контролер швидкісних лімітів&lt;/b&gt; та налаштуйте &lt;b&gt;Навігація на openpilot (NOO)&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>System Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Управління системою</translation>
     </message>
     <message>
         <source>Data storage management, debugging tools, device settings, screen behavior settings, system backups, and utilities to maintain, optimize, and troubleshoot FrogPilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Управління зберіганням даних, інструменти налагодження, налаштування пристрою, налаштування поведінки екрану, резервне копіювання системи та утиліти для обслуговування, оптимізації та усунення несправностей FrogPilot.</translation>
     </message>
     <message>
         <source>Theme and Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Тема та вигляд</translation>
     </message>
     <message>
         <source>FrogPilot settings for the current theme, driving-screen, and the overall user interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування FrogPilot для поточної теми, екрану керування та загального інтерфейсу користувача.</translation>
     </message>
     <message>
         <source>Vehicle Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Керування Т/З</translation>
     </message>
     <message>
         <source>Options unique to supported manufacturers and vehicle fingerprint management.</source>
-        <translation type="unfinished"></translation>
+        <translation>Опції, унікальні для підтримуваних виробників, та управління відбитками пальців у транспортних засобах.</translation>
     </message>
     <message>
         <source>Minimal</source>
-        <translation type="unfinished"></translation>
+        <translation>Мінімальний</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартний</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Просунутий</translation>
     </message>
     <message>
         <source>Developer</source>
-        <translation type="unfinished"></translation>
+        <translation>Розробник</translation>
     </message>
     <message>
         <source>Tuning Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Рівень налаштування</translation>
     </message>
     <message>
         <source>The visibility and complexity of tuning settings. Lower levels simplify the interface by hiding advanced options, while higher levels unlock detailed customization.
@@ -2745,11 +2745,16 @@ Minimal - Ideal for those who prefer simplicity or ease of use
 Standard - Recommended for most users for a balanced experience
 Advanced - Unlocks fine-tuning controls for more experienced users
 Developer - Unlocks highly customizable settings for seasoned enthusiasts</source>
-        <translation type="unfinished"></translation>
+        <translation>Видимість і складність налаштувань. Нижчі рівні спрощують інтерфейс, приховуючи розширені параметри, а вищі рівні відкривають детальні можливості налаштування.
+
+Мінімальний — ідеальний для тих, хто віддає перевагу простоті та зручності використання.
+Стандартний — рекомендується для більшості користувачів, щоб забезпечити збалансований досвід.
+Розширений — відкриває можливості точного налаштування для більш досвідчених користувачів.
+Розробник — відкриває можливості глибокого налаштування для досвідчених ентузіастів.</translation>
     </message>
     <message>
         <source>WARNING: This unlocks some potentially dangerous settings that can DRASTICALLY alter your driving experience!</source>
-        <translation type="unfinished"></translation>
+        <translation>УВАГА: Це розблоковує деякі потенційно небезпечні налаштування, які можуть КАТАСТРОФІЧНО змінити ваші відчуття від водіння!</translation>
     </message>
 </context>
 <context>
