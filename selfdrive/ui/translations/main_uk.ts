@@ -1593,7 +1593,7 @@
     </message>
     <message>
         <source>Maximum Acceleration Rate</source>
-        <translation>Максимальна швидк. прискорення</translation>
+        <translation>Макс швидк. прискорення</translation>
     </message>
     <message>
         <source>Set a cap on how fast openpilot can accelerate.</source>
@@ -1649,7 +1649,7 @@
     </message>
     <message>
         <source>Increase Stopped Distance</source>
-        <translation>Збільшення відстані зупинки</translation>
+        <translation>Збільш. відстані зупинки</translation>
     </message>
     <message>
         <source>Increase the distance openpilot stops behind vehicles.</source>
@@ -1689,7 +1689,7 @@
     </message>
     <message>
         <source>Fallback Speed</source>
-        <translation>Резерв лімітів</translation>
+        <translation>Резерв. дж. лімітів</translation>
     </message>
     <message>
         <source>The speed limit source when no speed limit data is available.</source>
@@ -1725,7 +1725,7 @@
     </message>
     <message>
         <source>Higher Limit Lookahead Time</source>
-        <translation>Час передбачення вищого ліміту</translation>
+        <translation>Завчасний вищий ліміт</translation>
     </message>
     <message>
         <source>How far ahead openpilot anticipates upcoming higher speed limits from the downloaded map data.</source>
@@ -1733,7 +1733,7 @@
     </message>
     <message>
         <source>Lower Limit Lookahead Time</source>
-        <translation>Час передбачення нижчого ліміту</translation>
+        <translation>Завчасний нижчий ліміт</translation>
     </message>
     <message>
         <source>How far ahead openpilot anticipates upcoming lower speed limits from the downloaded map data.</source>
@@ -1773,7 +1773,7 @@
     </message>
     <message>
         <source>Speed Offset (0–24 mph)</source>
-        <translation>Поправка швидкості (0–24 мл/г)</translation>
+        <translation>Зсув швидкості (0–24 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 0 and 24 mph.</source>
@@ -1781,7 +1781,7 @@
     </message>
     <message>
         <source>Speed Offset (25–34 mph)</source>
-        <translation>Поправка швидкості (25–34 мл/г)</translation>
+        <translation>Зсув швидкості (25–34 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 25 and 34 mph.</source>
@@ -1789,7 +1789,7 @@
     </message>
     <message>
         <source>Speed Offset (35–44 mph)</source>
-        <translation>Поправка швидкості (35–44 мл/г)</translation>
+        <translation>Зсув швидкості (35–44 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 35 and 44 mph.</source>
@@ -1797,7 +1797,7 @@
     </message>
     <message>
         <source>Speed Offset (45–54 mph)</source>
-        <translation>Поправка швидкості (45–54 мл/г)</translation>
+        <translation>Зсув швидкості (45–54 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 45 and 54 mph.</source>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <source>Speed Offset (55–64 mph)</source>
-        <translation>Поправка швидкості (55–64 мл/г)</translation>
+        <translation>Зсув швидкості (55–64 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 55 and 64 mph.</source>
@@ -1813,7 +1813,7 @@
     </message>
     <message>
         <source>Speed Offset (65–74 mph)</source>
-        <translation>Поправка швидкості (65–74 мл/г)</translation>
+        <translation>Зсув швидкості (65–74 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 65 and 74 mph.</source>
@@ -1821,7 +1821,7 @@
     </message>
     <message>
         <source>Speed Offset (75–99 mph)</source>
-        <translation>Поправка швидкості (75–99 мл/г)</translation>
+        <translation>Зсув швидкості (75–99 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 75 and 99 mph.</source>
@@ -1953,7 +1953,7 @@
     </message>
     <message>
         <source>Previous Limit</source>
-        <translation type="unfinished">Попер. ліміт</translation>
+        <translation>Попер. ліміт</translation>
     </message>
     <message>
         <source>None</source>
@@ -2049,31 +2049,31 @@
     </message>
     <message>
         <source>Speed Offset (0–29 km/h)</source>
-        <translation>Поправка швидкості (0–29 км/г)</translation>
+        <translation>Зсув швидкості (0–29 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (30–49 km/h)</source>
-        <translation>Поправка швидкості (30–49 км/г)</translation>
+        <translation>Зсув швидкості (30–49 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (50–59 km/h)</source>
-        <translation>Поправка швидкості (50–59 км/г)</translation>
+        <translation>Зсув швидкості (50–59 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (60–79 km/h)</source>
-        <translation>Поправка швидкості (6–79 км/г)</translation>
+        <translation>Зсув швидкості (6–79 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (80–99 km/h)</source>
-        <translation>Поправка швидкості (90–99 км/г)</translation>
+        <translation>Зсув швидкості (90–99 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (100–119 km/h)</source>
-        <translation>Поправка швидкості (100–119 км/г)</translation>
+        <translation>Зсув швидкості (100–119 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (120–140 km/h)</source>
-        <translation>Поправка швидкості (120–140 км/г)</translation>
+        <translation>Зсув швидкості (120–140 км/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 0 and 29 km/h.</source>
@@ -2115,183 +2115,183 @@
     <name>FrogPilotMapsPanel</name>
     <message>
         <source>Manually</source>
-        <translation type="unfinished"></translation>
+        <translation>Уручну</translation>
     </message>
     <message>
         <source>Weekly</source>
-        <translation type="unfinished"></translation>
+        <translation>Щотижнево</translation>
     </message>
     <message>
         <source>Monthly</source>
-        <translation type="unfinished"></translation>
+        <translation>Щомісячно</translation>
     </message>
     <message>
         <source>Automatically Update Maps</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматичне оновлення карт</translation>
     </message>
     <message>
         <source>The frequency at which maps sync with the latest OpenStreetMap (OSM) changes. Weekly updates occur every Sunday, and monthly updates occur on the 1st.</source>
-        <translation type="unfinished"></translation>
+        <translation>Частота синхронізації карт з останніми змінами OpenStreetMap (OSM). Щотижневі оновлення відбуваються щонеділі, а щомісячні оновлення — 1 числа кожного місяця.</translation>
     </message>
     <message>
         <source>Data Sources</source>
-        <translation type="unfinished"></translation>
+        <translation>Джерела даних</translation>
     </message>
     <message>
         <source>Select map data sources to use with &quot;Curve Speed Control&quot; and &quot;Speed Limit Controller&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть джерела даних мапи, які будуть використовуватися з функціями «Контроль швидкості в вигинах» та «Контролер лімітів швидкості».</translation>
     </message>
     <message>
         <source>COUNTRIES</source>
-        <translation type="unfinished"></translation>
+        <translation>КРАЇНИ</translation>
     </message>
     <message>
         <source>STATES</source>
-        <translation type="unfinished"></translation>
+        <translation>ШТАТИ</translation>
     </message>
     <message>
         <source>Download Maps</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажити мапи</translation>
     </message>
     <message>
         <source>DOWNLOAD</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАВАНТАЖИТИ</translation>
     </message>
     <message>
         <source>Download the selected maps to use with &quot;Curve Speed Control&quot; and &quot;Speed Limit Controller&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажте вибрані карти для використання з функціями «Контроль швидкості у вигинах» та «Контролер лімітів швидкості».</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation type="unfinished"></translation>
+        <translation>СКАСУВАТИ</translation>
     </message>
     <message>
         <source>Are you sure you want to cancel the download?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скасувати завантаження?</translation>
     </message>
     <message>
         <source>Download Completion ETA</source>
-        <translation type="unfinished"></translation>
+        <translation>ОЧП кінця завантаження</translation>
     </message>
     <message>
         <source>Download Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Прогрес завантаження</translation>
     </message>
     <message>
         <source>Download Time Elapsed</source>
-        <translation type="unfinished"></translation>
+        <translation>Час завантаження</translation>
     </message>
     <message>
         <source>Maps Last Updated</source>
-        <translation type="unfinished"></translation>
+        <translation>Останнє оновлення мап</translation>
     </message>
     <message>
         <source>Maps Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір мап</translation>
     </message>
     <message>
         <source>Remove Maps</source>
-        <translation type="unfinished"></translation>
+        <translation>Прибрати мапи</translation>
     </message>
     <message>
         <source>REMOVE</source>
-        <translation type="unfinished"></translation>
+        <translation>ПРИБРАТИ</translation>
     </message>
     <message>
         <source>Remove downloaded maps to clear up storage space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Видаліть завантажені карти, щоб звільнити місце на диску.</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all of your downloaded maps?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі завантажені мапи?</translation>
     </message>
     <message>
         <source>Reset Map Downloader</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування програми завантаження карт</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation type="unfinished"></translation>
+        <translation>СКИНУТИ</translation>
     </message>
     <message>
         <source>Reset the map downloader. Use if you&apos;re running into issues with downloading maps.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скиньте налаштування програми для завантаження карт. Використовуйте цю функцію, якщо у вас виникли проблеми із завантаженням карт.</translation>
     </message>
     <message>
         <source>Are you sure you want to reset the map downloader? This will force a reboot once completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скинути налаштування програми завантаження карт? Після завершення цього процесу відбудеться примусове перезавантаження.</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути</translation>
     </message>
     <message>
         <source>Resetting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Скидання...</translation>
     </message>
     <message>
         <source>Reset!</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути!</translation>
     </message>
     <message>
         <source>Rebooting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантаження...</translation>
     </message>
     <message>
         <source>Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>Африка</translation>
     </message>
     <message>
         <source>Antarctica</source>
-        <translation type="unfinished"></translation>
+        <translation>Антарктида</translation>
     </message>
     <message>
         <source>Asia</source>
-        <translation type="unfinished"></translation>
+        <translation>Азія</translation>
     </message>
     <message>
         <source>Europe</source>
-        <translation type="unfinished"></translation>
+        <translation>Європа</translation>
     </message>
     <message>
         <source>North America</source>
-        <translation type="unfinished"></translation>
+        <translation>Північна Америка</translation>
     </message>
     <message>
         <source>Oceania</source>
-        <translation type="unfinished"></translation>
+        <translation>Океанія</translation>
     </message>
     <message>
         <source>South America</source>
-        <translation type="unfinished"></translation>
+        <translation>Південна Америка</translation>
     </message>
     <message>
         <source>United States - Midwest</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучені Штати Америки - Середній Захід</translation>
     </message>
     <message>
         <source>United States - Northeast</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучені Штати Америки - Північний Схід</translation>
     </message>
     <message>
         <source>United States - South</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучені Штати Америки - Південь</translation>
     </message>
     <message>
         <source>United States - West</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучені Штати Америки - Захід</translation>
     </message>
     <message>
         <source>United States - Territories</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучені Штати Америки - Території</translation>
     </message>
     <message>
         <source>Offline...</source>
-        <translation type="unfinished"></translation>
+        <translation>Не в мережі...</translation>
     </message>
     <message>
         <source>CANCELLED</source>
-        <translation type="unfinished"></translation>
+        <translation>СКАСОВАНО</translation>
     </message>
 </context>
 <context>
