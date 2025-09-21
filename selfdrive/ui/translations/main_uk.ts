@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Reboot and Update</source>
-        <translation>Пергрузити і оновити</translation>
+        <translation>Перегрузи і онови</translation>
     </message>
 </context>
 <context>
@@ -2155,7 +2155,7 @@
     </message>
     <message>
         <source>DOWNLOAD</source>
-        <translation>ЗАВАНТАЖИТИ</translation>
+        <translation>ЗАВАНТАЖ</translation>
     </message>
     <message>
         <source>Download the selected maps to use with &quot;Curve Speed Control&quot; and &quot;Speed Limit Controller&quot;.</source>
@@ -2219,7 +2219,7 @@
     </message>
     <message>
         <source>Are you sure you want to reset the map downloader? This will force a reboot once completed.</source>
-        <translation>Ви впевнені, що хочете скинути налаштування програми завантаження карт? Після завершення цього процесу відбудеться примусове перезавантаження.</translation>
+        <translation>Ви впевнені, що хочете скинути завантажувач карт? Після завершення відбудеться примусове перезавантаження.</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2454,7 +2454,7 @@
     </message>
     <message>
         <source>Select a model - 🗺️ = Navigation | 📡 = Radar | 👀 = VOACC</source>
-        <translation>Виберіть модель - 🗺️ = Навігація | 📡 = Радар | 👀 = VOACC</translation>
+        <translation>Виберіть модель - 🗺️ = Навіг. | 📡 = Радар | 👀 = VOACC</translation>
     </message>
     <message>
         <source>The &quot;Model Randomizer&quot; only works with downloaded models. Do you want to download all the driving models?</source>
@@ -2469,149 +2469,151 @@
     <name>FrogPilotNavigationPanel</name>
     <message>
         <source>Manage your %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте своїми %1.</translation>
     </message>
     <message>
         <source>ADD</source>
-        <translation type="unfinished"></translation>
+        <translation>ДОДАТ</translation>
     </message>
     <message>
         <source>Enter your %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть ваш %1</translation>
     </message>
     <message>
         <source>Inputted key is invalid or too short!</source>
-        <translation type="unfinished"></translation>
+        <translation>Введений ключ недійсний або занадто короткий!</translation>
     </message>
     <message>
         <source>Are you sure you want to remove your %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити %1?</translation>
     </message>
     <message>
         <source>REMOVE</source>
-        <translation type="unfinished"></translation>
+        <translation>ПРИБРАТИ</translation>
     </message>
     <message>
         <source>Manage Your Settings At</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте своїми налаштуваннями на</translation>
     </message>
     <message>
         <source>Offline...</source>
-        <translation type="unfinished"></translation>
+        <translation>Не в мережі...</translation>
     </message>
     <message>
         <source>MapBox</source>
-        <translation type="unfinished"></translation>
+        <translation>MapBox</translation>
     </message>
     <message>
         <source>Amap</source>
-        <translation type="unfinished"></translation>
+        <translation>Amap</translation>
     </message>
     <message>
         <source>Google</source>
-        <translation type="unfinished"></translation>
+        <translation>Google</translation>
     </message>
     <message>
         <source>Destination Search Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Постачальник пошуку</translation>
     </message>
     <message>
         <source>The search provider used for destination queries in &quot;Navigate on Openpilot&quot;. Options include &quot;MapBox&quot; (recommended), &quot;Amap&quot;, and &quot;Google Maps&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пошукова система, яка використовується для запитів про місце призначення в «Навігація на Openpilot». Доступні варіанти: «MapBox» (рекомендовано), «Amap» та «Google Maps».</translation>
     </message>
     <message>
         <source>Amap Key #1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключ Amap № 1</translation>
     </message>
     <message>
         <source>Manage your Amap key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте своїм ключем Amap.</translation>
     </message>
     <message>
         <source>Enter your Amap key</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть свій ключ Amap</translation>
     </message>
     <message>
         <source>Are you sure you want to remove your Amap key?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити свій ключ Amap?</translation>
     </message>
     <message>
         <source>Amap Key #2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключ Amap № 2</translation>
     </message>
     <message>
         <source>Google Maps Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключ Google Maps</translation>
     </message>
     <message>
         <source>Manage your Google Maps key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Керуйте своїм ключем Google Maps.</translation>
     </message>
     <message>
         <source>Enter your Google Maps key</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть свій ключ Google Maps</translation>
     </message>
     <message>
         <source>Are you sure you want to remove your Google Maps key?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити свій ключ Google Maps?</translation>
     </message>
     <message>
         <source>Public Mapbox Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Публічний ключ Mapbox</translation>
     </message>
     <message>
         <source>Secret Mapbox Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Секретний ключ Mapbox</translation>
     </message>
     <message>
         <source>MapBox Setup Instructions</source>
-        <translation type="unfinished"></translation>
+        <translation>Інструкції з налаштування MapBox</translation>
     </message>
     <message>
         <source>VIEW</source>
-        <translation type="unfinished"></translation>
+        <translation>ПОКАЗ</translation>
     </message>
     <message>
         <source>View the instructions to set up &quot;MapBox&quot; for &quot;Primeless Navigation&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перегляньте інструкції щодо налаштування «MapBox» для «Primeless Navigation».</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВІДМІНА</translation>
     </message>
     <message>
         <source>Manually Update Speed Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Вручну оновити обмеження швидкості</translation>
     </message>
     <message>
         <source>Speed Limit Filler</source>
-        <translation type="unfinished"></translation>
+        <translation>Заповнювач обмеження швидкості</translation>
     </message>
     <message>
         <source>Automatically collect missing or incorrect speed limits from your dashboard (if supported), &lt;b&gt;Mapbox&lt;/b&gt;, and &lt;b&gt;Navigate-on-openpilot&lt;/b&gt; while driving.&lt;br&gt;&lt;br&gt;When the car is turned off and connected to Wi-Fi, your speed limit data is automatically processed into a compiled file formatted for the tool located at &lt;b&gt;SpeedLimitFiller.frogpilot.download&lt;/b&gt;.&lt;br&gt;&lt;br&gt;You can grab the processed file from &lt;b&gt;The Pond&lt;/b&gt; via the &lt;b&gt;Download Speed Limits&lt;/b&gt; menu.&lt;br&gt;&lt;br&gt;Want a more thorough walkthrough? Check out the &lt;b&gt;#speed-limit-filler&lt;/b&gt; channel in the &lt;b&gt;FrogPilot Discord&lt;/b&gt;!</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично збирайте відсутні або неправильні обмеження швидкості з вашої приладової панелі (якщо це підтримується), &lt;b&gt;Mapbox&lt;/b&gt; та &lt;b&gt;Navigate-on-openpilot&lt;/b&gt; під час руху. &lt;br&gt;&lt;br&gt;Коли автомобіль вимкнений і підключений до Wi-Fi, ваші дані про обмеження швидкості автоматично обробляються в скомпільований файл, відформатований для інструменту, розташованого за адресою &lt;b&gt;SpeedLimitFiller.frogpilot.download&lt;/b&gt;. &lt;br&gt;&lt;br&gt;Ви можете завантажити оброблений файл з &lt;b&gt;The Pond&lt;/b&gt; через меню &lt;b&gt;Завантажити обмеження швидкості&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Хочете отримати більш детальну інструкцію? Перегляньте канал &lt;b&gt;#speed-limit-filler&lt;/b&gt; у &lt;b&gt;FrogPilot Discord&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you want to cancel the speed limit update process?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скасувати процес оновлення обмежень швидкості?</translation>
     </message>
     <message>
         <source>Cancelled...</source>
-        <translation type="unfinished"></translation>
+        <translation>Скасовано...</translation>
     </message>
     <message>
         <source>You have reached the request limit.
 
 It will reset in %1 hours and %2 minutes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви досягли ліміту запитів.
+
+Він буде скинутий через %1 годин і %2 хвилин.</translation>
     </message>
     <message>
         <source>This process will take awhile, so it&apos;s advised to start when you&apos;re done driving with a stable Wi-Fi connection. Do you wish to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Цей процес займе деякий час, тому рекомендується розпочати його, коли ви закінчите їзду і будете мати стабільне Wi-Fi-з&apos;єднання. Чи бажаєте ви продовжити?</translation>
     </message>
     <message>
         <source>Completed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Завершено!</translation>
     </message>
 </context>
 <context>
