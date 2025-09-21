@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Reboot and Update</source>
-        <translation>Перезавантажити і оновити</translation>
+        <translation>Пергрузити і оновити</translation>
     </message>
 </context>
 <context>
@@ -735,7 +735,7 @@
     </message>
     <message>
         <source>Battery Shutdown Threshold</source>
-        <translation>Напруга акумулятора до відключення</translation>
+        <translation>Напруга аккуму до відключення</translation>
     </message>
     <message>
         <source>Automatically shut down the device when the vehicle&apos;s battery voltage reaches the set threshold preventing excessive battery drain to protect the battery.</source>
@@ -843,7 +843,7 @@
     </message>
     <message>
         <source>Screen Timeout (Onroad)</source>
-        <translation>Час очікування екрану (на дорозі)</translation>
+        <translation>Таймер екрану (на дорозі)</translation>
     </message>
     <message>
         <source>How long it takes for the screen to turn off while driving.</source>
@@ -867,7 +867,7 @@
     </message>
     <message>
         <source>Only Disable While Onroad</source>
-        <translation>Вимкнути тільки під час руху</translation>
+        <translation>Вимк. тільки в русі</translation>
     </message>
     <message>
         <source> volts</source>
@@ -898,103 +898,103 @@
     <name>FrogPilotLateralPanel</name>
     <message>
         <source>Advanced Lateral Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>Розширене поперечне налаштування</translation>
     </message>
     <message>
         <source>Advanced settings for fine-tuning openpilot&apos;s lateral controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Розширені налаштування для точного регулювання поперечного керування openpilot.</translation>
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка приводу (за замовчуванням: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка приводу</translation>
     </message>
     <message>
         <source>How long the steering wheel takes to respond to commands. Higher values account for slower steering; lower values for quicker response.</source>
-        <translation type="unfinished"></translation>
+        <translation>Час, за який кермо реагує на команди. Більші значення відповідають повільнішому керуванню, менші значення — швидшій реакції.</translation>
     </message>
     <message>
         <source>Friction (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Тертя (за замовчуванням: %1)</translation>
     </message>
     <message>
         <source>Friction</source>
-        <translation type="unfinished"></translation>
+        <translation>Тертя</translation>
     </message>
     <message>
         <source>Adjust steering resistance. Higher values feel more stable but heavier; lower values feel lighter but more sensitive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Регулювання опору керма. Більш високі значення забезпечують більшу стабільність, але і більшу важкість; більш низькі значення забезпечують легкість, але і більшу чутливість.</translation>
     </message>
     <message>
         <source>Kp Factor (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Коефіцієнт Kp (за замовчуванням: %1)</translation>
     </message>
     <message>
         <source>Kp Factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Коефіцієнт Kp</translation>
     </message>
     <message>
         <source>How aggressively openpilot corrects steering. Higher values respond faster but may feel jerky; lower values are smoother but slower.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки агресивно OpenPilot коригує керування. Вищі значення реагують швидше, але можуть відчуватися ривками; нижчі значення є більш плавними, але повільнішими.</translation>
     </message>
     <message>
         <source>Lateral Accel (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поперечне прискорення (за замовчуванням: %1)</translation>
     </message>
     <message>
         <source>Lateral Accel</source>
-        <translation type="unfinished"></translation>
+        <translation>Бічне прискорення</translation>
     </message>
     <message>
         <source>How quickly openpilot makes lateral adjustments. Higher values allow sharper turns; lower values provide smoother steering.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot здійснює бічні коригування. Більші значення забезпечують більш різкі повороти, менші значення — більш плавне керування.</translation>
     </message>
     <message>
         <source>Steer Ratio (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Коефіцієнт кермування (за замовчуванням: %1)</translation>
     </message>
     <message>
         <source>Steer Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Коефіцієнт кермування</translation>
     </message>
     <message>
         <source>How much the steering wheel turns in response to commands. Higher values feel more stable; lower values feel quicker.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки кермо повертається у відповідь на команди. Більш високі значення забезпечують більшу стабільність, а нижчі — більшу швидкість.</translation>
     </message>
     <message>
         <source>Force Auto Tune On</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово ввімкнути автоматичне налаштування</translation>
     </message>
     <message>
         <source>Force-enable comma’s auto lateral tuning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово увімкнути автоматичне бічне налаштування comma.</translation>
     </message>
     <message>
         <source>Force Auto Tune Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусове вимкнення автоматичного налаштування</translation>
     </message>
     <message>
         <source>Force-disable comma’s auto lateral tuning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово вимкнути автоматичне поперечне налаштування comma.</translation>
     </message>
     <message>
         <source>Always on Lateral</source>
-        <translation type="unfinished"></translation>
+        <translation>Поперечний завжди ввімкнений</translation>
     </message>
     <message>
         <source>openpilot&apos;s steering control stays active even when the brake or gas pedals are pressed.&lt;br&gt;&lt;br&gt;Deactivation only occurs with the &lt;b&gt;Cruise Control&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Система кермування openpilot залишається активною навіть при натисканні педалі гальма або газу. &lt;br&gt;&lt;br&gt;Вимкнення відбувається тільки за допомогою кнопки &lt;b&gt;Cruise Control&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Enable With Cruise Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути з круїз-контролем</translation>
     </message>
     <message>
         <source>Allow &lt;b&gt;Always on Lateral&lt;/b&gt; to be active whenever &lt;b&gt;Cruise Control&lt;/b&gt; is active, bypassing the need to enable openpilot first.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Allow &lt;b&gt;Always on Lateral&lt;/b&gt; to be active whenever &lt;b&gt;Cruise Control&lt;/b&gt; is active, bypassing the need to enable openpilot first.</translation>
     </message>
     <message>
         <source>Enable With LKAS Button</source>
