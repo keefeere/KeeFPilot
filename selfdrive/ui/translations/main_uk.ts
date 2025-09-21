@@ -1405,7 +1405,7 @@
     </message>
     <message>
         <source>Safety Distance Sensitivity</source>
-        <translation>Чутливість безпечної дистанції</translation>
+        <translation>Чутливість безпечної дист.</translation>
     </message>
     <message>
         <source>How cautious openpilot is around other vehicles or obstacles while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values increase following distances and prioritize safety, leading to more cautious driving, while lower values allow for closer following but may reduce reaction time.</source>
@@ -1593,127 +1593,127 @@
     </message>
     <message>
         <source>Maximum Acceleration Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимальна швидкість прискорення</translation>
     </message>
     <message>
         <source>Set a cap on how fast openpilot can accelerate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановіть обмеження на швидкість прискорення openpilot.</translation>
     </message>
     <message>
         <source>&quot;Taco Bell Run&quot; Turn Speed Hack</source>
-        <translation type="unfinished"></translation>
+        <translation>«Taco Bell Run» — хак для зміни швидкості</translation>
     </message>
     <message>
         <source>The turn speed hack from comma’s 2022 &quot;Taco Bell Run&quot; drive. Designed to slow down when taking left/right turns for smoother turns.</source>
-        <translation type="unfinished"></translation>
+        <translation>Хак швидкості повороту з поїздки «Taco Bell Run» від comma 2022 року. Призначений для уповільнення при поворотах вліво/вправо для більш плавного проходження поворотів.</translation>
     </message>
     <message>
         <source>Quality of Life</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість життя</translation>
     </message>
     <message>
         <source>Miscellaneous features to improve the acceleration and braking experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Різні функції для поліпшення прискорення та гальмування.</translation>
     </message>
     <message>
         <source>Cruise Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтервал круїзу</translation>
     </message>
     <message>
         <source>The interval used when changing the cruise control speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтервал, що використовується при зміні швидкості круїз-контролю.</translation>
     </message>
     <message>
         <source>Cruise Interval (Long Press)</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтервал круїзу (довге натискання)</translation>
     </message>
     <message>
         <source>The interval used when changing the cruise control speed while holding down the button for 0.5+ seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтервал, що використовується при зміні швидкості круїз-контролю при утриманні кнопки натиснутою протягом 0,5+ секунди.</translation>
     </message>
     <message>
         <source>Force Keep openpilot in the Standstill State</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово утримувати openpilot у стані зупинки</translation>
     </message>
     <message>
         <source>Keep openpilot in the standstill state until either the gas pedal or &lt;b&gt;resume&lt;/b&gt; button is pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тримайте openpilot у стані зупинки, доки не буде натиснуто педаль газу або кнопка &lt;b&gt;продовжити&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Force Stop for &quot;Detected&quot; Stop Lights/Signs</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусове зупинення для «виявлених» світлофорів/знаків</translation>
     </message>
     <message>
         <source>Force a stop whenever openpilot &lt;b&gt;detects&lt;/b&gt; a potential red light/stop sign to prevent it from running the red light/stop sign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово зупиняйте автомобіль, коли openpilot &lt;b&gt;виявляє&lt;/b&gt; потенційний червоний світлофор/знак зупинки, щоб запобігти проїзду на червоне світло/знак зупинки.</translation>
     </message>
     <message>
         <source>Increase Stopped Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Збільшення відстані зупинки</translation>
     </message>
     <message>
         <source>Increase the distance openpilot stops behind vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Збільшити відстань, на якій OpenPilot зупиняється за транспортними засобами.</translation>
     </message>
     <message>
         <source>Set Speed Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити зміщення швидкості</translation>
     </message>
     <message>
         <source>How much higher or lower the set speed should be compared to your current set speed. For example, if you prefer to drive 5 mph above the speed limit, this setting will automatically add that difference when you adjust your set speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>На скільки вище або нижче повинна бути задана швидкість порівняно з вашою поточною заданою швидкістю. Наприклад, якщо ви віддаєте перевагу їзді на 5 миль/год вище за обмеження швидкості, це налаштування автоматично додасть цю різницю, коли ви регулюєте задану швидкість.</translation>
     </message>
     <message>
         <source>Map Accel/Decel to Gears</source>
-        <translation type="unfinished"></translation>
+        <translation>Прив&apos;язати прискорення/сповільнення до передач</translation>
     </message>
     <message>
         <source>Map the acceleration and deceleration profiles to your car&apos;s &lt;b&gt;Eco&lt;/b&gt; or &lt;b&gt;Sport&lt;/b&gt; gear modes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відобразіть профілі прискорення та уповільнення у режимах передач &lt;b&gt;Eco&lt;/b&gt; або &lt;b&gt;Sport&lt;/b&gt; вашого автомобіля.</translation>
     </message>
     <message>
         <source>Reverse Cruise Increase</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінити довге натискання</translation>
     </message>
     <message>
         <source>Reverse the &lt;b&gt;long press&lt;/b&gt; cruise increase feature to increase the max speed by 5 instead of 1 on short presses.</source>
-        <translation type="unfinished"></translation>
+        <translation>Змініть функцію збільшення швидкості круїзу при &lt;b&gt;тривалому натисканні&lt;/b&gt; на збільшення максимальної швидкості на 5 замість 1 при короткому натисканні.</translation>
     </message>
     <message>
         <source>Speed Limit Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Контролер обмеження швидкості</translation>
     </message>
     <message>
         <source>Limit openpilot&apos;s maximum driving speed based on data from downloaded maps, &lt;b&gt;Mapbox&lt;/b&gt;, &lt;b&gt;Navigate on openpilot&lt;/b&gt;, or the dashboard (supported vehicles: &lt;b&gt;Ford&lt;/b&gt;, &lt;b&gt;Genesis&lt;/b&gt;, &lt;b&gt;Hyundai&lt;/b&gt;, &lt;b&gt;Kia&lt;/b&gt;, &lt;b&gt;Lexus&lt;/b&gt;, &lt;b&gt;Toyota&lt;/b&gt;).</source>
-        <translation type="unfinished"></translation>
+        <translation>Обмежте максимальну швидкість руху openpilot на основі даних із завантажених карт, &lt;b&gt;Mapbox&lt;/b&gt;, &lt;b&gt;Navigate on openpilot&lt;/b&gt; або приладової панелі (підтримувані автомобілі: &lt;b&gt;Ford&lt;/b&gt;, &lt;b&gt;Genesis&lt;/b&gt;, &lt;b&gt;Hyundai&lt;/b&gt;, &lt;b&gt;Kia&lt;/b&gt;, &lt;b&gt;Lexus&lt;/b&gt;, &lt;b&gt;Toyota&lt;/b&gt;).</translation>
     </message>
     <message>
         <source>Fallback Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Резервна швидкість</translation>
     </message>
     <message>
         <source>The speed limit source when no speed limit data is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Резервне джерело обмеження швидкості, коли дані про обмеження швидкості недоступні.</translation>
     </message>
     <message>
         <source>Override Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість перевизначення</translation>
     </message>
     <message>
         <source>The speed openpilot uses after manually exceeding the posted speed limit.&lt;br&gt;&lt;br&gt;&lt;b&gt;- Set With Gas Pedal&lt;/b&gt;: Uses the speed obtained while pressing the gas&lt;br&gt;&lt;b&gt;- Max Set Speed&lt;/b&gt;: Uses the cruise control set speed&lt;br&gt;&lt;br&gt;Overrides clear upon disengagement.</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість, яку openpilot використовує після ручного перевизначення встановленого обмеження швидкості.&lt;br&gt;&lt;br&gt;&lt;b&gt;- Встановити за допомогою педалі газу&lt;/b&gt;: використовує швидкість, досягнуту під час натискання на педаль газу&lt;br&gt;&lt;b&gt;- Максимальна встановлена швидкість&lt;/b&gt;: використовує швидкість, встановлену круїз-контролем&lt;br&gt;&lt;br&gt;Перевизначення скасовується після деактивації круізу.</translation>
     </message>
     <message>
         <source>Miscellaneous features to improve the &lt;b&gt;Speed Limit Controller&lt;/b&gt; experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Різні функції для поліпшення роботи &lt;b&gt;Контролера обмеження швидкості&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Confirm New Speed Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтвердити нові обмеження швидкості</translation>
     </message>
     <message>
         <source>Require confirmation before applying new speed limits. To accept, use the flashing widget on the driving screen or press the &lt;b&gt;Cruise Increase&lt;/b&gt; button. To deny, press the &lt;b&gt;Cruise Decrease&lt;/b&gt; button or simply ignore the prompt for 30 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимагайте підтвердження перед застосуванням нових обмежень швидкості. Щоб прийняти, використовуйте миготливий віджет на екрані водіння або натисніть кнопку &lt;b&gt;Збільшити швидкість круїзу (+)&lt;/b&gt;. Щоб відхилити, натисніть кнопку &lt;b&gt;Зменшити швидкість круїзу (-)&lt;/b&gt; або просто проігноруйте запит протягом 30 секунд.</translation>
     </message>
     <message>
         <source>Force MPH Readings from Dashboard</source>
