@@ -92,7 +92,7 @@
     </message>
     <message>
         <source>CONNECT</source>
-        <translation>Зʼєднати</translation>
+        <translation>CONNECT</translation>
     </message>
     <message>
         <source>Enter SSID</source>
@@ -1545,7 +1545,7 @@
     </message>
     <message>
         <source>Longitudinal Tuning</source>
-        <translation>Налаштування поздовжнього керування</translation>
+        <translation>Тюнінг поздовжнього керування</translation>
     </message>
     <message>
         <source>Settings that control how openpilot manages speed and acceleration.</source>
@@ -1553,7 +1553,7 @@
     </message>
     <message>
         <source>Acceleration Profile</source>
-        <translation>Профіль прискорення</translation>
+        <translation>Профіль приск.</translation>
     </message>
     <message>
         <source>Enable either a sporty or eco-friendly acceleration profile. &lt;b&gt;Sport+&lt;/b&gt; aims to make openpilot accelerate as fast as possible!</source>
@@ -1561,7 +1561,7 @@
     </message>
     <message>
         <source>Deceleration Profile</source>
-        <translation>Профіль уповільнення</translation>
+        <translation>Профіль вповільн.</translation>
     </message>
     <message>
         <source>Enable either a sporty or eco-friendly deceleration profile.</source>
@@ -1585,7 +1585,7 @@
     </message>
     <message>
         <source>Lead Detection Confidence</source>
-        <translation>Впевненість у виявленні авто попереду</translation>
+        <translation>Впевненість у виявл. лідера</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to detecting vehicles ahead. A lower value can help detect vehicles sooner and from farther away, but increases the chance openpilot mistakes other objects for vehicles.</source>
@@ -1593,7 +1593,7 @@
     </message>
     <message>
         <source>Maximum Acceleration Rate</source>
-        <translation>Максимальна швидкість прискорення</translation>
+        <translation>Максимальна швидк. прискорення</translation>
     </message>
     <message>
         <source>Set a cap on how fast openpilot can accelerate.</source>
@@ -1633,15 +1633,15 @@
     </message>
     <message>
         <source>Force Keep openpilot in the Standstill State</source>
-        <translation>Примусово утримувати openpilot у стані зупинки</translation>
+        <translation>Утримувати openpilot у стані зупинки</translation>
     </message>
     <message>
         <source>Keep openpilot in the standstill state until either the gas pedal or &lt;b&gt;resume&lt;/b&gt; button is pressed.</source>
-        <translation>Тримайте openpilot у стані зупинки, доки не буде натиснуто педаль газу або кнопка &lt;b&gt;продовжити&lt;/b&gt;.</translation>
+        <translation>Тримати openpilot у стані зупинки, доки не буде натиснуто педаль газу або кнопка &lt;b&gt;продовжити&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Force Stop for &quot;Detected&quot; Stop Lights/Signs</source>
-        <translation>Примусове зупинення для «виявлених» світлофорів/знаків</translation>
+        <translation>Прим. зупинка для «виявлених» світлофорів/знаків</translation>
     </message>
     <message>
         <source>Force a stop whenever openpilot &lt;b&gt;detects&lt;/b&gt; a potential red light/stop sign to prevent it from running the red light/stop sign.</source>
@@ -1709,191 +1709,191 @@
     </message>
     <message>
         <source>Confirm New Speed Limits</source>
-        <translation>Підтвердити нові обмеження швидкості</translation>
+        <translation>Підтверд. нові обмеження шв.</translation>
     </message>
     <message>
         <source>Require confirmation before applying new speed limits. To accept, use the flashing widget on the driving screen or press the &lt;b&gt;Cruise Increase&lt;/b&gt; button. To deny, press the &lt;b&gt;Cruise Decrease&lt;/b&gt; button or simply ignore the prompt for 30 seconds.</source>
-        <translation>Вимагайте підтвердження перед застосуванням нових обмежень швидкості. Щоб прийняти, використовуйте миготливий віджет на екрані водіння або натисніть кнопку &lt;b&gt;Збільшити швидкість круїзу (+)&lt;/b&gt;. Щоб відхилити, натисніть кнопку &lt;b&gt;Зменшити швидкість круїзу (-)&lt;/b&gt; або просто проігноруйте запит протягом 30 секунд.</translation>
+        <translation>Чи вимагається підтвердження перед застосуванням нових обмежень швидкості. Щоб прийняти, використовуйте миготливий віджет на екрані водіння або натисніть кнопку &lt;b&gt;Збільшити швидкість круїзу (+)&lt;/b&gt;. Щоб відхилити, натисніть кнопку &lt;b&gt;Зменшити швидкість круїзу (-)&lt;/b&gt; або просто проігноруйте запит протягом 30 секунд.</translation>
     </message>
     <message>
         <source>Force MPH Readings from Dashboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусове зчитування МНГ з приладової панелі</translation>
     </message>
     <message>
         <source>Force dashboard speed limit readings to be in mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово встановлювати показники обмеження швидкості на приладовій панелі в милях на годину.</translation>
     </message>
     <message>
         <source>Higher Limit Lookahead Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Час передбачення вищого ліміту</translation>
     </message>
     <message>
         <source>How far ahead openpilot anticipates upcoming higher speed limits from the downloaded map data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки заздалегідь OpenPilot передбачає підвищення швидкісних обмежень на основі завантажених даних карти.</translation>
     </message>
     <message>
         <source>Lower Limit Lookahead Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Час передбачення нижчого ліміту</translation>
     </message>
     <message>
         <source>How far ahead openpilot anticipates upcoming lower speed limits from the downloaded map data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки заздалегідь OpenPilot передбачає майбутні зниження обмежень швидкості на основі завантажених даних карти.</translation>
     </message>
     <message>
         <source>Match Speed Limit on Engage</source>
-        <translation type="unfinished"></translation>
+        <translation>Відповідність обмеженню швидкості при активації</translation>
     </message>
     <message>
         <source>Automatically set cruise control speed to match the current speed limit when first enabling openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично встановлюйте швидкість круїз-контролю відповідно до поточного обмеження швидкості при першому ввімкненні openpilot.</translation>
     </message>
     <message>
         <source>Use Mapbox as Fallback</source>
-        <translation type="unfinished"></translation>
+        <translation>Вик. Mapbox як резерв</translation>
     </message>
     <message>
         <source>Use &lt;b&gt;Mapbox&lt;/b&gt; speed limit data when no other sources are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте дані про обмеження швидкості з &lt;b&gt;Mapbox&lt;/b&gt;, якщо інші джерела недоступні.</translation>
     </message>
     <message>
         <source>Speed Limit Source Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Пріоритет джерела обмеження швидкості</translation>
     </message>
     <message>
         <source>Define the priority order for speed limit sources (&lt;b&gt;Dashboard&lt;/b&gt;, &lt;b&gt;Map Data&lt;/b&gt;, &lt;b&gt;Navigation&lt;/b&gt;). Higher-priority sources override lower ones when multiple limits are detected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Визначте порядок пріоритетності джерел обмежень швидкості (&lt;b&gt;Панель інструментів&lt;/b&gt;, &lt;b&gt;Дані карти&lt;/b&gt;, &lt;b&gt;Навігація&lt;/b&gt;). Джерела з вищим пріоритетом мають перевагу над джерелами з нижчим пріоритетом, коли виявлено кілька обмежень.</translation>
     </message>
     <message>
         <source>Speed Limit Offsets</source>
-        <translation type="unfinished"></translation>
+        <translation>Зазори обмеження швидкості</translation>
     </message>
     <message>
         <source>Offsets relative to the posted speed limit for a more &quot;human-like&quot; driving experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відхилення від встановленого обмеження швидкості для більш «людського» досвіду водіння.</translation>
     </message>
     <message>
         <source>Speed Offset (0–24 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (0–24 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 0 and 24 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 0 до 24 миль/год.</translation>
     </message>
     <message>
         <source>Speed Offset (25–34 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (25–34 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 25 and 34 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 25 до 34 миль/год.</translation>
     </message>
     <message>
         <source>Speed Offset (35–44 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (35–44 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 35 and 44 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 35 до 44 миль/год.</translation>
     </message>
     <message>
         <source>Speed Offset (45–54 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (45–54 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 45 and 54 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 45 до 54 миль/год.</translation>
     </message>
     <message>
         <source>Speed Offset (55–64 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (55–64 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 55 and 64 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 55 до 64 миль/год.</translation>
     </message>
     <message>
         <source>Speed Offset (65–74 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (65–74 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 65 and 74 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 65 до 74 миль/год.</translation>
     </message>
     <message>
         <source>Speed Offset (75–99 mph)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (75–99 мл/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 75 and 99 mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 75 до 99 миль/год.</translation>
     </message>
     <message>
         <source>Visual Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування візуалізації</translation>
     </message>
     <message>
         <source>Visual features to improve the &lt;b&gt;Speed Limit Controller&lt;/b&gt; experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Візуальні функції для поліпшення роботи &lt;b&gt;контролера обмеження швидкості&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Show Speed Limit Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати поправку від обмеження швидкості</translation>
     </message>
     <message>
         <source>Display the speed limit offset separately on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення поправкул обмеження швидкості окремо на екрані водія.</translation>
     </message>
     <message>
         <source>Show Speed Limit Sources</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати джерела обмеження швидкості</translation>
     </message>
     <message>
         <source>Display the speed limit sources on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення джерел обмеження швидкості на екрані водія.</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation type="unfinished"></translation>
+        <translation> секунд</translation>
     </message>
     <message>
         <source> m/s²</source>
-        <translation type="unfinished"></translation>
+        <translation> м/с²</translation>
     </message>
     <message>
         <source> mph</source>
-        <translation type="unfinished"></translation>
+        <translation> мнг</translation>
     </message>
     <message>
         <source>With Lead</source>
-        <translation type="unfinished"></translation>
+        <translation>З лідером</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when driving below this speed with a lead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Переходити в &lt;b&gt;експериментальний режим&lt;/b&gt;, коли ви їдете за авто з цією швидкістю.</translation>
     </message>
     <message>
         <source>Slower Lead</source>
-        <translation type="unfinished"></translation>
+        <translation>Повільн. лідер</translation>
     </message>
     <message>
         <source>Stopped Lead</source>
-        <translation type="unfinished"></translation>
+        <translation>Зупин. лідер</translation>
     </message>
     <message>
         <source>Intersections</source>
-        <translation type="unfinished"></translation>
+        <translation>Перехрестя</translation>
     </message>
     <message>
         <source>Turns</source>
-        <translation type="unfinished"></translation>
+        <translation>Повороти</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимк.</translation>
     </message>
     <message>
         <source> second</source>
-        <translation type="unfinished"></translation>
+        <translation> секунд</translation>
     </message>
     <message>
         <source>Only For Detected Lanes</source>
@@ -1901,107 +1901,107 @@
     </message>
     <message>
         <source>Map Based</source>
-        <translation type="unfinished"></translation>
+        <translation>По мапах</translation>
     </message>
     <message>
         <source>Vision</source>
-        <translation type="unfinished"></translation>
+        <translation>Бачення</translation>
     </message>
     <message>
         <source>The &lt;b&gt;Map Based&lt;/b&gt; option is only available when some &lt;b&gt;Map Data&lt;/b&gt; has been downloaded!</source>
-        <translation type="unfinished"></translation>
+        <translation>Опція &lt;b&gt;На основі мапи&lt;/b&gt; доступна тільки після завантаження &lt;b&gt;даних карти&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation type="unfinished"></translation>
+        <translation>СКИД.</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандарт</translation>
     </message>
     <message>
         <source>Eco</source>
-        <translation type="unfinished"></translation>
+        <translation>Еко</translation>
     </message>
     <message>
         <source>Sport</source>
-        <translation type="unfinished"></translation>
+        <translation>Спорт</translation>
     </message>
     <message>
         <source>Sport+</source>
-        <translation type="unfinished"></translation>
+        <translation>Спорт+</translation>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished"></translation>
+        <translation> фут</translation>
     </message>
     <message>
         <source>Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Прискорення</translation>
     </message>
     <message>
         <source>Deceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Зповільнення</translation>
     </message>
     <message>
         <source>Set Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Вст. швидк.</translation>
     </message>
     <message>
         <source>Experimental Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Експериментальн. реж.</translation>
     </message>
     <message>
         <source>Previous Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередній ліміт</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <source>Set With Gas Pedal</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити газом</translation>
     </message>
     <message>
         <source>Max Set Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Макс встан. швидк.</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ОБРАТИ</translation>
     </message>
     <message>
         <source>Dashboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Панель інструментів</translation>
     </message>
     <message>
         <source>Map Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Дані мапи</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Навігація</translation>
     </message>
     <message>
         <source>Highest</source>
-        <translation type="unfinished"></translation>
+        <translation>Верхній</translation>
     </message>
     <message>
         <source>Lowest</source>
-        <translation type="unfinished"></translation>
+        <translation>Нижній</translation>
     </message>
     <message>
         <source>Select your primary priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть свій головний пріоритет</translation>
     </message>
     <message>
         <source>Select your secondary priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть свій другорядний пріоритет</translation>
     </message>
     <message>
         <source>Select your tertiary priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть третій пріоритет</translation>
     </message>
     <message>
         <source>MANAGE</source>
@@ -2009,106 +2009,106 @@
     </message>
     <message>
         <source>Lower Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Нижні ліміти</translation>
     </message>
     <message>
         <source>Higher Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Верхні лімити</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your settings for &lt;b&gt;Traffic Mode&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування для режиму&lt;b&gt;Трафік&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your settings for the &lt;b&gt;Aggressive&lt;/b&gt; personality?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування для режиму &lt;b&gt;Агресивний&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your settings for the &lt;b&gt;Standard&lt;/b&gt; personality?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування для режиму &lt;b&gt;Стандартний&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your settings for the &lt;b&gt;Relaxed&lt;/b&gt; personality?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування для режиму &lt;b&gt;Спокійний&lt;/b&gt;?</translation>
     </message>
     <message>
         <source> foot</source>
-        <translation type="unfinished"></translation>
+        <translation> фут</translation>
     </message>
     <message>
         <source> meter</source>
-        <translation type="unfinished"></translation>
+        <translation> метр</translation>
     </message>
     <message>
         <source> meters</source>
-        <translation type="unfinished"></translation>
+        <translation> метрів</translation>
     </message>
     <message>
         <source> km/h</source>
-        <translation type="unfinished"></translation>
+        <translation> км/г</translation>
     </message>
     <message>
         <source>Speed Offset (0–29 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (0–29 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (30–49 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (30–49 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (50–59 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (50–59 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (60–79 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (6–79 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (80–99 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (90–99 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (100–119 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (100–119 км/г)</translation>
     </message>
     <message>
         <source>Speed Offset (120–140 km/h)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка швидкості (120–140 км/г)</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 0 and 29 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 0 до 29 км/год.</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 30 and 49 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 30 до 49 км/год.</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 50 and 59 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 50 до 59 км/год.</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 60 and 79 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 60 до 79 км/год.</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 80 and 99 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 80 до 99 км/год.</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 100 and 119 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 100 до 119 км/год.</translation>
     </message>
     <message>
         <source>Target speed offset applied for posted limits between 120 and 140 km/h.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поправка цільової швидкості застосовується для встановлених обмежень від 120 до 140 км/год.</translation>
     </message>
 </context>
 <context>
     <name>FrogPilotManageControl</name>
     <message>
         <source>MANAGE</source>
-        <translation type="unfinished"></translation>
+        <translation>КЕРУВАТИ</translation>
     </message>
 </context>
 <context>
