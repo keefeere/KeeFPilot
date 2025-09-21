@@ -1633,7 +1633,7 @@
     </message>
     <message>
         <source>Force Keep openpilot in the Standstill State</source>
-        <translation>Утримувати openpilot у стані зупинки</translation>
+        <translation>Утр. openpilot у стані зупинки</translation>
     </message>
     <message>
         <source>Keep openpilot in the standstill state until either the gas pedal or &lt;b&gt;resume&lt;/b&gt; button is pressed.</source>
@@ -1641,7 +1641,7 @@
     </message>
     <message>
         <source>Force Stop for &quot;Detected&quot; Stop Lights/Signs</source>
-        <translation>Прим. зупинка на світлофорах/знаках</translation>
+        <translation>Прим. зупинка на світлоф./знаках</translation>
     </message>
     <message>
         <source>Force a stop whenever openpilot &lt;b&gt;detects&lt;/b&gt; a potential red light/stop sign to prevent it from running the red light/stop sign.</source>
@@ -1709,7 +1709,7 @@
     </message>
     <message>
         <source>Confirm New Speed Limits</source>
-        <translation>Підтверд. нові обмеження шв.</translation>
+        <translation>Підтверд. новий ліміт шв.</translation>
     </message>
     <message>
         <source>Require confirmation before applying new speed limits. To accept, use the flashing widget on the driving screen or press the &lt;b&gt;Cruise Increase&lt;/b&gt; button. To deny, press the &lt;b&gt;Cruise Decrease&lt;/b&gt; button or simply ignore the prompt for 30 seconds.</source>
@@ -2009,11 +2009,11 @@
     </message>
     <message>
         <source>Lower Limits</source>
-        <translation>Нижні ліміти</translation>
+        <translation>Нижн ліміт</translation>
     </message>
     <message>
         <source>Higher Limits</source>
-        <translation>Верхні лімити</translation>
+        <translation>Верхн лімит</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your settings for &lt;b&gt;Traffic Mode&lt;/b&gt;?</source>
@@ -2119,15 +2119,15 @@
     </message>
     <message>
         <source>Weekly</source>
-        <translation>Щотижнево</translation>
+        <translation>Щотижн.</translation>
     </message>
     <message>
         <source>Monthly</source>
-        <translation>Щомісячно</translation>
+        <translation>Щомісячн.</translation>
     </message>
     <message>
         <source>Automatically Update Maps</source>
-        <translation>Автоматичне оновлення карт</translation>
+        <translation>Авто оновлення карт</translation>
     </message>
     <message>
         <source>The frequency at which maps sync with the latest OpenStreetMap (OSM) changes. Weekly updates occur every Sunday, and monthly updates occur on the 1st.</source>
@@ -2207,7 +2207,7 @@
     </message>
     <message>
         <source>Reset Map Downloader</source>
-        <translation>Скинути налаштування програми завантаження карт</translation>
+        <translation>Скинути завантажувач мап</translation>
     </message>
     <message>
         <source>RESET</source>
@@ -2298,171 +2298,171 @@
     <name>FrogPilotModelPanel</name>
     <message>
         <source>Automatically Download New Models</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично завантажувати нові моделі</translation>
     </message>
     <message>
         <source>Automatically download new driving models as they become available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично завантажуйте нові моделі водіння, коли вони стають доступними.</translation>
     </message>
     <message>
         <source>Delete Driving Models</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити моделі водіння</translation>
     </message>
     <message>
         <source>Delete driving models from the device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити моделі водіння з пристрою.</translation>
     </message>
     <message>
         <source>Download Driving Models</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажити моделі водіння</translation>
     </message>
     <message>
         <source>Download driving models to the device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажте моделі водіння на пристрій.</translation>
     </message>
     <message>
         <source>Model Randomizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Випадкова модель</translation>
     </message>
     <message>
         <source>Driving models are chosen at random each drive and feedback prompts are used to find the model that best suits your needs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Моделі водіння вибираються випадково під час кожного заїзду, а підказки зворотного зв&apos;язку використовуються для пошуку моделі, яка найкраще відповідає вашим потребам.</translation>
     </message>
     <message>
         <source>Manage Model Blacklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Керувати чорним списком моделей</translation>
     </message>
     <message>
         <source>Add or remove models from the &lt;b&gt;Model Randomizer&lt;/b&gt;&apos;s blacklist list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Додавати або видаляти моделі з чорного списку &lt;b&gt;Model Randomizer&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Manage Model Ratings</source>
-        <translation type="unfinished"></translation>
+        <translation>Керувати рейтингами моделей</translation>
     </message>
     <message>
         <source>Reset or view the saved ratings for the driving models.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути або переглянути збережені оцінки для моделей водіння.</translation>
     </message>
     <message>
         <source>Select Driving Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель водіння</translation>
     </message>
     <message>
         <source>Select the active driving model.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть активну модель водіння.</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ</translation>
     </message>
     <message>
         <source>DELETE ALL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ ВСЕ</translation>
     </message>
     <message>
         <source>Select a driving model to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель водіння, яку потрібно видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; model?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити модель «%1»?</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete all of your downloaded driving models?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всі завантажені моделі водіння?</translation>
     </message>
     <message>
         <source>DOWNLOAD</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАВАНТАЖИТИ</translation>
     </message>
     <message>
         <source>DOWNLOAD ALL</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАВАНТАЖИТИ ВСЕ</translation>
     </message>
     <message>
         <source>Select a driving model to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель водіння для завантаження</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation type="unfinished"></translation>
+        <translation>СКАСУВАТИ</translation>
     </message>
     <message>
         <source>ADD</source>
-        <translation type="unfinished"></translation>
+        <translation>ДОДАТИ</translation>
     </message>
     <message>
         <source>REMOVE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ</translation>
     </message>
     <message>
         <source>REMOVE ALL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ ВСЕ</translation>
     </message>
     <message>
         <source>There are no more models to blacklist! The only available model is &quot;%1&quot;!</source>
-        <translation type="unfinished"></translation>
+        <translation>Більше немає моделей для чорного списку! Єдина доступна модель — «%1»!</translation>
     </message>
     <message>
         <source>Select a model to add to the blacklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель, яку потрібно додати до чорного списку</translation>
     </message>
     <message>
         <source>Are you sure you want to add the &quot;%1&quot; model to the blacklist?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете додати модель «%1» до чорного списку?</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати</translation>
     </message>
     <message>
         <source>Select a model to remove from the blacklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель, яку потрібно видалити з чорного списку</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the &quot;%1&quot; model from the blacklist?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити модель «%1» із чорного списку?</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to remove all of your blacklisted models?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити всіх моделей зі свого чорного списку?</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation type="unfinished"></translation>
+        <translation>СКИНУТИ</translation>
     </message>
     <message>
         <source>VIEW</source>
-        <translation type="unfinished"></translation>
+        <translation>ПЕРЕГЛЯНУТИ</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all of your model drives and scores?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скинути всі ваші моделі приводів і оцінки?</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИБРАТИ</translation>
     </message>
     <message>
         <source>Select a model - 🗺️ = Navigation | 📡 = Radar | 👀 = VOACC</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель - 🗺️ = Навігація | 📡 = Радар | 👀 = VOACC</translation>
     </message>
     <message>
         <source>The &quot;Model Randomizer&quot; only works with downloaded models. Do you want to download all the driving models?</source>
-        <translation type="unfinished"></translation>
+        <translation>«Випадкова модель» працює тільки з завантаженими моделями. Чи хочете ви завантажити всі моделі водіння?</translation>
     </message>
     <message>
         <source>Offline...</source>
-        <translation type="unfinished"></translation>
+        <translation>Не в мережі...</translation>
     </message>
 </context>
 <context>
