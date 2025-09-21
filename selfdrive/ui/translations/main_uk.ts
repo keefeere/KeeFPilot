@@ -906,7 +906,7 @@
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation>Затр. приводу (замовч: %1)</translation>
+        <translation>Затр. прив. (замов.: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
@@ -954,7 +954,7 @@
     </message>
     <message>
         <source>Steer Ratio (Default: %1)</source>
-        <translation>Коеф. керм. (замовч.: %1)</translation>
+        <translation>Коеф. керм. (зам.: %1)</translation>
     </message>
     <message>
         <source>Steer Ratio</source>
@@ -1122,7 +1122,7 @@
     </message>
     <message>
         <source>Turn Signal Only</source>
-        <translation>При поворотн.</translation>
+        <translation>При поворотн</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Actuator Delay&lt;/b&gt;?</source>
@@ -1265,7 +1265,7 @@
     </message>
     <message>
         <source>Below</source>
-        <translation>Нижче</translation>
+        <translation>До</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when driving below this speed.</source>
@@ -1545,7 +1545,7 @@
     </message>
     <message>
         <source>Longitudinal Tuning</source>
-        <translation>Тюнінг поздовжнього керування</translation>
+        <translation>Тюнінг поздовжн. керування</translation>
     </message>
     <message>
         <source>Settings that control how openpilot manages speed and acceleration.</source>
@@ -1553,7 +1553,7 @@
     </message>
     <message>
         <source>Acceleration Profile</source>
-        <translation>Профіль приск.</translation>
+        <translation>Проф. приск.</translation>
     </message>
     <message>
         <source>Enable either a sporty or eco-friendly acceleration profile. &lt;b&gt;Sport+&lt;/b&gt; aims to make openpilot accelerate as fast as possible!</source>
@@ -1569,7 +1569,7 @@
     </message>
     <message>
         <source>Human-Like Acceleration</source>
-        <translation>Прискорення, подібне до людського</translation>
+        <translation>Людьське приск.</translation>
     </message>
     <message>
         <source>Use the lead vehicle&apos;s acceleration rate when at a takeoff and ramp off the acceleration rate when approaching the maximum set speed for a more &quot;human-like&quot; driving experience.</source>
@@ -1577,7 +1577,7 @@
     </message>
     <message>
         <source>Human-Like Approach Behind Leads</source>
-        <translation>Зближення з авто попереду як людина</translation>
+        <translation>Зближення з лідером як людина</translation>
     </message>
     <message>
         <source>Dynamically adjust the desired following distance when approaching slower or stopped vehicles for a more &quot;human-like&quot; driving experience.</source>
@@ -1601,7 +1601,7 @@
     </message>
     <message>
         <source>&quot;Taco Bell Run&quot; Turn Speed Hack</source>
-        <translation>«Taco Bell Run» — хак для зміни швидкості</translation>
+        <translation>«Taco Bell Run» — хак поворотів</translation>
     </message>
     <message>
         <source>The turn speed hack from comma’s 2022 &quot;Taco Bell Run&quot; drive. Designed to slow down when taking left/right turns for smoother turns.</source>
@@ -1641,11 +1641,11 @@
     </message>
     <message>
         <source>Force Stop for &quot;Detected&quot; Stop Lights/Signs</source>
-        <translation>Прим. зупинка для «виявлених» світлофорів/знаків</translation>
+        <translation>Прим. зупинка на світлофорах/знаках</translation>
     </message>
     <message>
         <source>Force a stop whenever openpilot &lt;b&gt;detects&lt;/b&gt; a potential red light/stop sign to prevent it from running the red light/stop sign.</source>
-        <translation>Примусово зупиняйте автомобіль, коли openpilot &lt;b&gt;виявляє&lt;/b&gt; потенційний червоний світлофор/знак зупинки, щоб запобігти проїзду на червоне світло/знак зупинки.</translation>
+        <translation>Примусово зупиняє автомобіль, коли openpilot &lt;b&gt;виявляє&lt;/b&gt; потенційний червоний світлофор/знак зупинки, щоб запобігти проїзду на червоне світло/знак зупинки.</translation>
     </message>
     <message>
         <source>Increase Stopped Distance</source>
@@ -1681,7 +1681,7 @@
     </message>
     <message>
         <source>Speed Limit Controller</source>
-        <translation>Контролер обмеження швидкості</translation>
+        <translation>Контролер лімітів швидк.</translation>
     </message>
     <message>
         <source>Limit openpilot&apos;s maximum driving speed based on data from downloaded maps, &lt;b&gt;Mapbox&lt;/b&gt;, &lt;b&gt;Navigate on openpilot&lt;/b&gt;, or the dashboard (supported vehicles: &lt;b&gt;Ford&lt;/b&gt;, &lt;b&gt;Genesis&lt;/b&gt;, &lt;b&gt;Hyundai&lt;/b&gt;, &lt;b&gt;Kia&lt;/b&gt;, &lt;b&gt;Lexus&lt;/b&gt;, &lt;b&gt;Toyota&lt;/b&gt;).</source>
@@ -1689,15 +1689,15 @@
     </message>
     <message>
         <source>Fallback Speed</source>
-        <translation>Резервна швидкість</translation>
+        <translation>Резерв лімітів</translation>
     </message>
     <message>
         <source>The speed limit source when no speed limit data is available.</source>
-        <translation>Резервне джерело обмеження швидкості, коли дані про обмеження швидкості недоступні.</translation>
+        <translation>Резервне джерело обмежень швидкості, коли дані про обмеження швидкості недоступні.</translation>
     </message>
     <message>
         <source>Override Speed</source>
-        <translation>Швидкість перевизначення</translation>
+        <translation>Ручна швидк.</translation>
     </message>
     <message>
         <source>The speed openpilot uses after manually exceeding the posted speed limit.&lt;br&gt;&lt;br&gt;&lt;b&gt;- Set With Gas Pedal&lt;/b&gt;: Uses the speed obtained while pressing the gas&lt;br&gt;&lt;b&gt;- Max Set Speed&lt;/b&gt;: Uses the cruise control set speed&lt;br&gt;&lt;br&gt;Overrides clear upon disengagement.</source>
@@ -1865,7 +1865,7 @@
     </message>
     <message>
         <source>With Lead</source>
-        <translation>З лідером</translation>
+        <translation>З лідер.</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when driving below this speed with a lead.</source>
@@ -1945,15 +1945,15 @@
     </message>
     <message>
         <source>Set Speed</source>
-        <translation>Вст. швидк.</translation>
+        <translation>Ручн.</translation>
     </message>
     <message>
         <source>Experimental Mode</source>
-        <translation>Експериментальн. реж.</translation>
+        <translation>Експ. реж.</translation>
     </message>
     <message>
         <source>Previous Limit</source>
-        <translation>Попередній ліміт</translation>
+        <translation type="unfinished">Попер. ліміт</translation>
     </message>
     <message>
         <source>None</source>
@@ -1961,7 +1961,7 @@
     </message>
     <message>
         <source>Set With Gas Pedal</source>
-        <translation>Встановити газом</translation>
+        <translation>Педаль</translation>
     </message>
     <message>
         <source>Max Set Speed</source>
