@@ -898,15 +898,15 @@
     <name>FrogPilotLateralPanel</name>
     <message>
         <source>Advanced Lateral Tuning</source>
-        <translation>Розширене поперечне налаштування</translation>
+        <translation>Розш. підлаштування кермування</translation>
     </message>
     <message>
         <source>Advanced settings for fine-tuning openpilot&apos;s lateral controls.</source>
-        <translation>Розширені налаштування для точного регулювання поперечного керування openpilot.</translation>
+        <translation type="unfinished">Розширені налаштування для точного регулювання поперечного керування openpilot.</translation>
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation>Затримка приводу (за замовчуванням: %1)</translation>
+        <translation>Затримка приводу (за замовч: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
@@ -918,7 +918,7 @@
     </message>
     <message>
         <source>Friction (Default: %1)</source>
-        <translation>Тертя (за замовчуванням: %1)</translation>
+        <translation>Тертя (за замовчю: %1)</translation>
     </message>
     <message>
         <source>Friction</source>
@@ -930,7 +930,7 @@
     </message>
     <message>
         <source>Kp Factor (Default: %1)</source>
-        <translation>Коефіцієнт Kp (за замовчуванням: %1)</translation>
+        <translation>Коефіцієнт Kp (за замовч.: %1)</translation>
     </message>
     <message>
         <source>Kp Factor</source>
@@ -942,7 +942,7 @@
     </message>
     <message>
         <source>Lateral Accel (Default: %1)</source>
-        <translation>Поперечне прискорення (за замовчуванням: %1)</translation>
+        <translation>Поперечне приск. (за замовч.: %1)</translation>
     </message>
     <message>
         <source>Lateral Accel</source>
@@ -982,7 +982,7 @@
     </message>
     <message>
         <source>Always on Lateral</source>
-        <translation>Поперечний завжди ввімкнений</translation>
+        <translation>Постійне Кермування</translation>
     </message>
     <message>
         <source>openpilot&apos;s steering control stays active even when the brake or gas pedals are pressed.&lt;br&gt;&lt;br&gt;Deactivation only occurs with the &lt;b&gt;Cruise Control&lt;/b&gt; button.</source>
@@ -994,183 +994,183 @@
     </message>
     <message>
         <source>Allow &lt;b&gt;Always on Lateral&lt;/b&gt; to be active whenever &lt;b&gt;Cruise Control&lt;/b&gt; is active, bypassing the need to enable openpilot first.</source>
-        <translation type="unfinished">Allow &lt;b&gt;Always on Lateral&lt;/b&gt; to be active whenever &lt;b&gt;Cruise Control&lt;/b&gt; is active, bypassing the need to enable openpilot first.</translation>
+        <translation>Дозвольте &lt;b&gt;Постійному кермуванню&lt;/b&gt; бути активним, коли &lt;b&gt;Cruise Control&lt;/b&gt; активний, обходячи необхідність спочатку вмикати openpilot.</translation>
     </message>
     <message>
         <source>Enable With LKAS Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Вмикати з LKAS кнопкою</translation>
     </message>
     <message>
         <source>Allow &lt;b&gt;Always on Lateral&lt;/b&gt; to be active whenever &lt;b&gt;LKAS&lt;/b&gt; is active, bypassing the need to enable openpilot first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дозвольте &lt;b&gt;Постійному кермуванню&lt;/b&gt; бути активним, коли &lt;b&gt;LKAS&lt;/b&gt; активний, обходячи необхідність спочатку вмикати openpilot.</translation>
     </message>
     <message>
         <source>Pause on Brake Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Пауза при гальмуванні до</translation>
     </message>
     <message>
         <source>Temporarily pause &lt;b&gt;Always on Lateral&lt;/b&gt; below the set speed when braking.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тимчасово призупиніти &lt;b&gt;Постійне кермування&lt;/b&gt; нижче встановленої швидкості під час гальмування.</translation>
     </message>
     <message>
         <source>Lane Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Зміна смуги руху</translation>
     </message>
     <message>
         <source>Customize how openpilot performs lane changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте спосіб зміни смуги руху в openpilot.</translation>
     </message>
     <message>
         <source>Automatic Lane Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматична зміна смуги руху</translation>
     </message>
     <message>
         <source>Change lanes automatically when the turn signal is on. No steering input needed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично змінюйте смуги руху, коли увімкнено поворотник. Не потрібно чіпати кермо!</translation>
     </message>
     <message>
         <source>Lane Change Delay</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка зміни смуги руху</translation>
     </message>
     <message>
         <source>Delay automatic lane changes by the set amount of time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка автоматичної зміни смуги руху на заданий проміжок часу.</translation>
     </message>
     <message>
         <source>Minimum Lane Change Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Мінімальна швидкість для зміни смуги руху</translation>
     </message>
     <message>
         <source>Minimum speed required for openpilot to perform a lane change.</source>
-        <translation type="unfinished"></translation>
+        <translation>Мінімальна швидкість, необхідна для того, щоб openpilot виконав зміну смуги руху.</translation>
     </message>
     <message>
         <source>Minimum Lane Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Мінімальна ширина смуги руху</translation>
     </message>
     <message>
         <source>openpilot won&apos;t initiate a lane change into a lane narrower than this width.</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot не ініціюватиме зміну смуги руху на смугу, ширина якої менша за цю.</translation>
     </message>
     <message>
         <source>One Lane Change Per Signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Одна зміна смуги руху на один сигнал</translation>
     </message>
     <message>
         <source>Limit lane changes to one per turn signal activation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Обмежити зміну смуг руху до однієї на кожну активацію поворотника.</translation>
     </message>
     <message>
         <source>Lateral Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>Підлаштування кермування</translation>
     </message>
     <message>
         <source>Settings for fine-tuning openpilot&apos;s lateral controls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування для точного регулювання елементів кермування openpilot.</translation>
     </message>
     <message>
         <source>Force Turn Desires Below Lane Change Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово повертати при шв. нижче шв. зміни смуги</translation>
     </message>
     <message>
         <source>Force turn desires below the minimum lane change speed to improve turning accuracy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусовий намір повороту при швидкості нижче мінімальної швидкості зміни смуги руху для підвищення точності поворотів.</translation>
     </message>
     <message>
         <source>Neural Network Feedforward (NNFF)</source>
-        <translation type="unfinished"></translation>
+        <translation>Нейронна мережа прямого поширення (NNFF)</translation>
     </message>
     <message>
         <source>Use &lt;b&gt;Twilsonco’s&lt;/b&gt; &lt;b&gt;Neural Network FeedForward&lt;/b&gt; model for smoother, model-based steering trained on your vehicle&apos;s data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте модель &lt;b&gt;Twilsonco&lt;/b&gt; &lt;b&gt;Neural Network FeedForward&lt;/b&gt; для більш плавного, заснованого на моделі керування, навченого на даних вашого автомобіля.</translation>
     </message>
     <message>
         <source>Smooth Curve Handling</source>
-        <translation type="unfinished"></translation>
+        <translation>Плавне керування поворотами</translation>
     </message>
     <message>
         <source>Use &lt;b&gt;Twilsonco’s&lt;/b&gt; torque-based adjustments to smooth out steering during curves.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте регулювання на основі крутного моменту від &lt;b&gt;Twilsonco&lt;/b&gt;, щоб згладити керування під час поворотів.</translation>
     </message>
     <message>
         <source>Quality of Life</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість життя</translation>
     </message>
     <message>
         <source>Miscellaneous features to improve the steering experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Різні функції для поліпшення якості кермування.</translation>
     </message>
     <message>
         <source>Pause Steering Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Пауза кермування нижче</translation>
     </message>
     <message>
         <source>Temporarily pause steering control below the set speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тимчасово призупинити керування рульовим управлінням нижче встановленої швидкості.</translation>
     </message>
     <message>
         <source>Instant</source>
-        <translation type="unfinished"></translation>
+        <translation>Миттєво</translation>
     </message>
     <message>
         <source> second</source>
-        <translation type="unfinished"></translation>
+        <translation> секунда</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation type="unfinished"></translation>
+        <translation> секунд</translation>
     </message>
     <message>
         <source>Turn Signal Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Тільки поворотник</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Actuator Delay&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування &lt;b&gt;Затримка приводу&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Friction&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування &lt;b&gt;Тертя&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Kp Factor&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути свій &lt;b&gt;Фактор Kp&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Lateral Accel&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування &lt;b&gt;Поперечне прискорення&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Steer Ratio&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути налаштування &lt;b&gt;Коефіцієнт кермування&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимк.</translation>
     </message>
     <message>
         <source> foot</source>
-        <translation type="unfinished"></translation>
+        <translation> фут</translation>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished"></translation>
+        <translation> футів</translation>
     </message>
     <message>
         <source> mph</source>
-        <translation type="unfinished"></translation>
+        <translation> мнг</translation>
     </message>
     <message>
         <source> meter</source>
-        <translation type="unfinished"></translation>
+        <translation> метр</translation>
     </message>
     <message>
         <source> meters</source>
-        <translation type="unfinished"></translation>
+        <translation> метрів</translation>
     </message>
     <message>
         <source> km/h</source>
-        <translation type="unfinished"></translation>
+        <translation> км/г</translation>
     </message>
 </context>
 <context>
