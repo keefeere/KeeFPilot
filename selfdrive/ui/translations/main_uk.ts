@@ -906,7 +906,7 @@
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation>Затримка приводу (замовч: %1)</translation>
+        <translation>Затр. приводу (замовч: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
@@ -954,7 +954,7 @@
     </message>
     <message>
         <source>Steer Ratio (Default: %1)</source>
-        <translation>Коеф. кермування (замовч.: %1)</translation>
+        <translation>Коеф. керм. (замовч.: %1)</translation>
     </message>
     <message>
         <source>Steer Ratio</source>
@@ -1185,7 +1185,7 @@
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation>Затримка приводу (замовч: %1)</translation>
+        <translation>Затр. приводу (замовч: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
@@ -1413,7 +1413,7 @@
     </message>
     <message>
         <source>Speed Decrease Response</source>
-        <translation>Реакція на зниження швидкості</translation>
+        <translation>Реакція на зниження шв.</translation>
     </message>
     <message>
         <source>How quickly openpilot decreases speed while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values ensure smoother, more gradual speed changes when slowing down, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
@@ -1421,7 +1421,7 @@
     </message>
     <message>
         <source>Speed Increase Response</source>
-        <translation>Реакція на збільшення швидкості</translation>
+        <translation>Реакція на збільшення шв.</translation>
     </message>
     <message>
         <source>How quickly openpilot increases speed while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values ensure smoother, more gradual speed changes when accelerating, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
@@ -1545,51 +1545,51 @@
     </message>
     <message>
         <source>Longitudinal Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування поздовжнього керування</translation>
     </message>
     <message>
         <source>Settings that control how openpilot manages speed and acceleration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування, що контролюють управління швидкістю та прискоренням в openpilot.</translation>
     </message>
     <message>
         <source>Acceleration Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Профіль прискорення</translation>
     </message>
     <message>
         <source>Enable either a sporty or eco-friendly acceleration profile. &lt;b&gt;Sport+&lt;/b&gt; aims to make openpilot accelerate as fast as possible!</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкніть спортивний або екологічний профіль прискорення. &lt;b&gt;Спорт+&lt;/b&gt; має на меті зробити так, щоб openpilot прискорювався якомога швидше!</translation>
     </message>
     <message>
         <source>Deceleration Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Профіль уповільнення</translation>
     </message>
     <message>
         <source>Enable either a sporty or eco-friendly deceleration profile.</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкніть спортивний або екологічний профіль уповільнення.</translation>
     </message>
     <message>
         <source>Human-Like Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Прискорення, подібне до людського</translation>
     </message>
     <message>
         <source>Use the lead vehicle&apos;s acceleration rate when at a takeoff and ramp off the acceleration rate when approaching the maximum set speed for a more &quot;human-like&quot; driving experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте швидкість прискорення головного автомобіля під час старту та зменшуйте швидкість прискорення під час наближення до максимальної встановленої швидкості, щоб отримати більш «людське» відчуття від водіння.</translation>
     </message>
     <message>
         <source>Human-Like Approach Behind Leads</source>
-        <translation type="unfinished"></translation>
+        <translation>Зближення з авто попереду як людина</translation>
     </message>
     <message>
         <source>Dynamically adjust the desired following distance when approaching slower or stopped vehicles for a more &quot;human-like&quot; driving experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Динамічно регулюйте бажану дистанцію до автомобіля, що рухається повільніше або зупинився, для більш «людського» досвіду водіння.</translation>
     </message>
     <message>
         <source>Lead Detection Confidence</source>
-        <translation type="unfinished"></translation>
+        <translation>Впевненість у виявленні авто попереду</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to detecting vehicles ahead. A lower value can help detect vehicles sooner and from farther away, but increases the chance openpilot mistakes other objects for vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до виявлення транспортних засобів попереду. Менше значення дозволяє виявляти транспортні засоби раніше і з більшої відстані, але збільшує ймовірність того, що openpilot помилково сприйме інші об&apos;єкти за транспортні засоби.</translation>
     </message>
     <message>
         <source>Maximum Acceleration Rate</source>
