@@ -1257,7 +1257,7 @@
     </message>
     <message>
         <source>Conditional Experimental Mode</source>
-        <translation>Умовний експериментальний режим</translation>
+        <translation>Умовний експ. режим</translation>
     </message>
     <message>
         <source>Automatically switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when set conditions are met.</source>
@@ -1321,7 +1321,7 @@
     </message>
     <message>
         <source>Curve Speed Control</source>
-        <translation>Контроль швидкості вигинів</translation>
+        <translation>Контроль швидкості у вигинах</translation>
     </message>
     <message>
         <source>Automatically slow down for upcoming curves using downloaded maps or the driving model.</source>
@@ -1353,7 +1353,7 @@
     </message>
     <message>
         <source>Curve Speed Aggressiveness</source>
-        <translation>Агресивність швидкості у вигинах</translation>
+        <translation>Агресивність шв. у вигинах</translation>
     </message>
     <message>
         <source>How aggressive openpilot is when navigating through curves. Higher values result in faster turns but may reduce comfort or stability, while lower values result in slower, smoother turns at the risk of being overly cautious.</source>
@@ -1373,175 +1373,175 @@
     </message>
     <message>
         <source>Traffic Personality</source>
-        <translation type="unfinished"></translation>
+        <translation>Трафік</translation>
     </message>
     <message>
         <source>Customize the &lt;b&gt;Traffic&lt;/b&gt; personality profile. Tailored for navigating through traffic.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте профіль особистості &lt;b&gt;Трафік&lt;/b&gt;. Спеціально розроблений для навігації в умовах інтенсивного дорожнього руху.</translation>
     </message>
     <message>
         <source>Following Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Відстань між автомобілями</translation>
     </message>
     <message>
         <source>The minimum following distance while in &lt;b&gt;Traffic Mode&lt;/b&gt;. openpilot will dynamically adjust between this value and the value in the &lt;b&gt;Aggressive&lt;/b&gt; profile based on your current speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Мінімальна дистанція до автомобіля попереду в режимі &lt;b&gt;Трафік&lt;/b&gt;. openpilot динамічно регулює цю величину та величину в профілі &lt;b&gt;Агресивний&lt;/b&gt; на основі вашої поточної швидкості.</translation>
     </message>
     <message>
         <source>Acceleration Sensitivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість до прискорення</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in acceleration while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values result in smoother, more gradual acceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін прискорення в режимі &lt;b&gt;Трафік&lt;/b&gt;. Більш високі значення забезпечують більш плавне і поступове прискорення, тоді як більш низькі значення забезпечують більш швидкі і чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Deceleration Sensitivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість до уповільнення</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in deceleration while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values result in smoother, more gradual deceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін уповільнення в режимі &lt;b&gt;Трафік&lt;/b&gt;. Більш високі значення забезпечують більш плавне, поступове уповільнення, тоді як більш низькі значення забезпечують більш швидкі, чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Safety Distance Sensitivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість безпечної дистанції</translation>
     </message>
     <message>
         <source>How cautious openpilot is around other vehicles or obstacles while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values increase following distances and prioritize safety, leading to more cautious driving, while lower values allow for closer following but may reduce reaction time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки обережно openpilot поводиться поблизу інших транспортних засобів або перешкод у режимі &lt;b&gt;Трафік&lt;/b&gt;. Більш високі значення збільшують дистанцію між автомобілями та надають пріоритет безпеці, що призводить до більш обережного водіння, тоді як нижчі значення дозволяють їхати ближче, але можуть скоротити час реакції.</translation>
     </message>
     <message>
         <source>Speed Decrease Response</source>
-        <translation type="unfinished"></translation>
+        <translation>Реакція на зниження швидкості</translation>
     </message>
     <message>
         <source>How quickly openpilot decreases speed while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values ensure smoother, more gradual speed changes when slowing down, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot зменшує швидкість у режимі &lt;b&gt;Трафік&lt;/b&gt;. Більші значення забезпечують більш плавні та поступові зміни швидкості під час гальмування, тоді як менші значення дозволяють швидші та більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Speed Increase Response</source>
-        <translation type="unfinished"></translation>
+        <translation>Реакція на збільшення швидкості</translation>
     </message>
     <message>
         <source>How quickly openpilot increases speed while in &lt;b&gt;Traffic Mode&lt;/b&gt;. Higher values ensure smoother, more gradual speed changes when accelerating, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot збільшує швидкість у режимі &lt;b&gt;Трафік&lt;/b&gt;. Більш високі значення забезпечують більш плавні та поступові зміни швидкості під час прискорення, тоді як більш низькі значення дозволяють здійснювати більш швидкі та чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Reset Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування</translation>
     </message>
     <message>
         <source>Reset &lt;b&gt;Traffic Mode&lt;/b&gt; settings to default values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування режиму &lt;b&gt;Трафік&lt;/b&gt; до значень за замовчуванням.</translation>
     </message>
     <message>
         <source>Aggressive Personality</source>
-        <translation type="unfinished"></translation>
+        <translation>Агресивний режим</translation>
     </message>
     <message>
         <source>Customize the &lt;b&gt;Aggressive&lt;/b&gt; personality profile. Designed for a more assertive driving style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте профіль особистості &lt;b&gt;Агресивний&lt;/b&gt;. Призначений для більш впевненого стилю водіння.</translation>
     </message>
     <message>
         <source>How many seconds openpilot will follow behind lead vehicles while using the &lt;b&gt;Aggressive&lt;/b&gt; personality profile.&lt;br&gt;&lt;br&gt;Default: 1.25 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скільки секунд openpilot буде слідувати за транспортними засобами попереду при використанні профілю &lt;b&gt;Агресивний&lt;/b&gt;.&lt;br&gt;&lt;br&gt;За замовчуванням: 1,25 секунди.</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in acceleration while using the &lt;b&gt;Aggressive&lt;/b&gt; personality profile. Higher values result in smoother, more gradual acceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін прискорення при використанні профілю &lt;b&gt;Агресивний&lt;/b&gt;. Більш високі значення забезпечують більш плавне, поступове прискорення, тоді як більш низькі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in deceleration while using the &lt;b&gt;Aggressive&lt;/b&gt; personality profile. Higher values result in smoother, more gradual deceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін у сповільненні під час використання профілю &lt;b&gt;Агресивний&lt;/b&gt;. Вищі значення забезпечують більш плавне, поступове сповільнення, тоді як нижчі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How cautious openpilot is around other vehicles or obstacles while using the &lt;b&gt;Aggressive&lt;/b&gt; personality profile. Higher values increase following distances and prioritize safety, leading to more cautious driving, while lower values allow for closer following but may reduce reaction time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки обережно openpilot поводиться поблизу інших транспортних засобів або перешкод під час використання профілю &lt;b&gt;Агресивний&lt;/b&gt;. Більш високі значення збільшують дистанцію між транспортними засобами та надають пріоритет безпеці, що призводить до більш обережного водіння, тоді як нижчі значення дозволяють їхати ближче, але можуть скоротити час реакції.</translation>
     </message>
     <message>
         <source>How quickly openpilot decreases speed while using the &lt;b&gt;Aggressive&lt;/b&gt; personality profile. Higher values ensure smoother, more gradual speed changes when slowing down, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot зменшує швидкість при використанні профілю &lt;b&gt;Агресивний&lt;/b&gt;. Більш високі значення забезпечують більш плавні, поступові зміни швидкості при гальмуванні, тоді як більш низькі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How quickly openpilot increases speed while using the &lt;b&gt;Aggressive&lt;/b&gt; personality profile. Higher values ensure smoother, more gradual speed changes when accelerating, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot збільшує швидкість при використанні профілю &lt;b&gt;Агресивний&lt;/b&gt;. Більш високі значення забезпечують більш плавні, поступові зміни швидкості при прискоренні, тоді як більш низькі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Reset the &lt;b&gt;Aggressive&lt;/b&gt; personality profile settings to default values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування профілю &lt;b&gt;Агресивний&lt;/b&gt; до значень за замовчуванням.</translation>
     </message>
     <message>
         <source>Standard Personality</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартний режим</translation>
     </message>
     <message>
         <source>Customize the &lt;b&gt;Standard&lt;/b&gt; personality profile. Designed for a balanced driving style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте профіль &lt;b&gt;Стандартний&lt;/b&gt;. Призначений для збалансованого стилю водіння.</translation>
     </message>
     <message>
         <source>How many seconds openpilot will follow behind lead vehicles while using the &lt;b&gt;Standard&lt;/b&gt; personality profile.&lt;br&gt;&lt;br&gt;Default: 1.45 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скільки секунд openpilot буде слідувати за транспортними засобами попереду при використанні профілю &lt;b&gt;Стандартний&lt;/b&gt;.&lt;br&gt;&lt;br&gt;За замовчуванням: 1,45 секунди.</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in acceleration while using the &lt;b&gt;Standard&lt;/b&gt; personality profile. Higher values result in smoother, more gradual acceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін прискорення під час використання профілю &lt;b&gt;Стандартний&lt;/b&gt;. Більш високі значення забезпечують більш плавне, поступове прискорення, тоді як більш низькі значення забезпечують більш швидкі, чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in deceleration while using the &lt;b&gt;Standard&lt;/b&gt; personality profile. Higher values result in smoother, more gradual deceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін уповільнення під час використання профілю &lt;b&gt;Стандартний&lt;/b&gt;. Більш високі значення забезпечують більш плавне, поступове уповільнення, тоді як більш низькі значення забезпечують більш швидкі, чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How cautious openpilot is around other vehicles or obstacles while using the &lt;b&gt;Standard&lt;/b&gt; personality profile. Higher values increase following distances and prioritize safety, leading to more cautious driving, while lower values allow for closer following but may reduce reaction time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки обережно openpilot поводиться поблизу інших транспортних засобів або перешкод під час використання профілю &lt;b&gt;Стандартний&lt;/b&gt;. Більш високі значення збільшують дистанцію між транспортними засобами та надають пріоритет безпеці, що призводить до більш обережного водіння, тоді як нижчі значення дозволяють їхати ближче, але можуть скоротити час реакції.</translation>
     </message>
     <message>
         <source>How quickly openpilot decreases speed while using the &lt;b&gt;Standard&lt;/b&gt; personality profile. Higher values ensure smoother, more gradual speed changes when slowing down, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot зменшує швидкість під час використання профілю &lt;b&gt;Стандартний&lt;/b&gt;. Вищі значення забезпечують більш плавні, поступові зміни швидкості під час уповільнення, тоді як нижчі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How quickly openpilot increases speed while using the &lt;b&gt;Standard&lt;/b&gt; personality profile. Higher values ensure smoother, more gradual speed changes when accelerating, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot збільшує швидкість при використанні профілю &lt;b&gt;Стандартний&lt;/b&gt;. Більш високі значення забезпечують більш плавні, поступові зміни швидкості при прискоренні, тоді як більш низькі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Reset the &lt;b&gt;Standard&lt;/b&gt; personality profile settings to default values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування профілю &lt;b&gt;Стандартний&lt;/b&gt; до значень за замовчуванням.</translation>
     </message>
     <message>
         <source>Relaxed Personality</source>
-        <translation type="unfinished"></translation>
+        <translation>Розслаблений режим</translation>
     </message>
     <message>
         <source>Customize the &lt;b&gt;Relaxed&lt;/b&gt; personality profile. Designed for a more laid-back driving style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте профіль &lt;b&gt;Розслаблений&lt;/b&gt;. Призначений для більш спокійного стилю водіння.</translation>
     </message>
     <message>
         <source>How many seconds openpilot will follow behind lead vehicles while using the &lt;b&gt;Relaxed&lt;/b&gt; personality profile.&lt;br&gt;&lt;br&gt;Default: 1.75 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скільки секунд openpilot буде слідувати за провідними транспортними засобами при використанні профілю &lt;b&gt;Розслаблений&lt;/b&gt;.&lt;br&gt;&lt;br&gt;За замовчуванням: 1,75 секунди.</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in acceleration while using the &lt;b&gt;Relaxed&lt;/b&gt; personality profile. Higher values result in smoother, more gradual acceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін прискорення під час використання профілю &lt;b&gt;Розслаблений&lt;/b&gt;. Більш високі значення забезпечують більш плавне, поступове прискорення, тоді як більш низькі значення забезпечують більш швидкі, чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How sensitive openpilot is to changes in deceleration while using the &lt;b&gt;Relaxed&lt;/b&gt; personality profile. Higher values result in smoother, more gradual deceleration, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot до змін у сповільненні під час використання профілю &lt;b&gt;Relaxed&lt;/b&gt;. Вищі значення забезпечують більш плавне, поступове сповільнення, тоді як нижчі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How cautious openpilot is around other vehicles or obstacles while using the &lt;b&gt;Relaxed&lt;/b&gt; personality profile. Higher values increase following distances and prioritize safety, leading to more cautious driving, while lower values allow for closer following but may reduce reaction time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки обережно openpilot поводиться поблизу інших транспортних засобів або перешкод під час використання профілю &lt;b&gt;Розслаблений&lt;/b&gt;. Більш високі значення збільшують дистанцію між транспортними засобами та надають пріоритет безпеці, що призводить до більш обережного водіння, тоді як нижчі значення дозволяють їхати ближче, але можуть зменшити час реакції.</translation>
     </message>
     <message>
         <source>How quickly openpilot decreases speed while using the &lt;b&gt;Relaxed&lt;/b&gt; personality profile. Higher values ensure smoother, more gradual speed changes when slowing down, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot зменшує швидкість при використанні профілю &lt;b&gt;Розслаблений&lt;/b&gt;. Більш високі значення забезпечують більш плавні, поступові зміни швидкості при уповільненні, тоді як більш низькі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>How quickly openpilot increases speed while using the &lt;b&gt;Relaxed&lt;/b&gt; personality profile. Higher values ensure smoother, more gradual speed changes when accelerating, while lower values allow for quicker, more responsive changes that may feel abrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко openpilot збільшує швидкість при використанні профілю &lt;b&gt;Розслаблений&lt;/b&gt;. Більш високі значення забезпечують більш плавні, поступові зміни швидкості при прискоренні, тоді як більш низькі значення дозволяють швидші, більш чутливі зміни, які можуть здаватися різкими.</translation>
     </message>
     <message>
         <source>Reset the &lt;b&gt;Relaxed&lt;/b&gt; personality profile settings to default values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування профілю &lt;b&gt;Розслаблений&lt;/b&gt; до значень за замовчуванням.</translation>
     </message>
     <message>
         <source>Longitudinal Tuning</source>
@@ -1897,7 +1897,7 @@
     </message>
     <message>
         <source>Only For Detected Lanes</source>
-        <translation type="unfinished"></translation>
+        <translation>На смугах</translation>
     </message>
     <message>
         <source>Map Based</source>
