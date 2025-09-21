@@ -942,7 +942,7 @@
     </message>
     <message>
         <source>Lateral Accel (Default: %1)</source>
-        <translation>Поперечне приск. (замовч.: %1)</translation>
+        <translation>Попер. приск. (замовч.: %1)</translation>
     </message>
     <message>
         <source>Lateral Accel</source>
@@ -954,7 +954,7 @@
     </message>
     <message>
         <source>Steer Ratio (Default: %1)</source>
-        <translation>Коефіцієнт кермування (замовч.: %1)</translation>
+        <translation>Коеф. кермування (замовч.: %1)</translation>
     </message>
     <message>
         <source>Steer Ratio</source>
@@ -1177,199 +1177,199 @@
     <name>FrogPilotLongitudinalPanel</name>
     <message>
         <source>Advanced Longitudinal Tuning</source>
-        <translation type="unfinished"></translation>
+        <translation>Розш. поздовжній тюнінг</translation>
     </message>
     <message>
         <source>Advanced settings for customizing how openpilot handles acceleration and braking.</source>
-        <translation type="unfinished"></translation>
+        <translation>Розширені підлаштування для налаштування того, як openpilot обробляє прискорення та гальмування.</translation>
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка приводу (замовч: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка приводу</translation>
     </message>
     <message>
         <source>Delay before throttle or brake takes effect. Higher values smooth slow actuators but can feel laggy; lower values react quicker but may overshoot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Затримка перед спрацьовуванням газу або гальм. Більші значення згладжують роботу повільних приводів, але можуть спричиняти затримку; менші значення реагують швидше, але можуть спричиняти перевищення.</translation>
     </message>
     <message>
         <source>Start Acceleration (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Поч. прискорення (замовч.: %1)</translation>
     </message>
     <message>
         <source>Start Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Початк. прискорення</translation>
     </message>
     <message>
         <source>Extra acceleration applied when pulling away from a stop. Increase for snappier launches at the cost of smoothness; decrease for gentler starts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Додаткове прискорення, що застосовується при рушанні з місця. Збільште для більш різкого старту за рахунок плавності; зменште для більш плавного старту.</translation>
     </message>
     <message>
         <source>Start Speed (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Початкова шв. (замовч.: %1)</translation>
     </message>
     <message>
         <source>Start Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Початкова швидкість</translation>
     </message>
     <message>
         <source>Speed where openpilot begins to exit the stopped state. Higher values avoid creeping but may feel sluggish; lower values move sooner but risk creeping.</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість, при якій OpenPilot починає виходити зі стану зупинки. Більш високі значення запобігають повзанню, але можуть спричиняти відчуття млявості; більш низькі значення забезпечують швидший старт, але створюють ризик повзання.</translation>
     </message>
     <message>
         <source>Stop Acceleration (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Приск. зупинки (замовч.: %1)</translation>
     </message>
     <message>
         <source>Stop Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Прискорення зупинки</translation>
     </message>
     <message>
         <source>Brake force applied to hold the vehicle still. Larger values prevent creeping on hills but might jerk to a stop. Smaller values can feel smoother but may allow rolling.</source>
-        <translation type="unfinished"></translation>
+        <translation>Гальмівна сила, що застосовується для утримання автомобіля в нерухомому стані. Більші значення запобігають ковзанню на схилах, але можуть спричинити різке гальмування. Менші значення забезпечують більш плавний рух, але можуть спричинити повзання.</translation>
     </message>
     <message>
         <source>Stopping Rate (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Коеф. зупинки (замовч.: %1)</translation>
     </message>
     <message>
         <source>Stopping Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Коефіціент зупинки</translation>
     </message>
     <message>
         <source>How quickly braking ramps up when stopping. Faster rates shorten stopping distance but can be harsh; slower rates are smoother but need more room.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як швидко авто гальмує під час зупинки. Більший коефіціент скорочуює гальмівний шлях, але авто може бути різким; менший коефіціент є більш плавними, але гальмівний шлях збільшується.</translation>
     </message>
     <message>
         <source>Stop Speed (Default: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидк. зупинки (замовч.: %1)</translation>
     </message>
     <message>
         <source>Stop Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість зупинки</translation>
     </message>
     <message>
         <source>Speed where openpilot beings to enter the stopped state. Higher values brake earlier for smoother stops but might stop too soon; lower values wait longer and can overshoot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість, при якій OpenPilot переходить у стан зупинки. Більші значення гальмують раніше для більш плавної зупинки, але можуть зупинитися занадто рано; менші значення чекають довше і можуть проїхати занадто далеко.</translation>
     </message>
     <message>
         <source>Conditional Experimental Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Умовний експериментальний режим</translation>
     </message>
     <message>
         <source>Automatically switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when set conditions are met.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично переходити в &lt;b&gt;експериментальний режим&lt;/b&gt;, коли виконуються задані умови.</translation>
     </message>
     <message>
         <source>Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Нижче</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when driving below this speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть в &lt;b&gt;експериментальний режим&lt;/b&gt;, якщо швидкість руху нижча за зазначену.</translation>
     </message>
     <message>
         <source>Curve Detected Ahead</source>
-        <translation type="unfinished"></translation>
+        <translation>Виявлено поворот попереду</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when a curve is detected ahead. Useful for letting the model choose the appropriate speed for the curve.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть в &lt;b&gt;експериментальний режим&lt;/b&gt;, коли попереду виявлено поворот. Корисно для того, щоб модель могла вибрати відповідну швидкість для повороту.</translation>
     </message>
     <message>
         <source>Lead Detected Ahead</source>
-        <translation type="unfinished"></translation>
+        <translation>Виявлено авто попереду</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when a slower or stopped vehicle is detected ahead. Can improve braking smoothness and reliability on some vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть в &lt;b&gt;експериментальний режим&lt;/b&gt;, коли попереду виявлено повільніший або зупинений транспортний засіб. Може покращити плавність та надійність гальмування на деяких транспортних засобах.</translation>
     </message>
     <message>
         <source>Navigation Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Навігаційні дані</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when approaching intersections or turns on the active route while using &lt;b&gt;Navigate on openpilot (NOO)&lt;/b&gt;. Useful for letting the model choose the appropriate speed for upcoming navigation maneuvers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть в &lt;b&gt;експериментальний режим&lt;/b&gt; при наближенні до перехресть або поворотів на активному маршруті під час використання &lt;b&gt;навігації на openpilot (NOO)&lt;/b&gt;. Це корисно, щоб модель могла вибрати відповідну швидкість для майбутніх маневрів навігації.</translation>
     </message>
     <message>
         <source>openpilot Wants to Stop In</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot хоче зупинитися</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when openpilot wants to stop within the set amount of time. This is typically triggered by the driving model &quot;detecting&quot; a red light or stop sign.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть в &lt;b&gt;експериментальний режим&lt;/b&gt;, коли openpilot хоче зупинитися протягом заданого часу. Зазвичай це відбувається, коли модель водіння «виявляє» червоне світло або знак зупинки.</translation>
     </message>
     <message>
         <source>Turn Signal Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворотник нижче</translation>
     </message>
     <message>
         <source>Switch to &lt;b&gt;Experimental Mode&lt;/b&gt; when using a turn signal below the set speed. Useful for letting the model choose the appropriate speed for upcoming left or right turns.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть в &lt;b&gt;експериментальний режим&lt;/b&gt;, коли використовуєте поворотник нижче встановленої швидкості. Це корисно, щоб модель могла вибрати відповідну швидкість для майбутніх поворотів ліворуч або праворуч.</translation>
     </message>
     <message>
         <source>Status Widget</source>
-        <translation type="unfinished"></translation>
+        <translation>Віджет статусу</translation>
     </message>
     <message>
         <source>Show the &lt;b&gt;Conditional Experimental Mode&lt;/b&gt; status on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати стан &lt;b&gt;Умовний експериментальний режим&lt;/b&gt; на екрані водіння.</translation>
     </message>
     <message>
         <source>Curve Speed Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Контроль швидкості вигинів</translation>
     </message>
     <message>
         <source>Automatically slow down for upcoming curves using downloaded maps or the driving model.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично зменшуйте швидкість перед вигинами дороги, використовуючи завантажені карти або модель водіння.</translation>
     </message>
     <message>
         <source>Curve Detection Method</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод виявлення вигинів</translation>
     </message>
     <message>
         <source>How curves are detected. &lt;b&gt;Map-Based&lt;/b&gt; uses downloaded map data to identify curves and determine the appropriate speed in which to handle them at, while &lt;b&gt;Vision&lt;/b&gt; relies solely on the driving model.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як виявляються вигини дороги. &lt;b&gt;По Мапі&lt;/b&gt; використовує завантажені дані мапи для виявлення вигинів і визначення відповідної швидкості, з якою їх можна проїхати, тоді як &lt;b&gt;Бачення&lt;/b&gt; покладається виключно на модель водіння.</translation>
     </message>
     <message>
         <source>Curve Detection Failsafe</source>
-        <translation type="unfinished"></translation>
+        <translation>Резерв виявлення вигинів</translation>
     </message>
     <message>
         <source>Only trigger &lt;b&gt;Curve Speed Control&lt;/b&gt; if a curve is detected with the model while using the &lt;b&gt;Map-Based&lt;/b&gt; method. Useful to help prevent false positives.</source>
-        <translation type="unfinished"></translation>
+        <translation>Запускайте &lt;b&gt;Контроль швидкості вигинів&lt;/b&gt; тільки в тому випадку, якщо під час використання методу &lt;b&gt;По Мапі&lt;/b&gt; за допомогою моделі виявлено вигин дороги. Це корисно для запобігання помилковим спрацьовуванням.</translation>
     </message>
     <message>
         <source>Curve Detection Sensitivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість виявлення вигинів</translation>
     </message>
     <message>
         <source>How sensitive openpilot is when detecting curves. Higher values trigger earlier responses at the risk of triggering too often, while lower values increase confidence at the risk of triggering too infrequently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чутливість openpilot при виявленні вигинів дороги. Більш високі значення викликають більш швидку реакцію, але з ризиком занадто частого спрацьовування, тоді як більш низькі значення підвищують надійність, але з ризиком занадто рідкого спрацьовування.</translation>
     </message>
     <message>
         <source>Curve Speed Aggressiveness</source>
-        <translation type="unfinished"></translation>
+        <translation>Агресивність швидкості у вигинах</translation>
     </message>
     <message>
         <source>How aggressive openpilot is when navigating through curves. Higher values result in faster turns but may reduce comfort or stability, while lower values result in slower, smoother turns at the risk of being overly cautious.</source>
-        <translation type="unfinished"></translation>
+        <translation>Наскільки агресивно OpenPilot реагує під час проходження вигинів шляху. Більш високі значення забезпечують швидші повороти, але можуть знизити комфорт або стабільність, тоді як більш низькі значення забезпечують повільніші, плавніші повороти, але з ризиком надмірної обережності.</translation>
     </message>
     <message>
         <source>Show &lt;b&gt;Curve Speed Control&lt;/b&gt;&apos;s desired speed on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати бажану швидкість &lt;b&gt;Контроль швидкості вигинів&lt;/b&gt; на екрані водіння.</translation>
     </message>
     <message>
         <source>Customize Driving Personalities</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування стилів водіння</translation>
     </message>
     <message>
         <source>Customize the personality profiles to your driving style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте профілі водіння відповідно до вашого стилю.</translation>
     </message>
     <message>
         <source>Traffic Personality</source>
@@ -2005,7 +2005,7 @@
     </message>
     <message>
         <source>MANAGE</source>
-        <translation type="unfinished"></translation>
+        <translation>КЕРУВАТИ</translation>
     </message>
     <message>
         <source>Lower Limits</source>
