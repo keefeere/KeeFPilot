@@ -2720,23 +2720,23 @@ It will reset in %1 hours and %2 minutes.</source>
     </message>
     <message>
         <source>Minimal</source>
-        <translation>Мінімальний</translation>
+        <translation>Мінімум</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation>Стандартний</translation>
+        <translation>Стандарт</translation>
     </message>
     <message>
         <source>Advanced</source>
-        <translation>Просунутий</translation>
+        <translation>Просун.</translation>
     </message>
     <message>
         <source>Developer</source>
-        <translation>Розробник</translation>
+        <translation>Розробн.</translation>
     </message>
     <message>
         <source>Tuning Level</source>
-        <translation>Рівень налаштування</translation>
+        <translation>Рівень налашт.</translation>
     </message>
     <message>
         <source>The visibility and complexity of tuning settings. Lower levels simplify the interface by hiding advanced options, while higher levels unlock detailed customization.
