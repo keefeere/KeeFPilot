@@ -898,15 +898,15 @@
     <name>FrogPilotLateralPanel</name>
     <message>
         <source>Advanced Lateral Tuning</source>
-        <translation>Розш. підлаштування кермування</translation>
+        <translation>Розш. тюнінг кермування</translation>
     </message>
     <message>
         <source>Advanced settings for fine-tuning openpilot&apos;s lateral controls.</source>
-        <translation type="unfinished">Розширені налаштування для точного регулювання поперечного керування openpilot.</translation>
+        <translation>Розширені налаштування для точного регулювання поперечного керування openpilot.</translation>
     </message>
     <message>
         <source>Actuator Delay (Default: %1)</source>
-        <translation>Затримка приводу (за замовч: %1)</translation>
+        <translation>Затримка приводу (замовч: %1)</translation>
     </message>
     <message>
         <source>Actuator Delay</source>
@@ -918,7 +918,7 @@
     </message>
     <message>
         <source>Friction (Default: %1)</source>
-        <translation>Тертя (за замовчю: %1)</translation>
+        <translation>Тертя (замовч: %1)</translation>
     </message>
     <message>
         <source>Friction</source>
@@ -930,7 +930,7 @@
     </message>
     <message>
         <source>Kp Factor (Default: %1)</source>
-        <translation>Коефіцієнт Kp (за замовч.: %1)</translation>
+        <translation>Коефіцієнт Kp (замовч.: %1)</translation>
     </message>
     <message>
         <source>Kp Factor</source>
@@ -942,7 +942,7 @@
     </message>
     <message>
         <source>Lateral Accel (Default: %1)</source>
-        <translation>Поперечне приск. (за замовч.: %1)</translation>
+        <translation>Поперечне приск. (замовч.: %1)</translation>
     </message>
     <message>
         <source>Lateral Accel</source>
@@ -954,7 +954,7 @@
     </message>
     <message>
         <source>Steer Ratio (Default: %1)</source>
-        <translation>Коефіцієнт кермування (за замовчуванням: %1)</translation>
+        <translation>Коефіцієнт кермування (замовч.: %1)</translation>
     </message>
     <message>
         <source>Steer Ratio</source>
@@ -1038,7 +1038,7 @@
     </message>
     <message>
         <source>Minimum Lane Change Speed</source>
-        <translation>Мінімальна швидкість для зміни смуги руху</translation>
+        <translation>Мінімальна швидк. зміни смуги</translation>
     </message>
     <message>
         <source>Minimum speed required for openpilot to perform a lane change.</source>
@@ -1122,7 +1122,7 @@
     </message>
     <message>
         <source>Turn Signal Only</source>
-        <translation>Тільки поворотник</translation>
+        <translation>При поворотн.</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your &lt;b&gt;Actuator Delay&lt;/b&gt;?</source>
