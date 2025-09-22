@@ -4556,53 +4556,53 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>ParamControl</name>
     <message>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Вмикнути</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Відміна</translation>
     </message>
 </context>
 <context>
     <name>PrimeAdWidget</name>
     <message>
         <source>Upgrade Now</source>
-        <translation type="unfinished"></translation>
+        <translation>Підпишись</translation>
     </message>
     <message>
         <source>Become a comma prime member at connect.comma.ai</source>
-        <translation type="unfinished"></translation>
+        <translation>Підпишіться на comma prime на connect.comma.ai</translation>
     </message>
     <message>
         <source>PRIME FEATURES:</source>
-        <translation type="unfinished"></translation>
+        <translation>МОЖЛИВОСТІ:</translation>
     </message>
     <message>
         <source>Remote access</source>
-        <translation type="unfinished"></translation>
+        <translation>Віддалений доступ</translation>
     </message>
     <message>
         <source>24/7 LTE connectivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключення LTE 24/7</translation>
     </message>
     <message>
         <source>1 year of drive storage</source>
-        <translation type="unfinished"></translation>
+        <translation>зберігання поїздок протягом року</translation>
     </message>
     <message>
         <source>Turn-by-turn navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Покрокова навігація</translation>
     </message>
 </context>
 <context>
     <name>PrimeUserWidget</name>
     <message>
         <source>✓ SUBSCRIBED</source>
-        <translation type="unfinished"></translation>
+        <translation>✓ ПІДПИСАНО</translation>
     </message>
     <message>
         <source>comma prime</source>
-        <translation type="unfinished"></translation>
+        <translation>comma prime</translation>
     </message>
 </context>
 <context>
@@ -4668,40 +4668,41 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>Reset</name>
     <message>
         <source>Reset failed. Reboot to try again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скидання не вдалося. Перезавантажте систему, щоб спробувати ще раз.</translation>
     </message>
     <message>
         <source>Resetting device...
 This may take up to a minute.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скидання пристрою...
+Це може зайняти до хвилини.</translation>
     </message>
     <message>
         <source>Are you sure you want to reset your device?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скинути налаштування пристрою?</translation>
     </message>
     <message>
         <source>System Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути систему</translation>
     </message>
     <message>
         <source>System reset triggered. Press confirm to erase all content and settings. Press cancel to resume boot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Запущено скидання системи. Натисніть «Підтвердити», щоб видалити весь вміст і налаштування. Натисніть «Скасувати», щоб продовжити завантаження.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <source>Reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезав.</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтверд.</translation>
     </message>
     <message>
         <source>Unable to mount data partition. Partition may be corrupted. Press confirm to erase and reset your device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Неможливо змонтувати розділ data. Розділ може бути пошкоджений. Натисніть «Підтвердити», щоб стерти дані та скинути налаштування пристрою.</translation>
     </message>
 </context>
 <context>
@@ -4731,7 +4732,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Toggles</source>
-        <translation>Перемикачі</translation>
+        <translation>Опції</translation>
     </message>
     <message>
         <source>Software</source>
@@ -4770,95 +4771,95 @@ This may take up to a minute.</source>
     <name>Setup</name>
     <message>
         <source>Something went wrong. Reboot the device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сталася помилка. Перезавантажте пристрій.</translation>
     </message>
     <message>
         <source>Ensure the entered URL is valid, and the device’s internet connection is good.</source>
-        <translation type="unfinished"></translation>
+        <translation>Переконайтеся, що введена URL-адреса є дійсною, а підключення пристрою до Інтернету працює належним чином.</translation>
     </message>
     <message>
         <source>No custom software found at this URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>За цією адресою URL не знайдено жодної програми.</translation>
     </message>
     <message>
         <source>WARNING: Low Voltage</source>
-        <translation type="unfinished"></translation>
+        <translation>УВАГА: Низька напруга</translation>
     </message>
     <message>
         <source>Power your device in a car with a harness or proceed at your own risk.</source>
-        <translation type="unfinished"></translation>
+        <translation>Підʼєднайте пристрій до авто або дійте на власний ризик.</translation>
     </message>
     <message>
         <source>Power off</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Продовжити</translation>
     </message>
     <message>
         <source>Getting Started</source>
-        <translation type="unfinished"></translation>
+        <translation>Початок роботи</translation>
     </message>
     <message>
         <source>Before we get on the road, let’s finish installation and cover some details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перш ніж вирушати в дорогу, давайте завершимо установку та обговоримо деякі деталі.</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключитися до Wi-Fi</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Continue without Wi-Fi</source>
-        <translation type="unfinished"></translation>
+        <translation>Продовжити без Wi-Fi</translation>
     </message>
     <message>
         <source>Waiting for internet</source>
-        <translation type="unfinished"></translation>
+        <translation>Очікую інет</translation>
     </message>
     <message>
         <source>Choose Software to Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть програму для встановлення</translation>
     </message>
     <message>
         <source>openpilot</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot</translation>
     </message>
     <message>
         <source>Custom Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Користувацьке ПЗ</translation>
     </message>
     <message>
         <source>Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть URL-адресу</translation>
     </message>
     <message>
         <source>for Custom Software</source>
-        <translation type="unfinished"></translation>
+        <translation>для користувацького ПЗ</translation>
     </message>
     <message>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантаження...</translation>
     </message>
     <message>
         <source>Download Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдале завантаження</translation>
     </message>
     <message>
         <source>Reboot device</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантажити</translation>
     </message>
     <message>
         <source>Start over</source>
-        <translation type="unfinished"></translation>
+        <translation>Наново</translation>
     </message>
     <message>
         <source>Select a language</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть мову</translation>
     </message>
 </context>
 <context>
@@ -5067,7 +5068,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>VIEW</source>
-        <translation>ПЕРЕГЛЯНУТИ</translation>
+        <translation>ДИВИСЬ</translation>
     </message>
     <message>
         <source>View the error log for openpilot crashes.</source>
@@ -5326,7 +5327,7 @@ This may take up to a minute.</source>
     <name>WiFiPromptWidget</name>
     <message>
         <source>Setup Wi-Fi</source>
-        <translation>Підключіть Wi-Fi</translation>
+        <translation>Зʼєднай WiFi</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to upload driving data and help improve openpilot</source>
