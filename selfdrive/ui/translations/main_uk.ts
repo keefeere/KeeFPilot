@@ -2632,7 +2632,7 @@ It will reset in %1 hours and %2 minutes.</source>
     </message>
     <message>
         <source>STEERING</source>
-        <translation>КЕРМУВ.</translation>
+        <translation>КЕРМО</translation>
     </message>
     <message>
         <source>MAP DATA</source>
@@ -2648,7 +2648,7 @@ It will reset in %1 hours and %2 minutes.</source>
     </message>
     <message>
         <source>DEVICE CONTROLS</source>
-        <translation>НАЛАШТ. ПРИСТ.</translation>
+        <translation>ПРИСТРІЙ</translation>
     </message>
     <message>
         <source>UTILITIES</source>
@@ -4216,71 +4216,71 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>FrogPilotWheelPanel</name>
     <message>
         <source>Distance Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка відстані</translation>
     </message>
     <message>
         <source>The action for a short press of the &lt;b&gt;Distance&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дія при короткому натисканні кнопки &lt;b&gt;Відстань&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Distance Button (Long Press)</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка відстані (довге натискання)</translation>
     </message>
     <message>
         <source>The action for a 0.5+ second press of the &lt;b&gt;Distance&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дія при натисканні кнопки &lt;b&gt;Відстань&lt;/b&gt; протягом 0,5+ секунди.</translation>
     </message>
     <message>
         <source>Distance Button (Very Long Press)</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка відстані (дуже довге натискання)</translation>
     </message>
     <message>
         <source>The action for a 2.5+ second press of the &lt;b&gt;Distance&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дія при натисканні кнопки &lt;b&gt;Відстань&lt;/b&gt; протягом 2,5+ секунд.</translation>
     </message>
     <message>
         <source>LKAS Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка LKAS</translation>
     </message>
     <message>
         <source>The action for pressing the &lt;b&gt;LKAS&lt;/b&gt; button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дія для натискання кнопки &lt;b&gt;LKAS&lt;/b&gt; (утримання полоси).</translation>
     </message>
     <message>
         <source>Nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Нічого</translation>
     </message>
     <message>
         <source>Pause Lateral</source>
-        <translation type="unfinished"></translation>
+        <translation>Пауза кермування</translation>
     </message>
     <message>
         <source>Change &quot;Personality Profile&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Зміна режиму керування</translation>
     </message>
     <message>
         <source>Force openpilot to Coast</source>
-        <translation type="unfinished"></translation>
+        <translation>Змусити openpilot повзти</translation>
     </message>
     <message>
         <source>Pause Longitudinal</source>
-        <translation type="unfinished"></translation>
+        <translation>Пауза поздовжнього</translation>
     </message>
     <message>
         <source>Toggle &quot;Experimental Mode&quot; On/Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключити «Експериментальний режим»</translation>
     </message>
     <message>
         <source>Toggle &quot;Traffic Mode&quot; On/Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключити «Режим трафіку»</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИБІР</translation>
     </message>
     <message>
         <source>Select a function to assign to this button</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть функцію, яку потрібно призначити цій кнопці</translation>
     </message>
 </context>
 <context>
@@ -4354,202 +4354,203 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>ModelReview</name>
     <message>
         <source>How would you rate that drive?</source>
-        <translation type="unfinished"></translation>
+        <translation>Як би ви оцінили цю поїздку?</translation>
     </message>
     <message>
         <source>Blacklist this model</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати цю модель до чорного списку</translation>
     </message>
     <message>
         <source>The model used during that drive was:</source>
-        <translation type="unfinished"></translation>
+        <translation>Модель, яка використовувалася під час цієї поїздки, була такою:</translation>
     </message>
     <message>
         <source>Current Model Score: 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточний бал моделі: 0</translation>
     </message>
     <message>
         <source>Current Model Rank: 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточний рейтинг моделі: 0</translation>
     </message>
     <message>
         <source>Total Model Drives: 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Поїздок моделі: 0</translation>
     </message>
     <message>
         <source>Total Overall Model Drives: 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальна кількість поїздок моделі: 0</translation>
     </message>
     <message>
         <source>Total Model Drives: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Поїздок моделі: %1</translation>
     </message>
     <message>
         <source>Current Model Rank: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточний рейтинг моделі: %1</translation>
     </message>
     <message>
         <source>Current Model Score: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточний бал моделі: %1</translation>
     </message>
     <message>
         <source>Total Overall Drives: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Загалом поїздок: %1</translation>
     </message>
     <message>
         <source>Model successfully blacklisted!</source>
-        <translation type="unfinished"></translation>
+        <translation>Модель успішно внесена до чорного списку!</translation>
     </message>
 </context>
 <context>
     <name>MultiOptionDialog</name>
     <message>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Вибрати</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Відмінити</translation>
     </message>
 </context>
 <context>
     <name>Networking</name>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Просунутий</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть пароль</translation>
     </message>
     <message>
         <source>for &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>до &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Wrong password</source>
-        <translation type="unfinished"></translation>
+        <translation>Невірний пароль</translation>
     </message>
 </context>
 <context>
     <name>OffroadAlert</name>
     <message>
         <source>Device temperature too high. System cooling down before starting. Current internal component temperature: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Температура пристрою занадто висока. Система охолоджується перед запуском. Поточна температура внутрішніх компонентів: %1</translation>
     </message>
     <message>
         <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, openpilot won&apos;t engage in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Негайно підключіться до Інтернету, щоб перевірити наявність оновлень. Якщо ви не підключитеся до Інтернету, openpilot не активується %1.</translation>
     </message>
     <message>
         <source>Connect to internet to check for updates. openpilot won&apos;t automatically start until it connects to internet to check for updates.</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключіться до Інтернету, щоб перевірити наявність оновлень. openpilot не запуститься автоматично, поки не підключиться до Інтернету для перевірки наявності оновлень.</translation>
     </message>
     <message>
         <source>Unable to download updates
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Неможливо завантажити оновлення
+%1</translation>
     </message>
     <message>
         <source>Taking camera snapshots. System won&apos;t start until finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>Роблю знімок з камери. Система не запуститься, поки процес не буде завершено.</translation>
     </message>
     <message>
         <source>An update to your device&apos;s operating system is downloading in the background. You will be prompted to update when it&apos;s ready to install.</source>
-        <translation type="unfinished"></translation>
+        <translation>Оновлення операційної системи вашого пристрою завантажується у фоновому режимі. Коли воно буде готове до встановлення, з&apos;явиться запит на оновлення.</translation>
     </message>
     <message>
         <source>Device failed to register. It will not connect to or upload to comma.ai servers, and receives no support from comma.ai. If this is an official device, visit https://comma.ai/support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пристрій не вдалося зареєструвати. Він не підключається до серверів comma.ai і не завантажує на них дані, а також не отримує підтримку від comma.ai. Якщо це офіційний пристрій, відвідайте веб-сайт https://comma.ai/support.</translation>
     </message>
     <message>
         <source>NVMe drive not mounted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Диск NVMe не підключений.</translation>
     </message>
     <message>
         <source>Unsupported NVMe drive detected. Device may draw significantly more power and overheat due to the unsupported NVMe.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виявлено непідтримуваний диск NVMe. Пристрій може споживати значно більше енергії та перегріватися через непідтримуваний NVMe.</translation>
     </message>
     <message>
         <source>openpilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai.</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot не зміг ідентифікувати ваш автомобіль. Ваш автомобіль не підтримується або його ЕБУ не розпізнаються. Надішліть запит на додавання версій прошивки до відповідного автомобіля. Потрібна допомога? Приєднуйтесь до discord.comma.ai.</translation>
     </message>
     <message>
         <source>openpilot was unable to identify your car. Check integrity of cables and ensure all connections are secure, particularly that the comma power is fully inserted in the OBD-II port of the vehicle. Need help? Join discord.comma.ai.</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot не зміг ідентифікувати ваш автомобіль. Перевірте цілісність кабелів і переконайтеся, що всі з&apos;єднання надійні, особливо що зарядний пристрій comma повністю вставлений в порт OBD-II автомобіля. Потрібна допомога? Приєднуйтесь до discord.comma.ai.</translation>
     </message>
     <message>
         <source>openpilot detected a change in the device&apos;s mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield.</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot виявив зміну положення кріплення пристрою. Переконайтеся, що пристрій повністю вставлений у кріплення, а кріплення надійно зафіксоване на лобовому склі.</translation>
     </message>
 </context>
 <context>
     <name>OffroadHome</name>
     <message>
         <source>UPDATE</source>
-        <translation type="unfinished"></translation>
+        <translation>ОНОВЛ.</translation>
     </message>
     <message>
         <source> ALERTS</source>
-        <translation type="unfinished"></translation>
+        <translation> СИГНАЛИ</translation>
     </message>
     <message>
         <source> ALERT</source>
-        <translation type="unfinished"></translation>
+        <translation> СИГНАЛ</translation>
     </message>
 </context>
 <context>
     <name>OnroadAlerts</name>
     <message>
         <source>openpilot crashed 💩</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot завис 💩</translation>
     </message>
     <message>
         <source>Please post the &quot;Error Log&quot; in the FrogPilot Discord!</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, відправте «Журнал помилок» у FrogPilot Discord!</translation>
     </message>
     <message>
         <source>openpilot crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot завис</translation>
     </message>
     <message>
         <source>openpilot Unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot Недоступний</translation>
     </message>
     <message>
         <source>Waiting for controls to start</source>
-        <translation type="unfinished"></translation>
+        <translation>Очікування старту керування</translation>
     </message>
     <message>
         <source>TAKE CONTROL IMMEDIATELY</source>
-        <translation type="unfinished"></translation>
+        <translation>КЕРМУЙТЕ НЕГАЙНО</translation>
     </message>
     <message>
         <source>Controls Unresponsive</source>
-        <translation type="unfinished"></translation>
+        <translation>Керування не реагує</translation>
     </message>
     <message>
         <source>Reboot Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантажити пристрій</translation>
     </message>
 </context>
 <context>
     <name>PairingPopup</name>
     <message>
         <source>Pair your device to your %1 account</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучіть свій пристрій із вашим обліковим записом %1</translation>
     </message>
     <message>
         <source>Go to https://%1 on your phone</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейдіть на сайт https://%1 на своєму телефоні</translation>
     </message>
     <message>
         <source>Click &quot;add new device&quot; and scan the QR code on the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Натисніть «додати новий пристрій» і відскануйте QR-код праворуч</translation>
     </message>
     <message>
         <source>Bookmark %1 to your home screen to use it like an app</source>
-        <translation type="unfinished"></translation>
+        <translation>Додайте %1 до домашнього екрану, щоб використовувати його як додаток</translation>
     </message>
 </context>
 <context>
@@ -5020,7 +5021,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>INSTALL</source>
-        <translation>ВСТАНОВИТИ</translation>
+        <translation>ВСТАНОВ.</translation>
     </message>
     <message>
         <source>Target Branch</source>
@@ -5080,7 +5081,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>DOWNLOAD</source>
-        <translation>ЗАВАНТАЖИТИ</translation>
+        <translation>ВАНТАЖ</translation>
     </message>
     <message>
         <source>update available</source>
