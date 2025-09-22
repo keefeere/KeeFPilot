@@ -4609,58 +4609,58 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>QObject</name>
     <message>
         <source>km</source>
-        <translation type="unfinished"></translation>
+        <translation>км</translation>
     </message>
     <message>
         <source>m</source>
-        <translation type="unfinished"></translation>
+        <translation>м</translation>
     </message>
     <message>
         <source>mi</source>
-        <translation type="unfinished"></translation>
+        <translation>мл</translation>
     </message>
     <message>
         <source>ft</source>
-        <translation type="unfinished"></translation>
+        <translation>фт</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation type="unfinished"></translation>
+        <translation>Відновити</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Вихід</translation>
     </message>
     <message>
         <source>FrogPilot</source>
-        <translation type="unfinished"></translation>
+        <translation>ЖабоПілот</translation>
     </message>
     <message>
         <source>now</source>
-        <translation type="unfinished"></translation>
+        <translation>зараз</translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n хвилин тому</numerusform>
+            <numerusform>%n хвилини тому</numerusform>
+            <numerusform>%n хвилини тому</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s) ago</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n годин тому</numerusform>
+            <numerusform>%n години тому</numerusform>
+            <numerusform>%n годин тому</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s) ago</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n день тому</numerusform>
+            <numerusform>%n дні тому</numerusform>
+            <numerusform>%n днів тому</numerusform>
         </translation>
     </message>
 </context>
@@ -4708,62 +4708,62 @@ This may take up to a minute.</source>
     <name>ScreenRecorder</name>
     <message>
         <source>RECORDING</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАПИСУЮ</translation>
     </message>
     <message>
         <source>RECORD</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАПИС</translation>
     </message>
 </context>
 <context>
     <name>SettingsWindow</name>
     <message>
         <source>← Back</source>
-        <translation type="unfinished"></translation>
+        <translation>← Назад</translation>
     </message>
     <message>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Пристрій</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Мережа</translation>
     </message>
     <message>
         <source>Toggles</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемикачі</translation>
     </message>
     <message>
         <source>Software</source>
-        <translation type="unfinished"></translation>
+        <translation>Програма</translation>
     </message>
     <message>
         <source>FrogPilot</source>
-        <translation type="unfinished"></translation>
+        <translation>ЖабоПілот</translation>
     </message>
     <message>
         <source>Welcome to FrogPilot! Since you&apos;re new to openpilot, the &quot;Minimal&quot; toggle preset has been applied, but you can change this at any time via the &quot;Tuning Level&quot; button!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ласкаво просимо до FrogPilot! Оскільки ви новачок в openpilot, було застосовано попереднє налаштування «Мінімальне», але ви можете змінити його в будь-який час за допомогою кнопки «Рівень налаштування»!</translation>
     </message>
     <message>
         <source>Welcome to FrogPilot! Since you&apos;re new to FrogPilot, the &quot;Minimal&quot; toggle preset has been applied, but you can change this at any time via the &quot;Tuning Level&quot; button!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ласкаво просимо до FrogPilot! Оскільки ви новачок у FrogPilot, було застосовано попереднє налаштування «Мінімальне», але ви можете змінити його в будь-який час за допомогою кнопки «Рівень налаштування»!</translation>
     </message>
     <message>
         <source>Since you&apos;re fairly new to FrogPilot, the &quot;Minimal&quot; toggle preset has been applied, but you can change this at any time via the &quot;Tuning Level&quot; button!</source>
-        <translation type="unfinished"></translation>
+        <translation>Оскільки ви ще не дуже добре знайомі з FrogPilot, було застосовано попереднє налаштування «Мінімальне», але ви можете змінити його в будь-який час за допомогою кнопки «Рівень налаштування»!</translation>
     </message>
     <message>
         <source>Since you&apos;re experienced with openpilot, the &quot;Standard&quot; toggle preset has been applied, but you can change this at any time via the &quot;Tuning Level&quot; button!</source>
-        <translation type="unfinished"></translation>
+        <translation>Оскільки ви маєте досвід роботи з openpilot, було застосовано попереднє налаштування «Стандарт», але ви можете змінити його в будь-який час за допомогою кнопки «Рівень налаштування»!</translation>
     </message>
     <message>
         <source>Since you&apos;re experienced with FrogPilot, the &quot;Standard&quot; toggle preset has been applied, but you can change this at any time via the &quot;Tuning Level&quot; button!</source>
-        <translation type="unfinished"></translation>
+        <translation>Оскільки ви маєте досвід роботи з FrogPilot, було застосовано стандартне попереднє налаштування «Standard», але ви можете змінити його в будь-який час за допомогою кнопки «Tuning Level»!</translation>
     </message>
     <message>
         <source>Since you&apos;re very experienced with FrogPilot, the &quot;Advanced&quot; toggle preset has been applied, but you can change this at any time via the &quot;Tuning Level&quot; button!</source>
-        <translation type="unfinished"></translation>
+        <translation>Оскільки ви маєте великий досвід роботи з FrogPilot, було застосовано попереднє налаштування «Advanced», але ви можете змінити його в будь-який час за допомогою кнопки «Tuning Level»!</translation>
     </message>
 </context>
 <context>
@@ -4865,298 +4865,299 @@ This may take up to a minute.</source>
     <name>SetupWidget</name>
     <message>
         <source>Finish Setup</source>
-        <translation type="unfinished"></translation>
+        <translation>Завершити налаштування</translation>
     </message>
     <message>
         <source>Pair your device with Konik connect (stable.konik.ai).</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключіть свій пристрій до Konik connect (stable.konik.ai).</translation>
     </message>
     <message>
         <source>Pair your device with comma connect (connect.comma.ai) and claim your comma prime offer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте пропозицію comma prime.</translation>
     </message>
     <message>
         <source>Pair device</source>
-        <translation type="unfinished"></translation>
+        <translation>Сполучити пристрій</translation>
     </message>
 </context>
 <context>
     <name>Sidebar</name>
     <message>
         <source>CONNECT</source>
-        <translation type="unfinished"></translation>
+        <translation>CONNECT</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation type="unfinished"></translation>
+        <translation>ОФЛАЙН</translation>
     </message>
     <message>
         <source>ONLINE</source>
-        <translation type="unfinished"></translation>
+        <translation>ОНЛАЙН</translation>
     </message>
     <message>
         <source>ERROR</source>
-        <translation type="unfinished"></translation>
+        <translation>ПОМИЛКА</translation>
     </message>
     <message>
         <source>TEMP</source>
-        <translation type="unfinished"></translation>
+        <translation>ТЕМП</translation>
     </message>
     <message>
         <source>HIGH</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИС.</translation>
     </message>
     <message>
         <source>GOOD</source>
-        <translation type="unfinished"></translation>
+        <translation>НОРМ</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>ОК</translation>
     </message>
     <message>
         <source>VEHICLE</source>
-        <translation type="unfinished"></translation>
+        <translation>АВТО</translation>
     </message>
     <message>
         <source>NO</source>
-        <translation type="unfinished"></translation>
+        <translation>НІ</translation>
     </message>
     <message>
         <source>PANDA</source>
-        <translation type="unfinished"></translation>
+        <translation>ПАНДА</translation>
     </message>
     <message>
         <source>GPS</source>
-        <translation type="unfinished"></translation>
+        <translation>GPS</translation>
     </message>
     <message>
         <source>SEARCH</source>
-        <translation type="unfinished"></translation>
+        <translation>ПОШУК</translation>
     </message>
     <message>
         <source>GPU</source>
-        <translation type="unfinished"></translation>
+        <translation>ГП</translation>
     </message>
     <message>
         <source>CPU</source>
-        <translation type="unfinished"></translation>
+        <translation>ЦП</translation>
     </message>
     <message>
         <source> GB</source>
-        <translation type="unfinished"></translation>
+        <translation>ГБ</translation>
     </message>
     <message>
         <source>MEMORY</source>
-        <translation type="unfinished"></translation>
+        <translation>ПАМʼЯТЬ</translation>
     </message>
     <message>
         <source>LEFT</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАЛИШ.</translation>
     </message>
     <message>
         <source>USED</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИКОР.</translation>
     </message>
     <message>
         <source>--</source>
-        <translation type="unfinished"></translation>
+        <translation>--</translation>
     </message>
     <message>
         <source>Wi-Fi</source>
-        <translation type="unfinished"></translation>
+        <translation>Wi-Fi</translation>
     </message>
     <message>
         <source>ETH</source>
-        <translation type="unfinished"></translation>
+        <translation>ДРОТ</translation>
     </message>
     <message>
         <source>2G</source>
-        <translation type="unfinished"></translation>
+        <translation>2G</translation>
     </message>
     <message>
         <source>3G</source>
-        <translation type="unfinished"></translation>
+        <translation>3G</translation>
     </message>
     <message>
         <source>LTE</source>
-        <translation type="unfinished"></translation>
+        <translation>LTE</translation>
     </message>
     <message>
         <source>5G</source>
-        <translation type="unfinished"></translation>
+        <translation>5G</translation>
     </message>
 </context>
 <context>
     <name>SoftwarePanel</name>
     <message>
         <source>Updates are only downloaded while the car is off or in park.</source>
-        <translation type="unfinished"></translation>
+        <translation>Оновлення завантажуються тільки тоді, коли автомобіль вимкнений або знаходиться на стоянці.</translation>
     </message>
     <message>
         <source>Current Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточна версія</translation>
     </message>
     <message>
         <source>Automatically Update FrogPilot</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично оновлювати FrogPilot</translation>
     </message>
     <message>
         <source>FrogPilot will automatically update itself and it&apos;s assets when you&apos;re offroad and have an active internet connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>FrogPilot автоматично оновлюватиме себе та свої ресурси, коли ви не в дорозі та маєте активне підключення до Інтернету.</translation>
     </message>
     <message>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажити</translation>
     </message>
     <message>
         <source>CHECK</source>
-        <translation type="unfinished"></translation>
+        <translation>ПЕРЕВІРКА</translation>
     </message>
     <message>
         <source>Install Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити оновлення</translation>
     </message>
     <message>
         <source>INSTALL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВСТАНОВИТИ</translation>
     </message>
     <message>
         <source>Target Branch</source>
-        <translation type="unfinished"></translation>
+        <translation>Цільова гілка</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИБРАТИ</translation>
     </message>
     <message>
         <source>Select a branch</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть гілку</translation>
     </message>
     <message>
         <source>This branch must be downloaded before switching. Would you like to download it now?</source>
-        <translation type="unfinished"></translation>
+        <translation>Цю гілку необхідно завантажити перед переходом. Чи бажаєте ви завантажити її зараз?</translation>
     </message>
     <message>
         <source>Uninstall %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити %1</translation>
     </message>
     <message>
         <source>UNINSTALL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ</translation>
     </message>
     <message>
         <source>Are you sure you want to uninstall?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити програму?</translation>
     </message>
     <message>
         <source>Uninstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <source>Do you want to delete deep storage FrogPilot assets? This includes your toggle settings for quick reinstalls.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви хочете видалити глибоко збережені ресурси FrogPilot? Це включає ваші налаштування для швидкої переінсталяції.</translation>
     </message>
     <message>
         <source>Are you sure? This is 100% unrecoverable and if you reinstall FrogPilot you&apos;ll lose all your previous settings!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені? Це 100% безповоротне рішення, і якщо ви переінсталюєте FrogPilot, ви втратите всі попередні налаштування!</translation>
     </message>
     <message>
         <source>Error Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Журнал помилок</translation>
     </message>
     <message>
         <source>VIEW</source>
-        <translation type="unfinished"></translation>
+        <translation>ПЕРЕГЛЯНУТИ</translation>
     </message>
     <message>
         <source>View the error log for openpilot crashes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Перегляньте журнал помилок для збоїв openpilot.</translation>
     </message>
     <message>
         <source>failed to check for update</source>
-        <translation type="unfinished"></translation>
+        <translation>не вдалося перевірити наявність оновлень</translation>
     </message>
     <message>
         <source>DOWNLOAD</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАВАНТАЖИТИ</translation>
     </message>
     <message>
         <source>update available</source>
-        <translation type="unfinished"></translation>
+        <translation>оновлення доступне</translation>
     </message>
     <message>
         <source>never</source>
-        <translation type="unfinished"></translation>
+        <translation>ніколи</translation>
     </message>
     <message>
         <source>up to date, last checked %1</source>
-        <translation type="unfinished"></translation>
+        <translation>оновлено, останнє перевірка %1</translation>
     </message>
 </context>
 <context>
     <name>SshControl</name>
     <message>
         <source>SSH Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключі SSH</translation>
     </message>
     <message>
         <source>Warning: This grants SSH access to all public keys in your GitHub settings. Never enter a GitHub username other than your own. A comma employee will NEVER ask you to add their GitHub username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередження: це надає SSH доступ до всіх відкритих ключів у ваших налаштуваннях GitHub. Ніколи не вводьте ім&apos;я користувача GitHub, яке не належить вам. Співробітник компанії comma НІКОЛИ не попросить вас додати його ім&apos;я користувача GitHub.</translation>
     </message>
     <message>
         <source>ADD</source>
-        <translation type="unfinished"></translation>
+        <translation>ДОДАТИ</translation>
     </message>
     <message>
         <source>Enter your GitHub username</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть своє ім&apos;я користувача GitHub</translation>
     </message>
     <message>
         <source>LOADING</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАВАНТАЖЕННЯ</translation>
     </message>
     <message>
         <source>REMOVE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ</translation>
     </message>
     <message>
         <source>Username &apos;%1&apos; has no keys on GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>Користувач «%1» не має ключів на GitHub</translation>
     </message>
     <message>
         <source>Request timed out</source>
-        <translation type="unfinished"></translation>
+        <translation>Час очікування запиту закінчився</translation>
     </message>
     <message>
         <source>Username &apos;%1&apos; doesn&apos;t exist on GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>Ім&apos;я користувача «%1» не існує на GitHub</translation>
     </message>
 </context>
 <context>
     <name>SshToggle</name>
     <message>
         <source>Enable SSH</source>
-        <translation type="unfinished"></translation>
+        <translation>Вмикнути SSH</translation>
     </message>
 </context>
 <context>
     <name>TermsPage</name>
     <message>
         <source>Terms &amp; Conditions</source>
-        <translation type="unfinished"></translation>
+        <translation>Умови та положення</translation>
     </message>
     <message>
         <source>Decline</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Відмова</translatorcomment>
+        <translation>Decline</translation>
     </message>
     <message>
         <source>Scroll to accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Крути щоб прийняти</translation>
     </message>
     <message>
         <source>Agree</source>
-        <translation type="unfinished"></translation>
+        <translation>Згоден</translation>
     </message>
 </context>
 <context>
