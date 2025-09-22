@@ -2648,7 +2648,7 @@ It will reset in %1 hours and %2 minutes.</source>
     </message>
     <message>
         <source>DEVICE CONTROLS</source>
-        <translation>НАЛАШТ. ПРИСТР.</translation>
+        <translation>НАЛАШТ. ПРИСТ.</translation>
     </message>
     <message>
         <source>UTILITIES</source>
@@ -2761,127 +2761,129 @@ Developer - Unlocks highly customizable settings for seasoned enthusiasts</sourc
     <name>FrogPilotSoundsPanel</name>
     <message>
         <source>Alert Volume Control</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Гучність сигналів</translatorcomment>
+        <translation>Alert Volume Control</translation>
     </message>
     <message>
         <source>Adjust the volume for each alert in openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність для кожного сповіщення в openpilot.</translation>
     </message>
     <message>
         <source>Disengage Volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність деактивації</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;Adaptive Cruise Disabled&lt;/b&gt;&lt;br&gt;&lt;b&gt;Brake Pedal Pressed&lt;/b&gt;&lt;br&gt;&lt;b&gt;Parking Brake Engaged&lt;/b&gt;&lt;br&gt;&lt;b&gt;Speed too Low&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність таких сповіщень:&lt;br&gt;&lt;br&gt;&lt;b&gt;Адаптивний круїз-контроль вимкнено&lt;/b&gt;&lt;br&gt;&lt;b&gt;Натиснуто педаль гальма&lt;/b&gt;&lt;br&gt;&lt;b&gt;Увімкнено ручне гальмо&lt;/b&gt;&lt;br&gt;&lt;b&gt;Занадто низька швидкість&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Engage Volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність активації</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;NNFF Torque Controller loaded&lt;/b&gt;&lt;br&gt;&lt;b&gt;openpilot engaged&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність для таких сповіщень:&lt;br&gt;&lt;br&gt;&lt;b&gt;NNFF Torque Controller завантажено&lt;/b&gt;&lt;br&gt;&lt;b&gt;openpilot активовано&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Prompt Volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність підказок</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;Car Detected in Blindspot&lt;/b&gt;&lt;br&gt;&lt;b&gt;Steer Unavailable Below &quot;X&quot;&lt;/b&gt;&lt;br&gt;&lt;b&gt;Speed too Low&lt;/b&gt;&lt;br&gt;&lt;b&gt;Take Control, Turn Exceeds Steering Limit&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність таких сповіщень:&lt;br&gt;&lt;br&gt;&lt;b&gt;Автомобіль виявлено в сліпій зоні&lt;/b&gt;&lt;br&gt;&lt;b&gt;Керування недоступне нижче «X»&lt;/b&gt;&lt;br&gt;&lt;b&gt;Швидкість занадто низька&lt;/b&gt;&lt;br&gt;&lt;b&gt;Візміть керування, поворот перевищує межу кермування&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Prompt Distracted Volume</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Гучність відволікання</translatorcomment>
+        <translation>Prompt Distracted Volume</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;Pay Attention, Driver Distracted&lt;/b&gt;&lt;br&gt;&lt;b&gt;Touch Steering Wheel, Driver Unresponsive&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність таких сповіщень:&lt;br&gt;&lt;br&gt;&lt;b&gt;Зверніть увагу, водій відволікся&lt;/b&gt;&lt;br&gt;&lt;b&gt;Доторкніться до керма, водій не реагує&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Refuse Volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність відмови</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;openpilot Unavailable&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність для таких сповіщень:&lt;br&gt;&lt;br&gt;&lt;b&gt;openpilot недоступний&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Warning Soft Volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність мʼяких попередж.</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;BRAKE!, Risk of Collision&lt;/b&gt;&lt;br&gt;&lt;b&gt;TAKE CONTROL IMMEDIATELY&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність таких попереджень:&lt;br&gt;&lt;br&gt;&lt;b&gt;ГАЛЬМУЙТЕ!, Ризик зіткнення&lt;/b&gt;&lt;br&gt;&lt;b&gt;НЕГАЙНО ВІЗЬМІТЬ КЕРУВАННЯ&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Warning Immediate Volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність негайн. сповіщ.</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;DISENGAGE IMMEDIATELY, Driver Distracted&lt;/b&gt;&lt;br&gt;&lt;b&gt;DISENGAGE IMMEDIATELY, Driver Unresponsive&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте гучність для таких сповіщень:&lt;br&gt;&lt;br&gt;&lt;b&gt;НЕГАЙНА ДЕАКТИВАЦІЯ, водій відволікся&lt;/b&gt;&lt;br&gt;&lt;b&gt;НЕГАЙНА ДЕАКТИВАЦІЯ, водій не реагує&lt;/b&gt;</translation>
     </message>
     <message>
         <source>FrogPilot Alerts</source>
-        <translation type="unfinished"></translation>
+        <translation>Сповіщення FrogPilot</translation>
     </message>
     <message>
         <source>FrogPilot alerts for various events in openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>FrogPilot сповіщає про різні події в openpilot.</translation>
     </message>
     <message>
         <source>Goat Scream Steering Saturated Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Козиний крик насичення кермування</translation>
     </message>
     <message>
         <source>The infamous &quot;Goat Scream&quot; that has brought both joy and anger to FrogPilot users all around the world!</source>
-        <translation type="unfinished"></translation>
+        <translation>Славнозвісний «Крик кози», який приніс радість і гнів користувачам FrogPilot по всьому світу!</translation>
     </message>
     <message>
         <source>Green Light Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигнал зеленого світла</translation>
     </message>
     <message>
         <source>Get an alert when the traffic light changes from red to green.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримуйте сповіщення, коли світлофор змінюється з червоного на зелений.</translation>
     </message>
     <message>
         <source>Lead Departing Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигнал про відправлення</translation>
     </message>
     <message>
         <source>Get an alert when the lead vehicle begins to depart from a standstill.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримуйте сповіщення, коли транспортний засіб попереду починає рухатися з місця.</translation>
     </message>
     <message>
         <source>Loud &quot;Car Detected in Blindspot&quot; Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучне «Т/З виявлено в сліпій зоні»</translation>
     </message>
     <message>
         <source>A louder alert for when a vehicle is detected in the blindspot when attempting to change lanes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Більш гучний сигнал, що сповіщає про виявлення автомобіля в сліпій зоні під час спроби змінити смугу руху.</translation>
     </message>
     <message>
         <source>Speed Limit Changed Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигнал про зміну ліміта швидк.</translation>
     </message>
     <message>
         <source>Get an alert when the speed limit changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримуйте сповіщення про зміну обмеження швидкості.</translation>
     </message>
     <message>
         <source>Muted</source>
-        <translation type="unfinished"></translation>
+        <translation>Тихо</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто</translation>
     </message>
     <message>
         <source>Test</source>
-        <translation type="unfinished"></translation>
+        <translation>Тест</translation>
     </message>
 </context>
 <context>
@@ -4305,15 +4307,15 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>MapETA</name>
     <message>
         <source>eta</source>
-        <translation type="unfinished"></translation>
+        <translation>очп</translation>
     </message>
     <message>
         <source>min</source>
-        <translation type="unfinished"></translation>
+        <translation>мін</translation>
     </message>
     <message>
         <source>hr</source>
-        <translation type="unfinished"></translation>
+        <translation>г</translation>
     </message>
 </context>
 <context>
