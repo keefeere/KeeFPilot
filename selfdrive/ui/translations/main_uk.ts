@@ -3521,695 +3521,695 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>FrogPilotVisualsPanel</name>
     <message>
         <source>Advanced UI Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Розш. параметри інтерфейсу</translation>
     </message>
     <message>
         <source>Advanced settings for fine-tuning openpilot&apos;s driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Розширені налаштування для точного налаштування екрану водіння openpilot.</translation>
     </message>
     <message>
         <source>Hide Current Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати поточну швидкість</translation>
     </message>
     <message>
         <source>Hide the current speed from the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати поточну швидкість з екрану водіння.</translation>
     </message>
     <message>
         <source>Hide Lead Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати маркер лідера</translation>
     </message>
     <message>
         <source>Hide the marker for lead vehicles from the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати маркер з екрану водіння.для транспортного засобу попереду.</translation>
     </message>
     <message>
         <source>Hide Map Settings Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати кнопку налаштувань мап</translation>
     </message>
     <message>
         <source>Hide the map settings button from the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати кнопку налаштувань карти з екрану водіння.</translation>
     </message>
     <message>
         <source>Hide Max Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати максимальну швидкість</translation>
     </message>
     <message>
         <source>Hide the max speed from the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати максимальну швидкість з екрану водіння.</translation>
     </message>
     <message>
         <source>Hide Non-Critical Alerts</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати некритичні сповіщення</translation>
     </message>
     <message>
         <source>Hide non-critical alerts from the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати некритичні сповіщення з екрану водія.</translation>
     </message>
     <message>
         <source>Hide Speed Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати обмеження швидкості</translation>
     </message>
     <message>
         <source>Hide the speed limits from the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Приховати обмеження швидкості з екрану водіння.</translation>
     </message>
     <message>
         <source>Use Wheel Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати швидкість коліс</translation>
     </message>
     <message>
         <source>Use the vehicle&apos;s wheel speed instead of the cluster speed. This is purely a visual change and doesn&apos;t impact how openpilot drives.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте швидкість колес автомобіля замість швидкості на приборці. Це суто візуальна зміна, яка не впливає на роботу openpilot.</translation>
     </message>
     <message>
         <source>Developer UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтерфейс розробника</translation>
     </message>
     <message>
         <source>Detailed information about openpilot&apos;s internal operations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Детальна інформація про внутрішні операції openpilot.</translation>
     </message>
     <message>
         <source>Adjacent Path Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники суміжних шляхів</translation>
     </message>
     <message>
         <source>Metrics displayed on top of the adjacent lanes measuring their current width.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники, що відображаються над сусідніми смугами руху, вимірюють їхню поточну ширину.</translation>
     </message>
     <message>
         <source>Developer Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники розробника</translation>
     </message>
     <message>
         <source>Performance data, sensor readings, and system metrics for debugging and optimizing openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дані про продуктивність, показання датчиків та системні метрики для налагодження та оптимізації openpilot.</translation>
     </message>
     <message>
         <source>Border Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники на бордюрі</translation>
     </message>
     <message>
         <source>Metrics displayed around the border of the driving screen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Blind Spot&lt;/b&gt;: Turn the border red when a vehicle is detected in a blind spot&lt;br&gt;&lt;b&gt;Steering Torque&lt;/b&gt;: Highlight the border green to red in accordance to the amount of steering torque being used&lt;br&gt;&lt;b&gt;Turn Signal&lt;/b&gt;: Flash the border yellow when a turn signal is active</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники, що відображаються навколо краю екрана водія. &lt;br&gt;&lt;br&gt;&lt;b&gt;Сліпа зона&lt;/b&gt;: Край стає червоним, коли в сліпій зоні виявлено транспортний засіб. &lt;br&gt;&lt;b&gt;Крутний момент керма&lt;/b&gt;: Край підсвічується зеленим або червоним кольором відповідно до величини крутного моменту керма. &lt;br&gt;&lt;b&gt;Поворотник&lt;/b&gt;: Край блимає жовтим кольором, коли поворотник увімкнено.</translation>
     </message>
     <message>
         <source>Lead Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Інфа лідера</translation>
     </message>
     <message>
         <source>Metrics displayed under vehicle markers listing their distance and current speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники, що відображаються під маркерами транспортних засобів попереду, із зазначенням їх відстані та поточної швидкості.</translation>
     </message>
     <message>
         <source>FPS Display</source>
-        <translation type="unfinished"></translation>
+        <translation>Кадр\c відображення</translation>
     </message>
     <message>
         <source>Display the &lt;b&gt;Frames Per Second (FPS)&lt;/b&gt; at the bottom of the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення &lt;b&gt;кадрів в секунду (FPS)&lt;/b&gt; внизу екрану водіння.</translation>
     </message>
     <message>
         <source>Numerical Temperature Gauge</source>
-        <translation type="unfinished"></translation>
+        <translation>Цифровий термометр</translation>
     </message>
     <message>
         <source>Use numerical temperature readings instead of status labels in the sidebar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте числові показники температури замість міток стану в бічній панелі.</translation>
     </message>
     <message>
         <source>Sidebar Metrics</source>
-        <translation type="unfinished"></translation>
+        <translation>Показники бічної панелі</translation>
     </message>
     <message>
         <source>Display system information (&lt;b&gt;CPU&lt;/b&gt;, &lt;b&gt;GPU&lt;/b&gt;, &lt;b&gt;RAM usage&lt;/b&gt;, &lt;b&gt;IP address&lt;/b&gt;, &lt;b&gt;device storage&lt;/b&gt;) in the sidebar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення системної інформації (&lt;b&gt;CPU&lt;/b&gt;, &lt;b&gt;GPU&lt;/b&gt;, &lt;b&gt;використання RAM&lt;/b&gt;, &lt;b&gt;IP-адреса&lt;/b&gt;, &lt;b&gt;пам&apos;ять пристрою&lt;/b&gt;) на бічній панелі.</translation>
     </message>
     <message>
         <source>Use International System of Units</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте СІ</translation>
     </message>
     <message>
         <source>Display measurements using the &lt;b&gt;International System of Units (SI)&lt;/b&gt; standard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображайте вимірювання, використовуючи стандарт &lt;b&gt;Міжнародної системи одиниць (СІ)&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Developer Sidebar</source>
-        <translation type="unfinished"></translation>
+        <translation>Бічна панель розробника</translation>
     </message>
     <message>
         <source>Display debugging info and metrics in a dedicated sidebar on the right side of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення інформації зневадження та метрик у спеціальній бічній панелі праворуч екрана.</translation>
     </message>
     <message>
         <source>Metric #1</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 1</translation>
     </message>
     <message>
         <source>Metric to display in the first metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в першому рядку «Бічної панелі розробника».</translation>
     </message>
     <message>
         <source>Metric #2</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 2</translation>
     </message>
     <message>
         <source>Metric to display in the second metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в другому показнику в «Бічній панелі розробника».</translation>
     </message>
     <message>
         <source>Metric #3</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 3</translation>
     </message>
     <message>
         <source>Metric to display in the third metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в третьому рядку «Бічної панелі розробника».</translation>
     </message>
     <message>
         <source>Metric #4</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 4</translation>
     </message>
     <message>
         <source>Metric to display in the fourth metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в четвертому рядку «Бічної панелі розробника».</translation>
     </message>
     <message>
         <source>Metric #5</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 5</translation>
     </message>
     <message>
         <source>Metric to display in the fifth metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в п&apos;ятому рядку «Бічної панелі розробника».</translation>
     </message>
     <message>
         <source>Metric #6</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 6</translation>
     </message>
     <message>
         <source>Metric to display in the sixth metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в шостому рядку «Бічної панелі розробника».</translation>
     </message>
     <message>
         <source>Metric #7</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник № 7</translation>
     </message>
     <message>
         <source>Metric to display in the seventh metric in the &quot;Developer Sidebar&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показник, який відображається в сьомому рядку «Бічної панелі розробника».</translation>
     </message>
     <message>
         <source>Developer Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Віджети для розробників</translation>
     </message>
     <message>
         <source>Overlays displaying debugging visuals, internal states, and model predictions on the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Накладення, що відображають візуальні елементи налагодження, внутрішні стани та прогнози моделі на екрані водія.</translation>
     </message>
     <message>
         <source>Adjacent Leads Tracking</source>
-        <translation type="unfinished"></translation>
+        <translation>Відстеження сусідніх лідерів</translation>
     </message>
     <message>
         <source>Adjacent leads detected by the car&apos;s radar to the left and right of the current driving path.</source>
-        <translation type="unfinished"></translation>
+        <translation>Сусідні автомобілі, виявлені радаром автомобіля зліва та справа від поточної траєкторії руху.</translation>
     </message>
     <message>
         <source>Model Stopping Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Місце зупинки моделі</translation>
     </message>
     <message>
         <source>Display an image on the screen where openpilot is wanting to stop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відобразити зображення на екрані, де openpilot хоче зупинитися.</translation>
     </message>
     <message>
         <source>Radar Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Радарні траєкторії</translation>
     </message>
     <message>
         <source>Display all of the radar points produced by the car&apos;s radar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відобразити всі точки, зафіксовані радаром автомобіля.</translation>
     </message>
     <message>
         <source>Driving Screen Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Віджети екрану водіння</translation>
     </message>
     <message>
         <source>Custom FrogPilot widgets for the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Спеціальні віджети FrogPilot для екрану водія.</translation>
     </message>
     <message>
         <source>Acceleration Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях прискорення</translation>
     </message>
     <message>
         <source>Colorize the driving path based on openpilot&apos;s current desired acceleration and deceleration rate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пофарбуйте траєкторію руху відповідно до поточної бажаної швидкості прискорення та уповільнення openpilot.</translation>
     </message>
     <message>
         <source>Adjacent Lanes</source>
-        <translation type="unfinished"></translation>
+        <translation>Сусідні смуги руху</translation>
     </message>
     <message>
         <source>Driving paths for the left and right adjacent lanes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Малювати смуги для лівої та правої сусідніх смуг руху.</translation>
     </message>
     <message>
         <source>Blind Spot Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях сліпої зони</translation>
     </message>
     <message>
         <source>Display a red driving path for detected vehicles in the corresponding lane&apos;s blind spot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення червоної траєкторії руху виявлених транспортних засобів у сліпій зоні відповідної смуги руху.</translation>
     </message>
     <message>
         <source>Compass</source>
-        <translation type="unfinished"></translation>
+        <translation>Компас</translation>
     </message>
     <message>
         <source>A compass to show the current driving direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Компас, що показує поточний напрямок руху.</translation>
     </message>
     <message>
         <source>Driving Personality Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопка «Режиму керування»</translation>
     </message>
     <message>
         <source>Display the current driving personality on the screen. Tap to switch personalities, or long press for 0.5 seconds to change the current state of &lt;b&gt;Experimental Mode&lt;/b&gt;, or 2.5 seconds for &lt;b&gt;Traffic Mode&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення поточного режиму керування на екрані. Натисніть, щоб переключитися між особистостями, або натисніть і утримуйте протягом 0,5 секунди, щоб змінити поточний стан &lt;b&gt;Експериментального режиму&lt;/b&gt;, або 2,5 секунди для &lt;b&gt;Режиму руху&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Gas / Brake Pedal Indicators</source>
-        <translation type="unfinished"></translation>
+        <translation>Індикатори педалі газу / гальма</translation>
     </message>
     <message>
         <source>Pedals to indicate when either of the pedals are currently being used.&lt;br&gt;&lt;br&gt;&lt;b&gt;Dynamic&lt;/b&gt;: The pedals change in opacity in accordance to how much openpilot is accelerating or decelerating&lt;br&gt;&lt;b&gt;Static&lt;/b&gt;: The pedals are displayed with full opacity when active, and dimmed when not in use</source>
-        <translation type="unfinished"></translation>
+        <translation>Педалі, що вказують, коли будь-яка з педалей використовується в даний момент. &lt;br&gt;&lt;br&gt;&lt;b&gt;Динамічний&lt;/b&gt;: Педалі змінюють прозорість відповідно до того, наскільки openpilot прискорюється або сповільнюється. &lt;br&gt;&lt;b&gt;Статичний&lt;/b&gt;: Педалі відображаються з повною прозорістю, коли вони активні, і затемнюються, коли не використовуються.</translation>
     </message>
     <message>
         <source>Rotating Steering Wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворотне кермо</translation>
     </message>
     <message>
         <source>Rotate the steering wheel alongside the vehicle&apos;s physical steering wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Повертайте кермо разом із фізичним кермом автомобіля.</translation>
     </message>
     <message>
         <source>Model UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтерфейс моделі</translation>
     </message>
     <message>
         <source>Model visualizations on the driving screen for the driving path, lane lines, path edges, and road edges.</source>
-        <translation type="unfinished"></translation>
+        <translation>Візуалізація моделей на екрані водія для траєкторії руху, ліній смуг руху, країв траєкторії та країв дороги.</translation>
     </message>
     <message>
         <source>Dynamic Path Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Динамічна ширина шляху</translation>
     </message>
     <message>
         <source>Adjust the width of the driving path based on the current engagement state.&lt;br&gt;&lt;br&gt;&lt;b&gt;Fully engaged&lt;/b&gt;: 100%&lt;br&gt;&lt;b&gt;Always On Lateral&lt;/b&gt;: 75%&lt;br&gt;&lt;b&gt;Fully disengaged&lt;/b&gt;: 50%</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштуйте ширину траєкторії руху відповідно до поточного стану активації. &lt;br&gt;&lt;br&gt;&lt;b&gt;Повна активація&lt;/b&gt;: 100% &lt;br&gt;&lt;b&gt;Постійне кермування&lt;/b&gt;: 75% &lt;br&gt;&lt;b&gt;Повна деактивація&lt;/b&gt;: 50%</translation>
     </message>
     <message>
         <source>Lane Lines Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина смуг руху</translation>
     </message>
     <message>
         <source>The thickness of the lane lines on the driving screen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Default matches the &lt;b&gt;MUTCD&lt;/b&gt; lane line width standard of 4 inches.</source>
-        <translation type="unfinished"></translation>
+        <translation>Товщина ліній смуг руху на екрані водія. &lt;br&gt;&lt;br&gt;&lt;b&gt;За замовчуванням відповідає стандарту ширини ліній смуг руху &lt;b&gt;MUTCD&lt;/b&gt; в 4 дюйми.</translation>
     </message>
     <message>
         <source>Path Edges Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина країв шляху</translation>
     </message>
     <message>
         <source>The width of the edges of the driving path that represent different driving modes and statuses.&lt;br&gt;&lt;br&gt;Default is &lt;b&gt;20%&lt;/b&gt; of the total path width.&lt;br&gt;&lt;br&gt;Color Guide:&lt;br&gt;&lt;br&gt;- &lt;b&gt;Blue&lt;/b&gt;: Navigation&lt;br&gt;- &lt;b&gt;Light Blue&lt;/b&gt;: Always On Lateral&lt;br&gt;- &lt;b&gt;Green&lt;/b&gt;: Default&lt;br&gt;- &lt;b&gt;Orange&lt;/b&gt;: Experimental Mode&lt;br&gt;- &lt;b&gt;Red&lt;/b&gt;: Traffic Mode&lt;br&gt;- &lt;b&gt;Yellow&lt;/b&gt;: Conditional Experimental Mode overridden</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина країв траєкторії руху, що відображають різні режими та стани руху. &lt;br&gt;&lt;br&gt;За замовчуванням становить &lt;b&gt;20%&lt;/b&gt; від загальної ширини траєкторії. &lt;br&gt;&lt;br&gt;Колірна гама: &lt;br&gt;&lt;br&gt; - &lt;b&gt;Синій&lt;/b&gt;: Навігація&lt;br&gt;- &lt;b&gt;Світло-синій&lt;/b&gt;: Завжди увімкнене кермування&lt;br&gt;- &lt;b&gt;Зелений&lt;/b&gt;: За замовчуванням&lt;br&gt;- &lt;b&gt;Помаранчевий&lt;/b&gt;: Експериментальний режим&lt;br&gt;- &lt;b&gt;Червоний&lt;/b&gt;: Режим трафік&lt;br&gt;- &lt;b&gt;Жовтий&lt;/b&gt;: Умовний експериментальний режим замінено</translation>
     </message>
     <message>
         <source>Path Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина шляху</translation>
     </message>
     <message>
         <source>The width of the driving path on the driving screen.&lt;br&gt;&lt;br&gt;Default &lt;b&gt;(6.1 feet)&lt;/b&gt; matches the width of a &lt;b&gt;2019 Lexus ES 350&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина смуги руху на екрані водія. &lt;br&gt;&lt;br&gt;За замовчуванням &lt;b&gt;(6,1 фута)&lt;/b&gt; відповідає ширині автомобіля &lt;b&gt;Lexus ES 350 2019 року&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Road Edges Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина країв дороги</translation>
     </message>
     <message>
         <source>The thickness of the road edges on the driving screen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Default matches half of the &lt;b&gt;MUTCD&lt;/b&gt; lane line width standard of 4 inches.</source>
-        <translation type="unfinished"></translation>
+        <translation>Товщина країв дороги на екрані водія. &lt;br&gt;&lt;br&gt;&lt;b&gt;За замовчуванням відповідає половині стандарту ширини смуги руху &lt;b&gt;MUTCD&lt;/b&gt; в 4 дюйми.</translation>
     </message>
     <message>
         <source>&quot;Unlimited&quot; Road UI</source>
-        <translation type="unfinished"></translation>
+        <translation>«Необмежений» інтерфейс дороги</translation>
     </message>
     <message>
         <source>Extend the display of the driving path, lane lines, and road edges as far as the model can see.</source>
-        <translation type="unfinished"></translation>
+        <translation>Розширити відображення траєкторії руху, ліній смуг руху та країв дороги настільки, наскільки бачить модель.</translation>
     </message>
     <message>
         <source>Navigation Widgets</source>
-        <translation type="unfinished"></translation>
+        <translation>Навігаційні віджети</translation>
     </message>
     <message>
         <source>Map style tweaks, speed limits, and other navigation related widgets.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування стилю карти, обмеження швидкості та інші віджети, пов&apos;язані з навігацією.</translation>
     </message>
     <message>
         <source>Larger Map Display</source>
-        <translation type="unfinished"></translation>
+        <translation>Збільшити відображення карти</translation>
     </message>
     <message>
         <source>Increase the size of the map for easier navigation readings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Збільште розмір карти для зручнішого читання навігації.</translation>
     </message>
     <message>
         <source>Map Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль карти</translation>
     </message>
     <message>
         <source>The map style used for &lt;b&gt;Navigate on openpilot (NOO)&lt;/b&gt;:&lt;br&gt;&lt;br&gt;&lt;b&gt;Stock&lt;/b&gt;: Default comma.ai style&lt;br&gt;&lt;b&gt;Mapbox Streets&lt;/b&gt;: Standard street-focused view&lt;br&gt;&lt;b&gt;Mapbox Outdoors&lt;/b&gt;: Emphasizes outdoor and terrain features&lt;br&gt;&lt;b&gt;Mapbox Light&lt;/b&gt;: Minimalist, bright theme&lt;br&gt;&lt;b&gt;Mapbox Dark&lt;/b&gt;: Minimalist, dark theme&lt;br&gt;&lt;b&gt;Mapbox Navigation Day&lt;/b&gt;: Optimized for daytime navigation&lt;br&gt;&lt;b&gt;Mapbox Navigation Night&lt;/b&gt;: Optimized for nighttime navigation&lt;br&gt;&lt;b&gt;Mapbox Satellite&lt;/b&gt;: Satellite imagery only&lt;br&gt;&lt;b&gt;Mapbox Satellite Streets&lt;/b&gt;: Hybrid satellite imagery with street labels&lt;br&gt;&lt;b&gt;Mapbox Traffic Night&lt;/b&gt;: Dark theme emphasizing traffic conditions&lt;br&gt;&lt;b&gt;mike854&apos;s (Satellite hybrid)&lt;/b&gt;: Customized hybrid satellite view</source>
-        <translation type="unfinished"></translation>
+        <translation>Стиль карти, що використовується для &lt;b&gt;Навігації на openpilot (NOO)&lt;/b&gt;:&lt;br&gt;&lt;br&gt;&lt;b&gt;Стандартний&lt;/b&gt;: Стиль comma.ai за замовчуванням&lt;br&gt;&lt;b&gt;Mapbox Streets&lt;/b&gt;: Стандартний вигляд з акцентом на вулицях&lt;br&gt;&lt;b&gt;Mapbox Outdoors&lt;/b&gt;: Підкреслює особливості місцевості та рельєфу&lt;br&gt;&lt;b&gt;Mapbox Light&lt;/b&gt;: Мінімалістична, світла тема&lt;br&gt;&lt;b&gt;Mapbox Dark&lt;/b&gt;: Мінімалістична, темна тема&lt;br&gt;&lt;b&gt;Mapbox Navigation Day&lt;/b&gt;: Оптимізовано для навігації вдень&lt;br&gt;&lt;b&gt;Mapbox Navigation Night&lt;/b&gt;: Оптимізовано для навігації вночі&lt;br&gt;&lt;b&gt;Mapbox Satellite&lt;/b&gt;: Тільки супутникові знімки&lt;br&gt;&lt;b&gt;Mapbox Satellite Streets&lt;/b&gt;: Гібридні супутникові знімки з позначками вулиць&lt;br&gt;&lt;b&gt;Mapbox Traffic Night&lt;/b&gt;: Темна тема, що підкреслює дорожні умови&lt;br&gt;&lt;b&gt;mike854&apos;s (Satellite hybrid)&lt;/b&gt;: Налаштований гібридний супутниковий вигляд</translation>
     </message>
     <message>
         <source>Road Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Назва дороги</translation>
     </message>
     <message>
         <source>Display the road name at the bottom of the driving screen using data from &lt;b&gt;OpenStreetMap&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення назви дороги внизу екрана водіння за допомогою даних з &lt;b&gt;OpenStreetMap&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Show Speed Limits</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати обмеження швидкості</translation>
     </message>
     <message>
         <source>Display speed limits in the top left corner of the driving screen. Uses data from your car&apos;s dashboard (if supported) and data from &lt;b&gt;OpenStreetMaps&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення обмежень швидкості у верхньому лівому куті екрана водіння. Використовує дані з приладової панелі вашого автомобіля (якщо підтримується) та дані з &lt;b&gt;OpenStreetMaps&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Show Speed Limits from Mapbox</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати обмеження швидкості від Mapbox</translation>
     </message>
     <message>
         <source>Use &lt;b&gt;Mapbox&lt;/b&gt; speed limit data when no other sources are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте дані про обмеження швидкості &lt;b&gt;Mapbox&lt;/b&gt;, якщо інші джерела недоступні.</translation>
     </message>
     <message>
         <source>Use Vienna-Style Speed Signs</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте знаки швидкості у віденському стилі</translation>
     </message>
     <message>
         <source>Force &lt;b&gt;Vienna-style (EU)&lt;/b&gt; speed limit signs instead of &lt;b&gt;MUTCD (US)&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Застосовувати знаки обмеження швидкості &lt;b&gt;віденського типу (ЄС)&lt;/b&gt; замість &lt;b&gt;MUTCD (США)&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Quality of Life</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість життя</translation>
     </message>
     <message>
         <source>Visual features to improve your overall openpilot experience.</source>
-        <translation type="unfinished"></translation>
+        <translation>Візуальні функції для поліпшення загального враження від openpilot.</translation>
     </message>
     <message>
         <source>Camera View</source>
-        <translation type="unfinished"></translation>
+        <translation>Вид з камери</translation>
     </message>
     <message>
         <source>The active camera view display. This is purely a visual change and doesn&apos;t impact how openpilot drives!</source>
-        <translation type="unfinished"></translation>
+        <translation>Активний дисплей камери. Це суто візуальна зміна, яка не впливає на роботу OpenPilot!</translation>
     </message>
     <message>
         <source>Show Driver Camera When In Reverse</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати камеру водія під час руху заднім ходом</translation>
     </message>
     <message>
         <source>Display the driver camera feed when the vehicle is in reverse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення зображення з камери водія, коли автомобіль рухається заднім ходом.</translation>
     </message>
     <message>
         <source>Standby Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим очікування</translation>
     </message>
     <message>
         <source>Turn the screen off when driving and automatically wake it up if engagement state changes or important alerts occur.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимикайте екран під час руху та автоматично вмикайте його, якщо змінюється стан взаємодії або з&apos;являються важливі сповіщення.</translation>
     </message>
     <message>
         <source>Stopped Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Таймер зупинки</translation>
     </message>
     <message>
         <source>Replace the current speed with a timer when stopped to indicate how long the vehicle has been stopped for.</source>
-        <translation type="unfinished"></translation>
+        <translation>Замінити поточну швидкість таймером під час зупинки, щоб вказати, як довго транспортний засіб перебував у зупиненому стані.</translation>
     </message>
     <message>
         <source>Blind Spot</source>
-        <translation type="unfinished"></translation>
+        <translation>Сліпа зона</translation>
     </message>
     <message>
         <source>Steering Torque</source>
-        <translation type="unfinished"></translation>
+        <translation>Момент кермування</translation>
     </message>
     <message>
         <source>Turn Signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворотник</translation>
     </message>
     <message>
         <source>Fahrenheit</source>
-        <translation type="unfinished"></translation>
+        <translation>Фаренгейт</translation>
     </message>
     <message>
         <source>CPU</source>
-        <translation type="unfinished"></translation>
+        <translation>ЦП</translation>
     </message>
     <message>
         <source>GPU</source>
-        <translation type="unfinished"></translation>
+        <translation>ГП</translation>
     </message>
     <message>
         <source>IP</source>
-        <translation type="unfinished"></translation>
+        <translation>ІП</translation>
     </message>
     <message>
         <source>RAM</source>
-        <translation type="unfinished"></translation>
+        <translation>ОЗП</translation>
     </message>
     <message>
         <source>SSD Left</source>
-        <translation type="unfinished"></translation>
+        <translation>SSD залиш.</translation>
     </message>
     <message>
         <source>SSD Used</source>
-        <translation type="unfinished"></translation>
+        <translation>SSD вик.</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Нема</translation>
     </message>
     <message>
         <source>Acceleration: Current</source>
-        <translation type="unfinished"></translation>
+        <translation>Прискорення: Поточне</translation>
     </message>
     <message>
         <source>Acceleration: Max</source>
-        <translation type="unfinished"></translation>
+        <translation>Прискорення: Макс.</translation>
     </message>
     <message>
         <source>Auto Tune: Actuator Delay</source>
-        <translation type="unfinished"></translation>
+        <translation>Автонастройка: затримка приводу</translation>
     </message>
     <message>
         <source>Auto Tune: Friction</source>
-        <translation type="unfinished"></translation>
+        <translation>Автонастройка: Тертя</translation>
     </message>
     <message>
         <source>Auto Tune: Lateral Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматична настройка: поперечне прискорення</translation>
     </message>
     <message>
         <source>Auto Tune: Steer Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматична настройка: коефіцієнт кермування</translation>
     </message>
     <message>
         <source>Auto Tune: Stiffness Factor</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматична настройка: коефіцієнт жорсткості</translation>
     </message>
     <message>
         <source>Engagement %: Lateral</source>
-        <translation type="unfinished"></translation>
+        <translation>Залученість %: Бічна</translation>
     </message>
     <message>
         <source>Engagement %: Longitudinal</source>
-        <translation type="unfinished"></translation>
+        <translation>Залучення %: Поздовжнє</translation>
     </message>
     <message>
         <source>Lateral Control: Steering Angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Бічний контроль: кут повороту керма</translation>
     </message>
     <message>
         <source>Lateral Control: Torque % Used</source>
-        <translation type="unfinished"></translation>
+        <translation>Бічний контроль: Використаний крутний момент %</translation>
     </message>
     <message>
         <source>Longitudinal Control: Actuator Acceleration Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Поздовжній контроль: вихідне прискорення приводу</translation>
     </message>
     <message>
         <source>Longitudinal MPC Jerk: Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Поздовжній ривок MPC: прискорення</translation>
     </message>
     <message>
         <source>Longitudinal MPC Jerk: Danger Zone</source>
-        <translation type="unfinished"></translation>
+        <translation>Поздовжній ривок MPC: небезпечна зона</translation>
     </message>
     <message>
         <source>Longitudinal MPC Jerk: Speed Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Поздовжній ривок MPC: регулювання швидкості</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИБІР</translation>
     </message>
     <message>
         <source>Select a metric to display</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть показник для відображення</translation>
     </message>
     <message>
         <source>Show Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати відстань</translation>
     </message>
     <message>
         <source>Dynamic</source>
-        <translation type="unfinished"></translation>
+        <translation>Динамічний</translation>
     </message>
     <message>
         <source>Static</source>
-        <translation type="unfinished"></translation>
+        <translation>Статичний</translation>
     </message>
     <message>
         <source> inches</source>
-        <translation type="unfinished"></translation>
+        <translation> дюйм</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимк.</translation>
     </message>
     <message>
         <source> feet</source>
-        <translation type="unfinished"></translation>
+        <translation> фут</translation>
     </message>
     <message>
         <source>Full Map</source>
-        <translation type="unfinished"></translation>
+        <translation>Вся мапа</translation>
     </message>
     <message>
         <source>Stock openpilot</source>
-        <translation type="unfinished"></translation>
+        <translation>Штатний openpilot</translation>
     </message>
     <message>
         <source>FrogsGoMoo&apos;s Personalized Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Персоналізований стиль FrogsGoMoo</translation>
     </message>
     <message>
         <source>Mapbox Streets</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox Вулиці</translation>
     </message>
     <message>
         <source>Mapbox Outdoors</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox на відкритому повітрі</translation>
     </message>
     <message>
         <source>Mapbox Light</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox Світла</translation>
     </message>
     <message>
         <source>Mapbox Dark</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox Темна</translation>
     </message>
     <message>
         <source>Mapbox Navigation Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox навігація денна</translation>
     </message>
     <message>
         <source>Mapbox Navigation Night</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox навігація нічна</translation>
     </message>
     <message>
         <source>Mapbox Satellite</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox Супутник</translation>
     </message>
     <message>
         <source>Mapbox Satellite Streets</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox Супутник Вулиці</translation>
     </message>
     <message>
         <source>Mapbox Traffic Night</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapbox Нічний Трафік</translation>
     </message>
     <message>
         <source>Mike&apos;s Personalized Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Індивідуальний стиль Майка</translation>
     </message>
     <message>
         <source>Select a map style</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть стиль карти</translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто</translation>
     </message>
     <message>
         <source>Driver</source>
-        <translation type="unfinished"></translation>
+        <translation>Водій</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандарт</translation>
     </message>
     <message>
         <source>Wide</source>
-        <translation type="unfinished"></translation>
+        <translation>Широк.</translation>
     </message>
     <message>
         <source> foot</source>
-        <translation type="unfinished"></translation>
+        <translation> фут</translation>
     </message>
     <message>
         <source> inch</source>
-        <translation type="unfinished"></translation>
+        <translation> дюйм</translation>
     </message>
     <message>
         <source> meter</source>
-        <translation type="unfinished"></translation>
+        <translation> метр</translation>
     </message>
     <message>
         <source> meters</source>
-        <translation type="unfinished"></translation>
+        <translation> метрів</translation>
     </message>
     <message>
         <source> centimeter</source>
-        <translation type="unfinished"></translation>
+        <translation> сантиметр</translation>
     </message>
     <message>
         <source> centimeters</source>
-        <translation type="unfinished"></translation>
+        <translation> сантиметрів</translation>
     </message>
     <message>
         <source>The thickness of the lane lines on the driving screen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Default matches the &lt;b&gt;MUTCD&lt;/b&gt; lane line width standard of 10 centimeters.</source>
-        <translation type="unfinished"></translation>
+        <translation>Товщина ліній смуг руху на екрані водія. &lt;br&gt;&lt;br&gt;&lt;b&gt;За замовчуванням відповідає стандарту ширини ліній смуг руху &lt;b&gt;MUTCD&lt;/b&gt; в 10 сантиметрів.</translation>
     </message>
     <message>
         <source>The width of the driving path on the driving screen.&lt;br&gt;&lt;br&gt;Default &lt;b&gt;(1.9 meters)&lt;/b&gt; matches the width of a &lt;b&gt;2019 Lexus ES 350&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина смуги руху на екрані водія. &lt;br&gt;&lt;br&gt;За замовчуванням &lt;b&gt;(1,9 метра)&lt;/b&gt; відповідає ширині автомобіля &lt;b&gt;Lexus ES 350 2019 року&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>The thickness of the road edges on the driving screen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Default matches half of the &lt;b&gt;MUTCD&lt;/b&gt; lane line width standard of 10 centimeters.</source>
-        <translation type="unfinished"></translation>
+        <translation>Товщина країв дороги на екрані водія. &lt;br&gt;&lt;br&gt;&lt;b&gt;За замовчуванням відповідає половині стандарту ширини смуги руху &lt;b&gt;MUTCD&lt;/b&gt; в 10 сантиметрів.</translation>
     </message>
 </context>
 <context>
