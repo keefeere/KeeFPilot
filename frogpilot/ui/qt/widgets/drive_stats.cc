@@ -16,6 +16,12 @@ DriveStats::DriveStats(QWidget *parent) : QFrame(parent) {
   QVBoxLayout *main_layout = new QVBoxLayout(this);
   main_layout->setContentsMargins(50, 25, 50, 20);
 
+    // ensure lupdate picks these up
+  tr("ALL TIME");
+  tr("ALL TIME (KONIK)");
+  tr("PAST WEEK");
+  tr("PAST WEEK (KONIK)");
+
   addStatsLayouts(tr(konik ? "ALL TIME (KONIK)" : "ALL TIME"), all);
   addStatsLayouts(tr(konik ? "PAST WEEK (KONIK)" : "PAST WEEK"), week);
   addStatsLayouts(tr("FROGPILOT"), frogPilot, true);

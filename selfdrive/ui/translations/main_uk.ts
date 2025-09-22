@@ -423,6 +423,22 @@
         <source>Miles</source>
         <translation>Миль</translation>
     </message>
+    <message>
+        <source>PAST WEEK</source>
+        <translation>ТИЖДЕНЬ</translation>
+    </message>
+    <message>
+        <source>PAST WEEK (KONIK)</source>
+        <translation>ТИЖДЕНЬ (KONIK)</translation>
+    </message>
+    <message>
+        <source>ALL TIME</source>
+        <translation>ВЕСЬ ЧАС</translation>
+    </message>
+    <message>
+        <source>ALL TIME (KONIK)</source>
+        <translation>ВЕСЬ ЧАС (KONIK)</translation>
+    </message>
 </context>
 <context>
     <name>DriverViewWindow</name>
@@ -3146,6 +3162,14 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
         <source>CANCEL</source>
         <translation>ВІДМІНА</translation>
     </message>
+    <message>
+        <source>Hop in and buckle up!</source>
+        <translation type="vanished">Застрибуй і пристібай ремені!</translation>
+    </message>
+    <message>
+        <source>Human-tested, frog-approved 🐸</source>
+        <translation type="vanished">Випробувано людьми, схвалено жабами 🐸</translation>
+    </message>
 </context>
 <context>
     <name>FrogPilotUtilitiesPanel</name>
@@ -5378,39 +5402,4 @@ This may take up to a minute.</source>
         <translation>Забути</translation>
     </message>
 </context>
-<context>
-    <name>DriveStats</name>
-    <message>
-        <source>PAST WEEK</source>
-        <translation>ТИЖДЕНЬ</translation>
-    </message>
-    <message>
-        <source>PAST WEEK (KONIK)</source>
-        <translation>ТИЖДЕНЬ (KONIK)</translation>
-    </message>
-    <message>
-        <source>ALL TIME</source>
-        <translation>ВЕСЬ ЧАС</translation>
-    </message>
-    <message>
-        <source>ALL TIME (KONIK)</source>
-        <translation>ВЕСЬ ЧАС (KONIK)</translation>
-    </message>
-
-</context>
-
-<context>
-    <name>FrogPilotThemesPanel</name>
-    <message>
-        <source>Hop in and buckle up!</source>
-        <translation>Застрибуй і пристібай ремені!</translation>
-    </message>
-    <message>
-        <source>Human-tested, frog-approved 🐸</source>
-        <translation>Випробувано людьми, схвалено жабами 🐸</translation>
-    </message>
-
-</context>
-
-
 </TS>
