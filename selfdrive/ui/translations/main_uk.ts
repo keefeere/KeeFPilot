@@ -5378,4 +5378,15 @@ This may take up to a minute.</source>
         <translation>Забути</translation>
     </message>
 </context>
+<context>
+    <name>Missed</name>
+    <message>
+        <source>Hop in and buckle up!</source>
+        <translation>Застрибуй і пристібай ремені!</translation>
+    </message>
+    <message>
+        <source>Human-tested, frog-approved 🐸</source>
+        <translation>Випробувано людьми, схвалено жабами 🐸</translation>
+    </message>
+</context>
 </TS>
