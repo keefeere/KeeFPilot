@@ -5379,7 +5379,28 @@ This may take up to a minute.</source>
     </message>
 </context>
 <context>
-    <name>Missed</name>
+    <name>DriveStats</name>
+    <message>
+        <source>PAST WEEK</source>
+        <translation>ТИЖДЕНЬ</translation>
+    </message>
+    <message>
+        <source>PAST WEEK (KONIK)</source>
+        <translation>ТИЖДЕНЬ (KONIK)</translation>
+    </message>
+    <message>
+        <source>ALL TIME</source>
+        <translation>ВЕСЬ ЧАС</translation>
+    </message>
+    <message>
+        <source>ALL TIME (KONIK)</source>
+        <translation>ВЕСЬ ЧАС (KONIK)</translation>
+    </message>
+
+</context>
+
+<context>
+    <name>FrogPilotThemesPanel</name>
     <message>
         <source>Hop in and buckle up!</source>
         <translation>Застрибуй і пристібай ремені!</translation>
@@ -5388,5 +5409,8 @@ This may take up to a minute.</source>
         <source>Human-tested, frog-approved 🐸</source>
         <translation>Випробувано людьми, схвалено жабами 🐸</translation>
     </message>
+
 </context>
+
+
 </TS>
