@@ -3641,7 +3641,7 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Sidebar Metrics</source>
-        <translation>Показники бічної панелі</translation>
+        <translation>Сбоку</translation>
     </message>
     <message>
         <source>Display system information (&lt;b&gt;CPU&lt;/b&gt;, &lt;b&gt;GPU&lt;/b&gt;, &lt;b&gt;RAM usage&lt;/b&gt;, &lt;b&gt;IP address&lt;/b&gt;, &lt;b&gt;device storage&lt;/b&gt;) in the sidebar.</source>
@@ -3973,11 +3973,11 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Steering Torque</source>
-        <translation>Момент кермування</translation>
+        <translation>Момент керм.</translation>
     </message>
     <message>
         <source>Turn Signal</source>
-        <translation>Поворотник</translation>
+        <translation>Поворотн.</translation>
     </message>
     <message>
         <source>Fahrenheit</source>
