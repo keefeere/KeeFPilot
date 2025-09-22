@@ -2988,11 +2988,11 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Startup Alert</source>
-        <translation>Сигн. запуску</translation>
+        <translation>Текст старту</translation>
     </message>
     <message>
         <source>The text of the &quot;Startup Alert&quot; message that appears at the beginning of a drive.</source>
-        <translation>Текст повідомлення «Попередження про запуск», яке з&apos;являється на початку поїздки.</translation>
+        <translation>Текст повідомлення «Сповіщення про старт», яке з&apos;являється на початку поїздки.</translation>
     </message>
     <message>
         <source>DELETE</source>
@@ -3151,370 +3151,370 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>FrogPilotUtilitiesPanel</name>
     <message>
         <source>Debug Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим зневадження</translation>
     </message>
     <message>
         <source>Debug FrogPilot during the next drive by utilizing all of FrogPilot&apos;s developer metrics for either bug reporting, or self-debugging.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зневаджуйте FrogPilot під час наступної поїздки, використовуючи всі показники розробника FrogPilot для повідомлення про помилки або самостійного зневадження.</translation>
     </message>
     <message>
         <source>Flash Panda</source>
-        <translation type="unfinished"></translation>
+        <translation>Шити Panda</translation>
     </message>
     <message>
         <source>FLASH</source>
-        <translation type="unfinished"></translation>
+        <translation>ШИТИ</translation>
     </message>
     <message>
         <source>Flash the Panda&apos;s firmware. Use if you&apos;re running into issues with the Panda.</source>
-        <translation type="unfinished"></translation>
+        <translation>Прошийте прошивку Panda. Використовуйте, якщо у вас виникли проблеми з Panda.</translation>
     </message>
     <message>
         <source>Are you sure you want to flash the Panda?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете прошити Panda?</translation>
     </message>
     <message>
         <source>Flash</source>
-        <translation type="unfinished"></translation>
+        <translation>Шити</translation>
     </message>
     <message>
         <source>Flashing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Шиємо...</translation>
     </message>
     <message>
         <source>Flashed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Прошито!</translation>
     </message>
     <message>
         <source>Rebooting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантаження...</translation>
     </message>
     <message>
         <source>Force Started State</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусовий статус</translation>
     </message>
     <message>
         <source>Force openpilot either offroad or onroad.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово перемкніть OpenPilot у режим зупинки або у русі.</translation>
     </message>
     <message>
         <source>OFFROAD</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗУПИНКА</translation>
     </message>
     <message>
         <source>ONROAD</source>
-        <translation type="unfinished"></translation>
+        <translation>В ДОРОЗІ</translation>
     </message>
     <message>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИМК.</translation>
     </message>
     <message>
         <source>Report a Bug or an Issue</source>
-        <translation type="unfinished"></translation>
+        <translation>Повідомити про помилку або проблему</translation>
     </message>
     <message>
         <source>REPORT</source>
-        <translation type="unfinished"></translation>
+        <translation>ПОВІДОМИТИ</translation>
     </message>
     <message>
         <source>Let FrogsGoMoo know about an issue you&apos;re facing!</source>
-        <translation type="unfinished"></translation>
+        <translation>Повідомте FrogsGoMoo про проблему, з якою ви зіткнулися!</translation>
     </message>
     <message>
         <source>Ensure your device has an internet connection before sending a report!</source>
-        <translation type="unfinished"></translation>
+        <translation>Перед відправкою звіту переконайтеся, що ваш пристрій підключений до Інтернету!</translation>
     </message>
     <message>
         <source>I saw an alert that said &quot;openpilot crashed&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Я побачив сповіщення «openpilot crashed» (openpilot завис).</translation>
     </message>
     <message>
         <source>Acceleration feels too harsh or jerky</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>An alert confused me and I didn’t know what it meant</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередження збило мене з пантелику, і я не зрозумів, що воно означає.</translation>
     </message>
     <message>
         <source>Braking is too sudden or uncomfortable</source>
-        <translation type="unfinished"></translation>
+        <translation>Гальмування занадто різке або некомфортне</translation>
     </message>
     <message>
         <source>I’m not sure if this is normal or a bug:</source>
-        <translation type="unfinished"></translation>
+        <translation>Я не впевнений, чи це нормально, чи це помилка:</translation>
     </message>
     <message>
         <source>Lane changes don’t work properly or feel unsafe</source>
-        <translation type="unfinished"></translation>
+        <translation>Зміна смуги руху не працює належним чином або викликає відчуття небезпеки</translation>
     </message>
     <message>
         <source>My screen froze or got stuck on loading</source>
-        <translation type="unfinished"></translation>
+        <translation>Мій екран завис або застряг під час завантаження</translation>
     </message>
     <message>
         <source>My steering wheel buttons aren’t working</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопки на кермі не працюють</translation>
     </message>
     <message>
         <source>openpilot disengages when I don&apos;t expect it</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot деактивувався, коли я цього не очікую</translation>
     </message>
     <message>
         <source>openpilot doesn’t resume after I stop</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot не відновлює роботу після зупинки</translation>
     </message>
     <message>
         <source>openpilot doesn&apos;t react to stopped vehicles ahead</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot не реагує на зупинені транспортні засоби попереду</translation>
     </message>
     <message>
         <source>openpilot feels sluggish or slow to respond</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot працює повільно або повільно реагує</translation>
     </message>
     <message>
         <source>Steering feels twitchy or unnatural</source>
-        <translation type="unfinished"></translation>
+        <translation>Керування відчувається нерівним або неприродним</translation>
     </message>
     <message>
         <source>The car doesn’t follow curves well</source>
-        <translation type="unfinished"></translation>
+        <translation>Автомобіль погано проходить вигини дороги</translation>
     </message>
     <message>
         <source>The car isn’t staying centered in its lane</source>
-        <translation type="unfinished"></translation>
+        <translation>Автомобіль не тримається центру своєї смуги руху</translation>
     </message>
     <message>
         <source>The speed or display info looks wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Швидкість або інформація на дисплеї виглядає неправильно</translation>
     </message>
     <message>
         <source>Something else (please describe)</source>
-        <translation type="unfinished"></translation>
+        <translation>Щось інше (будь ласка, опишіть)</translation>
     </message>
     <message>
         <source>What&apos;s going on?</source>
-        <translation type="unfinished"></translation>
+        <translation>Що відбувається?</translation>
     </message>
     <message>
         <source>Please describe what&apos;s happening</source>
-        <translation type="unfinished"></translation>
+        <translation>Опишіть, що відбувається</translation>
     </message>
     <message>
         <source>Send Report</source>
-        <translation type="unfinished"></translation>
+        <translation>Надіслати звіт</translation>
     </message>
     <message>
         <source>What&apos;s your Discord username?</source>
-        <translation type="unfinished"></translation>
+        <translation>Яке ваше ім&apos;я користувача в Discord?</translation>
     </message>
     <message>
         <source>Your report has been submitted. Thanks for letting us know!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ваш звіт було надіслано. Дякуємо, що повідомили нас!</translation>
     </message>
     <message>
         <source>Reset Toggles to Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування до заводських параметрів</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation type="unfinished"></translation>
+        <translation>СКИНУТИ</translation>
     </message>
     <message>
         <source>Reset all toggles to their default values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути всі налаштування до їхніх значень за замовчуванням.</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all toggles to their default values?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скинути всі налаштування до їхніх значень за замовчуванням?</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Скидання</translation>
     </message>
     <message>
         <source>Resetting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Скидаємо...</translation>
     </message>
     <message>
         <source>Reset!</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути!</translation>
     </message>
     <message>
         <source>Reset Toggles to Match Stock openpilot</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути налаштування до стандартних значень openpilot</translation>
     </message>
     <message>
         <source>Reset all toggles to match stock openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Скинути всі налаштування до стандартних значень openpilot.</translation>
     </message>
     <message>
         <source>Are you sure you want to reset all toggles to match stock openpilot?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете скинути всі налаштування, щоб вони відповідали стандартним налаштуванням openpilot?</translation>
     </message>
 </context>
 <context>
     <name>FrogPilotVehiclesPanel</name>
     <message>
         <source>Select Make</source>
-        <translation type="unfinished"></translation>
+        <translation>Виробник</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИБІР</translation>
     </message>
     <message>
         <source>Select a Make</source>
-        <translation type="unfinished"></translation>
+        <translation>Віберіть виробника</translation>
     </message>
     <message>
         <source>Select Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель</translation>
     </message>
     <message>
         <source>Select a Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть модель</translation>
     </message>
     <message>
         <source>Disable Automatic Fingerprint Detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути автоматичне виявлення відбитка</translation>
     </message>
     <message>
         <source>Forces the selected fingerprint and prevents it from ever changing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусово встановлює вибраний відбиток і запобігає його зміні.</translation>
     </message>
     <message>
         <source>Disable openpilot Longitudinal Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути поздовжнє керування OpenPilot</translation>
     </message>
     <message>
         <source>Disables openpilot longitudinal control and uses the car&apos;s stock ACC instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимикає поздовжнє керування openpilot і замість цього використовує стандартну систему ACC автомобіля.</translation>
     </message>
     <message>
         <source>Are you sure you want to completely disable openpilot longitudinal control?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю вимкнути поздовжнє керування OpenPilot?</translation>
     </message>
     <message>
         <source>General Motors Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування General Motors</translation>
     </message>
     <message>
         <source>Settings specific to &lt;b&gt;General Motors&lt;/b&gt; vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування, характерні для автомобілів &lt;b&gt;General Motors&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>FrogsGoMoo&apos;s Experimental Tune</source>
-        <translation type="unfinished"></translation>
+        <translation>Експериментальні налаштування FrogsGoMoo</translation>
     </message>
     <message>
         <source>&lt;b&gt;FrogsGoMoo&apos;s&lt;/b&gt; experimental &lt;b&gt;General Motors&lt;/b&gt; tune that aims to smoothen out stopping and takeoff control based on nothing but guesswork. Use at your own risk!</source>
-        <translation type="unfinished"></translation>
+        <translation>Експериментальна настройка &lt;b&gt;FrogsGoMoo&lt;/b&gt; для &lt;b&gt;General Motors&lt;/b&gt;, яка має на меті згладити контроль зупинки та старту, базуючись виключно на припущеннях. Використовуйте на свій ризик!</translation>
     </message>
     <message>
         <source>Smooth Pedal Response on Hills</source>
-        <translation type="unfinished"></translation>
+        <translation>Плавна реакція педалі на схилах</translation>
     </message>
     <message>
         <source>Smoothen the acceleration and braking when driving uphill or downhill.</source>
-        <translation type="unfinished"></translation>
+        <translation>Згладжуйте прискорення та гальмування під час руху вгору або вниз по схилу.</translation>
     </message>
     <message>
         <source>Stop and Go Hack</source>
-        <translation type="unfinished"></translation>
+        <translation>Старт-Стоп Хак</translation>
     </message>
     <message>
         <source>Force stop and go on the &lt;b&gt;2017 Chevy Volt&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусове зупинення та продовження руху на &lt;b&gt;Chevy Volt 2017 року&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Hyundai/Kia/Genesis Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування Hyundai/Kia/Genesis</translation>
     </message>
     <message>
         <source>Settings specific to &lt;b&gt;Hyundai&lt;/b&gt;, &lt;b&gt;Kia&lt;/b&gt;, and &lt;b&gt;Genesis&lt;/b&gt; vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування, характерні для автомобілів &lt;b&gt;Hyundai&lt;/b&gt;, &lt;b&gt;Kia&lt;/b&gt; та &lt;b&gt;Genesis&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>comma&apos;s New Longitudinal API</source>
-        <translation type="unfinished"></translation>
+        <translation>Новий поздовжній API від comma</translation>
     </message>
     <message>
         <source>comma&apos;s new longitudinal control system that has shown great improvement with acceleration and braking, but has issues on some &lt;b&gt;Hyundai&lt;/b&gt;/&lt;b&gt;Kia&lt;/b&gt;/&lt;b&gt;Genesis&lt;/b&gt; vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нова система поздовжнього контролю Comma, яка продемонструвала значне поліпшення при прискоренні та гальмуванні, але має проблеми на деяких автомобілях &lt;b&gt;Hyundai&lt;/b&gt;/&lt;b&gt;Kia&lt;/b&gt;/&lt;b&gt;Genesis&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&quot;Taco Bell Run&quot; Torque Hack</source>
-        <translation type="unfinished"></translation>
+        <translation>«Taco Bell Run» Хак керма</translation>
     </message>
     <message>
         <source>The torque hack from comma’s 2022 &quot;Taco Bell Run&quot; drive. Designed to improve turning at low speeds by increasing the allowed steering torque.</source>
-        <translation type="unfinished"></translation>
+        <translation>Хак крутного моменту від Comma з поїздки «Taco Bell Run» 2022 року. Призначений для поліпшення поворотів на низьких швидкостях за рахунок збільшення допустимого крутного моменту рульового управління.</translation>
     </message>
     <message>
         <source>Toyota/Lexus Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування Toyota/Lexus</translation>
     </message>
     <message>
         <source>Settings specific to &lt;b&gt;Toyota&lt;/b&gt; and &lt;b&gt;Lexus&lt;/b&gt; vehicles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування, характерні для автомобілів &lt;b&gt;Toyota&lt;/b&gt; та &lt;b&gt;Lexus&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Automatically Lock/Unlock Doors</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматичне блокування/розблокування дверей</translation>
     </message>
     <message>
         <source>Automatically lock the doors when shifting into drive and unlock them when shifting into park.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично блокуйте двері при перемиканні на режим руху та розблоковуйте їх при перемиканні на режим паркування.</translation>
     </message>
     <message>
         <source>Cluster Speed Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Зсув швидкості з кластера</translation>
     </message>
     <message>
         <source>The cluster speed offset used by openpilot to match the speed displayed on the dash.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зсув швидкості кластера, який використовується openpilot для узгодження швидкості, що відображається на приладовій панелі.</translation>
     </message>
     <message>
         <source>FrogsGoMoo&apos;s Personal Tweaks</source>
-        <translation type="unfinished"></translation>
+        <translation>Особисті налаштування FrogsGoMoo</translation>
     </message>
     <message>
         <source>&lt;b&gt;FrogsGoMoo&apos;s&lt;/b&gt; personal tweaks for quicker acceleration and smoother braking.</source>
-        <translation type="unfinished"></translation>
+        <translation>Особисті налаштування &lt;b&gt;FrogsGoMoo&lt;/b&gt; для швидшого прискорення та плавнішого гальмування.</translation>
     </message>
     <message>
         <source>Lock Doors On Ignition Off After</source>
-        <translation type="unfinished"></translation>
+        <translation>Замикання дверей після вимкнення запалювання</translation>
     </message>
     <message>
         <source>Automatically lock the doors after the car&apos;s ignition has been turned off and no one is detected in either of the front seats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично блокуйте двері після вимкнення запалювання автомобіля, якщо ніхто не виявлений на передніх сидіннях.</translation>
     </message>
     <message>
         <source>Force stop and go on &lt;b&gt;Toyota&lt;/b&gt;/&lt;b&gt;Lexus&lt;/b&gt; vehicles without stock stop and go functionality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Примусове зупинення та рушання на автомобілях &lt;b&gt;Toyota&lt;/b&gt;/&lt;b&gt;Lexus&lt;/b&gt; без стандартної функції зупинення та рушання.</translation>
     </message>
     <message>
         <source>MANAGE</source>
-        <translation type="unfinished"></translation>
+        <translation>КЕРУЙ</translation>
     </message>
     <message>
         <source>Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Замкн.</translation>
     </message>
     <message>
         <source>Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмик.</translation>
     </message>
     <message>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Ніколи</translation>
     </message>
     <message>
         <source> seconds</source>
-        <translation type="unfinished"></translation>
+        <translation> секунд</translation>
     </message>
 </context>
 <context>
