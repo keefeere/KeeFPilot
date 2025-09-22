@@ -2761,8 +2761,7 @@ Developer - Unlocks highly customizable settings for seasoned enthusiasts</sourc
     <name>FrogPilotSoundsPanel</name>
     <message>
         <source>Alert Volume Control</source>
-        <translatorcomment>Гучність сигналів</translatorcomment>
-        <translation>Alert Volume Control</translation>
+        <translation>Гучність сигналів</translation>
     </message>
     <message>
         <source>Adjust the volume for each alert in openpilot.</source>
@@ -2794,8 +2793,7 @@ Developer - Unlocks highly customizable settings for seasoned enthusiasts</sourc
     </message>
     <message>
         <source>Prompt Distracted Volume</source>
-        <translatorcomment>Гучність відволікання</translatorcomment>
-        <translation>Prompt Distracted Volume</translation>
+        <translation>Гучність відволікання</translation>
     </message>
     <message>
         <source>Adjust the volume for alerts like:&lt;br&gt;&lt;br&gt;&lt;b&gt;Pay Attention, Driver Distracted&lt;/b&gt;&lt;br&gt;&lt;b&gt;Touch Steering Wheel, Driver Unresponsive&lt;/b&gt;</source>
@@ -2890,255 +2888,263 @@ Developer - Unlocks highly customizable settings for seasoned enthusiasts</sourc
     <name>FrogPilotThemesPanel</name>
     <message>
         <source>Custom Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Індивідуальна тема</translation>
     </message>
     <message>
         <source>The overall appearance of openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальний вигляд openpilot.</translation>
     </message>
     <message>
         <source>Color Scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Колірна гамма</translation>
     </message>
     <message>
         <source>openpilot&apos;s color scheme.
 
 Want to submit your own color scheme? Share it in the &quot;custom-themes&quot; channel on the FrogPilot Discord!</source>
-        <translation type="unfinished"></translation>
+        <translation>Колірна схема openpilot.
+
+Хочете подати свою власну колірну схему? Поділіться нею в каналі «custom-themes» на FrogPilot Discord!</translation>
     </message>
     <message>
         <source>Icon Pack</source>
-        <translation type="unfinished"></translation>
+        <translation>Набір іконок</translation>
     </message>
     <message>
         <source>openpilot&apos;s icon pack.
 
 Want to submit your own icons? Share them in the &quot;custom-themes&quot; channel on the FrogPilot Discord!</source>
-        <translation type="unfinished"></translation>
+        <translation>Набір іконок openpilot.
+
+Хочете надіслати свої власні іконки? Поділіться ними в каналі «custom-themes» на FrogPilot Discord!</translation>
     </message>
     <message>
         <source>Sound Pack</source>
-        <translation type="unfinished"></translation>
+        <translation>Звуковий пакет</translation>
     </message>
     <message>
         <source>openpilot&apos;s sound effects.
 
 Want to submit your own sounds? Share them in the &quot;custom-themes&quot; channel on the FrogPilot Discord!</source>
-        <translation type="unfinished"></translation>
+        <translation>Звукові ефекти openpilot.
+
+Хочете поділитися своїми звуками? Діліться ними в каналі «custom-themes» на FrogPilot Discord!</translation>
     </message>
     <message>
         <source>Steering Wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Кермо</translation>
     </message>
     <message>
         <source>The steering wheel icon in the top right of the driving screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Значок керма у верхньому правому куті екрана водіння.</translation>
     </message>
     <message>
         <source>Turn Signal</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворотник</translation>
     </message>
     <message>
         <source>Themed turn signal animations.
 
 Want to submit your own animations? Share them in the &quot;custom-themes&quot; channel on the FrogPilot Discord!</source>
-        <translation type="unfinished"></translation>
+        <translation>Тематичні анімації поворотників.
+
+Хочете надіслати свої власні анімації? Поділіться ними в каналі «custom-themes» на FrogPilot Discord!</translation>
     </message>
     <message>
         <source>Download Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Стан завантаження</translation>
     </message>
     <message>
         <source>Holiday Themes</source>
-        <translation type="unfinished"></translation>
+        <translation>Святкові теми</translation>
     </message>
     <message>
         <source>Holiday-based visual themes for openpilot. Minor holidays last one day; major holidays (Christmas, Easter, Halloween, etc.) continue all week.</source>
-        <translation type="unfinished"></translation>
+        <translation>Святкові візуальні теми для openpilot. Невеликі свята тривають один день, а великі свята (Різдво, Великдень, Хелловін тощо) — цілий тиждень.</translation>
     </message>
     <message>
         <source>Rainbow Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Веселковий Шлях</translation>
     </message>
     <message>
         <source>The path on the driving screen turns into a Mario Kart inspired &quot;Rainbow Path&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях на екрані водія перетворюється на «Райдужний шлях», натхненний Mario Kart.</translation>
     </message>
     <message>
         <source>Random Events</source>
-        <translation type="unfinished"></translation>
+        <translation>Випадкові події</translation>
     </message>
     <message>
         <source>Random cosmetic events that trigger after certain driving conditions. These events are purely for fun and don&apos;t affect driving controls!</source>
-        <translation type="unfinished"></translation>
+        <translation>Випадкові косметичні події, що спрацьовують після певних умов водіння. Ці події призначені виключно для розваги і не впливають на управління автомобілем!</translation>
     </message>
     <message>
         <source>Random Themes</source>
-        <translation type="unfinished"></translation>
+        <translation>Випадкові теми</translation>
     </message>
     <message>
         <source>Cycles through your downloaded themes randomly on each boot, giving every theme in your collection a chance to shine!</source>
-        <translation type="unfinished"></translation>
+        <translation>При кожному запуску випадковим чином перемикає завантажені теми, даючи кожній темі у вашій колекції шанс проявити себе!</translation>
     </message>
     <message>
         <source>Startup Alert</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигнал про запуск</translation>
     </message>
     <message>
         <source>The text of the &quot;Startup Alert&quot; message that appears at the beginning of a drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст повідомлення «Попередження про запуск», яке з&apos;являється на початку поїздки.</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИДАЛИТИ</translation>
     </message>
     <message>
         <source>DOWNLOAD</source>
-        <translation type="unfinished"></translation>
+        <translation>СКАЧАТИ</translation>
     </message>
     <message>
         <source>SELECT</source>
-        <translation type="unfinished"></translation>
+        <translation>ВИБРАТИ</translation>
     </message>
     <message>
         <source>Select a color scheme to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть колірну схему для видалення</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; color scheme?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити колірну схему «%1»?</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <source>Select a color scheme to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть колірну схему для завантаження</translation>
     </message>
     <message>
         <source>Select a color scheme</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть колірну гаму</translation>
     </message>
     <message>
         <source>Select a distance icon pack to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть пакет іконок відстані, який потрібно видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; distance icon pack?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити набір іконок «%1»?</translation>
     </message>
     <message>
         <source>Select a distance icon pack to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть пакет іконок відстані для завантаження</translation>
     </message>
     <message>
         <source>Select a distance icon pack</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть набір іконок відстані</translation>
     </message>
     <message>
         <source>Select an icon pack to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть пакет іконок для видалення</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; icon pack?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити пакет іконок «%1»?</translation>
     </message>
     <message>
         <source>Select an icon pack to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть набір іконок для завантаження</translation>
     </message>
     <message>
         <source>Select an icon pack</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть набір іконок</translation>
     </message>
     <message>
         <source>Select a signal animation to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть анімацію сигналу, яку потрібно видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; signal animation?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити анімацію сигналу «%1»?</translation>
     </message>
     <message>
         <source>Select a signal animation to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть анімацію сигналу для завантаження</translation>
     </message>
     <message>
         <source>Select a signal animation</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть анімацію сигналу</translation>
     </message>
     <message>
         <source>Select a sound pack to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть пакет звуків для видалення</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; sound pack?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити звуковий пакет «%1»?</translation>
     </message>
     <message>
         <source>Select a sound pack to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть пакет звуків для завантаження</translation>
     </message>
     <message>
         <source>Select a sound pack</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть пакет звуків</translation>
     </message>
     <message>
         <source>Select a steering wheel to delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть кермо, яке потрібно видалити</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the &quot;%1&quot; steering wheel?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете видалити кермо «%1»?</translation>
     </message>
     <message>
         <source>Select a steering wheel to download</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть кермо для завантаження</translation>
     </message>
     <message>
         <source>Select a steering wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть кермо</translation>
     </message>
     <message>
         <source>STOCK</source>
-        <translation type="unfinished"></translation>
+        <translation>ШТАТН.</translation>
     </message>
     <message>
         <source>FROGPILOT</source>
-        <translation type="unfinished"></translation>
+        <translation>FROGPILOT</translation>
     </message>
     <message>
         <source>CUSTOM</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗМІНЕН.</translation>
     </message>
     <message>
         <source>CLEAR</source>
-        <translation type="unfinished"></translation>
+        <translation>ЧИСТ.</translation>
     </message>
     <message>
         <source>Enter the text for the top half</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть текст для верхньої половини</translation>
     </message>
     <message>
         <source>Characters: 0/%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Символів: 0/%1</translation>
     </message>
     <message>
         <source>Enter the text for the bottom half</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть текст для нижньої половини</translation>
     </message>
     <message>
         <source>Are you sure you want to completely reset your startup message?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви впевнені, що хочете повністю скинути своє повідомлення про запуск?</translation>
     </message>
     <message>
         <source>&quot;Random Themes&quot; only works with downloaded themes, so make sure you download the themes you want it to use!</source>
-        <translation type="unfinished"></translation>
+        <translation>«Випадкові теми» працюють тільки з завантаженими темами, тому переконайтеся, що ви завантажили теми, які хочете використовувати!</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation type="unfinished"></translation>
+        <translation>ВІДМІНА</translation>
     </message>
 </context>
 <context>
