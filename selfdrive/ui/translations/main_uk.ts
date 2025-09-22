@@ -4287,26 +4287,26 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>InputDialog</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Скасувати</translation>
     </message>
     <message numerus="yes">
         <source>Need at least %n character(s)!</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Потрібно щонайменше %n символ!</numerusform>
+            <numerusform>Потрібно щонайменше %n символа!</numerusform>
+            <numerusform>Потрібно щонайменше %n символів!</numerusform>
         </translation>
     </message>
     <message>
         <source>Characters: %1/%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Символів: %1/%2</translation>
     </message>
 </context>
 <context>
     <name>Installer</name>
     <message>
         <source>Installing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановлення...</translation>
     </message>
 </context>
 <context>
@@ -4328,26 +4328,26 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     <name>MapSettings</name>
     <message>
         <source>NAVIGATION</source>
-        <translation type="unfinished"></translation>
+        <translation>НАВІГАЦІЯ</translation>
     </message>
     <message>
         <source>Manage at %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Управляти на %1</translation>
     </message>
 </context>
 <context>
     <name>MapWindow</name>
     <message>
         <source>Map Loading</source>
-        <translation type="unfinished"></translation>
+        <translation>Мапи вантажаться</translation>
     </message>
     <message>
         <source>Waiting for GPS</source>
-        <translation type="unfinished"></translation>
+        <translation>Очікую GPS</translation>
     </message>
     <message>
         <source>Waiting for route</source>
-        <translation type="unfinished"></translation>
+        <translation>Очікую шлях</translation>
     </message>
 </context>
 <context>
@@ -5290,89 +5290,89 @@ This may take up to a minute.</source>
     <name>Updater</name>
     <message>
         <source>Update Required</source>
-        <translation type="unfinished"></translation>
+        <translation>Необхідне оновлення</translation>
     </message>
     <message>
         <source>An operating system update is required. Connect your device to Wi-Fi for the fastest update experience. The download size is approximately 1GB.</source>
-        <translation type="unfinished"></translation>
+        <translation>Необхідно оновити операційну систему. Підключіть пристрій до мережі Wi-Fi, щоб оновлення відбулося якнайшвидше. Розмір завантаження становить приблизно 1 ГБ.</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключитися до Wi-Fi</translation>
     </message>
     <message>
         <source>Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантаження...</translation>
     </message>
     <message>
         <source>Reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Перезавантаження</translation>
     </message>
     <message>
         <source>Update failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Оновлення не вдалося</translation>
     </message>
 </context>
 <context>
     <name>WiFiPromptWidget</name>
     <message>
         <source>Setup Wi-Fi</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування Wi-Fi</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to upload driving data and help improve openpilot</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключіться до Wi-Fi, щоб завантажити дані про водіння та допомогти вдосконалити openpilot</translation>
     </message>
     <message>
         <source>Open Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити налаштування</translation>
     </message>
     <message>
         <source>Ready to upload</source>
-        <translation type="unfinished"></translation>
+        <translation>Готовий до завантаження</translation>
     </message>
     <message>
         <source>Training data will be pulled periodically while your device is on Wi-Fi</source>
-        <translation type="unfinished"></translation>
+        <translation>Дані для навчання будуть періодично завантажуватися, коли ваш пристрій підключений до Wi-Fi</translation>
     </message>
     <message>
         <source>Uploading disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантаження вимкнено</translation>
     </message>
     <message>
         <source>Toggle off the &quot;Turn Off Data Uploads&quot; toggle to re-enable uploads.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкніть перемикач «Вимкнути завантаження даних», щоб знову увімкнути завантаження.</translation>
     </message>
 </context>
 <context>
     <name>WifiUI</name>
     <message>
         <source>Scanning for networks...</source>
-        <translation type="unfinished"></translation>
+        <translation>Пошук мереж...</translation>
     </message>
     <message>
         <source>CONNECTING...</source>
-        <translation type="unfinished"></translation>
+        <translation>З&apos;ЄДНАННЯ...</translation>
     </message>
     <message>
         <source>FORGET</source>
-        <translation type="unfinished"></translation>
+        <translation>ЗАБУТИ</translation>
     </message>
     <message>
         <source>Forget Wi-Fi Network &quot;%1&quot;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Забути мережу Wi-Fi «%1»?</translation>
     </message>
     <message>
         <source>Forget</source>
-        <translation type="unfinished"></translation>
+        <translation>Забути</translation>
     </message>
 </context>
 </TS>
