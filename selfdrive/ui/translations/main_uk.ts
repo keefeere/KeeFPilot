@@ -2988,7 +2988,7 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Startup Alert</source>
-        <translation>Сигнал про запуск</translation>
+        <translation>Сигн. запуску</translation>
     </message>
     <message>
         <source>The text of the &quot;Startup Alert&quot; message that appears at the beginning of a drive.</source>
