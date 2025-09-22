@@ -3315,7 +3315,7 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Reset Toggles to Default</source>
-        <translation>Скинути налаштування до заводських параметрів</translation>
+        <translation>Скинути налашт. до заводських</translation>
     </message>
     <message>
         <source>RESET</source>
@@ -3343,7 +3343,7 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Reset Toggles to Match Stock openpilot</source>
-        <translation>Скинути налаштування до стандартних значень openpilot</translation>
+        <translation>Скинути налашт. до стд. значень openpilot</translation>
     </message>
     <message>
         <source>Reset all toggles to match stock openpilot.</source>
@@ -5163,127 +5163,127 @@ This may take up to a minute.</source>
     <name>TogglesPanel</name>
     <message>
         <source>Enable openpilot</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути openpilot</translation>
     </message>
     <message>
         <source>Use the openpilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте систему openpilot для адаптивного круїз-контролю та допомоги водієві у підтримці смуги руху. Для використання цієї функції необхідна постійна увага. Зміна цього параметра можлива на вимкненому авто.</translation>
     </message>
     <message>
         <source>openpilot Longitudinal Control (Alpha)</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot Поздовжній контроль (альфа)</translation>
     </message>
     <message>
         <source>WARNING: openpilot longitudinal control is in alpha for this car and will disable Automatic Emergency Braking (AEB).</source>
-        <translation type="unfinished"></translation>
+        <translation>УВАГА: система поздовжнього контролю openpilot для цього автомобіля перебуває в стадії альфа-тестування і вимкне функцію автоматичного екстреного гальмування (AEB).</translation>
     </message>
     <message>
         <source>On this car, openpilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when enabling openpilot longitudinal control alpha.</source>
-        <translation type="unfinished"></translation>
+        <translation>У цьому автомобілі openpilot за замовчуванням використовує вбудовану систему ACC замість поздовжнього керування openpilot. Увімкніть цю опцію, щоб перейти на поздовжнє керування openpilot. Рекомендується увімкнути експериментальний режим під час увімкнення альфа-версії поздовжнього керування openpilot.</translation>
     </message>
     <message>
         <source>Experimental Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Експериментальний режим</translation>
     </message>
     <message>
         <source>Disengage on Accelerator Pedal</source>
-        <translation type="unfinished"></translation>
+        <translation>Деактиівація по педалі акселератора</translation>
     </message>
     <message>
         <source>When enabled, pressing the accelerator pedal will disengage openpilot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Коли ця функція увімкнена, натискання педалі акселератора вимкне openpilot.</translation>
     </message>
     <message>
         <source>Enable Lane Departure Warnings</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути попередження про виїзд із смуги руху</translation>
     </message>
     <message>
         <source>Receive alerts to steer back into the lane when your vehicle drifts over a detected lane line without a turn signal activated while driving over 31 mph (50 km/h).</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримуйте сповіщення про необхідність повернутись у смугу руху, коли ваш автомобіль з&apos;їжджає за межі виявленої смуги руху без увімкненого поворотника під час руху зі швидкістю понад 31 миль/год (50 км/год).</translation>
     </message>
     <message>
         <source>Record and Upload Driver Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Запис і вивантаження камери водія</translation>
     </message>
     <message>
         <source>Upload data from the driver facing camera and help improve the driver monitoring algorithm.</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажуйте дані з камери, спрямованої на водія, і допоможіть вдосконалити алгоритм моніторингу водія.</translation>
     </message>
     <message>
         <source>Use Metric System</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте метричну систему</translation>
     </message>
     <message>
         <source>Display speed in km/h instead of mph.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображати швидкість у км/год замість миль/год.</translation>
     </message>
     <message>
         <source>Show ETA in 24h Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати ОЧП у форматі 24 годин</translation>
     </message>
     <message>
         <source>Use 24h format instead of am/pm</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте 24-годинний формат замість ДП/ПП</translation>
     </message>
     <message>
         <source>Show Map on Left Side of UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмістити мапу зліва</translation>
     </message>
     <message>
         <source>Show map on left side when in split screen view.</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати карту зліва а не справа у режимі розділеного екрана.</translation>
     </message>
     <message>
         <source>Aggressive</source>
-        <translation type="unfinished"></translation>
+        <translation>Агресивний</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартний</translation>
     </message>
     <message>
         <source>Relaxed</source>
-        <translation type="unfinished"></translation>
+        <translation>Розслаблений</translation>
     </message>
     <message>
         <source>Driving Personality</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим водіння</translation>
     </message>
     <message>
         <source>Standard is recommended. In aggressive mode, openpilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode openpilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Рекомендується стандартний режим. В агресивному режимі openpilot буде слідувати за автомобілями, що їдуть попереду, ближче і буде більш агресивно використовувати газ і гальма. У спокійному режимі openpilot буде триматися далі від автомобілів, що їдуть попереду. На автомобілях, що підтримують цю функцію, ви можете перемикатися між цими режимами за допомогою кнопки відстані на кермі.</translation>
     </message>
     <message>
         <source>openpilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
-        <translation type="unfinished"></translation>
+        <translation>openpilot за замовчуванням працює в &lt;b&gt;Спокійному режимі&lt;/b&gt;. Експериментальний режим увімкне &lt;b&gt;функції альфа-рівня&lt;/b&gt;, які не готові для режиму спокійний. Експериментальні функції перелічені нижче:</translation>
     </message>
     <message>
         <source>End-to-End Longitudinal Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Комплексний поздовжній контроль</translation>
     </message>
     <message>
         <source>Let the driving model control the gas and brakes. openpilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Дозвольте моделі водіння контролювати газ і гальма. openpilot буде керувати автомобілем так, як це робив би людина, включаючи зупинку на червоне світло світлофора і знаки зупинки. Оскільки модель водіння визначає швидкість руху, задана швидкість буде діяти лише як верхня межа. Це функція альфа-якості; слід очікувати помилок.</translation>
     </message>
     <message>
         <source>New Driving Visualization</source>
-        <translation type="unfinished"></translation>
+        <translation>Нова візуалізація водіння</translation>
     </message>
     <message>
         <source>The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner.</source>
-        <translation type="unfinished"></translation>
+        <translation>Візуалізація руху перейде на ширококутну камеру, спрямовану на дорогу, при низьких швидкостях, щоб краще показувати деякі повороти. Логотип експериментального режиму також буде відображатися у верхньому правому куті.</translation>
     </message>
     <message>
         <source>Experimental mode is currently unavailable on this car since the car&apos;s stock ACC is used for longitudinal control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Експериментальний режим наразі недоступний для цього автомобіля, оскільки для поздовжнього контролю використовується стандартна система ACC.</translation>
     </message>
     <message>
         <source>openpilot longitudinal control may come in a future update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поздовжнє керування openpilot може з&apos;явитися в майбутньому оновленні.</translation>
     </message>
     <message>
         <source>Enable the openpilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкніть перемикач подовжнього керування openpilot (альфа), щоб дозволити експериментальний режим.</translation>
     </message>
 </context>
 <context>
@@ -5325,7 +5325,7 @@ This may take up to a minute.</source>
     <name>WiFiPromptWidget</name>
     <message>
         <source>Setup Wi-Fi</source>
-        <translation>Налаштування Wi-Fi</translation>
+        <translation>Підключіть Wi-Fi</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to upload driving data and help improve openpilot</source>
