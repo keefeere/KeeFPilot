@@ -383,10 +383,38 @@ void FrogPilotModelPanel::updateState(const UIState &s, const FrogPilotUIState &
     QString progress = QString::fromStdString(params_memory.get("ModelDownloadProgress"));
     bool downloadFailed = progress.contains(QRegularExpression("cancelled|exists|failed|missing|offline", QRegularExpression::CaseInsensitiveOption));
 
-    if (progress != "Downloading...") {
-      downloadModelBtn->setValue(progress);
+    {
+    QString translatedProgress;
+
+    if (progress == "Downloading...") {
+      translatedProgress = tr("Downloading...");
+    } else if (progress.startsWith("Downloading \"")) {
+      // Getting model name
+      int firstQuote = progress.indexOf('"');
+      int lastQuote = progress.lastIndexOf('"');
+      QString modelName = progress.mid(firstQuote + 1, lastQuote - firstQuote - 1);
+      translatedProgress = tr("Downloading \"%1\"...").arg(modelName);
+    } else if (progress.endsWith("%")) {
+      // Progress in percents
+      translatedProgress = tr("Downloading... %1").arg(progress);
+    } else if (progress == "Downloaded!") {
+      translatedProgress = tr("Downloaded!");
+    } else if (progress == "All models downloaded!") {
+      translatedProgress = tr("All models downloaded!");
+    } else if (progress.contains("cancelled", Qt::CaseInsensitive)) {
+      translatedProgress = tr("Download cancelled...");
+    } else if (progress.contains("failed", Qt::CaseInsensitive)) {
+      translatedProgress = tr("Download failed...");
+    } else if (progress.contains("offline", Qt::CaseInsensitive)) {
+      translatedProgress = tr("GitHub and GitLab are offline...");
+    } else if (progress == "Repository unavailable") {
+      translatedProgress = tr("Repository unavailable");
+    } else {
+      translatedProgress = progress; // fallback
     }
 
+  downloadModelBtn->setValue(translatedProgress);
+}
     if (progress == "All models downloaded!" && allModelsDownloading || progress == "Downloaded!" && modelDownloading || downloadFailed) {
       finalizingDownload = true;
 
