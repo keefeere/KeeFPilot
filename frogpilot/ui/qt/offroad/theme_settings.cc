@@ -197,7 +197,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
 
               downloadThemeAsset(colorSchemeToDownload, "ColorToDownload", "DownloadableColors", params, params_memory);
 
-              downloadStatusLabel->setText("Downloading...");
+              downloadStatusLabel->setText(tr("Downloading..."));
             }
           }
         } else if (id == 2) {
@@ -251,7 +251,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
 
               downloadThemeAsset(distanceIconPackToDownload, "DistanceIconToDownload", "DownloadableDistanceIcons", params, params_memory);
 
-              downloadStatusLabel->setText("Downloading...");
+              downloadStatusLabel->setText(tr("Downloading..."));
             }
           }
         } else if (id == 2) {
@@ -305,7 +305,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
 
               downloadThemeAsset(iconPackToDownload, "IconToDownload", "DownloadableIcons", params, params_memory);
 
-              downloadStatusLabel->setText("Downloading...");
+              downloadStatusLabel->setText(tr("Downloading..."));
             }
           }
         } else if (id == 2) {
@@ -359,7 +359,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
 
               downloadThemeAsset(signalAnimationToDownload, "SignalToDownload", "DownloadableSignals", params, params_memory);
 
-              downloadStatusLabel->setText("Downloading...");
+              downloadStatusLabel->setText(tr("Downloading..."));
             }
           }
         } else if (id == 2) {
@@ -658,7 +658,6 @@ void FrogPilotThemesPanel::updateState(const UIState &s, const FrogPilotUIState 
 
     if (progress != "Downloading...") {
       static const QMap<QString, QString> progressTranslations = {
-        {"Downloading...", tr("Downloading...")},
         {"Unpacking theme...", tr("Unpacking theme...")},
         {"Downloaded!", tr("Downloaded!")},
         {"Download cancelled...", tr("Download cancelled...")},
