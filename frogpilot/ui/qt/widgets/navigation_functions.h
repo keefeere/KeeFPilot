@@ -3,6 +3,9 @@
 #include <QDateTime>
 #include <QDir>
 #include <QDirIterator>
+#include <QLocale>
+
+#include "selfdrive/ui/ui.h"
 
 #include "frogpilot/ui/qt/widgets/frogpilot_controls.h"
 
@@ -130,7 +133,7 @@ inline QString calculateDirectorySize(const QDir &directory) {
   constexpr double GB = 1024.0 * MB;
 
   if (!directory.exists()) {
-    return QStringLiteral(QObject::tr("0 MB"));
+    return QObject::tr("0 MB");
   }
 
   double totalSize = 0;
@@ -141,9 +144,9 @@ inline QString calculateDirectorySize(const QDir &directory) {
   }
 
   if (totalSize >= GB) {
-    return QString::number(totalSize / GB, 'f', 2) + QStringLiteral(QObject::tr(" GB"));
+    return QString::number(totalSize / GB, 'f', 2) + QObject::tr(" GB");
   }
-  return QString::number(totalSize / MB, 'f', 2) + QStringLiteral(QObject::tr(" MB"));
+  return QString::number(totalSize / MB, 'f', 2) + QObject::tr(" MB");
 }
 
 inline QString daySuffix(int day) {
@@ -191,7 +194,7 @@ inline QString formatETA(float elapsedTime, int downloadedFiles, int previousDow
 
   int remainingTime = QDateTime::currentDateTime().secsTo(estimatedFinishTime);
 
-  QString estimatedFinishTimeStr = estimatedFinishTime.toString("h:mm AP");
+  QString estimatedFinishTimeStr = estimatedFinishTime.toString("HH:mm");
   QString remainingTimeStr = formatElapsedTime(remainingTime * 1000);
 
   return QString("%1 (%2)").arg(remainingTimeStr).arg(estimatedFinishTimeStr);
