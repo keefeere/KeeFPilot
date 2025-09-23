@@ -861,7 +861,7 @@ void FrogPilotAnnotatedCameraWidget::paintStandstillTimer(QPainter &p) {
 
   p.setFont(InterFont(176, QFont::Bold));
   {
-    QString minuteStr = (minutes == 1) ? "1 minute" : QString("%1 minutes").arg(minutes);
+    QString minuteStr = (minutes == 1) ? tr("1 minute") : QString(tr("%1 minutes")).arg(minutes);
     QRect textRect = p.fontMetrics().boundingRect(minuteStr);
     textRect.moveCenter({rect().center().x(), 210 - textRect.height() / 2});
     p.setPen(QPen(blendedColor));
@@ -870,7 +870,7 @@ void FrogPilotAnnotatedCameraWidget::paintStandstillTimer(QPainter &p) {
 
   p.setFont(InterFont(66));
   {
-    QString secondStr = (seconds == 1) ? "1 second" : QString("%1 seconds").arg(seconds);
+    QString secondStr = (seconds == 1) ? tr("1 second") : QString(tr("%1 seconds")).arg(seconds);
     QRect textRect = p.fontMetrics().boundingRect(secondStr);
     textRect.moveCenter({rect().center().x(), 290 - textRect.height() / 2});
     p.setPen(QPen(whiteColor()));
