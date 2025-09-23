@@ -3170,6 +3170,10 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
         <source>Human-tested, frog-approved 🐸</source>
         <translation>Випробувано людьми, схвалено жабами 🐸</translation>
     </message>
+    <message>
+        <source>Idle</source>
+        <translation>Чекає</translation>
+    </message>
 </context>
 <context>
     <name>FrogPilotUtilitiesPanel</name>
@@ -5119,6 +5123,18 @@ This may take up to a minute.</source>
         <source>up to date, last checked %1</source>
         <translation>оновлено, останнє перевірка %1</translation>
     </message>
+    <message>
+        <source>downloading...</source>
+        <translation>завантажую...</translation>
+    </message>
+    <message>
+        <source>checking...</source>
+        <translation>провіряю...</translation>
+    </message>
+    <message>
+        <source>finalizing update...</source>
+        <translation>закінчую оновлення...</translation>
+    </message>
 </context>
 <context>
     <name>SshControl</name>
@@ -5400,6 +5416,10 @@ This may take up to a minute.</source>
     <message>
         <source>Forget</source>
         <translation>Забути</translation>
+    </message>
+    <message>
+        <source>CONNECT</source>
+        <translation>ЗʼЄДНАТИ</translation>
     </message>
 </context>
 </TS>
