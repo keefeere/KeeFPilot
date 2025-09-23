@@ -5017,7 +5017,7 @@ This may take up to a minute.</source>
     <name>SoftwarePanel</name>
     <message>
         <source>Updates are only downloaded while the car is off or in park.</source>
-        <translation>Оновлення завантажуються тільки тоді, коли автомобіль вимкнений або знаходиться на стоянці.</translation>
+        <translation>Оновлення завантажуються тільки стаціонарно</translation>
     </message>
     <message>
         <source>Current Version</source>
