@@ -542,11 +542,11 @@ void FrogPilotAnnotatedCameraWidget::paintLeadMetrics(QPainter &p, bool adjacent
     text = QString("%1 %2 (%3) | %4 %5 | %6 %7")
               .arg(qRound(leadDistance * distanceConversion))
               .arg(leadDistanceUnit)
-              .arg(QString("Desired: %1").arg(frogpilotPlan.getDesiredFollowDistance() * distanceConversion))
+              .arg(QString(tr("Desired: %1")).arg(frogpilotPlan.getDesiredFollowDistance() * distanceConversion))
               .arg(qRound(leadSpeed * speedConversionMetrics))
               .arg(leadSpeedUnit)
               .arg(QString::number(std::max(leadDistance / std::max(speed / speedConversion, 1.0f), 1.0f), 'f', 2))
-              .arg("s");
+              .arg(tr("s"));
   }
 
   QFontMetrics metrics(p.font());
