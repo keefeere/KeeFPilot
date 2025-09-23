@@ -2370,11 +2370,11 @@
     </message>
     <message>
         <source>DELETE</source>
-        <translation>ВИДАЛ.</translation>
+        <translation>ВИДАЛИТИ</translation>
     </message>
     <message>
         <source>DELETE ALL</source>
-        <translation>ВИД. ВСЕ</translation>
+        <translation>ВИДАЛИТИ. УСІ</translation>
     </message>
     <message>
         <source>Select a driving model to delete</source>
@@ -2414,11 +2414,11 @@
     </message>
     <message>
         <source>REMOVE</source>
-        <translation>ВИДАЛ.</translation>
+        <translation>ПРИБР.</translation>
     </message>
     <message>
         <source>REMOVE ALL</source>
-        <translation>ВИД. ВСЕ</translation>
+        <translation>ПРИБ. ВСІ</translation>
     </message>
     <message>
         <source>There are no more models to blacklist! The only available model is &quot;%1&quot;!</source>
