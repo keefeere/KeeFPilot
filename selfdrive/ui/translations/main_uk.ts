@@ -3164,23 +3164,15 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Hop in and buckle up!</source>
-        <translation>Застрибуй і пристібай ремені!</translation>
+        <translation type="vanished">Застрибуй і пристібай ремені!</translation>
     </message>
     <message>
         <source>Human-tested, frog-approved 🐸</source>
-        <translation>Випробувано людьми, схвалено жабами 🐸</translation>
+        <translation type="vanished">Випробувано людьми, схвалено жабами 🐸</translation>
     </message>
     <message>
         <source>Idle</source>
-        <translation>Чекає</translation>
-    </message>
-    <message>
-        <source>Be ready to take over at any time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always keep hands on wheel and eyes on road</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Чекає</translation>
     </message>
 </context>
 <context>
@@ -5132,16 +5124,16 @@ This may take up to a minute.</source>
         <translation>оновлено, останнє перевірка %1</translation>
     </message>
     <message>
-        <source>downloading...</source>
+        <source>downloading…</source>
         <translation>завантажую...</translation>
     </message>
     <message>
-        <source>checking...</source>
-        <translation>провіряю...</translation>
+        <source>checking…</source>
+        <translation>перевіряю...</translation>
     </message>
     <message>
-        <source>finalizing update...</source>
-        <translation>закінчую оновлення...</translation>
+        <source>waiting for vehicle to go offroad...</source>
+        <translation>очікування зупинки авто...</translation>
     </message>
 </context>
 <context>
@@ -5427,7 +5419,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>CONNECT</source>
-        <translation>ЗʼЄДНАТИ</translation>
+        <translation type="vanished">ЗʼЄДНАТИ</translation>
     </message>
 </context>
 </TS>
