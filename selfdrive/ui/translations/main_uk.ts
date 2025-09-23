@@ -4831,6 +4831,38 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
         <source> seconds</source>
         <translation> секунд</translation>
     </message>
+    <message>
+        <source>Calibration in Progress: %1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drive Above %1 km/h</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System Overheated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 °C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: This branch is not tested</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hop in and buckle up!</source>
+        <translation>Сідай і пристібай ремені!</translation>
+    </message>
+    <message>
+        <source>Human-tested, frog-approved 🐸</source>
+        <translation>Випробувано на людях, схвалено жабами 🐸</translation>
+    </message>
 </context>
 <context>
     <name>Reset</name>

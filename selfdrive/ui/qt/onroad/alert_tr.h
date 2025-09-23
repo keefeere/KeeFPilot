@@ -16,10 +16,7 @@ extern std::map<QString, AlertTranslation> alertTranslations;
 inline QString translateAlertText1(const QString &text, const QStringList &params = {});
 inline QString translateAlertText2(const QString &text, const QStringList &params = {});
 
-struct AlertTranslation {
-  QString text1;
-  QString text2;
-};
+
 
 inline QMap<QString, AlertTranslation> alertTranslations = {
   {"CalibrationInProgress", {QObject::tr("Calibration in Progress: %1%"), QObject::tr("Drive Above %1 km/h")}},
