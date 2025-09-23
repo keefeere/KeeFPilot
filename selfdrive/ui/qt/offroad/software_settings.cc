@@ -177,6 +177,8 @@ void SoftwarePanel::updateLabels() {
       stateText = tr("checking…");
     } else if (updater_state == "waiting for vehicle to go offroad...") {
       stateText = tr("waiting for vehicle to go offroad...");
+    } else if (updater_state == "finalizing update...") {
+      stateText = tr("finalizing update...");
     }
 
     downloadBtn->setValue(stateText);

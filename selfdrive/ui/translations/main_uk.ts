@@ -3162,18 +3162,6 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
         <source>CANCEL</source>
         <translation>ВІДМІНА</translation>
     </message>
-    <message>
-        <source>Hop in and buckle up!</source>
-        <translation type="vanished">Застрибуй і пристібай ремені!</translation>
-    </message>
-    <message>
-        <source>Human-tested, frog-approved 🐸</source>
-        <translation type="vanished">Випробувано людьми, схвалено жабами 🐸</translation>
-    </message>
-    <message>
-        <source>Idle</source>
-        <translation type="vanished">Чекає</translation>
-    </message>
 </context>
 <context>
     <name>FrogPilotUtilitiesPanel</name>
@@ -5135,6 +5123,10 @@ This may take up to a minute.</source>
         <source>waiting for vehicle to go offroad...</source>
         <translation>очікування зупинки авто...</translation>
     </message>
+    <message>
+        <source>finalizing update...</source>
+        <translation>завершую...</translation>
+    </message>
 </context>
 <context>
     <name>SshControl</name>
@@ -5416,10 +5408,6 @@ This may take up to a minute.</source>
     <message>
         <source>Forget</source>
         <translation>Забути</translation>
-    </message>
-    <message>
-        <source>CONNECT</source>
-        <translation type="vanished">ЗʼЄДНАТИ</translation>
     </message>
 </context>
 </TS>
