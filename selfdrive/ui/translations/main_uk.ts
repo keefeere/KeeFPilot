@@ -3164,11 +3164,11 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
     </message>
     <message>
         <source>Hop in and buckle up!</source>
-        <translation type="vanished">Застрибуй і пристібай ремені!</translation>
+        <translation>Застрибуй і пристібай ремені!</translation>
     </message>
     <message>
         <source>Human-tested, frog-approved 🐸</source>
-        <translation type="vanished">Випробувано людьми, схвалено жабами 🐸</translation>
+        <translation>Випробувано людьми, схвалено жабами 🐸</translation>
     </message>
 </context>
 <context>
