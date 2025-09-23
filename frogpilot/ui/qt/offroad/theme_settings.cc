@@ -413,7 +413,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
 
               downloadThemeAsset(soundPackToDownload, "SoundToDownload", "DownloadableSounds", params, params_memory);
 
-              downloadStatusLabel->setText("Downloading...");
+              downloadStatusLabel->setText(tr("Downloading..."));
             }
           }
         } else if (id == 2) {
@@ -467,7 +467,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
 
               downloadThemeAsset(wheelToDownload, "WheelToDownload", "DownloadableWheels", params, params_memory);
 
-              downloadStatusLabel->setText("Downloading...");
+              downloadStatusLabel->setText(tr("Downloading..."));
             }
           }
         } else if (id == 2) {
@@ -485,7 +485,7 @@ FrogPilotThemesPanel::FrogPilotThemesPanel(FrogPilotSettingsWindow *parent) : Fr
       manageWheelIconsBtn->setValue(getThemeName(param.toStdString(), params));
       themeToggle = manageWheelIconsBtn;
     } else if (param == "DownloadStatusLabel") {
-      downloadStatusLabel = new LabelControl(title, "Idle");
+      downloadStatusLabel = new LabelControl(title, tr("Idle"));
       themeToggle = downloadStatusLabel;
     } else if (param == "StartupAlert") {
       FrogPilotButtonsControl *startupAlertButton = new FrogPilotButtonsControl(title, desc, icon, {tr("STOCK"), tr("FROGPILOT"), tr("CUSTOM"), tr("CLEAR")}, true);
@@ -657,7 +657,16 @@ void FrogPilotThemesPanel::updateState(const UIState &s, const FrogPilotUIState 
     bool downloadFailed = progress.contains(QRegularExpression("cancelled|exists|failed|offline", QRegularExpression::CaseInsensitiveOption));
 
     if (progress != "Downloading...") {
-      downloadStatusLabel->setText(progress);
+      static const QMap<QString, QString> progressTranslations = {
+        {"Downloading...", tr("Downloading...")},
+        {"Unpacking theme...", tr("Unpacking theme...")},
+        {"Downloaded!", tr("Downloaded!")},
+        {"Download cancelled...", tr("Download cancelled...")},
+        {"Download failed...", tr("Download failed...")},
+        {"Repository unavailable", tr("Repository unavailable")},
+        {"GitHub and GitLab are offline...", tr("GitHub and GitLab are offline...")}
+      };
+      downloadStatusLabel->setText(progressTranslations.value(progress, tr("Idle")));
     }
 
     if (progress == "Downloaded!" || downloadFailed) {
@@ -689,7 +698,7 @@ void FrogPilotThemesPanel::updateState(const UIState &s, const FrogPilotUIState 
         params_memory.remove("ThemeDownloadProgress");
         params_memory.remove("WheelToDownload");
 
-        downloadStatusLabel->setText("Idle");
+        downloadStatusLabel->setText(tr("Idle"));
       });
     }
   }
