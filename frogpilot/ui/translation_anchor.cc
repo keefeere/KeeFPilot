@@ -11,5 +11,5 @@ static const char *unused_translations[] = {
   QT_TRANSLATE_NOOP("FrogPilotThemesPanel", "Human-tested, frog-approved 🐸"),
   QT_TRANSLATE_NOOP("FrogPilotThemesPanel", "Hop in and buckle up!"),
   QT_TRANSLATE_NOOP("FrogPilotThemesPanel", "Idle"),
-
+  QT_TRANSLATE_NOOP("WifiUI", "CONNECT")
 };
