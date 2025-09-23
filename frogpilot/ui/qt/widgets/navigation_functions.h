@@ -130,7 +130,7 @@ inline QString calculateDirectorySize(const QDir &directory) {
   constexpr double GB = 1024.0 * MB;
 
   if (!directory.exists()) {
-    return QStringLiteral(tr("0 MB"));
+    return QStringLiteral(QObject::tr("0 MB"));
   }
 
   double totalSize = 0;
@@ -141,9 +141,9 @@ inline QString calculateDirectorySize(const QDir &directory) {
   }
 
   if (totalSize >= GB) {
-    return QString::number(totalSize / GB, 'f', 2) + QStringLiteral(tr(" GB"));
+    return QString::number(totalSize / GB, 'f', 2) + QStringLiteral(QObject::tr(" GB"));
   }
-  return QString::number(totalSize / MB, 'f', 2) + QStringLiteral(tr(" MB"));
+  return QString::number(totalSize / MB, 'f', 2) + QStringLiteral(QObject::tr(" MB"));
 }
 
 inline QString daySuffix(int day) {
@@ -154,8 +154,9 @@ inline QString daySuffix(int day) {
 }
 
 inline QString formatCurrentDate() {
+  QLocale locale(uiState()->language.mid(5));
   QDate currentDate = QDate::currentDate();
-  return currentDate.toString("MMMM d'") + daySuffix(currentDate.day()) + QString(", %1").arg(currentDate.year());
+  return locale.toString(currentDate, "d MMMM yyyy");
 }
 
 inline QString formatElapsedTime(float elapsedMilliseconds) {
@@ -166,12 +167,12 @@ inline QString formatElapsedTime(float elapsedMilliseconds) {
 
   QString formattedTime;
   if (hours > 0) {
-    formattedTime += QString::number(hours) + (hours == 1 ? tr(" hour ") : tr(" hours "));
+    formattedTime += QString::number(hours) + (hours == 1 ? QObject::tr(" hour ") : QObject::tr(" hours "));
   }
   if (minutes > 0) {
-    formattedTime += QString::number(minutes) + (minutes == 1 ? tr(" minute ") : tr(" minutes "));
+    formattedTime += QString::number(minutes) + (minutes == 1 ? QObject::tr(" minute ") : QObject::tr(" minutes "));
   }
-  formattedTime += QString::number(seconds) + (seconds == 1 ? tr(" second") : tr(" seconds"));
+  formattedTime += QString::number(seconds) + (seconds == 1 ? QObject::tr(" second") : QObject::tr(" seconds"));
 
   return formattedTime.trimmed();
 }
