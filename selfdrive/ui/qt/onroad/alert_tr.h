@@ -2,6 +2,19 @@
 #include <QString>
 #include <QMap>
 #include <QObject>
+#include <QStringList>
+#include <map>
+
+struct AlertTranslation {
+    QString text1;
+    QString text2;
+};
+
+extern std::map<QString, AlertTranslation> alertTranslations;
+
+// обʼяви функції прямо тут
+inline QString translateAlertText1(const QString &text, const QStringList &params = {});
+inline QString translateAlertText2(const QString &text, const QStringList &params = {});
 
 struct AlertTranslation {
   QString text1;
