@@ -92,7 +92,7 @@
     </message>
     <message>
         <source>CONNECT</source>
-        <translation>CONNECT</translation>
+        <translation>ЗʼЄДНАТИ</translation>
     </message>
     <message>
         <source>Enter SSID</source>
