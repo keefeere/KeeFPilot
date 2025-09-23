@@ -3,6 +3,8 @@
 #include <QPainter>
 #include <map>
 
+#include "alert_tr.h"
+
 #include "selfdrive/ui/qt/util.h"
 
 void OnroadAlerts::updateState(const UIState &s, const FrogPilotUIState &fs) {
@@ -120,6 +122,17 @@ void OnroadAlerts::paintEvent(QPaintEvent *event) {
   p.setCompositionMode(QPainter::CompositionMode_SourceOver);
 
   // text
+
+  QString text1, text2;
+  if (alertTranslations.contains(alert.key)) {
+    const auto &tr = alertTranslations[alert.key];
+    text1 = tr.text1.arg(alert.text1);
+    text2 = tr.text2.arg(alert.text2);
+  } else {
+    text1 = alert.text1;
+    text2 = alert.text2;
+}
+
   const QPoint c = r.center();
   p.setPen(QColor(0xff, 0xff, 0xff));
   p.setRenderHint(QPainter::TextAntialiasing);
@@ -128,14 +141,14 @@ void OnroadAlerts::paintEvent(QPaintEvent *event) {
     p.drawText(r, Qt::AlignCenter, alert.text1);
   } else if (alert.size == cereal::ControlsState::AlertSize::MID) {
     p.setFont(InterFont(sidebarsOpen ? 78 : 88, QFont::Bold));
-    p.drawText(QRect(0, c.y() - 125, width(), 150), Qt::AlignHCenter | Qt::AlignTop, alert.text1);
+    p.drawText(QRect(0, c.y() - 125, width(), 150), Qt::AlignHCenter | Qt::AlignTop, text1);
     p.setFont(InterFont(sidebarsOpen ? 56 : 66));
-    p.drawText(QRect(0, c.y() + 21, width(), 90), Qt::AlignHCenter, alert.text2);
+    p.drawText(QRect(0, c.y() + 21, width(), 90), Qt::AlignHCenter, text2);
   } else if (alert.size == cereal::ControlsState::AlertSize::FULL) {
     bool l = alert.text1.length() > 15;
     p.setFont(InterFont(l ? 132 : 177, QFont::Bold));
-    p.drawText(QRect(0, r.y() + (l ? 240 : 270), width(), 600), Qt::AlignHCenter | Qt::TextWordWrap, alert.text1);
+    p.drawText(QRect(0, r.y() + (l ? 240 : 270), width(), 600), Qt::AlignHCenter | Qt::TextWordWrap, text1);
     p.setFont(InterFont(88));
-    p.drawText(QRect(0, r.height() - (l ? 361 : 420), width(), 300), Qt::AlignHCenter | Qt::TextWordWrap, alert.text2);
+    p.drawText(QRect(0, r.height() - (l ? 361 : 420), width(), 300), Qt::AlignHCenter | Qt::TextWordWrap, text2);
   }
 }
