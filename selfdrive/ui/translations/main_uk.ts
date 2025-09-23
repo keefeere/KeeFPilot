@@ -508,6 +508,22 @@
         <source>s</source>
         <translation>с</translation>
     </message>
+    <message>
+        <source>1 minute</source>
+        <translation>1 хвилина</translation>
+    </message>
+    <message>
+        <source>%1 minutes</source>
+        <translation>%1 хвилин</translation>
+    </message>
+    <message>
+        <source>1 second</source>
+        <translation>1 секунда</translation>
+    </message>
+    <message>
+        <source>%1 seconds</source>
+        <translation>%1 секунд</translation>
+    </message>
 </context>
 <context>
     <name>FrogPilotConfirmationDialog</name>

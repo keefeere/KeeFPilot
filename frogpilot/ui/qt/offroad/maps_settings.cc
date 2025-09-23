@@ -154,7 +154,7 @@ void FrogPilotMapsPanel::showEvent(QShowEvent *event) {
   std::string osmDownloadProgress = params.get("OSMDownloadProgress");
   if (!osmDownloadProgress.empty()) {
     downloadMapsButton->setText(tr("CANCEL"));
-    downloadStatus->setText("Calculating...");
+    downloadStatus->setText(tr("Calculating..."));
 
     downloadStatus->setVisible(true);
 
@@ -165,7 +165,7 @@ void FrogPilotMapsPanel::showEvent(QShowEvent *event) {
     updateDownloadLabels(osmDownloadProgress);
   } else {
     downloadMapsButton->setEnabled(!cancellingDownload && hasMapsSelected && fs.frogpilot_scene.online && parked);
-    downloadMapsButton->setValue(fs.frogpilot_scene.online ? (parked ? "" : "Not parked") : tr("Offline..."));
+    downloadMapsButton->setValue(fs.frogpilot_scene.online ? (parked ? "" : tr("Not parked")) : tr("Offline..."));
   }
 }
 
@@ -182,7 +182,7 @@ void FrogPilotMapsPanel::updateState(const UIState &s, const FrogPilotUIState &f
     updateDownloadLabels(osmDownloadProgress);
   } else {
     downloadMapsButton->setEnabled(!cancellingDownload && hasMapsSelected && fs.frogpilot_scene.online && parked);
-    downloadMapsButton->setValue(fs.frogpilot_scene.online ? (parked ? "" : "Not parked") : tr("Offline..."));
+    downloadMapsButton->setValue(fs.frogpilot_scene.online ? (parked ? "" : tr("Not parked")) : tr("Offline..."));
   }
 
   parent->keepScreenOn = !osmDownloadProgress.empty();
@@ -193,10 +193,10 @@ void FrogPilotMapsPanel::cancelDownload() {
 
   downloadMapsButton->setEnabled(false);
 
-  downloadETA->setText("Cancelling...");
+  downloadETA->setText(tr("Cancelling..."));
   downloadMapsButton->setText(tr("CANCELLED"));
-  downloadStatus->setText("Cancelling...");
-  downloadTimeElapsed->setText("Cancelling...");
+  downloadStatus->setText(tr("Cancelling..."));
+  downloadTimeElapsed->setText(tr("Cancelling..."));
 
   params.remove("OSMDownloadProgress");
   params_memory.remove("OSMDownloadLocations");
@@ -262,7 +262,7 @@ void FrogPilotMapsPanel::updateDownloadLabels(std::string &osmDownloadProgress) 
       removeMapsButton->setVisible(true);
       resetMapdBtn->setVisible(true);
 
-      params.put("LastMapsUpdate", formatCurrentDate().toStdString());
+      params.put("LastMapsUpdate", QLocale(uiState()->language.mid(5)).toString(QDateTime::currentDateTime(), "DD.MM.YY"));
       params.remove("OSMDownloadProgress");
 
       update();
