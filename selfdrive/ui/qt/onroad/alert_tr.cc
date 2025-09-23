@@ -1,20 +1,28 @@
 #include "alerts_tr.h"
 
-// Можна додатково додати функцію-помічник для підстановки параметрів
-inline QString translateAlertText1(const QString &key, const QStringList &params = {}) {
-    if (!alertTranslations.contains(key)) return key;
-    QString text = alertTranslations[key].text1;
-    for (int i = 0; i < params.size(); ++i) {
-        text = text.arg(params[i]);
-    }
-    return text;
+inline QString translateAlertText1(const QString &text, const QStringList &params = {}) {
+    // Шукаємо переклад по значенню text, а не по ключу
+    auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
+                           [&text](const auto &pair){ return pair.text1 == text; });
+
+    if (it == alertTranslations.end()) return text;
+
+    QString translated = it->text1;
+    for (int i = 0; i < params.size(); ++i)
+        translated = translated.arg(params[i]);
+
+    return translated;
 }
 
-inline QString translateAlertText2(const QString &key, const QStringList &params = {}) {
-    if (!alertTranslations.contains(key)) return "";
-    QString text = alertTranslations[key].text2;
-    for (int i = 0; i < params.size(); ++i) {
-        text = text.arg(params[i]);
-    }
-    return text;
+inline QString translateAlertText2(const QString &text, const QStringList &params = {}) {
+    auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
+                           [&text](const auto &pair){ return pair.text2 == text; });
+
+    if (it == alertTranslations.end()) return text;
+
+    QString translated = it->text2;
+    for (int i = 0; i < params.size(); ++i)
+        translated = translated.arg(params[i]);
+
+    return translated;
 }
