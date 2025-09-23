@@ -500,6 +500,14 @@
         <source>LIMIT</source>
         <translation>ЛІМІТ</translation>
     </message>
+    <message>
+        <source>Desired: %1</source>
+        <translation>Очік.: %1</translation>
+    </message>
+    <message>
+        <source>s</source>
+        <translation>с</translation>
+    </message>
 </context>
 <context>
     <name>FrogPilotConfirmationDialog</name>
