@@ -3162,6 +3162,38 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
         <source>CANCEL</source>
         <translation>ВІДМІНА</translation>
     </message>
+    <message>
+        <source>Downloading...</source>
+        <translation>Завантаження...</translation>
+    </message>
+    <message>
+        <source>Idle</source>
+        <translation>Очікую</translation>
+    </message>
+    <message>
+        <source>Unpacking theme...</source>
+        <translation>Розпаковка теми...</translation>
+    </message>
+    <message>
+        <source>Downloaded!</source>
+        <translation>Завантажив!</translation>
+    </message>
+    <message>
+        <source>Download cancelled...</source>
+        <translation>Завантаження скасовано...</translation>
+    </message>
+    <message>
+        <source>Download failed...</source>
+        <translation>Завантаження не вдалося...</translation>
+    </message>
+    <message>
+        <source>Repository unavailable</source>
+        <translation>Репозиторій недоступний</translation>
+    </message>
+    <message>
+        <source>GitHub and GitLab are offline...</source>
+        <translation>GitHub і GitLab не працюють...</translation>
+    </message>
 </context>
 <context>
     <name>FrogPilotUtilitiesPanel</name>
