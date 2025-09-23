@@ -2677,6 +2677,13 @@ It will reset in %1 hours and %2 minutes.</source>
     </message>
 </context>
 <context>
+    <name>FrogPilotOnroadWindow</name>
+    <message>
+        <source>FPS: %1 | Min: %2 | Max: %3 | Avg: %4</source>
+        <translation>КНС: %1 | Мін: %2 | Макс: %3 | Сер.: %4</translation>
+    </message>
+</context>
+<context>
     <name>FrogPilotSettingsWindow</name>
     <message>
         <source>MANAGE</source>
