@@ -2438,7 +2438,7 @@
     </message>
     <message>
         <source>Select a model to remove from the blacklist</source>
-        <translation>Виберіть модель, яку потрібно видалити з чорного списку</translation>
+        <translation>Виберіть модель,щоб видалити з чорного списку</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the &quot;%1&quot; model from the blacklist?</source>
@@ -2479,6 +2479,42 @@
     <message>
         <source>Offline...</source>
         <translation>Не в мережі...</translation>
+    </message>
+    <message>
+        <source>Downloading...</source>
+        <translation>Завантаження...</translation>
+    </message>
+    <message>
+        <source>Downloading &quot;%1&quot;...</source>
+        <translation>Завантаження &quot;%1&quot;...</translation>
+    </message>
+    <message>
+        <source>Downloading... %1</source>
+        <translation>Завантаження... %1</translation>
+    </message>
+    <message>
+        <source>Downloaded!</source>
+        <translation>Завантажив!</translation>
+    </message>
+    <message>
+        <source>All models downloaded!</source>
+        <translation>Всі моделі завантажено!</translation>
+    </message>
+    <message>
+        <source>Download cancelled...</source>
+        <translation>Завантаження скасовано...</translation>
+    </message>
+    <message>
+        <source>Download failed...</source>
+        <translation>Завантаження не вдалося...</translation>
+    </message>
+    <message>
+        <source>GitHub and GitLab are offline...</source>
+        <translation>GitHub і GitLab не працюють...</translation>
+    </message>
+    <message>
+        <source>Repository unavailable</source>
+        <translation>Репозиторій недоступний</translation>
     </message>
 </context>
 <context>
