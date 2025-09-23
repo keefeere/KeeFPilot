@@ -3174,6 +3174,14 @@ Want to submit your own animations? Share them in the &quot;custom-themes&quot; 
         <source>Idle</source>
         <translation>Чекає</translation>
     </message>
+    <message>
+        <source>Be ready to take over at any time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always keep hands on wheel and eyes on road</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FrogPilotUtilitiesPanel</name>
