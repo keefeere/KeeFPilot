@@ -10,10 +10,10 @@ struct AlertTranslation {
 };
 
 inline QMap<QString, AlertTranslation> alertTranslations = {
-  {"CalibrationInProgress", {QT_TR_NOOP("Calibration in Progress: %1%"), QT_TR_NOOP("Drive Above %1 km/h")}},
-  {"SystemOverheated",      {QT_TR_NOOP("System Overheated"),            QT_TR_NOOP("%1 °C")}},
-  {"StartupWarning",        {QT_TR_NOOP("WARNING: This branch is not tested"), QT_TR_NOOP("%1")}},
-  {"StartupMessage",        {QT_TR_NOOP("Hop in and buckle up!"),        QT_TR_NOOP("Human-tested, frog-approved 🐸")}}
+  {"CalibrationInProgress", {QT_TRANSLATE_NOOP("Alerts", "Calibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")}},
+  {"SystemOverheated",      {QT_TRANSLATE_NOOP("Alerts", "System Overheated"),            QT_TRANSLATE_NOOP("Alerts", "%1 °C")}},
+  {"StartupWarning",        {QT_TRANSLATE_NOOP("Alerts", "WARNING: This branch is not tested"), QT_TRANSLATE_NOOP("Alerts", "%1")}},
+  {"StartupMessage",        {QT_TRANSLATE_NOOP("Alerts", "Hop in and buckle up!"),        QT_TRANSLATE_NOOP("Alerts", "Human-tested, frog-approved 🐸")}}
 };
 
 
@@ -26,7 +26,7 @@ inline QString translateAlertText1(const QString &text, const QStringList &param
 
     if (it == alertTranslations.end()) return text;
 
-    QString translated = QCoreApplication::translate("Alerts", it->text1.toUtf8().constData());
+    QString translated = QCoreApplication::translate("Alerts", it->text1);
     for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
     return translated;
 }
@@ -37,7 +37,7 @@ inline QString translateAlertText2(const QString &text, const QStringList &param
 
     if (it == alertTranslations.end()) return text;
 
-    QString translated = QCoreApplication::translate("Alerts", it->text2.toUtf8().constData());
+    QString translated = QCoreApplication::translate("Alerts", it->text2);
     for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
     return translated;
 }
