@@ -184,8 +184,8 @@ inline QString makeRegex(const QString &pattern) {
         int end = m.capturedEnd();
         // Escape the text before the placeholder.
         result += QRegularExpression::escape(pattern.mid(lastPos, start - lastPos));
-        // Replace placeholder with capturing group.
-        result += "(.*)";
+        // Replace placeholder with capturing group that matches any character including newlines.
+        result += "([\\s\\S]*)";
         lastPos = end;
     }
     // Escape any trailing text after the last placeholder.
@@ -193,79 +193,72 @@ inline QString makeRegex(const QString &pattern) {
     return result;
 }
 
-inline QString translateAlertText1(const QString &text, const QStringList &params = {}) {
-    auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
-                           [&text](const auto &alert) {
-                               QString pattern = alert.raw_text1;
-                               if (pattern.contains("%")) {
-                                   QString regexPattern = makeRegex(pattern);
-                                   QRegularExpression rx("^" + regexPattern + "$");
-                                   return rx.match(text).hasMatch();
-                               }
-                               return alert.raw_text1 == text;
-                           });
 
-    if (it == alertTranslations.end()) return text;
-
-    QString translated = QCoreApplication::translate("Alerts", it->tr_text1);
-    QStringList usedParams = params;
-    if (usedParams.isEmpty()) {
-        // Try to extract params from text using regex
-        QString pattern = it->raw_text1;
-        if (pattern.contains("%")) {
-            QString regexPattern = makeRegex(pattern);
-            QRegularExpression rx("^" + regexPattern + "$");
-            QRegularExpressionMatch match = rx.match(text);
-            if (match.hasMatch()) {
-                // Add all non-empty captured groups (starting from 1, as 0 is the whole match)
-                for (int i = 1; i <= match.lastCapturedIndex(); ++i) {
-                    QString captured = match.captured(i);
-                    if (!captured.isEmpty())
-                        usedParams << captured;
+// Unified translation function for both alert text1 and text2.
+inline QString translateAlert(const QString &text, const QStringList &params = {}) {
+    // Try to match against both raw_text1 and raw_text2 in alertTranslations.
+    for (const auto &alert : alertTranslations) {
+        // Check raw_text1
+        if (alert.raw_text1 && strlen(alert.raw_text1) > 0) {
+            QString pattern = alert.raw_text1;
+            if (pattern.contains("%")) {
+                QString regexPattern = makeRegex(pattern);
+                QRegularExpression rx("^" + regexPattern + "$");
+                QRegularExpressionMatch match = rx.match(text);
+                if (match.hasMatch()) {
+                    QString translated = QCoreApplication::translate("Alerts", alert.tr_text1);
+                    QStringList usedParams = params;
+                    if (usedParams.isEmpty()) {
+                        // Extract captured groups as parameters.
+                        for (int i = 1; i <= match.lastCapturedIndex(); ++i) {
+                            usedParams << match.captured(i);
+                        }
+                    }
+                    for (int i = 0; i < usedParams.size(); ++i) {
+                        translated = translated.arg(usedParams[i]);
+                    }
+                    return translated;
                 }
+            } else if (pattern == text) {
+                QString translated = QCoreApplication::translate("Alerts", alert.tr_text1);
+                QStringList usedParams = params;
+                for (int i = 0; i < usedParams.size(); ++i) {
+                    translated = translated.arg(usedParams[i]);
+                }
+                return translated;
+            }
+        }
+        // Check raw_text2
+        if (alert.raw_text2 && strlen(alert.raw_text2) > 0) {
+            QString pattern = alert.raw_text2;
+            if (pattern.contains("%")) {
+                QString regexPattern = makeRegex(pattern);
+                QRegularExpression rx("^" + regexPattern + "$");
+                QRegularExpressionMatch match = rx.match(text);
+                if (match.hasMatch()) {
+                    QString translated = QCoreApplication::translate("Alerts", alert.tr_text2);
+                    QStringList usedParams = params;
+                    if (usedParams.isEmpty()) {
+                        // Extract captured groups as parameters.
+                        for (int i = 1; i <= match.lastCapturedIndex(); ++i) {
+                            usedParams << match.captured(i);
+                        }
+                    }
+                    for (int i = 0; i < usedParams.size(); ++i) {
+                        translated = translated.arg(usedParams[i]);
+                    }
+                    return translated;
+                }
+            } else if (pattern == text) {
+                QString translated = QCoreApplication::translate("Alerts", alert.tr_text2);
+                QStringList usedParams = params;
+                for (int i = 0; i < usedParams.size(); ++i) {
+                    translated = translated.arg(usedParams[i]);
+                }
+                return translated;
             }
         }
     }
-    for (int i = 0; i < usedParams.size(); ++i) {
-        translated = translated.arg(usedParams[i]);
-    }
-    return translated;
-}
-
-inline QString translateAlertText2(const QString &text, const QStringList &params = {}) {
-    auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
-                           [&text](const auto &alert) {
-                               QString pattern = alert.raw_text2;
-                               if (pattern.contains("%")) {
-                                   QString regexPattern = makeRegex(pattern);
-                                   QRegularExpression rx("^" + regexPattern + "$");
-                                   return rx.match(text).hasMatch();
-                               }
-                               return alert.raw_text2 == text;
-                           });
-
-    if (it == alertTranslations.end()) return text;
-
-    QString translated = QCoreApplication::translate("Alerts", it->tr_text2);
-    QStringList usedParams = params;
-    if (usedParams.isEmpty()) {
-        // Try to extract params from text using regex
-        QString pattern = it->raw_text2;
-        if (pattern.contains("%")) {
-            QString regexPattern = makeRegex(pattern);
-            QRegularExpression rx("^" + regexPattern + "$");
-            QRegularExpressionMatch match = rx.match(text);
-            if (match.hasMatch()) {
-                for (int i = 1; i <= match.lastCapturedIndex(); ++i) {
-                    QString captured = match.captured(i);
-                    if (!captured.isEmpty())
-                        usedParams << captured;
-                }
-            }
-        }
-    }
-    for (int i = 0; i < usedParams.size(); ++i) {
-        translated = translated.arg(usedParams[i]);
-    }
-    return translated;
+    // No match found, return the original text.
+    return text;
 }
