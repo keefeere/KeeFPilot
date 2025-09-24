@@ -7,6 +7,7 @@ from opendbc.can.packer import CANPacker
 from openpilot.selfdrive.car import create_gas_interceptor_command
 from openpilot.selfdrive.car.honda import hondacan
 from openpilot.selfdrive.car.honda.values import CruiseButtons, VISUAL_HUD, HONDA_BOSCH, HONDA_BOSCH_RADARLESS, HONDA_NIDEC_ALT_PCM_ACCEL, CarControllerParams
+from openpilot.frogpilot.car.honda.values_ext import HondaFlagsFP, HONDA_NIDEC_PEDAL_TUNE
 from openpilot.selfdrive.car.interfaces import CarControllerBase
 from openpilot.selfdrive.controls.lib.drive_helpers import rate_limit
 
@@ -15,7 +16,7 @@ from openpilot.selfdrive.car.interfaces import get_max_allowed_accel
 GearShifter = car.CarState.GearShifter
 VisualAlert = car.CarControl.HUDControl.VisualAlert
 LongCtrlState = car.CarControl.Actuators.LongControlState
-
+_BrakeModifier = 0.0
 
 def compute_gb_honda_bosch(accel, speed):
   # TODO returns 0s, is unused
@@ -23,13 +24,19 @@ def compute_gb_honda_bosch(accel, speed):
 
 
 def compute_gb_honda_nidec(accel, speed):
+  global _BrakeModifier
+  if accel < -3.9:
+    _BrakeModifier += 0.01
+  else:
+    _BrakeModifier = 0.0
   creep_brake = 0.0
   creep_speed = 2.3
   creep_brake_value = 0.15
   if speed < creep_speed:
     creep_brake = (creep_speed - speed) / creep_speed * creep_brake_value
-  gb = float(accel) / 4.8 - creep_brake
-  return clip(gb, 0.0, 1.0), clip(-gb, 0.0, 1.0)
+  gb = float(accel) / interp(float(accel), [4.0, 3.5], [4.0, 4.8]) - creep_brake
+  just_brake = float(accel) / (-4.8 + _BrakeModifier) + creep_brake
+  return clip(gb, 0.0, 1.0), clip(just_brake, 0.0, 1.0)
 
 
 def compute_gas_brake(accel, speed, fingerprint):
@@ -102,10 +109,18 @@ HUDData = namedtuple("HUDData",
                       "lanes_visible", "fcw", "acc_alert", "steer_required", "lead_distance_bars"])
 
 
-def rate_limit_steer(new_steer, last_steer):
-  # TODO just hardcoded ramp to min/max in 0.33s for all Honda
-  MAX_DELTA = 3 * DT_CTRL
-  return clip(new_steer, last_steer - MAX_DELTA, last_steer + MAX_DELTA)
+def rate_limit_steer(new_steer, last_steer, CP):
+  if (CP.flags & HondaFlagsFP.EPS_MODIFIED) and CP.lateralTuning.which() == "pid":
+    # Speed params can be adjusted if needed
+    base_tau = 0.2  # Time constant in seconds
+    alpha = DT_CTRL / (base_tau + DT_CTRL)  # Alpha for first-order low-pass
+
+    # Simple low-pass filter
+    return alpha * new_steer + (1 - alpha) * last_steer
+  else:
+    # TODO just hardcoded ramp to min/max in 0.33s for all Honda
+    MAX_DELTA = 3 * DT_CTRL
+    return clip(new_steer, last_steer - MAX_DELTA, last_steer + MAX_DELTA)
 
 
 class CarController(CarControllerBase):
@@ -144,7 +159,7 @@ class CarController(CarControllerBase):
       gas, brake = 0.0, 0.0
 
     # *** rate limit steer ***
-    limited_steer = rate_limit_steer(actuators.steer, self.last_steer)
+    limited_steer = rate_limit_steer(actuators.steer, self.last_steer, self.CP)
     self.last_steer = limited_steer
 
     # *** apply brake hysteresis ***
@@ -176,7 +191,7 @@ class CarController(CarControllerBase):
                                                       CS.CP.openpilotLongitudinalControl))
 
     # wind brake from air resistance decel at high speed
-    wind_brake = interp(CS.out.vEgo, [0.0, 2.3, 35.0], [0.001, 0.002, 0.15])
+    wind_brake = interp(CS.out.vEgo, [0.0, 2.3, 17.8816, 29.0576], [0.001, 0.002, 0.003, 0.67056])
     # all of this is only relevant for HONDA NIDEC
     max_accel = interp(CS.out.vEgo, self.params.NIDEC_MAX_ACCEL_BP, self.params.NIDEC_MAX_ACCEL_V)
     # TODO this 1.44 is just to maintain previous behavior
@@ -230,7 +245,7 @@ class CarController(CarControllerBase):
           can_sends.extend(hondacan.create_acc_commands(self.packer, self.CAN, CC.enabled, CC.longActive, self.accel, self.gas,
                                                         self.stopping_counter, self.CP.carFingerprint))
         else:
-          apply_brake = clip(self.brake_last - wind_brake, 0.0, 1.0)
+          apply_brake = clip(self.brake_last - (wind_brake if self.brake_last <= 0.95 else 0.0), 0.0, 1.0)
           apply_brake = int(clip(apply_brake * self.params.NIDEC_BRAKE_MAX, 0, self.params.NIDEC_BRAKE_MAX - 1))
           pump_on, self.last_pump_ts = brake_pump_hysteresis(apply_brake, self.apply_brake_last, self.last_pump_ts, ts)
 
@@ -242,15 +257,20 @@ class CarController(CarControllerBase):
           self.brake = apply_brake / self.params.NIDEC_BRAKE_MAX
 
           if self.CP.enableGasInterceptor:
-            # way too aggressive at low speed without this
-            gas_mult = interp(CS.out.vEgo, [0., 10.], [0.4, 1.0])
-            # send exactly zero if apply_gas is zero. Interceptor will send the max between read value and apply_gas.
-            # This prevents unexpected pedal range rescaling
-            # Sending non-zero gas when OP is not enabled will cause the PCM not to respond to throttle as expected
-            # when you do enable.
-            if CC.longActive:
-              self.gas = clip(gas_mult * (gas - brake + wind_brake * 3 / 4), 0., 1.)
+            if self.CP.carFingerprint in HONDA_NIDEC_PEDAL_TUNE:
+              # mike8643 Clarity Long Tune Interpolation applied to all tested vehicles
+              gas_mult = 1
             else:
+              # way too aggressive at low speed without this
+              gas_mult = interp(CS.out.vEgo, [0., 10.], [0.4, 1.0])
+              # send exactly zero if apply_gas is zero. Interceptor will send the max between read value and apply_gas.
+              # This prevents unexpected pedal range rescaling
+              # Sending non-zero gas when OP is not enabled will cause the PCM not to respond to throttle as expected
+              # when you do enable.
+            if CC.longActive:
+              self.gas = clip(gas_mult * gas, 0., 1.)
+            else:
+              wind_brake = 0.0 # fix car surging on engagement
               self.gas = 0.0
             can_sends.append(create_gas_interceptor_command(self.packer, self.gas, self.frame // 2))
 

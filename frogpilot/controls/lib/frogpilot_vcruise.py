@@ -47,14 +47,15 @@ class FrogPilotVCruise:
     v_ego_diff = v_ego_cluster - v_ego
 
     # Mike's extended lead linear braking
-    if self.frogpilot_planner.lead_one.vLead < v_ego > CRUISING_SPEED and sm["controlsState"].enabled and self.frogpilot_planner.tracking_lead and frogpilot_toggles.human_following:
-      if not self.frogpilot_planner.frogpilot_following.following_lead:
-        decel_rate = (v_ego - self.frogpilot_planner.lead_one.vLead)**2 / self.frogpilot_planner.lead_one.dRel
-        self.braking_target = max(v_ego - (decel_rate * DT_MDL), self.frogpilot_planner.lead_one.vLead + CRUISING_SPEED)
-      else:
-        self.braking_target = v_cruise
-    else:
-      self.braking_target = v_cruise
+    self.braking_target = v_cruise
+    if v_ego > CRUISING_SPEED and sm["controlsState"].enabled and self.frogpilot_planner.tracking_lead and frogpilot_toggles.human_following:
+      lead = self.frogpilot_planner.lead_one
+      tFollow = self.frogpilot_planner.frogpilot_following.t_follow
+      dFollow = max(lead.dRel - lead.vLead * (tFollow + 0.25), 1e-6)
+      if (lead.vLead + dFollow / v_ego) < v_ego and lead.dRel < 125:
+        decelRate = (lead.vRel ** 2) / (2 * dFollow) * 2
+        brake_speed = v_ego - (decelRate - lead.aLeadK)
+        self.braking_target = float(max(CRUISING_SPEED, brake_speed, lead.vLead))
 
     # Pfeiferj's Map Turn Speed Controller
     if v_ego > CRUISING_SPEED and sm["controlsState"].enabled and frogpilot_toggles.map_turn_speed_controller:
@@ -95,7 +96,7 @@ class FrogPilotVCruise:
     else:
       self.vtsc_target = v_cruise
 
-    if sm["carState"].standstill and not self.override_force_stop and sm["controlsState"].enabled and frogpilot_toggles.force_standstill:
+    if sm["carState"].standstill and not self.override_force_stop and sm["controlsState"].enabled and frogpilot_toggles.force_standstill and not (self.frogpilot_planner.tracking_lead and 1 < getattr(self.frogpilot_planner.lead_one, "dRel", float("inf")) < 15):
       self.forcing_stop = True
 
       v_cruise = -1
@@ -115,7 +116,25 @@ class FrogPilotVCruise:
       if frogpilot_toggles.speed_limit_controller:
         targets.append(max(self.slc.overridden_speed, self.slc_target + self.slc_offset) - v_ego_diff)
 
-      v_cruise = min([target if target > CRUISING_SPEED else v_cruise for target in targets])
+      # Float 10 mph / kph over vcruise
+
+      # Params for v float
+      # For all of these variables, Too much will lead to brake use, too little will prevent OP to drop accel command at all.
+      factor_init_decel = 0.5 # Tune for initial deceleration to get OP to drop accel command, "coast".
+      factor_maint_decel = 0.1  # Tune for maintaining deceleration after accel command is below factor_init_decel.
+      factor_typ_terrain = 0  # Tune for typical terrain. If very steep hills, downhill results in higher natural acceleration so to prevent downhill braking value must be higher.
+      speed_scalar = 10 # magnitude of mph / kph offset
+      speed_offset = speed_scalar * CV.KPH_TO_MS if frogpilot_toggles.is_metric else speed_scalar * CV.MPH_TO_MS  # offset converted to m/s
+
+      # v float logic
+      actuators = sm["carControl"].actuators
+      # This substitutes v_cruise with speed buffer or 10 mph over set speed. Speed buffer being slightly under actual speed allows for slight amount of deceleration.
+      # Tuning the speed buffer to match your vehicles wind drag, tire rolling resistance, and types of terrain is key.
+      if all(target >= v_cruise for target in targets) and v_ego > (v_cruise + factor_init_decel):
+        buffer = factor_maint_decel if actuators.accel < factor_typ_terrain else factor_init_decel
+        v_cruise = min(v_ego - buffer, v_cruise + speed_offset)  # Setting v float to 10 MPH / KPH above cruise depending on is_metric toggle
+      else:
+        v_cruise = min([target if target > CRUISING_SPEED else v_cruise for target in targets])
 
     self.mtsc_target += v_cruise_diff
     self.vtsc_target += v_cruise_diff
