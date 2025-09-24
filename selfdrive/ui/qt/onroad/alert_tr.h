@@ -2,6 +2,7 @@
 #include <QString>
 #include <QStringList>
 #include <map>
+#include <QCoreApplication>
 
 struct AlertTranslation {
     QString text1;
@@ -25,7 +26,7 @@ inline QString translateAlertText1(const QString &text, const QStringList &param
 
     if (it == alertTranslations.end()) return text;
 
-    QString translated = QObject::tr(it->text1.toUtf8().constData());
+    QString translated = QCoreApplication::translate("Alerts", it->text1.toUtf8().constData());
     for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
     return translated;
 }
@@ -36,7 +37,7 @@ inline QString translateAlertText2(const QString &text, const QStringList &param
 
     if (it == alertTranslations.end()) return text;
 
-    QString translated = QObject::tr(it->text2.toUtf8().constData());
+    QString translated = QCoreApplication::translate("Alerts", it->text2.toUtf8().constData());
     for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
     return translated;
 }
