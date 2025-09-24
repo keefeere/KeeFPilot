@@ -59,26 +59,26 @@ extractor = AlertExtractor()
 extractor.visit(tree)
 
 # Generating a C++ array
-lines = ["inline QMap<QString, AlertTranslation> alertTranslations = {"]
+lines = ["inline std::vector<AlertTranslation> alertTranslations = {"]
 
 
 # --- add startup messages at the beginning ---
 # Combine StartupMessageTop and StartupMessageBottom by transposing their lines
 if len(startup_messages) == 2:
     # Alert 1: text1 from Top, text2 from Bottom
-    lines.append(f'  {{"{startup_messages[1][0]}", "{startup_messages[0][0]}", {{QT_TRANSLATE_NOOP("Alerts", "{startup_messages[1][0]}"), QT_TRANSLATE_NOOP("Alerts", "{startup_messages[0][0]}")}}}},')
+    lines.append(f'  {{"{startup_messages[1][0]}", "{startup_messages[0][0]}", QT_TRANSLATE_NOOP("Alerts", "{startup_messages[1][0]}"), QT_TRANSLATE_NOOP("Alerts", "{startup_messages[0][0]}")}},')
     # Alert 2: text1 from Bottom, text2 from Top
-    lines.append(f'  {{"{startup_messages[1][1]}", "{startup_messages[0][1]}", {{QT_TRANSLATE_NOOP("Alerts", "{startup_messages[1][1]}"), QT_TRANSLATE_NOOP("Alerts", "{startup_messages[0][1]}")}}}},')
+    lines.append(f'  {{"{startup_messages[1][1]}", "{startup_messages[0][1]}", QT_TRANSLATE_NOOP("Alerts", "{startup_messages[1][1]}"), QT_TRANSLATE_NOOP("Alerts", "{startup_messages[0][1]}")}},')
 else:
     # fallback: original behavior
     for text1, text2 in startup_messages:
-        lines.append(f'  {{"{text1}", {{QT_TRANSLATE_NOOP("Alerts", "{text1}"), QT_TRANSLATE_NOOP("Alerts", "{text2}")}}}},')
+        lines.append(f'  {{"{text1}", "{text2}", {{QT_TRANSLATE_NOOP("Alerts", "{text1}"), QT_TRANSLATE_NOOP("Alerts", "{text2}")}}}},')
 
 # --- add all alerts from events.py ---
 for a in extractor.alerts:
     t1 = a['text1'] if a['text1'] else ""
     t2 = a['text2'] if a['text2'] else ""
-    if t1 or t2: lines.append(f'  {{"{t1}", "{t2}", {{QT_TRANSLATE_NOOP("Alerts", "{t1}"), QT_TRANSLATE_NOOP("Alerts", "{t2}")}}}},')
+    if t1 or t2: lines.append(f'  {{"{t1}", "{t2}", QT_TRANSLATE_NOOP("Alerts", "{t1}"), QT_TRANSLATE_NOOP("Alerts", "{t2}")}},')
 
 lines.append("};\n")
 
