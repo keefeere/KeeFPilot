@@ -187,8 +187,30 @@ inline QString translateAlertText1(const QString &text, const QStringList &param
     if (it == alertTranslations.end()) return text;
 
     QString translated = QCoreApplication::translate("Alerts", it->tr_text1);
-    for (int i = 0; i < params.size(); ++i) {
-        translated = translated.arg(params[i]);
+    QStringList usedParams = params;
+    if (usedParams.isEmpty()) {
+        // Try to extract params from text using regex
+        QString pattern = it->raw_text1;
+        if (pattern.contains("%")) {
+            QString regexPattern = QRegularExpression::escape(pattern);
+            regexPattern.replace("%1", "(.*)");
+            regexPattern.replace("%2", "(.*)");
+            regexPattern.replace("%3", "(.*)");
+            regexPattern.replace("%4", "(.*)");
+            QRegularExpression rx("^" + regexPattern + "$");
+            QRegularExpressionMatch match = rx.match(text);
+            if (match.hasMatch()) {
+                // Add all non-empty captured groups (starting from 1, as 0 is the whole match)
+                for (int i = 1; i <= match.lastCapturedIndex(); ++i) {
+                    QString captured = match.captured(i);
+                    if (!captured.isEmpty())
+                        usedParams << captured;
+                }
+            }
+        }
+    }
+    for (int i = 0; i < usedParams.size(); ++i) {
+        translated = translated.arg(usedParams[i]);
     }
     return translated;
 }
@@ -212,8 +234,29 @@ inline QString translateAlertText2(const QString &text, const QStringList &param
     if (it == alertTranslations.end()) return text;
 
     QString translated = QCoreApplication::translate("Alerts", it->tr_text2);
-    for (int i = 0; i < params.size(); ++i) {
-        translated = translated.arg(params[i]);
+    QStringList usedParams = params;
+    if (usedParams.isEmpty()) {
+        // Try to extract params from text using regex
+        QString pattern = it->raw_text2;
+        if (pattern.contains("%")) {
+            QString regexPattern = QRegularExpression::escape(pattern);
+            regexPattern.replace("%1", "(.*)");
+            regexPattern.replace("%2", "(.*)");
+            regexPattern.replace("%3", "(.*)");
+            regexPattern.replace("%4", "(.*)");
+            QRegularExpression rx("^" + regexPattern + "$");
+            QRegularExpressionMatch match = rx.match(text);
+            if (match.hasMatch()) {
+                for (int i = 1; i <= match.lastCapturedIndex(); ++i) {
+                    QString captured = match.captured(i);
+                    if (!captured.isEmpty())
+                        usedParams << captured;
+                }
+            }
+        }
+    }
+    for (int i = 0; i < usedParams.size(); ++i) {
+        translated = translated.arg(usedParams[i]);
     }
     return translated;
 }

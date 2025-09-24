@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Be ready to take over at any time</source>
-        <translation>Будьте готові взяти на себе керування!</translation>
+        <translation>Будьте готові взяти керування</translation>
     </message>
     <message>
         <source>Always keep hands on wheel and eyes on road</source>
