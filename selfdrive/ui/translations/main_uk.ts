@@ -5904,7 +5904,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>up to date, last checked %1</source>
-        <translation>оновлено, останнє перевірка %1</translation>
+        <translation>оновлено, остання перевірка %1</translation>
     </message>
     <message>
         <source>downloading…</source>
