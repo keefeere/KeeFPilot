@@ -3,6 +3,7 @@
 #include <QStringList>
 #include <map>
 #include <QCoreApplication>
+#include <QRegularExpression>
 
 struct AlertTranslation {
     const char *raw_text1;
@@ -167,25 +168,52 @@ inline std::vector<AlertTranslation> alertTranslations = {
 };
 
 
-
 inline QString translateAlertText1(const QString &text, const QStringList &params = {}) {
     auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
-                           [&text](const auto &alert){ return alert.raw_text1 == text; });
+                           [&text](const auto &alert) {
+                               QString pattern = alert.raw_text1;
+                               if (pattern.contains("%")) {
+                                   QString regexPattern = QRegularExpression::escape(pattern);
+                                   regexPattern.replace("%1", "(.*)");
+                                   regexPattern.replace("%2", "(.*)");
+                                   regexPattern.replace("%3", "(.*)");
+                                   regexPattern.replace("%4", "(.*)");
+                                   QRegularExpression rx("^" + regexPattern + "$");
+                                   return rx.match(text).hasMatch();
+                               }
+                               return alert.raw_text1 == text;
+                           });
 
     if (it == alertTranslations.end()) return text;
 
     QString translated = QCoreApplication::translate("Alerts", it->tr_text1);
-    for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
+    for (int i = 0; i < params.size(); ++i) {
+        translated = translated.arg(params[i]);
+    }
     return translated;
 }
 
 inline QString translateAlertText2(const QString &text, const QStringList &params = {}) {
     auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
-                           [&text](const auto &alert){ return alert.raw_text2 == text; });
+                           [&text](const auto &alert) {
+                               QString pattern = alert.raw_text2;
+                               if (pattern.contains("%")) {
+                                   QString regexPattern = QRegularExpression::escape(pattern);
+                                   regexPattern.replace("%1", "(.*)");
+                                   regexPattern.replace("%2", "(.*)");
+                                   regexPattern.replace("%3", "(.*)");
+                                   regexPattern.replace("%4", "(.*)");
+                                   QRegularExpression rx("^" + regexPattern + "$");
+                                   return rx.match(text).hasMatch();
+                               }
+                               return alert.raw_text2 == text;
+                           });
 
     if (it == alertTranslations.end()) return text;
 
     QString translated = QCoreApplication::translate("Alerts", it->tr_text2);
-    for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
+    for (int i = 0; i < params.size(); ++i) {
+        translated = translated.arg(params[i]);
+    }
     return translated;
 }
