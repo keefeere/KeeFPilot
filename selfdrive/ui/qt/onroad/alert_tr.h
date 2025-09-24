@@ -42,9 +42,3 @@ inline QString translateAlertText2(const QString &text, const QStringList &param
     for (int i = 0; i < params.size(); ++i) translated = translated.arg(params[i]);
     return translated;
 }
-inline QMap<QString, AlertTranslation> alertTranslations = {
-  {"CalibrationInProgress", {QT_TR_NOOP("Calibration in Progress: %1%"), QT_TR_NOOP("Drive Above %1 km/h")}},
-  {"SystemOverheated",      {QT_TR_NOOP("System Overheated"),            QT_TR_NOOP("%1 °C")}},
-  {"StartupWarning",        {QT_TR_NOOP("WARNING: This branch is not tested"), QT_TR_NOOP("%1")}},
-  {"StartupMessage",        {QT_TR_NOOP("Hop in and buckle up!"),        QT_TR_NOOP("Human-tested, frog-approved 🐸")}}
-};
