@@ -531,11 +531,12 @@
     </message>
     <message>
         <source>LKAS Fault: Restart the car to engage</source>
-        <translation>Помилка LKAS: перезав. авто, щоб активувати</translation>
+        <translation>Помилка LKAS: перезавантажте авто</translation>
     </message>
     <message>
         <source>Reverse&lt;br&gt;Gear</source>
-        <translation>Задній&lt;br&gt;хід</translation>
+        <translation>Задній
+хід</translation>
     </message>
     <message>
         <source>Reverse Gear</source>
