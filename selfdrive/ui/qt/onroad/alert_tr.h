@@ -20,7 +20,7 @@ inline std::vector<AlertTranslation> alertTranslations = {
   {"Steer Unavailable Below %1", "", QT_TRANSLATE_NOOP("Alerts", "Steer Unavailable Below %1"), QT_TRANSLATE_NOOP("Alerts", "")},
   //manualy edited
   {"Calibration in Progress: %1%", "Drive Above %1 km/h", QT_TRANSLATE_NOOP("Alerts", "Calibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")},
-  {"Recalibration in Progress: %1%", "Drive Above %1 km/h", QT_TRANSLATE_NOOP("Alerts", "Recalibration in Progress: %2%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")},
+  {"Recalibration in Progress: %1%", "Drive Above %1 km/h", QT_TRANSLATE_NOOP("Alerts", "Recalibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")},
 
   {"Out of Storage", "%1% full", QT_TRANSLATE_NOOP("Alerts", "Out of Storage"), QT_TRANSLATE_NOOP("Alerts", "%1% full")},
   {"Camera Malfunction", "", QT_TRANSLATE_NOOP("Alerts", "Camera Malfunction"), QT_TRANSLATE_NOOP("Alerts", "")},
