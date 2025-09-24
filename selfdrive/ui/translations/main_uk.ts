@@ -141,6 +141,10 @@
         <source>Human-tested, frog-approved 🐸</source>
         <translation>Випробувано на людях, схвалено жабами 🐸</translation>
     </message>
+    <message>
+        <source>Drive above %1 km/h to engage</source>
+        <translation>Рухайтеся зі швидкістю понад %1 км/год, щоб запустити</translation>
+    </message>
 </context>
 <context>
     <name>AnnotatedCameraWidget</name>

@@ -10,7 +10,7 @@ struct AlertTranslation {
 };
 
 inline QMap<QString, AlertTranslation> alertTranslations = {
-  {"CalibrationInProgress", {QT_TRANSLATE_NOOP("Alerts", "Calibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive above %1 km/h to engage")}},
+  {"CalibrationInProgress", {QT_TRANSLATE_NOOP("Alerts", "Calibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")}},
   {"SystemOverheated",      {QT_TRANSLATE_NOOP("Alerts", "System Overheated"),            QT_TRANSLATE_NOOP("Alerts", "%1 °C")}},
   {"StartupWarning",        {QT_TRANSLATE_NOOP("Alerts", "WARNING: This branch is not tested"), QT_TRANSLATE_NOOP("Alerts", "%1")}},
   {"StartupMessage",        {QT_TRANSLATE_NOOP("Alerts", "Hop in and buckle up!"),        QT_TRANSLATE_NOOP("Alerts", "Human-tested, frog-approved 🐸")}}
