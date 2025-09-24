@@ -16,8 +16,6 @@ inline QMap<QString, AlertTranslation> alertTranslations = {
 };
 
 
-
-// обʼяви функції прямо тут
 inline QString translateAlertText1(const QString &text, const QStringList &params = {});
 inline QString translateAlertText2(const QString &text, const QStringList &params = {});
 
