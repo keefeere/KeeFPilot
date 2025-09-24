@@ -22,6 +22,11 @@ inline std::vector<AlertTranslation> alertTranslations = {
   {"Calibration in Progress: %1%", "Drive Above %1 km/h", QT_TRANSLATE_NOOP("Alerts", "Calibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")},
   {"Recalibration in Progress: %1%", "Drive Above %1 km/h", QT_TRANSLATE_NOOP("Alerts", "Recalibration in Progress: %1%"), QT_TRANSLATE_NOOP("Alerts", "Drive Above %1 km/h")},
 
+   //special alerts
+   {"openpilot Unavailable", "", QT_TRANSLATE_NOOP("Alerts", "openpilot Unavailable"), QT_TRANSLATE_NOOP("Alerts", "")},
+   {"STAKE CONTROL IMMEDIATELY", "", QT_TRANSLATE_NOOP("Alerts", "TAKE CONTROL IMMEDIATELY"), QT_TRANSLATE_NOOP("Alerts", "")},
+   {"openpilot will disengage", "", QT_TRANSLATE_NOOP("Alerts", "openpilot will disengage"), QT_TRANSLATE_NOOP("Alerts", "")},
+
   {"Out of Storage", "%1% full", QT_TRANSLATE_NOOP("Alerts", "Out of Storage"), QT_TRANSLATE_NOOP("Alerts", "%1% full")},
   {"Camera Malfunction", "", QT_TRANSLATE_NOOP("Alerts", "Camera Malfunction"), QT_TRANSLATE_NOOP("Alerts", "")},
   {"Calibration Invalid", "", QT_TRANSLATE_NOOP("Alerts", "Calibration Invalid"), QT_TRANSLATE_NOOP("Alerts", "")},
@@ -125,7 +130,7 @@ inline std::vector<AlertTranslation> alertTranslations = {
   {"LKAS Fault: Restart the Car", "", QT_TRANSLATE_NOOP("Alerts", "LKAS Fault: Restart the Car"), QT_TRANSLATE_NOOP("Alerts", "")},
   {"LKAS Fault: Restart the car to engage", "", QT_TRANSLATE_NOOP("Alerts", "LKAS Fault: Restart the car to engage"), QT_TRANSLATE_NOOP("Alerts", "")},
   {"LKAS Fault: Restart the Car", "", QT_TRANSLATE_NOOP("Alerts", "LKAS Fault: Restart the Car"), QT_TRANSLATE_NOOP("Alerts", "")},
-  {"Reverse<br>Gear", "", QT_TRANSLATE_NOOP("Alerts", "Reverse<br>Gear"), QT_TRANSLATE_NOOP("Alerts", "")},
+  {"Reverse%1Gear", "", QT_TRANSLATE_NOOP("Alerts", "Reverse<br>Gear"), QT_TRANSLATE_NOOP("Alerts", "")},
   {"Reverse Gear", "", QT_TRANSLATE_NOOP("Alerts", "Reverse Gear"), QT_TRANSLATE_NOOP("Alerts", "")},
   {"Reverse Gear", "", QT_TRANSLATE_NOOP("Alerts", "Reverse Gear"), QT_TRANSLATE_NOOP("Alerts", "")},
   {"Cruise Is Off", "", QT_TRANSLATE_NOOP("Alerts", "Cruise Is Off"), QT_TRANSLATE_NOOP("Alerts", "")},
