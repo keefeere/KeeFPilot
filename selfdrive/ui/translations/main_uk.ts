@@ -131,11 +131,11 @@
     </message>
     <message>
         <source>Be ready to take over at any time</source>
-        <translation type="unfinished"></translation>
+        <translation>Будьте готові взяти на себе керування в будь-який момент</translation>
     </message>
     <message>
         <source>Always keep hands on wheel and eyes on road</source>
-        <translation type="unfinished"></translation>
+        <translation>Завжди тримайте руки на кермі та очі на дорозі</translation>
     </message>
     <message>
         <source>Drive above %1 to engage</source>
