@@ -168,16 +168,34 @@ inline std::vector<AlertTranslation> alertTranslations = {
 };
 
 
+// Helper function to build a regex from a pattern with %N placeholders.
+inline QString makeRegex(const QString &pattern) {
+    // Use QRegularExpression to find all %N placeholders.
+    QRegularExpression re("%[1-9][0-9]*");
+    QString result;
+    int lastPos = 0;
+    auto it = re.globalMatch(pattern);
+    while (it.hasNext()) {
+        QRegularExpressionMatch m = it.next();
+        int start = m.capturedStart();
+        int end = m.capturedEnd();
+        // Escape the text before the placeholder.
+        result += QRegularExpression::escape(pattern.midRef(lastPos, start - lastPos));
+        // Replace placeholder with capturing group.
+        result += "(.*)";
+        lastPos = end;
+    }
+    // Escape any trailing text after the last placeholder.
+    result += QRegularExpression::escape(pattern.midRef(lastPos));
+    return result;
+}
+
 inline QString translateAlertText1(const QString &text, const QStringList &params = {}) {
     auto it = std::find_if(alertTranslations.begin(), alertTranslations.end(),
                            [&text](const auto &alert) {
                                QString pattern = alert.raw_text1;
                                if (pattern.contains("%")) {
-                                   QString regexPattern = QRegularExpression::escape(pattern);
-                                   regexPattern.replace("%1", "(.*)");
-                                   regexPattern.replace("%2", "(.*)");
-                                   regexPattern.replace("%3", "(.*)");
-                                   regexPattern.replace("%4", "(.*)");
+                                   QString regexPattern = makeRegex(pattern);
                                    QRegularExpression rx("^" + regexPattern + "$");
                                    return rx.match(text).hasMatch();
                                }
@@ -192,11 +210,7 @@ inline QString translateAlertText1(const QString &text, const QStringList &param
         // Try to extract params from text using regex
         QString pattern = it->raw_text1;
         if (pattern.contains("%")) {
-            QString regexPattern = QRegularExpression::escape(pattern);
-            regexPattern.replace("%1", "(.*)");
-            regexPattern.replace("%2", "(.*)");
-            regexPattern.replace("%3", "(.*)");
-            regexPattern.replace("%4", "(.*)");
+            QString regexPattern = makeRegex(pattern);
             QRegularExpression rx("^" + regexPattern + "$");
             QRegularExpressionMatch match = rx.match(text);
             if (match.hasMatch()) {
@@ -220,11 +234,7 @@ inline QString translateAlertText2(const QString &text, const QStringList &param
                            [&text](const auto &alert) {
                                QString pattern = alert.raw_text2;
                                if (pattern.contains("%")) {
-                                   QString regexPattern = QRegularExpression::escape(pattern);
-                                   regexPattern.replace("%1", "(.*)");
-                                   regexPattern.replace("%2", "(.*)");
-                                   regexPattern.replace("%3", "(.*)");
-                                   regexPattern.replace("%4", "(.*)");
+                                   QString regexPattern = makeRegex(pattern);
                                    QRegularExpression rx("^" + regexPattern + "$");
                                    return rx.match(text).hasMatch();
                                }
@@ -239,11 +249,7 @@ inline QString translateAlertText2(const QString &text, const QStringList &param
         // Try to extract params from text using regex
         QString pattern = it->raw_text2;
         if (pattern.contains("%")) {
-            QString regexPattern = QRegularExpression::escape(pattern);
-            regexPattern.replace("%1", "(.*)");
-            regexPattern.replace("%2", "(.*)");
-            regexPattern.replace("%3", "(.*)");
-            regexPattern.replace("%4", "(.*)");
+            QString regexPattern = makeRegex(pattern);
             QRegularExpression rx("^" + regexPattern + "$");
             QRegularExpressionMatch match = rx.match(text);
             if (match.hasMatch()) {
