@@ -180,13 +180,13 @@ inline QString makeRegex(const QString &pattern) {
         int start = m.capturedStart();
         int end = m.capturedEnd();
         // Escape the text before the placeholder.
-        result += QRegularExpression::escape(pattern.midRef(lastPos, start - lastPos));
+        result += QRegularExpression::escape(pattern.mid(lastPos, start - lastPos));
         // Replace placeholder with capturing group.
         result += "(.*)";
         lastPos = end;
     }
     // Escape any trailing text after the last placeholder.
-    result += QRegularExpression::escape(pattern.midRef(lastPos));
+    result += QRegularExpression::escape(pattern.mid(lastPos));
     return result;
 }
 
