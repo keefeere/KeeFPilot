@@ -307,11 +307,11 @@
     </message>
     <message>
         <source>Steer Left to Start Lane Change Once Safe</source>
-        <translation>Кермуйте ліворуч, щоб змінити смугу, коли безпечно</translation>
+        <translation>Зміна смуги - кермо ліворуч коли безпечно</translation>
     </message>
     <message>
         <source>Steer Right to Start Lane Change Once Safe</source>
-        <translation>Кермуйте праворуч, щоб змінити смугу, коли безпечно</translation>
+        <translation>Зміна смуги - кермо праворуч коли безпечно</translation>
     </message>
     <message>
         <source>Car Detected in Blindspot</source>
