@@ -3541,7 +3541,7 @@ Developer - Unlocks highly customizable settings for seasoned enthusiasts</sourc
     </message>
     <message>
         <source>WARNING: This unlocks some potentially dangerous settings that can DRASTICALLY alter your driving experience!</source>
-        <translation>УВАГА: Це розблоковує деякі потенційно небезпечні налаштування, які можуть КАТАСТРОФІЧНО змінити ваші відчуття від водіння!</translation>
+        <translation>«УВАГА: Тут є небезпечні налаштування, які можуть зашкодити керуванню!»</translation>
     </message>
 </context>
 <context>
