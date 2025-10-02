@@ -750,6 +750,50 @@
         <source>openpilot will disengage</source>
         <translation>openpilot деактивується</translation>
     </message>
+    <message>
+        <source>Drive Above %1 mph</source>
+        <translation>Їдьте швидше %1 мнг</translation>
+    </message>
+    <message>
+        <source>Posenet Speed Invalid</source>
+        <translation>Швидкість Posenet недійсна</translation>
+    </message>
+    <message>
+        <source>Process Not Running</source>
+        <translation>Процес не виконується</translation>
+    </message>
+    <message>
+        <source>Communication Issue Between Processes</source>
+        <translation>Проблема комунікації між процесами</translation>
+    </message>
+    <message>
+        <source>Camera Malfunction, %1</source>
+        <translation>Несправність камери, %1</translation>
+    </message>
+    <message>
+        <source>Remount Device (Pitch: %1°, Yaw: %2°)</source>
+        <translation>Перевстановити пристрій (нахил: %1°, відхилення: %2°)</translation>
+    </message>
+    <message>
+        <source>Enable Cruise Control to Engage</source>
+        <translation>Увімкни круїз-контроль для активації</translation>
+    </message>
+    <message>
+        <source>Enable Main Switch to Engage</source>
+        <translation>Увімкни круїз-контроль для активації</translation>
+    </message>
+    <message>
+        <source>Enable Adaptive Cruise to Engage</source>
+        <translation>Увімкни адаптивний круїз для активації</translation>
+    </message>
+    <message>
+        <source>Speed Error: %1 m/s</source>
+        <translation>Похибка швидкості: %1 м/с</translation>
+    </message>
+    <message>
+        <source>Gas: %1%, Steer: %2%</source>
+        <translation>Газ: %1%, Кермо: %2%</translation>
+    </message>
 </context>
 <context>
     <name>AnnotatedCameraWidget</name>
