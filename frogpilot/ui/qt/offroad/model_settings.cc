@@ -119,11 +119,11 @@ FrogPilotModelPanel::FrogPilotModelPanel(FrogPilotSettingsWindow *parent) : Frog
             QString modelToDownload = MultiOptionDialog::getSelection(tr("Select a driving model to download"), downloadableModels, "", this);
             if (!modelToDownload.isEmpty()) {
               params_memory.put("ModelToDownload", modelFileToNameMap.key(modelToDownload).toStdString());
-              params_memory.put("ModelDownloadProgress", "Downloading...");
+              params_memory.put("ModelDownloadProgress", tr("Downloading..."));
 
               downloadModelBtn->setText(0, tr("CANCEL"));
 
-              downloadModelBtn->setValue("Downloading...");
+              downloadModelBtn->setValue(tr("Downloading..."));
 
               downloadModelBtn->setVisibleButton(1, false);
 
@@ -137,11 +137,11 @@ FrogPilotModelPanel::FrogPilotModelPanel(FrogPilotSettingsWindow *parent) : Frog
             cancellingDownload = true;
           } else {
             params_memory.putBool("DownloadAllModels", true);
-            params_memory.put("ModelDownloadProgress", "Downloading...");
+            params_memory.put("ModelDownloadProgress", tr("Downloading..."));
 
             downloadModelBtn->setText(1, tr("CANCEL"));
 
-            downloadModelBtn->setValue("Downloading...");
+            downloadModelBtn->setValue(tr("Downloading..."));
 
             downloadModelBtn->setVisibleButton(0, false);
 
@@ -288,9 +288,9 @@ FrogPilotModelPanel::FrogPilotModelPanel(FrogPilotSettingsWindow *parent) : Frog
     if (state && !allModelsDownloaded) {
       if (FrogPilotConfirmationDialog::yesorno(tr("The \"Model Randomizer\" only works with downloaded models. Do you want to download all the driving models?"), this)) {
         params_memory.putBool("DownloadAllModels", true);
-        params_memory.put("ModelDownloadProgress", "Downloading...");
+        params_memory.put("ModelDownloadProgress", tr("Downloading..."));
 
-        downloadModelBtn->setValue("Downloading...");
+        downloadModelBtn->setValue(tr("Downloading..."));
 
         allModelsDownloading = true;
       }
