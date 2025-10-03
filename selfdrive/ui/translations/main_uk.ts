@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Human-tested, frog-approved 🐸</source>
-        <translation>Випробувано на людях, схвалено жабами 🐸</translation>
+        <translation>Випробувано людьми, схвалено жабами 🐸</translation>
     </message>
     <message>
         <source>Be ready to take over at any time</source>
