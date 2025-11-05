@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-05 12:25+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-11-05 15:42+0200\n"
+"Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.8\n"
 
 #: system/ui/widgets/option_dialog.py:35 system/ui/widgets/network.py:318
 #: system/ui/widgets/confirm_dialog.py:23 system/ui/widgets/keyboard.py:81
@@ -68,7 +69,9 @@ msgstr "Лімітне стільникове з'єднання"
 #: system/ui/widgets/network.py:135
 #, python-format
 msgid "Prevent large data uploads when on a metered cellular connection"
-msgstr "Запобігати великим завантаженням даних під час лімітного стільникового з'єднання"
+msgstr ""
+"Запобігати великим завантаженням даних під час лімітного стільникового "
+"з'єднання"
 
 #: system/ui/widgets/network.py:139
 #, python-format
@@ -216,7 +219,9 @@ msgstr ""
 msgid ""
 "Pair your device with comma connect (connect.comma.ai) and claim your comma "
 "prime offer."
-msgstr "Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте свою пропозицію comma prime."
+msgstr ""
+"Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте "
+"свою пропозицію comma prime."
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:75
 #, python-format
@@ -312,7 +317,9 @@ msgstr ""
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
 #, python-format
 msgid "Pair your device to your comma account"
-msgstr "Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте свою пропозицію comma prime."
+msgstr ""
+"Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте "
+"свою пропозицію comma prime."
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:117
 #, python-format
@@ -498,7 +505,11 @@ msgid ""
 "Warning: This grants SSH access to all public keys in your GitHub settings. "
 "Never enter a GitHub username other than your own. A comma employee will "
 "NEVER ask you to add their GitHub username."
-msgstr "Попередження: це надає доступ по SSH до всіх публічних ключів у ваших налаштуваннях GitHub. Ніколи не вводьте ім'я користувача GitHub, окрім вашого власного. Співробітник comma НІКОЛИ не попросить вас додати його ім'я користувача GitHub."
+msgstr ""
+"Попередження: це надає доступ по SSH до всіх публічних ключів у ваших "
+"налаштуваннях GitHub. Ніколи не вводьте ім'я користувача GitHub, окрім "
+"вашого власного. Співробітник comma НІКОЛИ не попросить вас додати його ім'я "
+"користувача GitHub."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:23
 msgid ""
@@ -509,7 +520,9 @@ msgid ""
 "Experimental mode is recommended when enabling openpilot longitudinal "
 "control alpha. Changing this setting will restart openpilot if the car is "
 "powered on."
-msgstr "ПОПЕРЕДЖЕННЯ: поздовжнє керування openpilot для цього автомобіля знаходиться в стадії альфа-тестування і вимкне автоматичне екстрене гальмування (AEB)."
+msgstr ""
+"ПОПЕРЕДЖЕННЯ: поздовжнє керування openpilot для цього автомобіля знаходиться "
+"в стадії альфа-тестування і вимкне автоматичне екстрене гальмування (AEB)."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:39
 #, python-format
@@ -575,13 +588,19 @@ msgstr ""
 msgid ""
 "Preview the driver facing camera to ensure that driver monitoring has good "
 "visibility. (vehicle must be off)"
-msgstr "Попередньо перегляньте камеру, спрямовану на водія, щоб переконатися, що система моніторингу водія має добру видимість. (автомобіль повинен бути вимкнений)"
+msgstr ""
+"Попередньо перегляньте камеру, спрямовану на водія, щоб переконатися, що "
+"система моніторингу водія має добру видимість. (автомобіль повинен бути "
+"вимкнений)"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:26
 msgid ""
 "openpilot requires the device to be mounted within 4° left or right and "
 "within 5° up or 9° down."
-msgstr "Для роботи openpilot потрібно, щоб пристрій був встановлений з нахилом не більше 4° вліво або вправо та не більше 5° вгору або 9° вниз. openpilot постійно калібрується, тому скидання калібрування потрібне рідко."
+msgstr ""
+"Для роботи openpilot потрібно, щоб пристрій був встановлений з нахилом не "
+"більше 4° вліво або вправо та не більше 5° вгору або 9° вниз. openpilot "
+"постійно калібрується, тому скидання калібрування потрібне рідко."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:27
 msgid "Review the rules, features, and limitations of openpilot"
@@ -895,7 +914,11 @@ msgstr "Виберіть гілку"
 msgid ""
 "Use the openpilot system for adaptive cruise control and lane keep driver "
 "assistance. Your attention is required at all times to use this feature."
-msgstr "Використовуйте систему openpilot для адаптивного круїз-контролю та допомоги в утриманні смуги руху. Ваша увага потрібна постійно при використанні цієї функції. Зміна цього налаштування набуває чинності після вимкнення живлення автомобіля."
+msgstr ""
+"Використовуйте систему openpilot для адаптивного круїз-контролю та допомоги "
+"в утриманні смуги руху. Ваша увага потрібна постійно при використанні цієї "
+"функції. Зміна цього налаштування набуває чинності після вимкнення живлення "
+"автомобіля."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:20
 msgid "When enabled, pressing the accelerator pedal will disengage openpilot."
@@ -907,14 +930,22 @@ msgid ""
 "closer and be more aggressive with the gas and brake. In relaxed mode "
 "openpilot will stay further away from lead cars. On supported cars, you can "
 "cycle through these personalities with your steering wheel distance button."
-msgstr "Рекомендується стандартний режим. В агресивному режимі openpilot буде триматися ближче до автомобілів попереду і більш агресивно використовувати газ і гальма. У спокійному режимі openpilot буде триматися на більшій відстані від автомобілів попереду. На підтримуваних автомобілях ви можете перемикатися між цими режимами за допомогою кнопки дистанції на кермі."
+msgstr ""
+"Рекомендується стандартний режим. В агресивному режимі openpilot буде "
+"триматися ближче до автомобілів попереду і більш агресивно використовувати "
+"газ і гальма. У спокійному режимі openpilot буде триматися на більшій "
+"відстані від автомобілів попереду. На підтримуваних автомобілях ви можете "
+"перемикатися між цими режимами за допомогою кнопки дистанції на кермі."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:27
 msgid ""
 "Receive alerts to steer back into the lane when your vehicle drifts over a "
 "detected lane line without a turn signal activated while driving over 31 mph "
 "(50 km/h)."
-msgstr "Отримувати попередження про необхідність повернутися в смугу, коли ваш автомобіль перетинає виявлену лінію розмітки без увімкненого сигналу повороту під час руху зі швидкістю понад 31 миль/год (50 км/год)."
+msgstr ""
+"Отримувати попередження про необхідність повернутися в смугу, коли ваш "
+"автомобіль перетинає виявлену лінію розмітки без увімкненого сигналу "
+"повороту під час руху зі швидкістю понад 31 миль/год (50 км/год)."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:30
 msgid "Enable driver monitoring even when openpilot is not engaged."
@@ -924,7 +955,9 @@ msgstr "Увімкнути моніторинг водія, навіть кол�
 msgid ""
 "Upload data from the driver facing camera and help improve the driver "
 "monitoring algorithm."
-msgstr "Завантажуйте дані з камери, спрямованої на водія, та допоможіть покращити алгоритм моніторингу водія."
+msgstr ""
+"Завантажуйте дані з камери, спрямованої на водія, та допоможіть покращити "
+"алгоритм моніторингу водія."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:32
 msgid "Display speed in km/h instead of mph."
@@ -1015,14 +1048,30 @@ msgid ""
 "transition to the road-facing wide-angle camera at low speeds to better show "
 "some turns. The Experimental mode logo will also be shown in the top right "
 "corner."
-msgstr "openpilot за замовчуванням працює в &lt;b&gt;режимі спокою&lt;/b&gt;. Експериментальний режим вмикає &lt;b&gt;функції альфа-рівня&lt;/b&gt;, які ще не готові для режиму спокою. Експериментальні функції перелічені нижче:<br><h4>Наскрізне поздовжнє керування</h4><br>Дозвольте моделі водіння керувати газом і гальмами. openpilot буде керувати автомобілем так, як, на його думку, це робила б людина, включаючи зупинку на червоне світло та знаки зупинки. Оскільки модель водіння вирішує, з якою швидкістю їхати, встановлена швидкість буде діяти лише як верхня межа. Це функція альфа-якості; слід очікувати помилок.<br><h4>Нова візуалізація водіння</h4><br>Візуалізація водіння буде перемикатися на ширококутну камеру, спрямовану на дорогу, на низьких швидкостях, щоб краще показувати деякі повороти. Логотип експериментального режиму також буде відображатися у верхньому правому куті."
+msgstr ""
+"openpilot за замовчуванням працює в &lt;b&gt;режимі спокою&lt;/b&gt;. "
+"Експериментальний режим вмикає &lt;b&gt;функції альфа-рівня&lt;/b&gt;, які "
+"ще не готові для режиму спокою. Експериментальні функції перелічені нижче:"
+"<br><h4>Наскрізне поздовжнє керування</h4><br>Дозвольте моделі водіння "
+"керувати газом і гальмами. openpilot буде керувати автомобілем так, як, на "
+"його думку, це робила б людина, включаючи зупинку на червоне світло та знаки "
+"зупинки. Оскільки модель водіння вирішує, з якою швидкістю їхати, "
+"встановлена швидкість буде діяти лише як верхня межа. Це функція альфа-"
+"якості; слід очікувати помилок.<br><h4>Нова візуалізація водіння</"
+"h4><br>Візуалізація водіння буде перемикатися на ширококутну камеру, "
+"спрямовану на дорогу, на низьких швидкостях, щоб краще показувати деякі "
+"повороти. Логотип експериментального режиму також буде відображатися у "
+"верхньому правому куті."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:181
 #, python-format
 msgid ""
 "Experimental mode is currently unavailable on this car since the car's stock "
 "ACC is used for longitudinal control."
-msgstr "Експериментальний режим наразі недоступний для цього автомобіля, оскільки для поздовжнього керування використовується штатний адаптивний круїз-контроль (ACC)."
+msgstr ""
+"Експериментальний режим наразі недоступний для цього автомобіля, оскільки "
+"для поздовжнього керування використовується штатний адаптивний круїз-"
+"контроль (ACC)."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:183
 #, python-format
@@ -1034,14 +1083,18 @@ msgstr "Поздовжнє керування openpilot може з'явитис
 msgid ""
 "An alpha version of openpilot longitudinal control can be tested, along with "
 "Experimental mode, on non-release branches."
-msgstr "Альфа-версію поздовжнього керування openpilot можна протестувати разом з експериментальним режимом на нерелізних гілках."
+msgstr ""
+"Альфа-версію поздовжнього керування openpilot можна протестувати разом з "
+"експериментальним режимом на нерелізних гілках."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:189
 #, python-format
 msgid ""
 "Enable the openpilot longitudinal control (alpha) toggle to allow "
 "Experimental mode."
-msgstr "Увімкніть перемикач поздовжнього керування openpilot (альфа), щоб увімкнути експериментальний режим."
+msgstr ""
+"Увімкніть перемикач поздовжнього керування openpilot (альфа), щоб увімкнути "
+"експериментальний режим."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:18
 msgid "Firehose Mode"
