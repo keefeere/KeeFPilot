@@ -1009,10 +1009,9 @@ msgctxt "DeveloperSidebar|"
 msgid "TORQUE %"
 msgstr "МОМЕНТ %"
 
-#, fuzzy
 msgctxt "DevicePanel|"
 msgid "Dongle ID"
-msgstr "Dongle ID"
+msgstr "ІД пристрою"
 
 #, fuzzy
 msgctxt "DevicePanel|"
