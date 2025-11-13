@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-13 22:06+0200\n"
+"PO-Revision-Date: 2025-11-13 23:50+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -49,7 +49,7 @@ msgstr "Увімкнути модем"
 #: system/ui/widgets/network.py:123 system/ui/widgets/network.py:139
 #, python-format
 msgid "EDIT"
-msgstr "РЕДАГУВАТИ"
+msgstr "РЕДАГ."
 
 #: system/ui/widgets/network.py:124
 #, python-format
@@ -242,7 +242,7 @@ msgstr "ЕКСПЕРИМЕНТАЛЬНИЙ РЕЖИМ УВІМКНЕНО"
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
 msgid "CHILL MODE ON"
-msgstr "РЕЖИМ СПОКОЮ УВІМКНЕНО"
+msgstr "СПОКІЙНИЙ РЕЖ."
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:33
 #, python-format
@@ -317,9 +317,7 @@ msgstr ""
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
 #, python-format
 msgid "Pair your device to your comma account"
-msgstr ""
-"Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте "
-"свою пропозицію comma prime."
+msgstr "Підключіть свій пристрій до обліковки comma connect"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:117
 #, python-format
@@ -662,7 +660,7 @@ msgstr "Камера водія"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:62
 #, python-format
 msgid "PREVIEW"
-msgstr "ПОПЕРЕДНІЙ ПЕРЕГЛЯД"
+msgstr "ПОКАЖИ"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:65
 #, python-format
@@ -672,7 +670,7 @@ msgstr "Переглянути посібник з навчання"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:65
 #, python-format
 msgid "REVIEW"
-msgstr "ПЕРЕГЛЯНУТИ"
+msgstr "ДИВИТИСЬ"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:67
 #, python-format
@@ -682,7 +680,7 @@ msgstr "Нормативні документи"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:67
 #, python-format
 msgid "VIEW"
-msgstr "ПЕРЕГЛЯНУТИ"
+msgstr "ДИВИСЬ"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:68
 #, python-format
