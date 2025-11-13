@@ -22,7 +22,6 @@ UNIFONT_LANGUAGES = [
   "zh-CHS",
   "ko",
   "ja",
-  "uk",
 ]
 
 
