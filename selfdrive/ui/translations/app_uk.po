@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-18 23:11+0200\n"
+"PO-Revision-Date: 2025-11-18 23:17+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -240,7 +240,7 @@ msgstr "Будь ласка, підключіться до Wi-Fi, щоб зав�
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
 msgid "EXPERIMENTAL MODE ON"
-msgstr "ЕКСПЕРИМЕНТАЛЬНИЙ РЕЖИМ УВІМКНЕНО"
+msgstr "ЕКСП-НИЙ РЕЖИМ"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
@@ -579,7 +579,7 @@ msgstr "Мережа"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:61
 msgid "Toggles"
-msgstr "Налашт."
+msgstr "Перемикачі"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:62
 msgid "Software"
