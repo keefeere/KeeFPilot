@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-18 16:21+0200\n"
+"PO-Revision-Date: 2025-11-18 21:42+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -165,7 +165,7 @@ msgstr "Невірний пароль"
 #: system/ui/widgets/network.py:318 system/ui/widgets/network.py:451
 #, python-format
 msgid "Forget"
-msgstr "Забути"
+msgstr "Заб-и"
 
 #: system/ui/widgets/network.py:319
 #, python-format
@@ -206,12 +206,12 @@ msgstr "ВІДКРИТИ"
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:22
 #, python-format
 msgid "🔥 Firehose Mode 🔥"
-msgstr ""
+msgstr "🔥 Режим зливи 🔥"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:44
 #, python-format
 msgid "Finish Setup"
-msgstr ""
+msgstr "Завершити налаштування"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:48
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:24
@@ -228,11 +228,13 @@ msgstr ""
 msgid ""
 "Maximize your training data uploads to improve openpilot's driving models."
 msgstr ""
+"Максимізуйте завантаження навчальних даних, щоб поліпшити моделі водіння "
+"openpilot."
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:91
 #, python-format
 msgid "Please connect to Wi-Fi to complete initial pairing"
-msgstr ""
+msgstr "Будь ласка, підключіться до Wi-Fi, щоб завершити початкове сполучення."
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
@@ -247,12 +249,12 @@ msgstr "СПОКІЙНИЙ РЕЖИМ"
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:33
 #, python-format
 msgid "Upgrade Now"
-msgstr ""
+msgstr "Оновити зараз"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:38
 #, python-format
 msgid "Become a comma prime member at connect.comma.ai"
-msgstr ""
+msgstr "Станьте членом comma prime на connect.comma.ai"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:44
 #, python-format
@@ -387,7 +389,7 @@ msgstr[2] " СПОВІЩЕННЯ"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:111
 #, python-format
 msgid "Welcome to openpilot"
-msgstr ""
+msgstr "Ласкаво просимо до openpilot"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:112
 #, python-format
@@ -395,6 +397,9 @@ msgid ""
 "You must accept the Terms and Conditions to use openpilot. Read the latest "
 "terms at https://comma.ai/terms before continuing."
 msgstr ""
+"Ви повинні прийняти Умови використання, щоб користуватися openpilot. Перед "
+"тим, як продовжити, ознайомтеся з останніми умовами на сайті https://"
+"comma.ai/terms."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:115
 #, python-format
@@ -700,7 +705,7 @@ msgstr "Виберіть мову"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:103
 #, python-format
 msgid "Disengage to Reset Calibration"
-msgstr ""
+msgstr "Деактивуйте для скидання калібрування"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:119
 #, python-format
@@ -740,22 +745,22 @@ msgstr "вправо"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:146
 #, python-format
 msgid "<br><br>Steering lag calibration is {}% complete."
-msgstr ""
+msgstr "<br><br>Калібрування затримки кермування завершено на {}%."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:148
 #, python-format
 msgid "<br><br>Steering lag calibration is complete."
-msgstr ""
+msgstr "<br><br>Калібрування затримки кермування завершено."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:158
 #, python-format
 msgid " Steering torque response calibration is {}% complete."
-msgstr ""
+msgstr "Калібрування реакції крутного моменту керма завершено на {}%."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:160
 #, python-format
 msgid " Steering torque response calibration is complete."
-msgstr ""
+msgstr " Калібрування реакції крутного моменту керма завершено."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:165
 #, python-format
@@ -794,31 +799,31 @@ msgstr "ніколи"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:31
 #, python-format
 msgid "now"
-msgstr ""
+msgstr "зараз"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:34
 #, python-format
 msgid "{} minute ago"
 msgid_plural "{} minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} хвилина тому"
+msgstr[1] "{} хвилини тому"
+msgstr[2] "{} хвилин тому"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:37
 #, python-format
 msgid "{} hour ago"
 msgid_plural "{} hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} година тому"
+msgstr[1] "{} години тому"
+msgstr[2] "{} годин тому"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:40
 #, python-format
 msgid "{} day ago"
 msgid_plural "{} days ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} день тому"
+msgstr[1] "{} дні тому"
+msgstr[2] "{} днів тому"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:48
 #, python-format
@@ -968,6 +973,8 @@ msgid ""
 "Record and store microphone audio while driving. The audio will be included "
 "in the dashcam video in comma connect."
 msgstr ""
+"Записуйте та зберігайте аудіо з мікрофона під час руху. Аудіо буде включено "
+"до відео з відеореєстратора в comma connect."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:46
 #, python-format
@@ -1002,7 +1009,7 @@ msgstr "Записувати та завантажувати відео з ка�
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:82
 #, python-format
 msgid "Record and Upload Microphone Audio"
-msgstr ""
+msgstr "Запис та завантаження аудіо з мікрофона"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:88
 #, python-format
@@ -1098,7 +1105,7 @@ msgstr ""
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:18
 msgid "Firehose Mode"
-msgstr ""
+msgstr "Режим зливи"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:20
 msgid ""
@@ -1108,6 +1115,12 @@ msgid ""
 "openpilot's driving models. More data means bigger models, which means "
 "better Experimental Mode."
 msgstr ""
+"openpilot вчиться керувати автомобілем, спостерігаючи за тим, як це роблять "
+"люди, такі як ви.\n"
+"\n"
+"Режим зливи дозволяє максимально збільшити обсяг завантажуваних навчальних "
+"даних, щоб поліпшити моделі керування автомобілем openpilot. Більше даних "
+"означає більші моделі, а це означає кращий експериментальний режим."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:25
 msgid ""
