@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-13 23:50+0200\n"
+"PO-Revision-Date: 2025-11-18 16:21+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -180,7 +180,7 @@ msgstr "ПІДКЛЮЧЕННЯ..."
 #: system/ui/widgets/network.py:373
 #, python-format
 msgid "FORGETTING..."
-msgstr ""
+msgstr "ЗАБУВАЮ..."
 
 #: system/ui/widgets/list_view.py:123 system/ui/widgets/list_view.py:160
 #, python-format
@@ -242,7 +242,7 @@ msgstr "ЕКСПЕРИМЕНТАЛЬНИЙ РЕЖИМ УВІМКНЕНО"
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
 msgid "CHILL MODE ON"
-msgstr "СПОКІЙНИЙ РЕЖ."
+msgstr "СПОКІЙНИЙ РЕЖИМ"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:33
 #, python-format
@@ -474,7 +474,7 @@ msgstr "ОФЛАЙН"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:117
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:129
 msgid "HIGH"
@@ -763,6 +763,8 @@ msgid ""
 "openpilot is continuously calibrating, resetting is rarely required. "
 "Resetting calibration will restart openpilot if the car is powered on."
 msgstr ""
+"openpilot постійно калібрується, скидання рідко потрібне. Скидання "
+"калібрування призведе до перезапуску openpilot, якщо автомобіль увімкнено."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:172
 #, python-format
