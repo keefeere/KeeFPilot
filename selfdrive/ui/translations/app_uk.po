@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-18 22:09+0200\n"
+"PO-Revision-Date: 2025-11-18 23:11+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -579,11 +579,11 @@ msgstr "Мережа"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:61
 msgid "Toggles"
-msgstr "Налаштування"
+msgstr "Налашт."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:62
 msgid "Software"
-msgstr "Програмне забезпечення"
+msgstr "Програма"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:63
 msgid "Firehose"
@@ -995,7 +995,7 @@ msgstr "Експериментальний режим"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:58
 #, python-format
 msgid "Disengage on Accelerator Pedal"
-msgstr "Вимкнення при натисканні на педаль акселератора"
+msgstr "Вимкнення при натисканні на педаль газу"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:64
 #, python-format
@@ -1010,7 +1010,7 @@ msgstr "Постійний моніторинг водія"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:76
 #, python-format
 msgid "Record and Upload Driver Camera"
-msgstr "Записувати та завантажувати відео з камери водія"
+msgstr "Писати та вантажити відео з камери водія"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:82
 #, python-format
@@ -1030,12 +1030,12 @@ msgstr "Стиль водіння"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:98
 #, python-format
 msgid "Aggressive"
-msgstr "Агресивний"
+msgstr "Агресивн."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:98
 #, python-format
 msgid "Standard"
-msgstr "Стандартний"
+msgstr "Стандарт"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:98
 #, python-format
@@ -1064,19 +1064,17 @@ msgid ""
 "some turns. The Experimental mode logo will also be shown in the top right "
 "corner."
 msgstr ""
-"openpilot за замовчуванням працює в &lt;b&gt;режимі спокою&lt;/b&gt;. "
-"Експериментальний режим вмикає &lt;b&gt;функції альфа-рівня&lt;/b&gt;, які "
-"ще не готові для режиму спокою. Експериментальні функції перелічені нижче:"
-"<br><h4>Наскрізне поздовжнє керування</h4><br>Дозвольте моделі водіння "
-"керувати газом і гальмами. openpilot буде керувати автомобілем так, як, на "
-"його думку, це робила б людина, включаючи зупинку на червоне світло та знаки "
-"зупинки. Оскільки модель водіння вирішує, з якою швидкістю їхати, "
-"встановлена швидкість буде діяти лише як верхня межа. Це функція альфа-"
-"якості; слід очікувати помилок.<br><h4>Нова візуалізація водіння</"
-"h4><br>Візуалізація водіння буде перемикатися на ширококутну камеру, "
-"спрямовану на дорогу, на низьких швидкостях, щоб краще показувати деякі "
-"повороти. Логотип експериментального режиму також буде відображатися у "
-"верхньому правому куті."
+"openpilot за замовчуванням працює в режимі спокій. Експериментальний режим "
+"увімкне функції альфа-рівня, які ще не готові для режиму спокій. "
+"Експериментальні функції перелічені нижче:<br><h4>Кінцевий поздовжній "
+"контроль</h4><br>Дозвольте моделі водіння контролювати газ і гальма. "
+"openpilot буде керувати автомобілем так, як це робив би людина, включаючи "
+"зупинку на червоне світло і знаки зупинки. Оскільки модель водіння визначає "
+"швидкість руху, задана швидкість буде діяти лише як верхня межа. Це функція "
+"альфа-рівня; слід очікувати помилок.<br><h4>Нова візуалізація водіння</"
+"h4><br>Візуалізація водіння перейде на ширококутну камеру, спрямовану на "
+"дорогу, при низьких швидкостях, щоб краще показувати деякі повороти. Логотип "
+"експериментального режиму також буде показаний у верхньому правому куті."
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:181
 #, python-format
@@ -1156,15 +1154,15 @@ msgstr ""
 "Для максимальної ефективності щотижня заносьте пристрій у приміщення та "
 "підключайте його до якісного адаптера USB-C і Wi-Fi.\n"
 "\n"
-"Режим Firehose також може працювати під час руху, якщо пристрій підключено "
-"до точки доступу або SIM-картки з необмеженим трафіком.\n"
+"Режим Зливи також може працювати під час руху, якщо пристрій підключено до "
+"точки доступу або SIM-картки з необмеженим трафіком.\n"
 "\n"
 "\n"
 "Поширені запитання\n"
 "\n"
 "Чи має значення, як і де я їду? Ні, просто їдьте, як зазвичай.\n"
 "\n"
-"Чи всі мої сегменти потрапляють у режим Firehose? Ні, ми вибірково вибираємо "
+"Чи всі мої сегменти потрапляють у режим Зливи? Ні, ми вибірково вибираємо "
 "підмножину ваших сегментів.\n"
 "\n"
 "Що таке хороший адаптер USB-C? Будь-який швидкий зарядний пристрій для "
