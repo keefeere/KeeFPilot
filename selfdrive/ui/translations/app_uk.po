@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 12:21+0200\n"
-"PO-Revision-Date: 2025-11-19 13:12+0200\n"
+"PO-Revision-Date: 2025-11-19 13:27+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -405,7 +405,7 @@ msgstr "Введіть пароль"
 #: openpilot/selfdrive/ui/widgets/ssh_key.py:89
 #, python-brace-format
 msgid "Enter your GitHub username"
-msgstr "Введіть ваше ім'я користувача GitHub"
+msgstr "Введіть ваш логін GitHub"
 
 #: system/ui/widgets/list_view.py:123 system/ui/widgets/list_view.py:160
 #, python-brace-format
