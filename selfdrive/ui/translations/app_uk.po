@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 12:21+0200\n"
-"PO-Revision-Date: 2025-11-19 12:42+0200\n"
+"PO-Revision-Date: 2025-11-19 13:05+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -637,7 +637,7 @@ msgstr "ПОКАЖИ"
 #: openpilot/selfdrive/ui/widgets/prime.py:44
 #, python-brace-format
 msgid "PRIME FEATURES:"
-msgstr "ХАР-КИ PRIME:"
+msgstr "XАРАКТЕРИСТИКИ PRIME:"
 
 #: openpilot/selfdrive/ui/layouts/settings/device.py:48
 #, python-brace-format
