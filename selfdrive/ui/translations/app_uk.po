@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 12:21+0200\n"
-"PO-Revision-Date: 2025-11-19 13:05+0200\n"
+"PO-Revision-Date: 2025-11-19 13:12+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -1194,7 +1194,7 @@ msgstr "оновлено, ніколи не перевірялось"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:123
 #, python-brace-format
 msgid "up to date, last checked {}"
-msgstr "оновлено, перевірялось {}"
+msgstr "оновлено, перевірив {}"
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:117
 #, python-brace-format
