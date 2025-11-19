@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 12:25+0000\n"
-"PO-Revision-Date: 2025-11-18 23:17+0200\n"
+"PO-Revision-Date: 2025-11-19 11:56+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -44,7 +44,7 @@ msgstr "Назад"
 #: system/ui/widgets/network.py:120
 #, python-format
 msgid "Enable Tethering"
-msgstr "Увімкнути модем"
+msgstr "Увімкнути точку доступу"
 
 #: system/ui/widgets/network.py:123 system/ui/widgets/network.py:139
 #, python-format
@@ -54,7 +54,7 @@ msgstr "РЕДАГ."
 #: system/ui/widgets/network.py:124
 #, python-format
 msgid "Tethering Password"
-msgstr "Пароль для модему"
+msgstr "Пароль для точки доступу"
 
 #: system/ui/widgets/network.py:129
 #, python-format
@@ -240,7 +240,7 @@ msgstr "Будь ласка, підключіться до Wi-Fi, щоб зав�
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
 msgid "EXPERIMENTAL MODE ON"
-msgstr "ЕКСП-НИЙ РЕЖИМ"
+msgstr "ЕКСПЕРИМ. РЕЖИМ"
 
 #: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-format
@@ -889,7 +889,7 @@ msgstr "ВИДАЛИТИ"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:106
 #, python-format
 msgid "failed to check for update"
-msgstr "не вдалося перевірити наявність оновлень"
+msgstr "не вдалося перевірити оновлення"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:109
 #, python-format
@@ -904,12 +904,12 @@ msgstr "ВАНТАЖ"
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:115
 #, python-format
 msgid "up to date, last checked {}"
-msgstr "актуальна версія, остання перевірка {}"
+msgstr "оновлено, перевірялось {}"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:117
 #, python-format
 msgid "up to date, last checked never"
-msgstr "актуальна версія, ніколи не перевірялася"
+msgstr "оновлено, ніколи не перевірялось"
 
 #: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:163
 #, python-format
