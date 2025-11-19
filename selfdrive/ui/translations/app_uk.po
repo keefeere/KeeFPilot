@@ -208,7 +208,7 @@ msgstr "CONNECT"
 #: system/ui/widgets/network.py:369
 #, python-brace-format
 msgid "CONNECTING..."
-msgstr "ПІДКЛЮЧАЮ…"
+msgstr "ПІДКЛЮЧА..."
 
 #: system/ui/widgets/confirm_dialog.py:23 system/ui/widgets/option_dialog.py:35
 #: system/ui/widgets/network.py:318 system/ui/widgets/keyboard.py:81
@@ -1024,7 +1024,7 @@ msgstr "запуск камери"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:105
 #, python-brace-format
 msgid "checking..."
-msgstr "перевіряю…"
+msgstr "перевіряю..."
 
 #: openpilot/selfdrive/ui/widgets/prime.py:63
 #, python-brace-format
@@ -1054,7 +1054,7 @@ msgstr "не вдалося перевірити оновлення"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:107
 #, python-brace-format
 msgid "finalizing update..."
-msgstr "завершую…"
+msgstr "завершую..."
 
 #: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
 #, python-brace-format
