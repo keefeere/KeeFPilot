@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-05 12:25+0000\n"
+"POT-Creation-Date: 2025-11-19 12:21+0200\n"
 "PO-Revision-Date: 2025-11-19 11:56+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
@@ -19,508 +19,48 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.8\n"
 
-#: system/ui/widgets/option_dialog.py:35 system/ui/widgets/network.py:318
-#: system/ui/widgets/confirm_dialog.py:23 system/ui/widgets/keyboard.py:81
-#, python-format
-msgid "Cancel"
-msgstr "Скасувати"
-
-#: system/ui/widgets/option_dialog.py:36
-#, python-format
-msgid "Select"
-msgstr "Вибрати"
-
-#: system/ui/widgets/network.py:74 system/ui/widgets/network.py:95
-#, python-format
-msgid "Advanced"
-msgstr "Розширені"
-
-#: system/ui/widgets/network.py:99
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:147
-#, python-format
-msgid "Back"
-msgstr "Назад"
-
-#: system/ui/widgets/network.py:120
-#, python-format
-msgid "Enable Tethering"
-msgstr "Увімкнути точку доступу"
-
-#: system/ui/widgets/network.py:123 system/ui/widgets/network.py:139
-#, python-format
-msgid "EDIT"
-msgstr "РЕДАГ."
-
-#: system/ui/widgets/network.py:124
-#, python-format
-msgid "Tethering Password"
-msgstr "Пароль для точки доступу"
-
-#: system/ui/widgets/network.py:129
-#, python-format
-msgid "Enable Roaming"
-msgstr "Увімкнути роумінг"
-
-#: system/ui/widgets/network.py:134
-#, python-format
-msgid "Cellular Metered"
-msgstr "Лімітне стільникове з'єднання"
-
-#: system/ui/widgets/network.py:135
-#, python-format
-msgid "Prevent large data uploads when on a metered cellular connection"
-msgstr ""
-"Запобігати великим завантаженням даних під час лімітного стільникового "
-"з'єднання"
-
-#: system/ui/widgets/network.py:139
-#, python-format
-msgid "APN Setting"
-msgstr "Налаштування APN"
-
-#: system/ui/widgets/network.py:142
-#, python-format
-msgid "default"
-msgstr "замовч."
-
-#: system/ui/widgets/network.py:142
-#, python-format
-msgid "metered"
-msgstr "обмеж."
-
-#: system/ui/widgets/network.py:142
-#, python-format
-msgid "unmetered"
-msgstr "необмеж."
-
-#: system/ui/widgets/network.py:144
-#, python-format
-msgid "Wi-Fi Network Metered"
-msgstr "Трафік Wi-Fi"
-
-#: system/ui/widgets/network.py:144
-#, python-format
-msgid "Prevent large data uploads when on a metered Wi-Fi connection"
-msgstr ""
-"Запобігайте завантаженню великих обсягів даних під час використання Wi-Fi-"
-"з'єднання з обмеженим трафіком"
-
-#: system/ui/widgets/network.py:150
-#, python-format
-msgid "IP Address"
-msgstr "IP-адреса"
-
-#: system/ui/widgets/network.py:155
-#, python-format
-msgid "Hidden Network"
-msgstr "Прихована мережа"
-
-#: system/ui/widgets/network.py:155
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:73
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:134
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:136
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:138
-#, python-format
-msgid "CONNECT"
-msgstr "ПІДКЛЮЧ."
-
-#: system/ui/widgets/network.py:204
-#, python-format
-msgid "Enter APN"
-msgstr "Введіть APN"
-
-#: system/ui/widgets/network.py:204
-#, python-format
-msgid "leave blank for automatic configuration"
-msgstr "залиште порожнім для автоматичного налаштування"
-
-#: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
-#, python-format
-msgid "Enter password"
-msgstr "Введіть пароль"
-
-#: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
-#, python-format
-msgid "for \"{}\""
-msgstr "для \"{}\""
-
-#: system/ui/widgets/network.py:241
-#, python-format
-msgid "Enter SSID"
-msgstr "Введіть SSID"
-
-#: system/ui/widgets/network.py:254
-#, python-format
-msgid "Enter new tethering password"
-msgstr "Введіть новий пароль для модему"
-
-#: system/ui/widgets/network.py:310
-#, python-format
-msgid "Scanning Wi-Fi networks..."
-msgstr "Пошук мереж..."
-
-#: system/ui/widgets/network.py:314
-#, python-format
-msgid "Wrong password"
-msgstr "Невірний пароль"
-
-#: system/ui/widgets/network.py:318 system/ui/widgets/network.py:451
-#, python-format
-msgid "Forget"
-msgstr "Заб-и"
-
-#: system/ui/widgets/network.py:319
-#, python-format
-msgid "Forget Wi-Fi Network \"{}\"?"
-msgstr "Забути мережу Wi-Fi \"{}\"?"
-
-#: system/ui/widgets/network.py:369
-#, python-format
-msgid "CONNECTING..."
-msgstr "ПІДКЛЮЧЕННЯ..."
-
-#: system/ui/widgets/network.py:373
-#, python-format
-msgid "FORGETTING..."
-msgstr "ЗАБУВАЮ..."
-
-#: system/ui/widgets/list_view.py:123 system/ui/widgets/list_view.py:160
-#, python-format
-msgid "Error"
-msgstr "Помилка"
-
-#: system/ui/widgets/confirm_dialog.py:93 system/ui/widgets/html_render.py:263
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:127
-#, python-format
-msgid "OK"
-msgstr "OK"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:19
-#, python-format
-msgid "Pair device"
-msgstr "Підключити пристрій"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:20
-#, python-format
-msgid "Open"
-msgstr "ВІДКРИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:22
-#, python-format
-msgid "🔥 Firehose Mode 🔥"
-msgstr "🔥 Режим зливи 🔥"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:44
-#, python-format
-msgid "Finish Setup"
-msgstr "Завершити налаштування"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:48
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:24
-#, python-format
-msgid ""
-"Pair your device with comma connect (connect.comma.ai) and claim your comma "
-"prime offer."
-msgstr ""
-"Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте "
-"свою пропозицію comma prime."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:75
-#, python-format
-msgid ""
-"Maximize your training data uploads to improve openpilot's driving models."
-msgstr ""
-"Максимізуйте завантаження навчальних даних, щоб поліпшити моделі openpilot."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/setup.py:91
-#, python-format
-msgid "Please connect to Wi-Fi to complete initial pairing"
-msgstr "Будь ласка, підключіться до Wi-Fi, щоб завершити початкове сполучення."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
-#, python-format
-msgid "EXPERIMENTAL MODE ON"
-msgstr "ЕКСПЕРИМ. РЕЖИМ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
-#, python-format
-msgid "CHILL MODE ON"
-msgstr "СПОКІЙНИЙ РЕЖИМ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:33
-#, python-format
-msgid "Upgrade Now"
-msgstr "Оновити зараз"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:38
-#, python-format
-msgid "Become a comma prime member at connect.comma.ai"
-msgstr "Станьте членом comma prime на connect.comma.ai"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:44
-#, python-format
-msgid "PRIME FEATURES:"
-msgstr "ХАР-КИ PRIME:"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:47
-#, python-format
-msgid "Remote access"
-msgstr "Віддалений доступ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:47
-#, python-format
-msgid "24/7 LTE connectivity"
-msgstr "Підключення LTE 24/7"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:47
-#, python-format
-msgid "1 year of drive storage"
-msgstr "1 рік зберігання поїздок"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:47
-#, python-format
-msgid "Remote snapshots"
-msgstr "Віддалені знімки"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:62
-#, python-format
-msgid "✓ SUBSCRIBED"
-msgstr "✓ ПІДПИСАНО"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/prime.py:63
-#, python-format
-msgid "comma prime"
-msgstr "comma prime"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/offroad_alerts.py:104
-#, python-format
-msgid "Close"
-msgstr "Закрити"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/offroad_alerts.py:106
-#, python-format
-msgid "Snooze Update"
-msgstr "Відкласти оновлення"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/offroad_alerts.py:109
-#, python-format
-msgid "Acknowledge Excessive Actuation"
-msgstr "Визнайте надмірне спрацьовування"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/offroad_alerts.py:112
-#, python-format
-msgid "Reboot and Update"
-msgstr "Перезавантажити та оновити"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/offroad_alerts.py:320
-#, python-format
-msgid "No release notes available."
-msgstr "Інформація про випуск відсутня."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
-#, python-format
-msgid "Pair your device to your comma account"
-msgstr "Підключіть свій пристрій до обліковки comma connect"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:117
-#, python-format
-msgid "Go to https://connect.comma.ai on your phone"
-msgstr "Перейдіть на сайт https://connect.comma.ai на своєму телефоні."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:118
-#, python-format
-msgid "Click \"add new device\" and scan the QR code on the right"
-msgstr "Натисніть «додати новий пристрій» і відскануйте QR-код праворуч."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:119
-#, python-format
-msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
-msgstr ""
-"Додайте connect.comma.ai до головного екрану, щоб використовувати його як "
-"додаток."
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/pairing_dialog.py:150
-#, python-format
-msgid "QR Code Error"
-msgstr "Помилка QR-коду"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:29
-msgid "LOADING"
-msgstr "ЗАВАНТАЖЕННЯ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:30
-msgid "ADD"
-msgstr "ДОДАТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:31
-msgid "REMOVE"
-msgstr "ВИДАЛИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:89
-#, python-format
-msgid "Enter your GitHub username"
-msgstr "Введіть ваше ім'я користувача GitHub"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:114
-#, python-format
-msgid "No SSH keys found"
-msgstr "Не знайдено ключів SSH"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:123
-#, python-format
-msgid "Request timed out"
-msgstr "Час запиту вичерпано"
-
-#: ../pythonpath/openpilot/selfdrive/ui/widgets/ssh_key.py:126
-#, python-format
-msgid "No SSH keys found for user '{}'"
-msgstr "Користувач '{}' не має ключів на GitHub"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/home.py:155
-#, python-format
-msgid "UPDATE"
-msgstr "ОНОВИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/home.py:169
-#, python-format
-msgid "{} ALERT"
-msgid_plural "{} ALERTS"
-msgstr[0] "{} СПОВІЩЕННЯ"
-msgstr[1] "{} СПОВІЩЕННЯ"
-msgstr[2] "{} СПОВІЩЕНЬ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:111
-#, python-format
-msgid "Welcome to openpilot"
-msgstr "Ласкаво просимо до openpilot"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:112
-#, python-format
-msgid ""
-"You must accept the Terms and Conditions to use openpilot. Read the latest "
-"terms at https://comma.ai/terms before continuing."
-msgstr ""
-"Ви повинні прийняти Умови використання, щоб користуватися openpilot. Перед "
-"тим, як продовжити, ознайомтеся з останніми умовами на сайті https://"
-"comma.ai/terms."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:115
-#, python-format
-msgid "Decline"
-msgstr "Відхилити"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:116
-#, python-format
-msgid "Agree"
-msgstr "Погодитися"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:145
-#, python-format
-msgid "You must accept the Terms and Conditions in order to use openpilot."
-msgstr "Ви повинні прийняти Умови та положення, щоб користуватися openpilot."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/onboarding.py:148
-#, python-format
-msgid "Decline, uninstall openpilot"
-msgstr "Відхилити, видалити openpilot"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:43
+#: openpilot/selfdrive/ui/layouts/settings/device.py:160
+#, python-brace-format
+msgid " Steering torque response calibration is complete."
+msgstr " Калібрування реакції крутного моменту керма завершено."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:158
+#, python-brace-format
+msgid " Steering torque response calibration is {}% complete."
+msgstr "Калібрування реакції крутного моменту керма завершено на {}%."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:133
+#, python-brace-format
+msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
+msgstr " Ваш пристрій нахилено на {:.1f}° {} та {:.1f}° {}."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:43
 msgid "--"
 msgstr "--"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:44
-msgid "Wi-Fi"
-msgstr "Wi-Fi"
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
+msgid "1 year of drive storage"
+msgstr "1 рік зберігання поїздок"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:45
-msgid "ETH"
-msgstr "ETH"
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
+msgid "24/7 LTE connectivity"
+msgstr "Підключення LTE 24/7"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:46
+#: openpilot/selfdrive/ui/layouts/sidebar.py:46
 msgid "2G"
 msgstr "2G"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:47
+#: openpilot/selfdrive/ui/layouts/sidebar.py:47
 msgid "3G"
 msgstr "3G"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:48
-msgid "LTE"
-msgstr "LTE"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:49
+#: openpilot/selfdrive/ui/layouts/sidebar.py:49
 msgid "5G"
 msgstr "5G"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:71
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:125
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:127
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:129
-msgid "TEMP"
-msgstr "ТЕМП"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:71
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:125
-msgid "GOOD"
-msgstr "ДОБРА"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:72
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:144
-msgid "VEHICLE"
-msgstr "АВТО"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:72
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:136
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:144
-msgid "ONLINE"
-msgstr "ОНЛАЙН"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:73
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:134
-msgid "OFFLINE"
-msgstr "ОФЛАЙН"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:117
-msgid "Unknown"
-msgstr "Невідомо"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:129
-msgid "HIGH"
-msgstr "ВИСОКА"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:138
-msgid "ERROR"
-msgstr "ПОМИЛКА"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:142
-msgid "NO"
-msgstr "НЕМАЄ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/sidebar.py:142
-msgid "PANDA"
-msgstr "PANDA"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:15
-msgid ""
-"ADB (Android Debug Bridge) allows connecting to your device over USB or over "
-"the network. See https://docs.comma.ai/how-to/connect-to-comma for more info."
-msgstr ""
-"ADB (Android Debug Bridge) дозволяє підключатися до вашого пристрою через "
-"USB або мережу. Дивіться https://docs.comma.ai/how-to/connect-to-comma для "
-"отримання додаткової інформації."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:19
-msgid ""
-"Warning: This grants SSH access to all public keys in your GitHub settings. "
-"Never enter a GitHub username other than your own. A comma employee will "
-"NEVER ask you to add their GitHub username."
-msgstr ""
-"Попередження: це надає доступ по SSH до всіх публічних ключів у ваших "
-"налаштуваннях GitHub. Ніколи не вводьте ім'я користувача GitHub, окрім "
-"вашого власного. Співробітник comma НІКОЛИ не попросить вас додати його ім'я "
-"користувача GitHub."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:23
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:23
 msgid ""
 "<b>WARNING: openpilot longitudinal control is in alpha for this car and will "
 "disable Automatic Emergency Braking (AEB).</b><br><br>On this car, openpilot "
@@ -533,551 +73,352 @@ msgstr ""
 "ПОПЕРЕДЖЕННЯ: поздовжнє керування openpilot для цього автомобіля знаходиться "
 "в стадії альфа-тестування і вимкне автоматичне екстрене гальмування (AEB)."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:39
-#, python-format
-msgid "Enable ADB"
-msgstr "Увімкнути ADB"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:48
-#, python-format
-msgid "Enable SSH"
-msgstr "Увімкнути SSH"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:53
-#, python-format
-msgid "SSH Keys"
-msgstr "SSH ключі"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:56
-#, python-format
-msgid "Joystick Debug Mode"
-msgstr "Режим зневадження джойстика"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:64
-#, python-format
-msgid "Longitudinal Maneuver Mode"
-msgstr "Режим поздовжнього маневрування"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:71
-#, python-format
-msgid "openpilot Longitudinal Control (Alpha)"
-msgstr "Поздовжнє керування openpilot (Альфа)"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/developer.py:166
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:228
-#, python-format
-msgid "Enable"
-msgstr "Увімкнути"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:59
-msgid "Device"
-msgstr "Пристрій"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:60
-msgid "Network"
-msgstr "Мережа"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:61
-msgid "Toggles"
-msgstr "Перемикачі"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:62
-msgid "Software"
-msgstr "Програма"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:63
-msgid "Firehose"
-msgstr "Злива"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/settings.py:64
-msgid "Developer"
-msgstr "Розробник"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:25
-msgid ""
-"Preview the driver facing camera to ensure that driver monitoring has good "
-"visibility. (vehicle must be off)"
-msgstr ""
-"Попередньо перегляньте камеру, спрямовану на водія, щоб переконатися, що "
-"система моніторингу водія має добру видимість. (автомобіль повинен бути "
-"вимкнений)"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:26
-msgid ""
-"openpilot requires the device to be mounted within 4° left or right and "
-"within 5° up or 9° down."
-msgstr ""
-"Для роботи openpilot потрібно, щоб пристрій був встановлений з нахилом не "
-"більше 4° вліво або вправо та не більше 5° вгору або 9° вниз. openpilot "
-"постійно калібрується, тому скидання калібрування потрібне рідко."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:27
-msgid "Review the rules, features, and limitations of openpilot"
-msgstr "Перегляньте правила, функції та обмеження openpilot"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:48
-#, python-format
-msgid "Pair Device"
-msgstr "Підключити пристрій"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:48
-#, python-format
-msgid "PAIR"
-msgstr "ПІДКЛЮЧИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:51
-#, python-format
-msgid "Reset Calibration"
-msgstr "Скинути калібрування"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:51
-#, python-format
-msgid "RESET"
-msgstr "Скинути"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:55
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:175
-#, python-format
-msgid "Reboot"
-msgstr "Перезавантажити"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:55
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:187
-#, python-format
-msgid "Power Off"
-msgstr "Вимкнути"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:59
-#, python-format
-msgid "Dongle ID"
-msgstr "ID ключа"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:59
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:60
-#, python-format
-msgid "N/A"
-msgstr "Н/Д"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:60
-#, python-format
-msgid "Serial"
-msgstr "Серійний номер"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:62
-#, python-format
-msgid "Driver Camera"
-msgstr "Камера водія"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:62
-#, python-format
-msgid "PREVIEW"
-msgstr "ПОКАЖИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:65
-#, python-format
-msgid "Review Training Guide"
-msgstr "Переглянути посібник з навчання"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:65
-#, python-format
-msgid "REVIEW"
-msgstr "ДИВИТИСЬ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:67
-#, python-format
-msgid "Regulatory"
-msgstr "Нормативні документи"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:67
-#, python-format
-msgid "VIEW"
-msgstr "ДИВИСЬ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:68
-#, python-format
-msgid "Change Language"
-msgstr "Змінити мову"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:68
-#, python-format
-msgid "CHANGE"
-msgstr "ЗМІНИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:91
-#, python-format
-msgid "Select a language"
-msgstr "Виберіть мову"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:103
-#, python-format
-msgid "Disengage to Reset Calibration"
-msgstr "Деактивуйте для скидання калібрування"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:119
-#, python-format
-msgid "Are you sure you want to reset calibration?"
-msgstr "Ви впевнені, що хочете скинути калібрування?"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:119
-#, python-format
-msgid "Reset"
-msgstr "Скинути"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:133
-#, python-format
-msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
-msgstr " Ваш пристрій нахилено на {:.1f}° {} та {:.1f}° {}."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:133
-#, python-format
-msgid "down"
-msgstr "вниз"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:133
-#, python-format
-msgid "up"
-msgstr "вгору"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:134
-#, python-format
-msgid "left"
-msgstr "вліво"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:134
-#, python-format
-msgid "right"
-msgstr "вправо"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:146
-#, python-format
-msgid "<br><br>Steering lag calibration is {}% complete."
-msgstr "<br><br>Калібрування затримки кермування завершено на {}%."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:148
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/device.py:148
+#, python-brace-format
 msgid "<br><br>Steering lag calibration is complete."
 msgstr "<br><br>Калібрування затримки кермування завершено."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:158
-#, python-format
-msgid " Steering torque response calibration is {}% complete."
-msgstr "Калібрування реакції крутного моменту керма завершено на {}%."
+#: openpilot/selfdrive/ui/layouts/settings/device.py:146
+#, python-brace-format
+msgid "<br><br>Steering lag calibration is {}% complete."
+msgstr "<br><br>Калібрування затримки кермування завершено на {}%."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:160
-#, python-format
-msgid " Steering torque response calibration is complete."
-msgstr " Калібрування реакції крутного моменту керма завершено."
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:138
+#, python-brace-format
+msgid "ACTIVE"
+msgstr "АКТИВНИЙ"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:165
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:15
 msgid ""
-"openpilot is continuously calibrating, resetting is rarely required. "
-"Resetting calibration will restart openpilot if the car is powered on."
+"ADB (Android Debug Bridge) allows connecting to your device over USB or over "
+"the network. See https://docs.comma.ai/how-to/connect-to-comma for more info."
 msgstr ""
-"openpilot постійно калібрується, скидання рідко потрібне. Скидання "
-"калібрування призведе до перезапуску openpilot, якщо автомобіль увімкнено."
+"ADB (Android Debug Bridge) дозволяє підключатися до вашого пристрою через "
+"USB або мережу. Дивіться https://docs.comma.ai/how-to/connect-to-comma для "
+"отримання додаткової інформації."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:172
-#, python-format
-msgid "Disengage to Reboot"
-msgstr "Вимкніть openpilot, щоб перезавантажити"
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:30
+msgid "ADD"
+msgstr "ДОДАТИ"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:175
-#, python-format
-msgid "Are you sure you want to reboot?"
-msgstr "Ви впевнені, що хочете перезавантажити?"
+#: system/ui/widgets/network.py:139
+#, python-brace-format
+msgid "APN Setting"
+msgstr "Налаштування APN"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:184
-#, python-format
-msgid "Disengage to Power Off"
-msgstr "Вимкніть openpilot, щоб вимкнути пристрій"
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:109
+#, python-brace-format
+msgid "Acknowledge Excessive Actuation"
+msgstr "Визнайте надмірне спрацьовування"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/device.py:187
-#, python-format
-msgid "Are you sure you want to power off?"
-msgstr "Ви впевнені, що хочете вимкнути?"
+#: system/ui/widgets/network.py:74 system/ui/widgets/network.py:95
+#, python-brace-format
+msgid "Advanced"
+msgstr "Розширені"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:20
-#, python-format
-msgid "never"
-msgstr "ніколи"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:31
-#, python-format
-msgid "now"
-msgstr "зараз"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:34
-#, python-format
-msgid "{} minute ago"
-msgid_plural "{} minutes ago"
-msgstr[0] "{} хвилина тому"
-msgstr[1] "{} хвилини тому"
-msgstr[2] "{} хвилин тому"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:37
-#, python-format
-msgid "{} hour ago"
-msgid_plural "{} hours ago"
-msgstr[0] "{} година тому"
-msgstr[1] "{} години тому"
-msgstr[2] "{} годин тому"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:40
-#, python-format
-msgid "{} day ago"
-msgid_plural "{} days ago"
-msgstr[0] "{} день тому"
-msgstr[1] "{} дні тому"
-msgstr[2] "{} днів тому"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:48
-#, python-format
-msgid "Updates are only downloaded while the car is off."
-msgstr "Оновлення завантажуються лише тоді, коли автомобіль вимкнено."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:49
-#, python-format
-msgid "Current Version"
-msgstr "Поточна версія"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:50
-#, python-format
-msgid "Download"
-msgstr "Завантажити"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:50
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:107
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:118
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:147
-#, python-format
-msgid "CHECK"
-msgstr "ПЕРЕВІРИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:53
-#, python-format
-msgid "Install Update"
-msgstr "Встановити оновлення"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:53
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:136
-#, python-format
-msgid "INSTALL"
-msgstr "ВСТАНОВ."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:61
-#, python-format
-msgid "Target Branch"
-msgstr "Цільова гілка"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:61
-#, python-format
-msgid "SELECT"
-msgstr "ВИБРАТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:72
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:163
-#, python-format
-msgid "Uninstall"
-msgstr "Видалити"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:72
-#, python-format
-msgid "UNINSTALL"
-msgstr "ВИДАЛИТИ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:106
-#, python-format
-msgid "failed to check for update"
-msgstr "не вдалося перевірити оновлення"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:109
-#, python-format
-msgid "update available"
-msgstr "доступне оновлення"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:110
-#, python-format
-msgid "DOWNLOAD"
-msgstr "ВАНТАЖ"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:115
-#, python-format
-msgid "up to date, last checked {}"
-msgstr "оновлено, перевірялось {}"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:117
-#, python-format
-msgid "up to date, last checked never"
-msgstr "оновлено, ніколи не перевірялось"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:163
-#, python-format
-msgid "Are you sure you want to uninstall?"
-msgstr "Ви впевнені, що хочете видалити?"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/software.py:183
-#, python-format
-msgid "Select a branch"
-msgstr "Виберіть гілку"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:17
-msgid ""
-"Use the openpilot system for adaptive cruise control and lane keep driver "
-"assistance. Your attention is required at all times to use this feature."
-msgstr ""
-"Використовуйте систему openpilot для адаптивного круїз-контролю та допомоги "
-"в утриманні смуги руху. Ваша увага потрібна постійно при використанні цієї "
-"функції. Зміна цього налаштування набуває чинності після вимкнення живлення "
-"автомобіля."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:20
-msgid "When enabled, pressing the accelerator pedal will disengage openpilot."
-msgstr "Якщо увімкнено, натискання на педаль акселератора вимкне openpilot."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:22
-msgid ""
-"Standard is recommended. In aggressive mode, openpilot will follow lead cars "
-"closer and be more aggressive with the gas and brake. In relaxed mode "
-"openpilot will stay further away from lead cars. On supported cars, you can "
-"cycle through these personalities with your steering wheel distance button."
-msgstr ""
-"Рекомендується стандартний режим. В агресивному режимі openpilot буде "
-"триматися ближче до автомобілів попереду і більш агресивно використовувати "
-"газ і гальма. У спокійному режимі openpilot буде триматися на більшій "
-"відстані від автомобілів попереду. На підтримуваних автомобілях ви можете "
-"перемикатися між цими режимами за допомогою кнопки дистанції на кермі."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:27
-msgid ""
-"Receive alerts to steer back into the lane when your vehicle drifts over a "
-"detected lane line without a turn signal activated while driving over 31 mph "
-"(50 km/h)."
-msgstr ""
-"Отримувати попередження про необхідність повернутися в смугу, коли ваш "
-"автомобіль перетинає виявлену лінію розмітки без увімкненого сигналу "
-"повороту під час руху зі швидкістю понад 31 миль/год (50 км/год)."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:30
-msgid "Enable driver monitoring even when openpilot is not engaged."
-msgstr "Увімкнути моніторинг водія, навіть коли openpilot не ввімкнено."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:31
-msgid ""
-"Upload data from the driver facing camera and help improve the driver "
-"monitoring algorithm."
-msgstr ""
-"Завантажуйте дані з камери, спрямованої на водія, та допоможіть покращити "
-"алгоритм моніторингу водія."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:32
-msgid "Display speed in km/h instead of mph."
-msgstr "Відображати швидкість у км/год замість миль/год."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:33
-msgid ""
-"Record and store microphone audio while driving. The audio will be included "
-"in the dashcam video in comma connect."
-msgstr ""
-"Записуйте та зберігайте аудіо з мікрофона під час руху. Аудіо буде включено "
-"до відео з відеореєстратора в comma connect."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:46
-#, python-format
-msgid "Enable openpilot"
-msgstr "Увімкнути openpilot"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:52
-#, python-format
-msgid "Experimental Mode"
-msgstr "Експериментальний режим"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:58
-#, python-format
-msgid "Disengage on Accelerator Pedal"
-msgstr "Вимкнення при натисканні на педаль газу"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:64
-#, python-format
-msgid "Enable Lane Departure Warnings"
-msgstr "Увімкнути попередження про виїзд зі смуги"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:70
-#, python-format
-msgid "Always-On Driver Monitoring"
-msgstr "Постійний моніторинг водія"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:76
-#, python-format
-msgid "Record and Upload Driver Camera"
-msgstr "Писати та вантажити відео з камери водія"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:82
-#, python-format
-msgid "Record and Upload Microphone Audio"
-msgstr "Запис та завантаження аудіо з мікрофона"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:88
-#, python-format
-msgid "Use Metric System"
-msgstr "Використовувати метричну систему"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:96
-#, python-format
-msgid "Driving Personality"
-msgstr "Стиль водіння"
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:98
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:98
+#, python-brace-format
 msgid "Aggressive"
 msgstr "Агресивн."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:98
-#, python-format
-msgid "Standard"
-msgstr "Стандарт"
+#: openpilot/selfdrive/ui/layouts/onboarding.py:116
+#, python-brace-format
+msgid "Agree"
+msgstr "Погодитися"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:98
-#, python-format
-msgid "Relaxed"
-msgstr "Спокійний"
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:70
+#, python-brace-format
+msgid "Always-On Driver Monitoring"
+msgstr "Постійний моніторинг водія"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:125
-#, python-format
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:186
+#, python-brace-format
+msgid ""
+"An alpha version of openpilot longitudinal control can be tested, along with "
+"Experimental mode, on non-release branches."
+msgstr ""
+"Альфа-версію поздовжнього керування openpilot можна протестувати разом з "
+"експериментальним режимом на нерелізних гілках."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:187
+#, python-brace-format
+msgid "Are you sure you want to power off?"
+msgstr "Ви впевнені, що хочете вимкнути?"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:175
+#, python-brace-format
+msgid "Are you sure you want to reboot?"
+msgstr "Ви впевнені, що хочете перезавантажити?"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:119
+#, python-brace-format
+msgid "Are you sure you want to reset calibration?"
+msgstr "Ви впевнені, що хочете скинути калібрування?"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:171
+#, python-brace-format
+msgid "Are you sure you want to uninstall?"
+msgstr "Ви впевнені, що хочете видалити?"
+
+#: system/ui/widgets/network.py:99
+#: openpilot/selfdrive/ui/layouts/onboarding.py:147
+#, python-brace-format
+msgid "Back"
+msgstr "Назад"
+
+#: openpilot/selfdrive/ui/widgets/prime.py:38
+#, python-brace-format
+msgid "Become a comma prime member at connect.comma.ai"
+msgstr "Станьте членом comma prime на connect.comma.ai"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:119
+#, python-brace-format
+msgid "Bookmark connect.comma.ai to your home screen to use it like an app"
+msgstr ""
+"Додайте connect.comma.ai до головного екрану, щоб використовувати його як "
+"додаток."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:68
+#, python-brace-format
+msgid "CHANGE"
+msgstr "ЗМІНИТИ"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:50
+#: openpilot/selfdrive/ui/layouts/settings/software.py:115
+#: openpilot/selfdrive/ui/layouts/settings/software.py:126
+#: openpilot/selfdrive/ui/layouts/settings/software.py:155
+#, python-brace-format
+msgid "CHECK"
+msgstr "ПЕРЕВІРИТИ"
+
+#: openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
+#, python-brace-format
+msgid "CHILL MODE ON"
+msgstr "СПОКІЙНИЙ РЕЖИМ"
+
+#: system/ui/widgets/network.py:155
+#: openpilot/selfdrive/ui/layouts/sidebar.py:73
+#: openpilot/selfdrive/ui/layouts/sidebar.py:134
+#: openpilot/selfdrive/ui/layouts/sidebar.py:136
+#: openpilot/selfdrive/ui/layouts/sidebar.py:138
+#, python-brace-format
+msgid "CONNECT"
+msgstr "ПІДКЛЮЧ."
+
+#: system/ui/widgets/network.py:369
+#, python-brace-format
+msgid "CONNECTING..."
+msgstr "ПІДКЛЮЧЕННЯ..."
+
+#: system/ui/widgets/confirm_dialog.py:23 system/ui/widgets/option_dialog.py:35
+#: system/ui/widgets/network.py:318 system/ui/widgets/keyboard.py:81
+#, python-brace-format
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: system/ui/widgets/network.py:134
+#, python-brace-format
+msgid "Cellular Metered"
+msgstr "Лімітне стільникове з'єднання"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:68
+#, python-brace-format
+msgid "Change Language"
+msgstr "Змінити мову"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:125
+#, python-brace-format
 msgid "Changing this setting will restart openpilot if the car is powered on."
 msgstr ""
 "Зміна цього параметра призведе до перезапуску openpilot, якщо автомобіль "
 "увімкнено."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:158
-#, python-format
-msgid ""
-"openpilot defaults to driving in chill mode. Experimental mode enables alpha-"
-"level features that aren't ready for chill mode. Experimental features are "
-"listed below:<br><h4>End-to-End Longitudinal Control</h4><br>Let the driving "
-"model control the gas and brakes. openpilot will drive as it thinks a human "
-"would, including stopping for red lights and stop signs. Since the driving "
-"model decides the speed to drive, the set speed will only act as an upper "
-"bound. This is an alpha quality feature; mistakes should be expected."
-"<br><h4>New Driving Visualization</h4><br>The driving visualization will "
-"transition to the road-facing wide-angle camera at low speeds to better show "
-"some turns. The Experimental mode logo will also be shown in the top right "
-"corner."
-msgstr ""
-"openpilot за замовчуванням працює в режимі спокій. Експериментальний режим "
-"увімкне функції альфа-рівня, які ще не готові для режиму спокій. "
-"Експериментальні функції перелічені нижче:<br><h4>Кінцевий поздовжній "
-"контроль</h4><br>Дозвольте моделі водіння контролювати газ і гальма. "
-"openpilot буде керувати автомобілем так, як це робив би людина, включаючи "
-"зупинку на червоне світло і знаки зупинки. Оскільки модель водіння визначає "
-"швидкість руху, задана швидкість буде діяти лише як верхня межа. Це функція "
-"альфа-рівня; слід очікувати помилок.<br><h4>Нова візуалізація водіння</"
-"h4><br>Візуалізація водіння перейде на ширококутну камеру, спрямовану на "
-"дорогу, при низьких швидкостях, щоб краще показувати деякі повороти. Логотип "
-"експериментального режиму також буде показаний у верхньому правому куті."
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:118
+#, python-brace-format
+msgid "Click \"add new device\" and scan the QR code on the right"
+msgstr "Натисніть «додати новий пристрій» і відскануйте QR-код праворуч."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:181
-#, python-format
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:104
+#, python-brace-format
+msgid "Close"
+msgstr "Закрити"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:49
+#, python-brace-format
+msgid "Current Version"
+msgstr "Поточна версія"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:118
+#, python-brace-format
+msgid "DOWNLOAD"
+msgstr "ВАНТАЖ"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:115
+#, python-brace-format
+msgid "Decline"
+msgstr "Відхилити"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:148
+#, python-brace-format
+msgid "Decline, uninstall openpilot"
+msgstr "Відхилити, видалити openpilot"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:64
+msgid "Developer"
+msgstr "Розробник"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:59
+msgid "Device"
+msgstr "Пристрій"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:58
+#, python-brace-format
+msgid "Disengage on Accelerator Pedal"
+msgstr "Вимкнення при натисканні на педаль газу"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:184
+#, python-brace-format
+msgid "Disengage to Power Off"
+msgstr "Вимкніть openpilot, щоб вимкнути пристрій"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:172
+#, python-brace-format
+msgid "Disengage to Reboot"
+msgstr "Вимкніть openpilot, щоб перезавантажити"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:103
+#, python-brace-format
+msgid "Disengage to Reset Calibration"
+msgstr "Деактивуйте для скидання калібрування"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:32
+msgid "Display speed in km/h instead of mph."
+msgstr "Відображати швидкість у км/год замість миль/год."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:59
+#, python-brace-format
+msgid "Dongle ID"
+msgstr "ID ключа"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:50
+#, python-brace-format
+msgid "Download"
+msgstr "Завантажити"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:62
+#, python-brace-format
+msgid "Driver Camera"
+msgstr "Камера водія"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:96
+#, python-brace-format
+msgid "Driving Personality"
+msgstr "Стиль водіння"
+
+#: system/ui/widgets/network.py:123 system/ui/widgets/network.py:139
+#, python-brace-format
+msgid "EDIT"
+msgstr "РЕДАГ."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:138
+msgid "ERROR"
+msgstr "ПОМИЛКА"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:45
+msgid "ETH"
+msgstr "ETH"
+
+#: openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
+#, python-brace-format
+msgid "EXPERIMENTAL MODE ON"
+msgstr "ЕКСПЕРИМ. РЕЖИМ"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:228
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:166
+#, python-brace-format
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:39
+#, python-brace-format
+msgid "Enable ADB"
+msgstr "Увімкнути ADB"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:64
+#, python-brace-format
+msgid "Enable Lane Departure Warnings"
+msgstr "Увімкнути попередження про виїзд зі смуги"
+
+#: system/ui/widgets/network.py:129
+#, python-brace-format
+msgid "Enable Roaming"
+msgstr "Увімкнути роумінг"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:48
+#, python-brace-format
+msgid "Enable SSH"
+msgstr "Увімкнути SSH"
+
+#: system/ui/widgets/network.py:120
+#, python-brace-format
+msgid "Enable Tethering"
+msgstr "Увімкнути точку доступу"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:30
+msgid "Enable driver monitoring even when openpilot is not engaged."
+msgstr "Увімкнути моніторинг водія, навіть коли openpilot не ввімкнено."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:46
+#, python-brace-format
+msgid "Enable openpilot"
+msgstr "Увімкнути openpilot"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:189
+#, python-brace-format
+msgid ""
+"Enable the openpilot longitudinal control (alpha) toggle to allow "
+"Experimental mode."
+msgstr ""
+"Увімкніть перемикач поздовжнього керування openpilot (альфа), щоб увімкнути "
+"експериментальний режим."
+
+#: system/ui/widgets/network.py:204
+#, python-brace-format
+msgid "Enter APN"
+msgstr "Введіть APN"
+
+#: system/ui/widgets/network.py:241
+#, python-brace-format
+msgid "Enter SSID"
+msgstr "Введіть SSID"
+
+#: system/ui/widgets/network.py:254
+#, python-brace-format
+msgid "Enter new tethering password"
+msgstr "Введіть новий пароль для модему"
+
+#: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
+#, python-brace-format
+msgid "Enter password"
+msgstr "Введіть пароль"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:89
+#, python-brace-format
+msgid "Enter your GitHub username"
+msgstr "Введіть ваше ім'я користувача GitHub"
+
+#: system/ui/widgets/list_view.py:123 system/ui/widgets/list_view.py:160
+#, python-brace-format
+msgid "Error"
+msgstr "Помилка"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:52
+#, python-brace-format
+msgid "Experimental Mode"
+msgstr "Експериментальний режим"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:181
+#, python-brace-format
 msgid ""
 "Experimental mode is currently unavailable on this car since the car's stock "
 "ACC is used for longitudinal control."
@@ -1086,49 +427,25 @@ msgstr ""
 "для поздовжнього керування використовується штатний адаптивний круїз-"
 "контроль (ACC)."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:183
-#, python-format
-msgid "openpilot longitudinal control may come in a future update."
-msgstr "Поздовжнє керування openpilot може з'явитися в майбутньому оновленні."
+#: system/ui/widgets/network.py:373
+#, python-brace-format
+msgid "FORGETTING..."
+msgstr "ЗАБУВАЮ..."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:186
-#, python-format
-msgid ""
-"An alpha version of openpilot longitudinal control can be tested, along with "
-"Experimental mode, on non-release branches."
-msgstr ""
-"Альфа-версію поздовжнього керування openpilot можна протестувати разом з "
-"експериментальним режимом на нерелізних гілках."
+#: openpilot/selfdrive/ui/widgets/setup.py:44
+#, python-brace-format
+msgid "Finish Setup"
+msgstr "Завершити налаштування"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/toggles.py:189
-#, python-format
-msgid ""
-"Enable the openpilot longitudinal control (alpha) toggle to allow "
-"Experimental mode."
-msgstr ""
-"Увімкніть перемикач поздовжнього керування openpilot (альфа), щоб увімкнути "
-"експериментальний режим."
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:63
+msgid "Firehose"
+msgstr "Злива"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:18
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:18
 msgid "Firehose Mode"
 msgstr "Режим зливи"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:20
-msgid ""
-"openpilot learns to drive by watching humans, like you, drive.\n"
-"\n"
-"Firehose Mode allows you to maximize your training data uploads to improve "
-"openpilot's driving models. More data means bigger models, which means "
-"better Experimental Mode."
-msgstr ""
-"openpilot вчиться керувати автомобілем, спостерігаючи за тим, як це роблять "
-"люди, такі як ви.\n"
-"\n"
-"Режим зливи дозволяє максимально збільшити обсяг завантажуваних навчальних "
-"даних, щоб поліпшити моделі керування автомобілем openpilot. Більше даних "
-"означає більші моделі, а це означає кращий експериментальний режим."
-
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:25
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:25
 msgid ""
 "For maximum effectiveness, bring your device inside and connect to a good "
 "USB-C adapter and Wi-Fi weekly.\n"
@@ -1172,8 +489,752 @@ msgstr ""
 "навчання можна використовувати тільки upstream openpilot (і певні його "
 "форки)."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:111
-#, python-format
+#: system/ui/widgets/network.py:318 system/ui/widgets/network.py:451
+#, python-brace-format
+msgid "Forget"
+msgstr "Заб-и"
+
+#: system/ui/widgets/network.py:319
+#, python-brace-format
+msgid "Forget Wi-Fi Network \"{}\"?"
+msgstr "Забути мережу Wi-Fi \"{}\"?"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:71
+#: openpilot/selfdrive/ui/layouts/sidebar.py:125
+msgid "GOOD"
+msgstr "ДОБРА"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:117
+#, python-brace-format
+msgid "Go to https://connect.comma.ai on your phone"
+msgstr "Перейдіть на сайт https://connect.comma.ai на своєму телефоні."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:129
+msgid "HIGH"
+msgstr "ВИСОКА"
+
+#: system/ui/widgets/network.py:155
+#, python-brace-format
+msgid "Hidden Network"
+msgstr "Прихована мережа"
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:140
+#, python-brace-format
+msgid "INACTIVE: connect to an unmetered network"
+msgstr "НЕАКТИВНО: підключення до мережі без ліміту трафіку"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:53
+#: openpilot/selfdrive/ui/layouts/settings/software.py:144
+#, python-brace-format
+msgid "INSTALL"
+msgstr "ВСТАНОВ."
+
+#: system/ui/widgets/network.py:150
+#, python-brace-format
+msgid "IP Address"
+msgstr "IP-адреса"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:53
+#, python-brace-format
+msgid "Install Update"
+msgstr "Встановити оновлення"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:56
+#, python-brace-format
+msgid "Joystick Debug Mode"
+msgstr "Режим зневадження джойстика"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:29
+msgid "LOADING"
+msgstr "ЗАВАНТАЖЕННЯ"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:48
+msgid "LTE"
+msgstr "LTE"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:64
+#, python-brace-format
+msgid "Longitudinal Maneuver Mode"
+msgstr "Режим поздовжнього маневрування"
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py:148
+#, python-brace-format
+msgid "MAX"
+msgstr "МАКС"
+
+#: openpilot/selfdrive/ui/widgets/setup.py:75
+#, python-brace-format
+msgid ""
+"Maximize your training data uploads to improve openpilot's driving models."
+msgstr ""
+"Максимізуйте завантаження навчальних даних, щоб поліпшити моделі openpilot."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:59
+#: openpilot/selfdrive/ui/layouts/settings/device.py:60
+#, python-brace-format
+msgid "N/A"
+msgstr "Н/Д"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:142
+msgid "NO"
+msgstr "НЕМАЄ"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:60
+msgid "Network"
+msgstr "Мережа"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:114
+#, python-brace-format
+msgid "No SSH keys found"
+msgstr "Не знайдено ключів SSH"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:126
+#, python-brace-format
+msgid "No SSH keys found for user '{}'"
+msgstr "Користувач '{}' не має ключів на GitHub"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:320
+#, python-brace-format
+msgid "No release notes available."
+msgstr "Інформація про випуск відсутня."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:73
+#: openpilot/selfdrive/ui/layouts/sidebar.py:134
+msgid "OFFLINE"
+msgstr "ОФЛАЙН"
+
+#: system/ui/widgets/confirm_dialog.py:93 system/ui/widgets/html_render.py:263
+#: openpilot/selfdrive/ui/layouts/sidebar.py:127
+#, python-brace-format
+msgid "OK"
+msgstr "OK"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:72
+#: openpilot/selfdrive/ui/layouts/sidebar.py:136
+#: openpilot/selfdrive/ui/layouts/sidebar.py:144
+msgid "ONLINE"
+msgstr "ОНЛАЙН"
+
+#: openpilot/selfdrive/ui/widgets/setup.py:20
+#, python-brace-format
+msgid "Open"
+msgstr "ВІДКРИТИ"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:48
+#, python-brace-format
+msgid "PAIR"
+msgstr "ПІДКЛЮЧИТИ"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:142
+msgid "PANDA"
+msgstr "PANDA"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:62
+#, python-brace-format
+msgid "PREVIEW"
+msgstr "ПОКАЖИ"
+
+#: openpilot/selfdrive/ui/widgets/prime.py:44
+#, python-brace-format
+msgid "PRIME FEATURES:"
+msgstr "ХАР-КИ PRIME:"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:48
+#, python-brace-format
+msgid "Pair Device"
+msgstr "Підключити пристрій"
+
+#: openpilot/selfdrive/ui/widgets/setup.py:19
+#, python-brace-format
+msgid "Pair device"
+msgstr "Підключити пристрій"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:92
+#, python-brace-format
+msgid "Pair your device to your comma account"
+msgstr "Підключіть свій пристрій до обліковки comma connect"
+
+#: openpilot/selfdrive/ui/widgets/setup.py:48
+#: openpilot/selfdrive/ui/layouts/settings/device.py:24
+#, python-brace-format
+msgid ""
+"Pair your device with comma connect (connect.comma.ai) and claim your comma "
+"prime offer."
+msgstr ""
+"Підключіть свій пристрій до comma connect (connect.comma.ai) і отримайте "
+"свою пропозицію comma prime."
+
+#: openpilot/selfdrive/ui/widgets/setup.py:91
+#, python-brace-format
+msgid "Please connect to Wi-Fi to complete initial pairing"
+msgstr "Будь ласка, підключіться до Wi-Fi, щоб завершити початкове сполучення."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:55
+#: openpilot/selfdrive/ui/layouts/settings/device.py:187
+#, python-brace-format
+msgid "Power Off"
+msgstr "Вимкнути"
+
+#: system/ui/widgets/network.py:144
+#, python-brace-format
+msgid "Prevent large data uploads when on a metered Wi-Fi connection"
+msgstr ""
+"Запобігайте завантаженню великих обсягів даних під час використання Wi-Fi-"
+"з'єднання з обмеженим трафіком"
+
+#: system/ui/widgets/network.py:135
+#, python-brace-format
+msgid "Prevent large data uploads when on a metered cellular connection"
+msgstr ""
+"Запобігати великим завантаженням даних під час лімітного стільникового "
+"з'єднання"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:25
+msgid ""
+"Preview the driver facing camera to ensure that driver monitoring has good "
+"visibility. (vehicle must be off)"
+msgstr ""
+"Попередньо перегляньте камеру, спрямовану на водія, щоб переконатися, що "
+"система моніторингу водія має добру видимість. (автомобіль повинен бути "
+"вимкнений)"
+
+#: openpilot/selfdrive/ui/widgets/pairing_dialog.py:150
+#, python-brace-format
+msgid "QR Code Error"
+msgstr "Помилка QR-коду"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:31
+msgid "REMOVE"
+msgstr "ВИДАЛИТИ"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:51
+#, python-brace-format
+msgid "RESET"
+msgstr "Скинути"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:65
+#, python-brace-format
+msgid "REVIEW"
+msgstr "ДИВИТИСЬ"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:55
+#: openpilot/selfdrive/ui/layouts/settings/device.py:175
+#, python-brace-format
+msgid "Reboot"
+msgstr "Перезавантажити"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:66
+#, python-brace-format
+msgid "Reboot Device"
+msgstr "Перезавантажте пристрій"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:112
+#, python-brace-format
+msgid "Reboot and Update"
+msgstr "Перезавантажити та оновити"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:27
+msgid ""
+"Receive alerts to steer back into the lane when your vehicle drifts over a "
+"detected lane line without a turn signal activated while driving over 31 mph "
+"(50 km/h)."
+msgstr ""
+"Отримувати попередження про необхідність повернутися в смугу, коли ваш "
+"автомобіль перетинає виявлену лінію розмітки без увімкненого сигналу "
+"повороту під час руху зі швидкістю понад 31 миль/год (50 км/год)."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:76
+#, python-brace-format
+msgid "Record and Upload Driver Camera"
+msgstr "Писати та вантажити відео з камери водія"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:82
+#, python-brace-format
+msgid "Record and Upload Microphone Audio"
+msgstr "Запис та завантаження аудіо з мікрофона"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:33
+msgid ""
+"Record and store microphone audio while driving. The audio will be included "
+"in the dashcam video in comma connect."
+msgstr ""
+"Записуйте та зберігайте аудіо з мікрофона під час руху. Аудіо буде включено "
+"до відео з відеореєстратора в comma connect."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:67
+#, python-brace-format
+msgid "Regulatory"
+msgstr "Нормативні документи"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:98
+#, python-brace-format
+msgid "Relaxed"
+msgstr "Спокійний"
+
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
+msgid "Remote access"
+msgstr "Віддалений доступ"
+
+#: openpilot/selfdrive/ui/widgets/prime.py:47
+#, python-brace-format
+msgid "Remote snapshots"
+msgstr "Віддалені знімки"
+
+#: openpilot/selfdrive/ui/widgets/ssh_key.py:123
+#, python-brace-format
+msgid "Request timed out"
+msgstr "Час запиту вичерпано"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:119
+#, python-brace-format
+msgid "Reset"
+msgstr "Скинути"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:51
+#, python-brace-format
+msgid "Reset Calibration"
+msgstr "Скинути калібрування"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:65
+#, python-brace-format
+msgid "Review Training Guide"
+msgstr "Переглянути посібник з навчання"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:27
+msgid "Review the rules, features, and limitations of openpilot"
+msgstr "Перегляньте правила, функції та обмеження openpilot"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:61
+#, python-brace-format
+msgid "SELECT"
+msgstr "ВИБРАТИ"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:53
+#, python-brace-format
+msgid "SSH Keys"
+msgstr "SSH ключі"
+
+#: system/ui/widgets/network.py:310
+#, python-brace-format
+msgid "Scanning Wi-Fi networks..."
+msgstr "Пошук мереж..."
+
+#: system/ui/widgets/option_dialog.py:36
+#, python-brace-format
+msgid "Select"
+msgstr "Вибрати"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:191
+#, python-brace-format
+msgid "Select a branch"
+msgstr "Виберіть гілку"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:91
+#, python-brace-format
+msgid "Select a language"
+msgstr "Виберіть мову"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:60
+#, python-brace-format
+msgid "Serial"
+msgstr "Серійний номер"
+
+#: openpilot/selfdrive/ui/widgets/offroad_alerts.py:106
+#, python-brace-format
+msgid "Snooze Update"
+msgstr "Відкласти оновлення"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:62
+msgid "Software"
+msgstr "Програма"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:98
+#, python-brace-format
+msgid "Standard"
+msgstr "Стандарт"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:22
+msgid ""
+"Standard is recommended. In aggressive mode, openpilot will follow lead cars "
+"closer and be more aggressive with the gas and brake. In relaxed mode "
+"openpilot will stay further away from lead cars. On supported cars, you can "
+"cycle through these personalities with your steering wheel distance button."
+msgstr ""
+"Рекомендується стандартний режим. В агресивному режимі openpilot буде "
+"триматися ближче до автомобілів попереду і більш агресивно використовувати "
+"газ і гальма. У спокійному режимі openpilot буде триматися на більшій "
+"відстані від автомобілів попереду. На підтримуваних автомобілях ви можете "
+"перемикатися між цими режимами за допомогою кнопки дистанції на кермі."
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:59
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:65
+#, python-brace-format
+msgid "System Unresponsive"
+msgstr "Система не реагує"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:58
+#, python-brace-format
+msgid "TAKE CONTROL IMMEDIATELY"
+msgstr "КЕРМУЙТЕ НЕГАЙНО"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:71
+#: openpilot/selfdrive/ui/layouts/sidebar.py:125
+#: openpilot/selfdrive/ui/layouts/sidebar.py:127
+#: openpilot/selfdrive/ui/layouts/sidebar.py:129
+msgid "TEMP"
+msgstr "ТЕМП"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:61
+#, python-brace-format
+msgid "Target Branch"
+msgstr "Цільова гілка"
+
+#: system/ui/widgets/network.py:124
+#, python-brace-format
+msgid "Tethering Password"
+msgstr "Пароль для точки доступу"
+
+#: openpilot/selfdrive/ui/layouts/settings/settings.py:61
+msgid "Toggles"
+msgstr "Перемикачі"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:72
+#, python-brace-format
+msgid "UNINSTALL"
+msgstr "ВИДАЛИТИ"
+
+#: openpilot/selfdrive/ui/layouts/home.py:155
+#, python-brace-format
+msgid "UPDATE"
+msgstr "ОНОВИТИ"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:72
+#: openpilot/selfdrive/ui/layouts/settings/software.py:171
+#, python-brace-format
+msgid "Uninstall"
+msgstr "Видалити"
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:117
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:48
+#, python-brace-format
+msgid "Updates are only downloaded while the car is off."
+msgstr "Оновлення завантажуються лише тоді, коли автомобіль вимкнено."
+
+#: openpilot/selfdrive/ui/widgets/prime.py:33
+#, python-brace-format
+msgid "Upgrade Now"
+msgstr "Оновити зараз"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:31
+msgid ""
+"Upload data from the driver facing camera and help improve the driver "
+"monitoring algorithm."
+msgstr ""
+"Завантажуйте дані з камери, спрямованої на водія, та допоможіть покращити "
+"алгоритм моніторингу водія."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:88
+#, python-brace-format
+msgid "Use Metric System"
+msgstr "Використовувати метричну систему"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:17
+msgid ""
+"Use the openpilot system for adaptive cruise control and lane keep driver "
+"assistance. Your attention is required at all times to use this feature."
+msgstr ""
+"Використовуйте систему openpilot для адаптивного круїз-контролю та допомоги "
+"в утриманні смуги руху. Ваша увага потрібна постійно при використанні цієї "
+"функції. Зміна цього налаштування набуває чинності після вимкнення живлення "
+"автомобіля."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:72
+#: openpilot/selfdrive/ui/layouts/sidebar.py:144
+msgid "VEHICLE"
+msgstr "АВТО"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:67
+#, python-brace-format
+msgid "VIEW"
+msgstr "ДИВИСЬ"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:52
+#, python-brace-format
+msgid "Waiting to start"
+msgstr "Очікування початку"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:19
+msgid ""
+"Warning: This grants SSH access to all public keys in your GitHub settings. "
+"Never enter a GitHub username other than your own. A comma employee will "
+"NEVER ask you to add their GitHub username."
+msgstr ""
+"Попередження: це надає доступ по SSH до всіх публічних ключів у ваших "
+"налаштуваннях GitHub. Ніколи не вводьте ім'я користувача GitHub, окрім "
+"вашого власного. Співробітник comma НІКОЛИ не попросить вас додати його ім'я "
+"користувача GitHub."
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:111
+#, python-brace-format
+msgid "Welcome to openpilot"
+msgstr "Ласкаво просимо до openpilot"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:20
+msgid "When enabled, pressing the accelerator pedal will disengage openpilot."
+msgstr "Якщо увімкнено, натискання на педаль акселератора вимкне openpilot."
+
+#: openpilot/selfdrive/ui/layouts/sidebar.py:44
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: system/ui/widgets/network.py:144
+#, python-brace-format
+msgid "Wi-Fi Network Metered"
+msgstr "Трафік Wi-Fi"
+
+#: system/ui/widgets/network.py:314
+#, python-brace-format
+msgid "Wrong password"
+msgstr "Невірний пароль"
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:145
+#, python-brace-format
+msgid "You must accept the Terms and Conditions in order to use openpilot."
+msgstr "Ви повинні прийняти Умови та положення, щоб користуватися openpilot."
+
+#: openpilot/selfdrive/ui/layouts/onboarding.py:112
+#, python-brace-format
+msgid ""
+"You must accept the Terms and Conditions to use openpilot. Read the latest "
+"terms at https://comma.ai/terms before continuing."
+msgstr ""
+"Ви повинні прийняти Умови використання, щоб користуватися openpilot. Перед "
+"тим, як продовжити, ознайомтеся з останніми умовами на сайті https://"
+"comma.ai/terms."
+
+#: openpilot/selfdrive/ui/onroad/driver_camera_dialog.py:34
+#, python-brace-format
+msgid "camera starting"
+msgstr "запуск камери"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:105
+#, python-brace-format
+msgid "checking..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/widgets/prime.py:63
+#, python-brace-format
+msgid "comma prime"
+msgstr "comma prime"
+
+#: system/ui/widgets/network.py:142
+#, python-brace-format
+msgid "default"
+msgstr "замовч."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:133
+#, python-brace-format
+msgid "down"
+msgstr "вниз"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:106
+#, python-brace-format
+msgid "downloading..."
+msgstr ""
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:114
+#, python-brace-format
+msgid "failed to check for update"
+msgstr "не вдалося перевірити оновлення"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:107
+#, python-brace-format
+msgid "finalizing update..."
+msgstr ""
+
+#: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
+#, python-brace-format
+msgid "for \"{}\""
+msgstr "для \"{}\""
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py:177
+#, python-brace-format
+msgid "km/h"
+msgstr "км/год"
+
+#: system/ui/widgets/network.py:204
+#, python-brace-format
+msgid "leave blank for automatic configuration"
+msgstr "залиште порожнім для автоматичного налаштування"
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:134
+#, python-brace-format
+msgid "left"
+msgstr "вліво"
+
+#: system/ui/widgets/network.py:142
+#, python-brace-format
+msgid "metered"
+msgstr "обмеж."
+
+#: openpilot/selfdrive/ui/onroad/hud_renderer.py:177
+#, python-brace-format
+msgid "mph"
+msgstr "миль/год"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:20
+#, python-brace-format
+msgid "never"
+msgstr "ніколи"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:31
+#, python-brace-format
+msgid "now"
+msgstr "зараз"
+
+#: openpilot/selfdrive/ui/layouts/settings/developer.py:71
+#, python-brace-format
+msgid "openpilot Longitudinal Control (Alpha)"
+msgstr "Поздовжнє керування openpilot (Альфа)"
+
+#: openpilot/selfdrive/ui/onroad/alert_renderer.py:51
+#, python-brace-format
+msgid "openpilot Unavailable"
+msgstr "openpilot Недоступний"
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:158
+#, python-brace-format
+msgid ""
+"openpilot defaults to driving in chill mode. Experimental mode enables alpha-"
+"level features that aren't ready for chill mode. Experimental features are "
+"listed below:<br><h4>End-to-End Longitudinal Control</h4><br>Let the driving "
+"model control the gas and brakes. openpilot will drive as it thinks a human "
+"would, including stopping for red lights and stop signs. Since the driving "
+"model decides the speed to drive, the set speed will only act as an upper "
+"bound. This is an alpha quality feature; mistakes should be expected."
+"<br><h4>New Driving Visualization</h4><br>The driving visualization will "
+"transition to the road-facing wide-angle camera at low speeds to better show "
+"some turns. The Experimental mode logo will also be shown in the top right "
+"corner."
+msgstr ""
+"openpilot за замовчуванням працює в режимі спокій. Експериментальний режим "
+"увімкне функції альфа-рівня, які ще не готові для режиму спокій. "
+"Експериментальні функції перелічені нижче:<br><h4>Кінцевий поздовжній "
+"контроль</h4><br>Дозвольте моделі водіння контролювати газ і гальма. "
+"openpilot буде керувати автомобілем так, як це робив би людина, включаючи "
+"зупинку на червоне світло і знаки зупинки. Оскільки модель водіння визначає "
+"швидкість руху, задана швидкість буде діяти лише як верхня межа. Це функція "
+"альфа-рівня; слід очікувати помилок.<br><h4>Нова візуалізація водіння</"
+"h4><br>Візуалізація водіння перейде на ширококутну камеру, спрямовану на "
+"дорогу, при низьких швидкостях, щоб краще показувати деякі повороти. Логотип "
+"експериментального режиму також буде показаний у верхньому правому куті."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:165
+#, python-brace-format
+msgid ""
+"openpilot is continuously calibrating, resetting is rarely required. "
+"Resetting calibration will restart openpilot if the car is powered on."
+msgstr ""
+"openpilot постійно калібрується, скидання рідко потрібне. Скидання "
+"калібрування призведе до перезапуску openpilot, якщо автомобіль увімкнено."
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:20
+msgid ""
+"openpilot learns to drive by watching humans, like you, drive.\n"
+"\n"
+"Firehose Mode allows you to maximize your training data uploads to improve "
+"openpilot's driving models. More data means bigger models, which means "
+"better Experimental Mode."
+msgstr ""
+"openpilot вчиться керувати автомобілем, спостерігаючи за тим, як це роблять "
+"люди, такі як ви.\n"
+"\n"
+"Режим зливи дозволяє максимально збільшити обсяг завантажуваних навчальних "
+"даних, щоб поліпшити моделі керування автомобілем openpilot. Більше даних "
+"означає більші моделі, а це означає кращий експериментальний режим."
+
+#: openpilot/selfdrive/ui/layouts/settings/toggles.py:183
+#, python-brace-format
+msgid "openpilot longitudinal control may come in a future update."
+msgstr "Поздовжнє керування openpilot може з'явитися в майбутньому оновленні."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:26
+msgid ""
+"openpilot requires the device to be mounted within 4° left or right and "
+"within 5° up or 9° down."
+msgstr ""
+"Для роботи openpilot потрібно, щоб пристрій був встановлений з нахилом не "
+"більше 4° вліво або вправо та не більше 5° вгору або 9° вниз. openpilot "
+"постійно калібрується, тому скидання калібрування потрібне рідко."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:134
+#, python-brace-format
+msgid "right"
+msgstr "вправо"
+
+#: system/ui/widgets/network.py:142
+#, python-brace-format
+msgid "unmetered"
+msgstr "необмеж."
+
+#: openpilot/selfdrive/ui/layouts/settings/device.py:133
+#, python-brace-format
+msgid "up"
+msgstr "вгору"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:125
+#, python-brace-format
+msgid "up to date, last checked never"
+msgstr "оновлено, ніколи не перевірялось"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:123
+#, python-brace-format
+msgid "up to date, last checked {}"
+msgstr "оновлено, перевірялось {}"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:117
+#, python-brace-format
+msgid "update available"
+msgstr "доступне оновлення"
+
+#: openpilot/selfdrive/ui/layouts/home.py:169
+#, python-brace-format
+msgid "{} ALERT"
+msgid_plural "{} ALERTS"
+msgstr[0] "{} СПОВІЩЕННЯ"
+msgstr[1] "{} СПОВІЩЕННЯ"
+msgstr[2] "{} СПОВІЩЕНЬ"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:40
+#, python-brace-format
+msgid "{} day ago"
+msgid_plural "{} days ago"
+msgstr[0] "{} день тому"
+msgstr[1] "{} дні тому"
+msgstr[2] "{} днів тому"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:37
+#, python-brace-format
+msgid "{} hour ago"
+msgid_plural "{} hours ago"
+msgstr[0] "{} година тому"
+msgstr[1] "{} години тому"
+msgstr[2] "{} годин тому"
+
+#: openpilot/selfdrive/ui/layouts/settings/software.py:34
+#, python-brace-format
+msgid "{} minute ago"
+msgid_plural "{} minutes ago"
+msgstr[0] "{} хвилина тому"
+msgstr[1] "{} хвилини тому"
+msgstr[2] "{} хвилин тому"
+
+#: openpilot/selfdrive/ui/layouts/settings/firehose.py:111
+#, python-brace-format
 msgid "{} segment of your driving is in the training dataset so far."
 msgid_plural "{} segments of your driving is in the training dataset so far."
 msgstr[0] ""
@@ -1186,58 +1247,12 @@ msgstr[2] ""
 "{} сегментів вашого водіння на даний момент містяться в тренувальному наборі "
 "даних."
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:138
-#, python-format
-msgid "ACTIVE"
-msgstr "АКТИВНИЙ"
+#: openpilot/selfdrive/ui/widgets/prime.py:62
+#, python-brace-format
+msgid "✓ SUBSCRIBED"
+msgstr "✓ ПІДПИСАНО"
 
-#: ../pythonpath/openpilot/selfdrive/ui/layouts/settings/firehose.py:140
-#, python-format
-msgid "INACTIVE: connect to an unmetered network"
-msgstr "НЕАКТИВНО: підключення до мережі без ліміту трафіку"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/driver_camera_dialog.py:34
-#, python-format
-msgid "camera starting"
-msgstr "запуск камери"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/alert_renderer.py:51
-#, python-format
-msgid "openpilot Unavailable"
-msgstr "openpilot Недоступний"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/alert_renderer.py:52
-#, python-format
-msgid "Waiting to start"
-msgstr "Очікування початку"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/alert_renderer.py:58
-#, python-format
-msgid "TAKE CONTROL IMMEDIATELY"
-msgstr "КЕРМУЙТЕ НЕГАЙНО"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/alert_renderer.py:59
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/alert_renderer.py:65
-#, python-format
-msgid "System Unresponsive"
-msgstr "Система не реагує"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/alert_renderer.py:66
-#, python-format
-msgid "Reboot Device"
-msgstr "Перезавантажте пристрій"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/hud_renderer.py:148
-#, python-format
-msgid "MAX"
-msgstr "МАКС"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/hud_renderer.py:177
-#, python-format
-msgid "km/h"
-msgstr "км/год"
-
-#: ../pythonpath/openpilot/selfdrive/ui/onroad/hud_renderer.py:177
-#, python-format
-msgid "mph"
-msgstr "миль/год"
+#: openpilot/selfdrive/ui/widgets/setup.py:22
+#, python-brace-format
+msgid "🔥 Firehose Mode 🔥"
+msgstr "🔥 Режим зливи 🔥"
