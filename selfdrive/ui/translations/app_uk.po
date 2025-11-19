@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 12:21+0200\n"
-"PO-Revision-Date: 2025-11-19 11:56+0200\n"
+"PO-Revision-Date: 2025-11-19 12:33+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -331,7 +331,7 @@ msgstr "ETH"
 #: openpilot/selfdrive/ui/widgets/exp_mode_button.py:50
 #, python-brace-format
 msgid "EXPERIMENTAL MODE ON"
-msgstr "ЕКСПЕРИМ. РЕЖИМ"
+msgstr "ЕКСПЕРИМЕНТ. РЕЖИМ"
 
 #: openpilot/selfdrive/ui/layouts/settings/toggles.py:228
 #: openpilot/selfdrive/ui/layouts/settings/developer.py:166
@@ -1024,7 +1024,7 @@ msgstr "запуск камери"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:105
 #, python-brace-format
 msgid "checking..."
-msgstr ""
+msgstr "перевіряю…"
 
 #: openpilot/selfdrive/ui/widgets/prime.py:63
 #, python-brace-format
@@ -1044,7 +1044,7 @@ msgstr "вниз"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:106
 #, python-brace-format
 msgid "downloading..."
-msgstr ""
+msgstr "вантажу..."
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:114
 #, python-brace-format
@@ -1054,7 +1054,7 @@ msgstr "не вдалося перевірити оновлення"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:107
 #, python-brace-format
 msgid "finalizing update..."
-msgstr ""
+msgstr "завершую…"
 
 #: system/ui/widgets/network.py:237 system/ui/widgets/network.py:314
 #, python-brace-format
@@ -1255,4 +1255,4 @@ msgstr "✓ ПІДПИСАНО"
 #: openpilot/selfdrive/ui/widgets/setup.py:22
 #, python-brace-format
 msgid "🔥 Firehose Mode 🔥"
-msgstr "🔥 Режим зливи 🔥"
+msgstr "🌧️ Режим зливи 🌧️"
