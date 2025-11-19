@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-19 12:21+0200\n"
-"PO-Revision-Date: 2025-11-19 12:33+0200\n"
+"PO-Revision-Date: 2025-11-19 12:42+0200\n"
 "Last-Translator: KeeFeeRe <me@keefeere.me>\n"
 "Language-Team: none\n"
 "Language: uk\n"
@@ -203,12 +203,12 @@ msgstr "СПОКІЙНИЙ РЕЖИМ"
 #: openpilot/selfdrive/ui/layouts/sidebar.py:138
 #, python-brace-format
 msgid "CONNECT"
-msgstr "ПІДКЛЮЧ."
+msgstr "CONNECT"
 
 #: system/ui/widgets/network.py:369
 #, python-brace-format
 msgid "CONNECTING..."
-msgstr "ПІДКЛЮЧЕННЯ..."
+msgstr "ПІДКЛЮЧАЮ…"
 
 #: system/ui/widgets/confirm_dialog.py:23 system/ui/widgets/option_dialog.py:35
 #: system/ui/widgets/network.py:318 system/ui/widgets/keyboard.py:81
