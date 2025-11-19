@@ -1044,7 +1044,7 @@ msgstr "вниз"
 #: openpilot/selfdrive/ui/layouts/settings/software.py:106
 #, python-brace-format
 msgid "downloading..."
-msgstr "вантажу..."
+msgstr "завантажую..."
 
 #: openpilot/selfdrive/ui/layouts/settings/software.py:114
 #, python-brace-format
