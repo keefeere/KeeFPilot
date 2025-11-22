@@ -5914,7 +5914,7 @@ Developer - Ultra-custom settings for seasoned duckthusiasts</translation>
     <message>
         <source>Unable to download updates
 %1</source>
-        <translation type="gpt-5-generated">Quack! Can’t fetch updates, splash! 
+        <translation type="gpt-5-generated">Quack! Can’t fetch updates, splash!
 %1</translation>
     </message>
     <message>
