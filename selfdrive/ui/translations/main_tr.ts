@@ -941,10 +941,6 @@
         <translation type="gpt-5-generated">TORK %</translation>
     </message>
     <message>
-        <source>DANGER FACTOR</source>
-        <translation type="gpt-5-generated">TEHLİKE FAKTÖRÜ</translation>
-    </message>
-    <message>
         <source>DANGER %</source>
         <translation type="unfinished"></translation>
     </message>

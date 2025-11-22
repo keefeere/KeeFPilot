@@ -941,10 +941,6 @@
         <translation type="gpt-5-generated">عزم</translation>
     </message>
     <message>
-        <source>DANGER FACTOR</source>
-        <translation type="gpt-5-generated">عامل الخطر</translation>
-    </message>
-    <message>
         <source>DANGER %</source>
         <translation type="unfinished"></translation>
     </message>

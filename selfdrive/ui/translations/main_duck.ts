@@ -941,10 +941,6 @@
         <translation type="gpt-5-generated">Quack! TORQUE % — waddle-whoosh!</translation>
     </message>
     <message>
-        <source>DANGER FACTOR</source>
-        <translation type="gpt-5-generated">QUACK DANGER FACTOR WADDLE!</translation>
-    </message>
-    <message>
         <source>DANGER %</source>
         <translation type="unfinished"></translation>
     </message>

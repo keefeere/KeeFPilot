@@ -941,10 +941,6 @@
         <translation type="gpt-5-generated">Ribbit TORQUE % croak</translation>
     </message>
     <message>
-        <source>DANGER FACTOR</source>
-        <translation type="gpt-5-generated">RIBBIT DANGER FACTOR CROAK</translation>
-    </message>
-    <message>
         <source>DANGER %</source>
         <translation type="unfinished"></translation>
     </message>

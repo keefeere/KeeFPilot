@@ -941,10 +941,6 @@
         <translation type="gpt-5-generated">แรงบิด %</translation>
     </message>
     <message>
-        <source>DANGER FACTOR</source>
-        <translation type="gpt-5-generated">ปัจจัยอันตราย</translation>
-    </message>
-    <message>
         <source>DANGER %</source>
         <translation type="unfinished"></translation>
     </message>

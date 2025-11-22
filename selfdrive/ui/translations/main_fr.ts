@@ -941,10 +941,6 @@
         <translation type="gpt-5-generated">COUPLE %</translation>
     </message>
     <message>
-        <source>DANGER FACTOR</source>
-        <translation type="gpt-5-generated">FACTEUR DE DANGER</translation>
-    </message>
-    <message>
         <source>DANGER %</source>
         <translation type="unfinished"></translation>
     </message>
