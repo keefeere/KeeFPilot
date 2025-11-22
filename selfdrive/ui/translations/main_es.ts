@@ -108,6 +108,693 @@
     </message>
 </context>
 <context>
+    <name>Alerts</name>
+    <message>
+        <source>Hop in and buckle up!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Human-tested, frog-approved 🐸</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Be ready to take over at any time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Always keep hands on wheel and eyes on road</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: This branch is not tested</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drive above %1 to engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Steer Unavailable Below %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calibration in Progress: %1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drive Above %1 km/h</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recalibration in Progress: %1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drive Above %1 mph</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>openpilot Unavailable</source>
+        <translation type="unfinished">openpilot no disponible</translation>
+    </message>
+    <message>
+        <source>TAKE CONTROL IMMEDIATELY</source>
+        <translation type="unfinished">TOME CONTROL INMEDIATAMENTE</translation>
+    </message>
+    <message>
+        <source>openpilot will disengage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Posenet Speed Invalid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Process Not Running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Communication Issue Between Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera Malfunction, %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calibration Invalid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remount Device (Pitch: %1°, Yaw: %2°)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Cruise Control to Engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Main Switch to Engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable Adaptive Cruise to Engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speed Error: %1 m/s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Out of Storage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1% full</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera Malfunction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System Overheated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 °C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Low Memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1% used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>High CPU Usage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Driving Model Lagging</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1% frames dropped</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Joystick Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gas: %1%, Steer: %2%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Forcing the car to stop in %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press the gas pedal or 'Resume' button to override</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No lane available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Detected lane width is only %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NNFF Torque Controller not available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate logs to Twilsonco to get your car supported!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NNFF Torque Controller loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System Initializing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dashcam mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dashcam mode for unsupported car</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Car Unrecognized</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check comma power connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dashcam Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Security Key Not Available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stock LKAS is on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turn off stock LKAS to engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>BRAKE!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stock AEB: Risk of Collision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Risk of Collision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lane Departure Detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Steering Temporarily Unavailable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pay Attention</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Driver Distracted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DISENGAGE IMMEDIATELY</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Touch Steering Wheel: No Face Detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Touch Steering Wheel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Driver Unresponsive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TAKE CONTROL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resume Driving Manually</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press Resume to Exit Standstill</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Steer Left to Start Lane Change Once Safe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Steer Right to Start Lane Change Once Safe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Car Detected in Blindspot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changing Lanes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Take Control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turn Exceeds Steering Limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fan Malfunction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Likely Hardware Issue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera Malfunction: Reboot Your Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera Frame Rate Low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reboot your Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera Frame Rate Low: Reboot Your Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>locationd Temporary Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>locationd Permanent Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>paramsd Temporary Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>paramsd Permanent Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel Pressed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Brake Hold Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Parking Brake Engaged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pedal Pressed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Release Brake to Engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Press Set to Engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Adaptive Cruise Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vehicle Steering Time Limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sensor Data Invalid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Possible Hardware Issue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Poor GPS reception</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ensure device has a clear view of the sky</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speaker not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distraction Level Too High</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Gear not D</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calibration Invalid: Remount Device &amp; Recalibrate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Calibration in Progress</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remount Detected: Recalibrating</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Door Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Seatbelt Unlatched</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Electronic Stability Control Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Low Battery</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Low Communication Rate Between Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Controls Process Lagging: Reboot Your Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Radar Error: Restart the Car</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device Fell Off Mount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Low Memory: Reboot Your Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cruise Fault: Restart the Car</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cruise Fault: Restart the car to engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Controls Mismatch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera CRC Error - Road</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera CRC Error - Road Fisheye</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Camera CRC Error - Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB Error: Reboot Your Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAN Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAN Error: Check Connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAN Bus Disconnected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAN Bus Disconnected: Likely Faulty Cable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CAN Bus Disconnected: Check Connections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LKAS Fault: Restart the Car</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LKAS Fault: Restart the car to engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reverse&lt;br&gt;Gear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reverse Gear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cruise Is Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Harness Relay Malfunction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check Hardware</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>openpilot Canceled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speed too low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speed Too High</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Model uncertain at this speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slow down to engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LKAS Disabled: Enable LKAS to engage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LKAS Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vehicle Sensors Invalid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Vehicle Sensors Calibrating</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drive to Calibrate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Don't use the 'Development' branch!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Forcing you into 'Dashcam Mode' for your safety</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>JESUS TAKE THE WHEEL!!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Light turned green</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lead departed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>openpilot crashed</source>
+        <translation type="unfinished">openpilot se bloqueó</translation>
+    </message>
+    <message>
+        <source>Please post the 'Error Log' in the FrogPilot Discord!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Braking Unavailable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Shift to L</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Speed limit changed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is fine ☕</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Traffic Mode enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Traffic Mode Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turning left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Turning right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>UwU u went a bit fast there!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(⁄ ⁄•⁄ω⁄•⁄ ⁄)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I ain't giving you no tree-fiddy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You damn Loch Ness Monsta!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Great Scott!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🚗💨</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>♬♪ Deja vu! ᕕ(⌐■_■)ᕗ ♪♬</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🏎️</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>IE Has Stopped Responding...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I'm sorry Dave</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>I'm afraid I can't do that...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>openpilot crashed 💩</source>
+        <translation type="unfinished">openpilot se bloqueó 💩</translation>
+    </message>
+    <message>
+        <source>To be continued...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>⬅️</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lol 69</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your Frog tried to kill me...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>👺</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You've got mail! 📧</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>AnnotatedCameraWidget</name>
     <message>
         <source>km/h</source>
