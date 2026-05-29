@@ -1,4 +1,4 @@
-import { html } from "https://esm.sh/@arrow-js/core";
+import { html } from "https://esm.sh/@arrow-js/core@1.0.6";
 
 export function Modal({
   title,
@@ -10,6 +10,9 @@ export function Modal({
   confirmClass = "btn-danger",
   customClass = ""
 }) {
+  const modalClass = ["modal", customClass].filter(Boolean).join(" ");
+  const confirmButtonClass = ["btn", confirmClass].filter(Boolean).join(" ");
+
   return html`
     <div class="modal-overlay" tabindex="0"
       @click="${(e) => {
@@ -27,12 +30,12 @@ export function Modal({
         }
       }}"
     >
-      <div class="modal ${customClass}">
+      <div class="${modalClass}">
         <div class="modal-header">${title}</div>
         <div class="modal-body">${message}</div>
         <div class="modal-actions">
           ${onCancel ? html`<button class="btn" @click="${onCancel}">${cancelText}</button>` : ''}
-          ${onConfirm ? html`<button class="btn ${confirmClass}" @click="${onConfirm}">${confirmText}</button>` : ''}
+          ${onConfirm ? html`<button class="${confirmButtonClass}" @click="${onConfirm}">${confirmText}</button>` : ''}
         </div>
       </div>
     </div>

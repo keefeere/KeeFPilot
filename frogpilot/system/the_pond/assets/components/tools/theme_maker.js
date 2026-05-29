@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core";
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6";
 import { Modal } from "/assets/components/modal.js";
 
 const defaultColors = {
@@ -1026,20 +1026,23 @@ export function ThemeMaker() {
             <div class="theme-maker-title">Distance Icons</div>
             <div class="theme-maker-form">
               <div class="upload-section">
-                ${["traffic", "aggressive", "standard", "relaxed"].map(key => html`<div>
-                    <input type="file" class="file-upload-input" id="file-upload-distance-${key}" accept="image/*"
+                ${["traffic", "aggressive", "standard", "relaxed"].map(key => {
+                  const inputId = `file-upload-distance-${key}`;
+                  return html`<div>
+                    <input type="file" class="file-upload-input" id="${inputId}" accept="image/*"
                       @change="${e => handleFileUpload(e, "image", "distanceIcons", key)}" />
                     <div class="file-upload-label">
                       <span class="file-upload-text">${key.charAt(0).toUpperCase() + key.slice(1)}</span>
                       <span class="file-name-display">${() => state.imageFileNames.distanceIcons[key] || ''}</span>
-                      <label for="file-upload-distance-${key}" class="file-upload-button">Choose File</label>
+                      <label for="${inputId}" class="file-upload-button">Choose File</label>
                       ${() => state.imageFileNames.distanceIcons[key] ? html`
                         <button class="file-clear-button" title="Clear" @click="${e => onClearClick(e, "image", "distanceIcons", key)}">
                           <i class="bi bi-trash-fill"></i>
                         </button>
                       ` : ""}
                     </div>
-                  </div>`)}
+                  </div>`;
+                })}
               </div>
             </div>
             <div class="turn-signal-help-text">
@@ -1051,20 +1054,23 @@ export function ThemeMaker() {
             <div class="theme-maker-title">Icons</div>
             <div class="theme-maker-form">
               <div class="upload-section">
-                ${Object.keys(ICON_LABELS).map(key => html`<div>
-                    <input type="file" class="file-upload-input" id="file-upload-${key}" accept="image/*"
+                ${Object.keys(ICON_LABELS).map(key => {
+                  const inputId = `file-upload-${key}`;
+                  return html`<div>
+                    <input type="file" class="file-upload-input" id="${inputId}" accept="image/*"
                       @change="${e => handleFileUpload(e, "image", key)}" />
                     <div class="file-upload-label">
                       <span class="file-upload-text">${ICON_LABELS[key]}</span>
                       <span class="file-name-display">${() => state.imageFileNames[key] || ''}</span>
-                      <label for="file-upload-${key}" class="file-upload-button">Choose File</label>
+                      <label for="${inputId}" class="file-upload-button">Choose File</label>
                       ${() => state.imageFileNames[key] ? html`
                         <button class="file-clear-button" title="Clear" @click="${e => onClearClick(e, "image", key)}">
                           <i class="bi bi-trash-fill"></i>
                         </button>
                       ` : ""}
                     </div>
-                  </div>`)}
+                  </div>`;
+                })}
               </div>
             </div>
             <div class="turn-signal-help-text">
@@ -1077,20 +1083,23 @@ export function ThemeMaker() {
             <div class="theme-maker-title">Sounds</div>
             <div class="theme-maker-form">
               <div class="upload-section">
-                ${SOUND_DEFINITIONS.map(({ key, label }) => html`<div>
-                    <input type="file" class="file-upload-input" id="file-upload-${key}" accept="audio/*"
+                ${SOUND_DEFINITIONS.map(({ key, label }) => {
+                  const inputId = `file-upload-${key}`;
+                  return html`<div>
+                    <input type="file" class="file-upload-input" id="${inputId}" accept="audio/*"
                       @change="${e => handleFileUpload(e, "audio", key)}" />
                     <div class="file-upload-label">
                       <span class="file-upload-text">${label}</span>
                       <span class="file-name-display">${() => state.soundFileNames[key] || ''}</span>
-                      <label for="file-upload-${key}" class="file-upload-button">Choose File</label>
+                      <label for="${inputId}" class="file-upload-button">Choose File</label>
                       ${() => state.soundFileNames[key] ? html`
                         <button class="file-clear-button" title="Clear" @click="${e => onClearClick(e, "audio", key)}">
                           <i class="bi bi-trash-fill"></i>
                         </button>
                       ` : ""}
                     </div>
-                  </div>`)}
+                  </div>`;
+                })}
               </div>
             </div>
           </section>

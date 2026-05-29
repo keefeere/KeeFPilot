@@ -1,8 +1,13 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core";
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6";
 
 function DiskUsage(disk) {
   const used = parseFloat(disk.usedPercentage) || 0;
   const rightRadius = used >= 100 ? "0" : "var(--border-radius-md)";
+  const barStyle = [
+    `border-bottom-right-radius: ${rightRadius}`,
+    `border-top-right-radius: ${rightRadius}`,
+    `width: ${100 - used}%`,
+  ].join("; ");
 
   return html`
     <div class="disk">
@@ -10,11 +15,7 @@ function DiskUsage(disk) {
       <div class="progress">
         <div
           class="bar"
-          style="
-            border-bottom-right-radius: ${rightRadius};
-            border-top-right-radius: ${rightRadius};
-            width: ${100 - used}%;
-          "
+          style="${barStyle}"
         ></div>
       </div>
     </div>

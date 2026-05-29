@@ -53,6 +53,7 @@
   --success-bg: #039226;
   --success-fg: #00a100;
   --success-hover-bg: #01be2d;
+  --switch-inactive-bg: var(--color-gray-600);
   --text-color: #ffffff;
   --text-muted: #a0a0a0;
   --text-on-primary: var(--sidebar-fg);
@@ -309,7 +310,7 @@ a {
 }
 
 /* ――― Breakpoint overrides ――― */
-@media only screen and (max-width: var(--breakpoint-md)) {
+@media only screen and (max-width: 768px) {
   .content { margin-left: 0; }
 }
 
@@ -344,14 +345,16 @@ a {
   to   { opacity: 0; }
 }
 
-::-webkit-scrollbar {
-  height: 8px;
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: var(--track-color);
-}
-::-webkit-scrollbar-thumb {
-  background-color: var(--thumb-color);
-  border-radius: var(--border-radius-sm);
+@supports selector(::-webkit-scrollbar) {
+  ::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--track-color);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumb-color);
+    border-radius: var(--border-radius-sm);
+  }
 }

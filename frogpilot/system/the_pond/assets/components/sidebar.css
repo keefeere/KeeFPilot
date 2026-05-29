@@ -250,31 +250,3 @@
     display: none;
   }
 }
-
-@media only screen and (max-width: var(--breakpoint-md)) {
-  #sidebarUnderlay {
-    display: block;
-  }
-
-  .sidebar {
-    left: calc(-1 * var(--sidebar-width));
-    overflow-y: scroll;
-    transition: var(--transition-fast);
-  }
-
-  .sidebar .menu_section > li > a {
-    font-size: var(--padding-sm);
-  }
-
-  .sidebar .title {
-    flex-direction: row;
-    font-size: var(--border-radius-xl);
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width: var(--breakpoint-md)) {
-  #menu_button {
-    display: none;
-  }
-}

@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core";
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6";
 import { formatSecondsToHuman, parseErrorLogToDate } from "/assets/js/utils.js";
 import { Modal } from "/assets/components/modal.js";
 
@@ -121,6 +121,7 @@ export function ErrorLogs() {
 }
 
 function Logviewer(filename, closeFn) {
+  const downloadUrl = `/api/error_logs/${filename}`;
   const logState = reactive({
     loading: true,
     content: ""
@@ -178,7 +179,7 @@ function Logviewer(filename, closeFn) {
       <button @click="${copyLog}">
         <i class="bi bi-clipboard"></i>
       </button>
-      <a href="/api/error_logs/${filename}" download>
+      <a href="${downloadUrl}" download>
         <button>
           <i class="bi bi-download"></i>
         </button>

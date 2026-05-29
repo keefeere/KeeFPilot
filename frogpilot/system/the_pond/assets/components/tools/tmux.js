@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core"
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6"
 import { formatSecondsToHuman } from "/assets/js/utils.js"
 import { Modal } from "/assets/components/modal.js";
 

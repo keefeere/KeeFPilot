@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core";
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6";
 import { Link } from "/assets/components/router.js";
 import { upperFirst, hideSidebar } from "/assets/js/utils.js";
 
@@ -32,107 +32,106 @@ const state = reactive({
   doorsVisible: false,
   isDoorsFetched: false,
   isTSKFetched: false,
-  tskVisible: false,
-
-  activeRoute: ""
+  tskVisible: false
 });
 
-export function Sidebar() {
-  const currentPath = window.location.pathname;
-  const activeItem = Object.values(MenuItems).flat().find(item => item.link === currentPath);
-  state.activeRoute = activeItem?.name ?? "";
+fetchSidebarAvailability();
 
+export function Sidebar(routerState) {
+  function navigate() {
+    window.scrollTo(0, 0);
+    hideSidebar();
+  }
+
+  return html`
+    <div id="sidebarRoot">
+      <div id="sidebarUnderlay" class="hidden" @click="${hideSidebar}"></div>
+      <div id="sidebar" class="sidebar">
+        <div>
+          <div class="title">
+            <img class="logo" src="/assets/images/main_logo.png" alt="FrogPilot logo" />
+            <div class="title_text sidebar_header">
+              <p>The Pond</p>
+              <a href="https://github.com/Aidenir">by&nbsp;Aidenir</a>
+            </div>
+          </div>
+          <hr />
+          ${() => {
+            const currentPath = routerState?.activePathFull ?? window.location.pathname;
+
+            return Object.entries(MenuItems).map(([section, links]) => {
+              const visibleLinks = links.filter(link => {
+                if (link.name === "Lock/Unlock Doors" && !state.doorsVisible) {
+                  return false;
+                }
+
+                if (link.name === "Toyota Security Keys" && !state.tskVisible) {
+                  return false;
+                }
+
+                return true;
+              });
+
+              if (visibleLinks.length === 0) {
+                return "";
+              }
+
+              return html`
+                <div class="sidebar_widget">
+                  <ul class="menu_section">
+                    <li>
+                      <span class="section-title">${upperFirst(section)}</span>
+                      <ul id="${section}">
+                        ${visibleLinks.map(link => {
+                          const classList = link.link === currentPath ? "active" : "";
+                          const iconClass = `bi ${link.icon}`;
+                          const content = html`
+                            <div class="menu-item-link">
+                              <i class="${iconClass}"></i>
+                              <span>${upperFirst(link.name)}</span>
+                            </div>
+                          `;
+
+                          return html`
+                            <li class="${classList}">
+                              ${Link(link.link, content, navigate)}
+                            </li>
+                          `;
+                        })}
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              `;
+            });
+          }}
+        </div>
+      </div>
+    </div>`;
+}
+
+async function fetchSidebarAvailability() {
   if (!state.isDoorsFetched) {
     state.isDoorsFetched = true;
-    (async () => {
-      try {
-        const response = await fetch("/api/doors_available");
-        const data = await response.json();
-        state.doorsVisible = data.result;
-      } catch (e) {
-        console.error("Failed to fetch door availability:", e);
-      }
-    })();
+    try {
+      const response = await fetch("/api/doors_available");
+      const data = await response.json();
+      state.doorsVisible = data.result;
+    } catch (e) {
+      console.error("Failed to fetch door availability:", e);
+    }
   }
 
   if (!state.isTSKFetched) {
     state.isTSKFetched = true;
-    (async () => {
-      try {
-        const response = await fetch("/api/tsk_available");
-        const data = await response.json();
-        state.tskVisible = data.result;
-      } catch (e) {
-        console.error("Failed to fetch TSK availability:", e);
-      }
-    })();
-  }
-
-  function navigate(link) {
-    state.activeRoute = link.name;
-    window.scrollTo(0, 0);
-    hideSidebar();
-
-    document.querySelectorAll('.sidebar li').forEach(el => {
-      el.classList.remove('active');
-    });
-
-    const linkElement = document.querySelector(`.sidebar li a[href="${link.link}"]`);
-    if (linkElement) {
-      linkElement.parentElement.classList.add('active');
+    try {
+      const response = await fetch("/api/tsk_available");
+      const data = await response.json();
+      state.tskVisible = data.result;
+    } catch (e) {
+      console.error("Failed to fetch TSK availability:", e);
     }
   }
-
-  return html`
-    <div id="sidebarUnderlay" class="hidden"></div>
-    <div id="sidebar" class="sidebar">
-      <div>
-        <div class="title">
-          <img class="logo" src="/assets/images/main_logo.png" alt="FrogPilot logo" />
-          <div class="title_text sidebar_header">
-            <p>The Pond</p>
-            <a href="https://github.com/Aidenir">by&nbsp;Aidenir</a>
-          </div>
-        </div>
-        <hr />
-        ${() => Object.entries(MenuItems).map(([section, links]) => html`
-          <div class="sidebar_widget">
-            <ul class="menu_section">
-              <li>
-                <span class="section-title">${upperFirst(section)}</span>
-                <ul id="${section}">
-                  ${links.map(link => {
-                    if (link.name === "Lock/Unlock Doors" && !state.doorsVisible) {
-                      return "";
-                    }
-
-                    if (link.name === "Toyota Security Keys" && !state.tskVisible) {
-                      return "";
-                    }
-
-                    const isActive = state.activeRoute === link.name;
-                    const classList = [isActive && "active"].filter(Boolean).join(" ");
-
-                    const content = html`
-                      <div class="menu-item-link">
-                        <i class="bi ${link.icon}"></i>
-                        <span>${upperFirst(link.name)}</span>
-                      </div>
-                    `;
-
-                    return html`
-                      <li class="${classList}">
-                        ${Link(link.link, content, () => navigate(link))}
-                      </li>
-                    `;
-                  })}
-                </ul>
-              </li>
-            </ul>
-          </div>
-        `)}
-      </div>
-    </div>`;
 }
 
 function setupMenuButton() {
@@ -140,12 +139,15 @@ function setupMenuButton() {
   const sidebar = document.getElementById("sidebar");
   const underlay = document.getElementById("sidebarUnderlay");
 
-  button.addEventListener("click", () => {
-    sidebar.classList.toggle("visible");
-    underlay.classList.toggle("hidden");
-  });
+  if (!button || !sidebar || !underlay) {
+    return;
+  }
 
-  underlay.addEventListener("click", hideSidebar);
+  button.addEventListener("click", () => {
+    const isVisible = sidebar.classList.toggle("visible");
+    underlay.classList.toggle("hidden", !isVisible);
+    document.documentElement.classList.toggle("no_scroll", isVisible);
+  });
 }
 
 document.addEventListener("DOMContentLoaded", setupMenuButton, false);

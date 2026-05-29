@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core";
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6";
 import {
   addRouteToMap,
   formatMetersToHuman,
@@ -689,8 +689,8 @@ function SearchSuggestions({ suggestions, selectSuggestion, removeFavorite, rena
       </p>
       ${isFavorite(s) ? html`
         <div class="favorite-actions">
-          <button class="home-favorite-button ${s.is_home ? "active" : ""}" title="Set as Home" @click="${e => { e.stopPropagation(); setHome(s); }}">🏠</button>
-          <button class="work-favorite-button ${s.is_work ? "active" : ""}" title="Set as Work" @click="${e => { e.stopPropagation(); setWork(s); }}">💼</button>
+          <button class="${s.is_home ? "home-favorite-button active" : "home-favorite-button"}" title="Set as Home" @click="${e => { e.stopPropagation(); setHome(s); }}">🏠</button>
+          <button class="${s.is_work ? "work-favorite-button active" : "work-favorite-button"}" title="Set as Work" @click="${e => { e.stopPropagation(); setWork(s); }}">💼</button>
           <button class="edit-favorite-button" title="Rename Favorite" @click="${e => { e.stopPropagation(); renameFavorite(s); }}">✏️</button>
           <button class="remove-favorite-button" title="Remove from Favorites" @click="${e => { e.stopPropagation(); removeFavorite(s); }}">🗑️</button>
         </div>
