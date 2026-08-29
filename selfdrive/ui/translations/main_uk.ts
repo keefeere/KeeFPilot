@@ -6212,4 +6212,692 @@ This may take up to a minute.</source>
         <translation>Забути</translation>
     </message>
 </context>
+<context>
+    <name>Alerts</name>
+    <message>
+        <source>System Overheated</source>
+        <translation>Система перегрілася</translation>
+    </message>
+    <message>
+        <source>%1 °C</source>
+        <translation>%1 °C</translation>
+    </message>
+    <message>
+        <source>WARNING: This branch is not tested</source>
+        <translation>УВАГА: Ця гілка не протестована</translation>
+    </message>
+    <message>
+        <source>Hop in and buckle up!</source>
+        <translation>Сідай і пристібай ремені!</translation>
+    </message>
+    <message>
+        <source>Human-tested, frog-approved 🐸</source>
+        <translation>Випробувано людьми, схвалено жабами 🐸</translation>
+    </message>
+    <message>
+        <source>Be ready to take over at any time</source>
+        <translation>Будьте готові взяти керування</translation>
+    </message>
+    <message>
+        <source>Always keep hands on wheel and eyes on road</source>
+        <translation>Завжди тримайте руки на кермі та очі на дорозі</translation>
+    </message>
+    <message>
+        <source>Drive above %1 to engage</source>
+        <translation>Їдьте понад %1, щоб увімкнути</translation>
+    </message>
+    <message>
+        <source>Steer Unavailable Below %1</source>
+        <translation>Кермування недоступне нижче %1</translation>
+    </message>
+    <message>
+        <source>Out of Storage</source>
+        <translation>Нема місця</translation>
+    </message>
+    <message>
+        <source>%1% full</source>
+        <translation>%1% заповнено</translation>
+    </message>
+    <message>
+        <source>Camera Malfunction</source>
+        <translation>Несправність камери</translation>
+    </message>
+    <message>
+        <source>Calibration Invalid</source>
+        <translation>Калібрування недійсне</translation>
+    </message>
+    <message>
+        <source>Low Memory</source>
+        <translation>Недостатньо пам'яті</translation>
+    </message>
+    <message>
+        <source>%1% used</source>
+        <translation>%1% використано</translation>
+    </message>
+    <message>
+        <source>High CPU Usage</source>
+        <translation>Високе використання процесора</translation>
+    </message>
+    <message>
+        <source>Driving Model Lagging</source>
+        <translation>Відставання моделі водіння</translation>
+    </message>
+    <message>
+        <source>%1% frames dropped</source>
+        <translation>%1% втрачених кадрів</translation>
+    </message>
+    <message>
+        <source>Joystick Mode</source>
+        <translation>Режим джойстика</translation>
+    </message>
+    <message>
+        <source>Forcing the car to stop in %1</source>
+        <translation>Зупинка авто в %1</translation>
+    </message>
+    <message>
+        <source>Press the gas pedal or 'Resume' button to override</source>
+        <translation>Натисніть газ або 'Res', щоб скасувати</translation>
+    </message>
+    <message>
+        <source>No lane available</source>
+        <translation>Немає смуг руху</translation>
+    </message>
+    <message>
+        <source>Detected lane width is only %1</source>
+        <translation>Виявлена ширина смуги лише %1</translation>
+    </message>
+    <message>
+        <source>NNFF Torque Controller not available</source>
+        <translation>Контролер моменту NNFF недоступний</translation>
+    </message>
+    <message>
+        <source>Donate logs to Twilsonco to get your car supported!</source>
+        <translation>Відправте логи Twilsonco, щоб отримати підтримку вашого авто!</translation>
+    </message>
+    <message>
+        <source>NNFF Torque Controller loaded</source>
+        <translation>Завантажено контролер моменту NNFF</translation>
+    </message>
+    <message>
+        <source>System Initializing</source>
+        <translation>Ініціалізація системи</translation>
+    </message>
+    <message>
+        <source>Dashcam mode</source>
+        <translation>Режим відеореєстратора</translation>
+    </message>
+    <message>
+        <source>Dashcam mode for unsupported car</source>
+        <translation>Режим відеореєстратора для авто, що не підтримуються</translation>
+    </message>
+    <message>
+        <source>Car Unrecognized</source>
+        <translation>Автомобіль не розпізнано</translation>
+    </message>
+    <message>
+        <source>Check comma power connections</source>
+        <translation>Перевірте підключення живлення comma</translation>
+    </message>
+    <message>
+        <source>Dashcam Mode</source>
+        <translation>Режим відеореєстратора</translation>
+    </message>
+    <message>
+        <source>Security Key Not Available</source>
+        <translation>Ключ безпеки недоступний</translation>
+    </message>
+    <message>
+        <source>Stock LKAS is on</source>
+        <translation>Стандартна система LKAS увімкнена</translation>
+    </message>
+    <message>
+        <source>Turn off stock LKAS to engage</source>
+        <translation>Вимкніть систему LKAS, щоб активувати</translation>
+    </message>
+    <message>
+        <source>BRAKE!</source>
+        <translation>ГАЛЬМУЙ!</translation>
+    </message>
+    <message>
+        <source>Stock AEB: Risk of Collision</source>
+        <translation>Штатна AEB: ризик зіткнення</translation>
+    </message>
+    <message>
+        <source>Risk of Collision</source>
+        <translation>Ризик зіткнення</translation>
+    </message>
+    <message>
+        <source>Lane Departure Detected</source>
+        <translation>Виявлено виїзд зі смуги руху</translation>
+    </message>
+    <message>
+        <source>Steering Temporarily Unavailable</source>
+        <translation>Кермування тимчасово недоступне</translation>
+    </message>
+    <message>
+        <source>Pay Attention</source>
+        <translation>Зверніть увагу</translation>
+    </message>
+    <message>
+        <source>Driver Distracted</source>
+        <translation>Водій відволікся</translation>
+    </message>
+    <message>
+        <source>DISENGAGE IMMEDIATELY</source>
+        <translation>НЕГАЙНА ДЕАКТИВАЦІЯ</translation>
+    </message>
+    <message>
+        <source>Touch Steering Wheel: No Face Detected</source>
+        <translation>Торкніться керма: обличчя не виявлено</translation>
+    </message>
+    <message>
+        <source>Touch Steering Wheel</source>
+        <translation>Торкніться керма</translation>
+    </message>
+    <message>
+        <source>Driver Unresponsive</source>
+        <translation>Водій не реагує</translation>
+    </message>
+    <message>
+        <source>TAKE CONTROL</source>
+        <translation>КЕРМУЙТЕ</translation>
+    </message>
+    <message>
+        <source>Resume Driving Manually</source>
+        <translation>Поновлюю ручне керування</translation>
+    </message>
+    <message>
+        <source>Press Resume to Exit Standstill</source>
+        <translation>Натисніть 'Продовжити', щоб рушити</translation>
+    </message>
+    <message>
+        <source>Steer Left to Start Lane Change Once Safe</source>
+        <translation>Зміна смуги - кермо ліворуч коли безпечно</translation>
+    </message>
+    <message>
+        <source>Steer Right to Start Lane Change Once Safe</source>
+        <translation>Зміна смуги - кермо праворуч коли безпечно</translation>
+    </message>
+    <message>
+        <source>Car Detected in Blindspot</source>
+        <translation>Автомобіль в сліпій зоні</translation>
+    </message>
+    <message>
+        <source>Changing Lanes</source>
+        <translation>Змінюю смугу</translation>
+    </message>
+    <message>
+        <source>Take Control</source>
+        <translation>Кермуйте</translation>
+    </message>
+    <message>
+        <source>Turn Exceeds Steering Limit</source>
+        <translation>Поворот перевищує межу керованості</translation>
+    </message>
+    <message>
+        <source>Fan Malfunction</source>
+        <translation>Несправність вентилятора</translation>
+    </message>
+    <message>
+        <source>Likely Hardware Issue</source>
+        <translation>Ймовірна проблема з обладнанням</translation>
+    </message>
+    <message>
+        <source>Camera Malfunction: Reboot Your Device</source>
+        <translation>Несправність камери: перезавантажте пристрій</translation>
+    </message>
+    <message>
+        <source>Camera Frame Rate Low</source>
+        <translation>Низка частота кадрів камери</translation>
+    </message>
+    <message>
+        <source>Reboot your Device</source>
+        <translation>Перезавантажте пристрій</translation>
+    </message>
+    <message>
+        <source>Camera Frame Rate Low: Reboot Your Device</source>
+        <translation>Низька частота кадрів камери: перезавантажте пристрій</translation>
+    </message>
+    <message>
+        <source>locationd Temporary Error</source>
+        <translation>locationd Тимчасова помилка</translation>
+    </message>
+    <message>
+        <source>locationd Permanent Error</source>
+        <translation>locationd Постійна помилка</translation>
+    </message>
+    <message>
+        <source>paramsd Temporary Error</source>
+        <translation>paramsd Тимчасова помилка</translation>
+    </message>
+    <message>
+        <source>paramsd Permanent Error</source>
+        <translation>paramsd Постійна помилка</translation>
+    </message>
+    <message>
+        <source>Cancel Pressed</source>
+        <translation>Скасувати Натиснуто</translation>
+    </message>
+    <message>
+        <source>Brake Hold Active</source>
+        <translation>Утримання гальма активне</translation>
+    </message>
+    <message>
+        <source>Parking Brake Engaged</source>
+        <translation>Ручник активований</translation>
+    </message>
+    <message>
+        <source>Pedal Pressed</source>
+        <translation>Педаль нажата</translation>
+    </message>
+    <message>
+        <source>Release Brake to Engage</source>
+        <translation>Відпустіть гальмо, щоб активувати</translation>
+    </message>
+    <message>
+        <source>Press Set to Engage</source>
+        <translation>Натисніть Set щоб активувати</translation>
+    </message>
+    <message>
+        <source>Adaptive Cruise Disabled</source>
+        <translation>Адаптивний круїз вимкнено</translation>
+    </message>
+    <message>
+        <source>Vehicle Steering Time Limit</source>
+        <translation>Обмеження часу керування транспортним засобом</translation>
+    </message>
+    <message>
+        <source>Sensor Data Invalid</source>
+        <translation>Дані датчиків недійсні</translation>
+    </message>
+    <message>
+        <source>Possible Hardware Issue</source>
+        <translation>Можлива проблема з обладнанням</translation>
+    </message>
+    <message>
+        <source>Poor GPS reception</source>
+        <translation>Поганий прийом GPS</translation>
+    </message>
+    <message>
+        <source>Ensure device has a clear view of the sky</source>
+        <translation>Переконайтеся, що пристрій має чіткий огляд неба</translation>
+    </message>
+    <message>
+        <source>Speaker not found</source>
+        <translation>Не знайдено динамік</translation>
+    </message>
+    <message>
+        <source>Distraction Level Too High</source>
+        <translation>Занадто високий рівень відволікання</translation>
+    </message>
+    <message>
+        <source>Gear not D</source>
+        <translation>Передача не D</translation>
+    </message>
+    <message>
+        <source>Calibration Invalid: Remount Device &amp; Recalibrate</source>
+        <translation>Калібрування недійсне: перевстановіть пристрій і повторіть</translation>
+    </message>
+    <message>
+        <source>Calibration in Progress</source>
+        <translation>Калібрування в процесі</translation>
+    </message>
+    <message>
+        <source>Remount Detected: Recalibrating</source>
+        <translation>Виявлена перестановка: перекалібрування</translation>
+    </message>
+    <message>
+        <source>Door Open</source>
+        <translation>Відкриті двері</translation>
+    </message>
+    <message>
+        <source>Seatbelt Unlatched</source>
+        <translation>Ремінь безпеки розстібнутий</translation>
+    </message>
+    <message>
+        <source>Electronic Stability Control Disabled</source>
+        <translation>Електронний контроль стабільності вимкнено</translation>
+    </message>
+    <message>
+        <source>Low Battery</source>
+        <translation>Низький заряд батареї</translation>
+    </message>
+    <message>
+        <source>Low Communication Rate Between Processes</source>
+        <translation>Низька швидкість обміну даними між процесами</translation>
+    </message>
+    <message>
+        <source>Controls Process Lagging: Reboot Your Device</source>
+        <translation>Затримки процесу керування: перезавантажте пристрій</translation>
+    </message>
+    <message>
+        <source>Radar Error: Restart the Car</source>
+        <translation>Помилка радара: перезапустіть авто</translation>
+    </message>
+    <message>
+        <source>Device Fell Off Mount</source>
+        <translation>Пристрій відпав від кріплення</translation>
+    </message>
+    <message>
+        <source>Low Memory: Reboot Your Device</source>
+        <translation>Недостатньо пам'яті: перезавантажте пристрій</translation>
+    </message>
+    <message>
+        <source>Cruise Fault: Restart the Car</source>
+        <translation>Несправність круїзу: перезапустіть авто</translation>
+    </message>
+    <message>
+        <source>Cruise Fault: Restart the car to engage</source>
+        <translation>Несправність круїзу: перезапустіть авто, щоб активувати</translation>
+    </message>
+    <message>
+        <source>Controls Mismatch</source>
+        <translation>Невідповідність елементів управління</translation>
+    </message>
+    <message>
+        <source>Camera CRC Error - Road</source>
+        <translation>Помилка CRC камери - Дорожна</translation>
+    </message>
+    <message>
+        <source>Camera CRC Error - Road Fisheye</source>
+        <translation>Помилка CRC камери - Широкоформ.</translation>
+    </message>
+    <message>
+        <source>Camera CRC Error - Driver</source>
+        <translation>Помилка CRC камери - Водійська</translation>
+    </message>
+    <message>
+        <source>USB Error: Reboot Your Device</source>
+        <translation>Помилка USB: перезавантажте пристрій</translation>
+    </message>
+    <message>
+        <source>CAN Error</source>
+        <translation>Помилка CAN</translation>
+    </message>
+    <message>
+        <source>CAN Error: Check Connections</source>
+        <translation>Помилка CAN: перевірте з'єднання</translation>
+    </message>
+    <message>
+        <source>CAN Bus Disconnected</source>
+        <translation>CAN-шину відключено</translation>
+    </message>
+    <message>
+        <source>CAN Bus Disconnected: Likely Faulty Cable</source>
+        <translation>Відключення шини CAN: ймовірно, несправний кабель</translation>
+    </message>
+    <message>
+        <source>CAN Bus Disconnected: Check Connections</source>
+        <translation>CAN-шину відключено: перевірте з'єднання</translation>
+    </message>
+    <message>
+        <source>LKAS Fault: Restart the Car</source>
+        <translation>Помилка LKAS: перезапустіть авто</translation>
+    </message>
+    <message>
+        <source>LKAS Fault: Restart the car to engage</source>
+        <translation>Помилка LKAS: перезавантажте авто</translation>
+    </message>
+    <message>
+        <source>Reverse&lt;br&gt;Gear</source>
+        <translation>Задній
+хід</translation>
+    </message>
+    <message>
+        <source>Reverse Gear</source>
+        <translation>Задній хід</translation>
+    </message>
+    <message>
+        <source>Cruise Is Off</source>
+        <translation>Круїз вимкнено</translation>
+    </message>
+    <message>
+        <source>Harness Relay Malfunction</source>
+        <translation>Несправність реле проводки</translation>
+    </message>
+    <message>
+        <source>Check Hardware</source>
+        <translation>Перевірте обладнання</translation>
+    </message>
+    <message>
+        <source>openpilot Canceled</source>
+        <translation>openpilot Скасовано</translation>
+    </message>
+    <message>
+        <source>Speed too low</source>
+        <translation>Швидкість занизька</translation>
+    </message>
+    <message>
+        <source>Speed Too High</source>
+        <translation>Швидкість завелика</translation>
+    </message>
+    <message>
+        <source>Model uncertain at this speed</source>
+        <translation>Модель непризначена для цієї швидкості</translation>
+    </message>
+    <message>
+        <source>Slow down to engage</source>
+        <translation>Сповільнітся, щоб активувати</translation>
+    </message>
+    <message>
+        <source>LKAS Disabled: Enable LKAS to engage</source>
+        <translation>LKAS вимк.: увімкніть LKAS, щоб активувати</translation>
+    </message>
+    <message>
+        <source>LKAS Disabled</source>
+        <translation>LKAS вимкнено</translation>
+    </message>
+    <message>
+        <source>Vehicle Sensors Invalid</source>
+        <translation>Датчики автомобіля Недійсні</translation>
+    </message>
+    <message>
+        <source>Vehicle Sensors Calibrating</source>
+        <translation>Калібрування датчиків автомобіля</translation>
+    </message>
+    <message>
+        <source>Drive to Calibrate</source>
+        <translation>Їдьте для калібрування</translation>
+    </message>
+    <message>
+        <source>Don't use the 'Development' branch!</source>
+        <translation>Не використовуйте гілку «Розробка»!</translation>
+    </message>
+    <message>
+        <source>Forcing you into 'Dashcam Mode' for your safety</source>
+        <translation>Примусове переведення в «режим відеореєстратора» для вашої безпеки</translation>
+    </message>
+    <message>
+        <source>JESUS TAKE THE WHEEL!!</source>
+        <translation>ІСУСЄ, КЕРМУЙ!!</translation>
+    </message>
+    <message>
+        <source>Light turned green</source>
+        <translation>Зелене свіло</translation>
+    </message>
+    <message>
+        <source>Lead departed</source>
+        <translation>Авто зрушило</translation>
+    </message>
+    <message>
+        <source>openpilot crashed</source>
+        <translation>openpilot завис</translation>
+    </message>
+    <message>
+        <source>Please post the 'Error Log' in the FrogPilot Discord!</source>
+        <translation>Будь ласка, опублікуйте «Журнал помилок» у FrogPilot Discord!</translation>
+    </message>
+    <message>
+        <source>Braking Unavailable</source>
+        <translation>Гальмування недоступне</translation>
+    </message>
+    <message>
+        <source>Shift to L</source>
+        <translation>Перемикніться на L</translation>
+    </message>
+    <message>
+        <source>Speed limit changed</source>
+        <translation>Змінено обмеження швидкості</translation>
+    </message>
+    <message>
+        <source>This is fine ☕</source>
+        <translation>Це добре ☕</translation>
+    </message>
+    <message>
+        <source>Traffic Mode enabled</source>
+        <translation>Режим трафік увімкнено</translation>
+    </message>
+    <message>
+        <source>Traffic Mode Disabled</source>
+        <translation>Режим трафік вимкнено</translation>
+    </message>
+    <message>
+        <source>Turning left</source>
+        <translation>Повертаєм ліворуч</translation>
+    </message>
+    <message>
+        <source>Turning right</source>
+        <translation>Повертаєм праворуч</translation>
+    </message>
+    <message>
+        <source>UwU u went a bit fast there!</source>
+        <translation>UwU, ти трохи занадто поспішив!</translation>
+    </message>
+    <message>
+        <source>(⁄ ⁄•⁄ω⁄•⁄ ⁄)</source>
+        <translation>(⁄ ⁄•⁄ω⁄•⁄ ⁄)</translation>
+    </message>
+    <message>
+        <source>I ain't giving you no tree-fiddy</source>
+        <translation>Я не дам тобі ніяких трьохсот п'ятдесяти</translation>
+    </message>
+    <message>
+        <source>You damn Loch Ness Monsta!</source>
+        <translation>Ти, проклятий Лох-Неський монстр!</translation>
+    </message>
+    <message>
+        <source>Great Scott!</source>
+        <translation>Чудово, Скотте!</translation>
+    </message>
+    <message>
+        <source>🚗💨</source>
+        <translation>🚗💨</translation>
+    </message>
+    <message>
+        <source>♬♪ Deja vu! ᕕ(⌐■_■)ᕗ ♪♬</source>
+        <translation>♬♪ Deja vu! ᕕ(⌐■_■)ᕗ ♪♬</translation>
+    </message>
+    <message>
+        <source>🏎️</source>
+        <translation>🏎️</translation>
+    </message>
+    <message>
+        <source>IE Has Stopped Responding...</source>
+        <translation>IE Has Stopped Responding...</translation>
+    </message>
+    <message>
+        <source>I'm sorry Dave</source>
+        <translation>Вибач, Дейве</translation>
+    </message>
+    <message>
+        <source>I'm afraid I can't do that...</source>
+        <translation>Боюся, що не можу цього зробити...</translation>
+    </message>
+    <message>
+        <source>openpilot crashed 💩</source>
+        <translation>openpilot завис 💩</translation>
+    </message>
+    <message>
+        <source>To be continued...</source>
+        <translation>Продовження буде...</translation>
+    </message>
+    <message>
+        <source>⬅️</source>
+        <translation>⬅️</translation>
+    </message>
+    <message>
+        <source>Lol 69</source>
+        <translation>Лол 69</translation>
+    </message>
+    <message>
+        <source>Your Frog tried to kill me...</source>
+        <translation>Твоя Жаба намагалася мене вбити...</translation>
+    </message>
+    <message>
+        <source>👺</source>
+        <translation>👺</translation>
+    </message>
+    <message>
+        <source>You've got mail! 📧</source>
+        <translation>Вам пошта! 📧</translation>
+    </message>
+    <message>
+        <source>Calibration in Progress: %1%</source>
+        <translation>Калібрування триває: %1%</translation>
+    </message>
+    <message>
+        <source>Drive Above %1 km/h</source>
+        <translation>Їдьте швидше %1 км/год</translation>
+    </message>
+    <message>
+        <source>Recalibration in Progress: %1%</source>
+        <translation>Перекалібрування в процесі: %1%</translation>
+    </message>
+    <message>
+        <source>openpilot Unavailable</source>
+        <translation>openpilot Недоступний</translation>
+    </message>
+    <message>
+        <source>TAKE CONTROL IMMEDIATELY</source>
+        <translation>КЕРМУЙТЕ НЕГАЙНО</translation>
+    </message>
+    <message>
+        <source>openpilot will disengage</source>
+        <translation>openpilot деактивується</translation>
+    </message>
+    <message>
+        <source>Drive Above %1 mph</source>
+        <translation>Їдьте швидше %1 мнг</translation>
+    </message>
+    <message>
+        <source>Posenet Speed Invalid</source>
+        <translation>Швидкість Posenet недійсна</translation>
+    </message>
+    <message>
+        <source>Process Not Running</source>
+        <translation>Процес не виконується</translation>
+    </message>
+    <message>
+        <source>Communication Issue Between Processes</source>
+        <translation>Проблема комунікації між процесами</translation>
+    </message>
+    <message>
+        <source>Camera Malfunction, %1</source>
+        <translation>Несправність камери, %1</translation>
+    </message>
+    <message>
+        <source>Remount Device (Pitch: %1°, Yaw: %2°)</source>
+        <translation>Перевстановити пристрій (нахил: %1°, відхилення: %2°)</translation>
+    </message>
+    <message>
+        <source>Enable Cruise Control to Engage</source>
+        <translation>Увімкни круїз-контроль для активації</translation>
+    </message>
+    <message>
+        <source>Enable Main Switch to Engage</source>
+        <translation>Увімкни круїз-контроль для активації</translation>
+    </message>
+    <message>
+        <source>Enable Adaptive Cruise to Engage</source>
+        <translation>Увімкни адаптивний круїз для активації</translation>
+    </message>
+    <message>
+        <source>Speed Error: %1 m/s</source>
+        <translation>Похибка швидкості: %1 м/с</translation>
+    </message>
+    <message>
+        <source>Gas: %1%, Steer: %2%</source>
+        <translation>Газ: %1%, Кермо: %2%</translation>
+    </message>
+</context>
 </TS>
