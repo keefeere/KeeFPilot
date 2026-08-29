@@ -125,7 +125,7 @@ input:focus + .slider {
 .options {
   color: var(--main-fg);
   display: flex;
-  font-size: 1var(--border-width-base);
+  font-size: 12px;
   gap: var(--border-radius-xl);
   max-width: 336px;
   position: relative;
@@ -199,7 +199,7 @@ input:focus + .slider {
   text-align: center;
   transition: background-color var(--transition-base), border-color var(--transition-base), color var(--transition-base), box-shadow var(--transition-base), filter var(--transition-base);
   white-space: normal;
-  width: 6var(--border-width-thick);
+  width: 65px;
 }
 
 .setting .savebutton.loading {
@@ -211,7 +211,7 @@ input:focus + .slider {
 }
 
 .setting .title {
-  font-size: 1.var(--border-radius-xl);
+  font-size: 1.1rem;
   grid-area: a;
   margin-right: var(--border-radius-xl);
 }
@@ -244,7 +244,7 @@ input:focus + .slider {
   height: var(--border-radius-lg);
   margin: 0 var(--margin-base) var(--margin-xs) 0;
   position: relative;
-  width: 1var(--border-width-base);
+  width: 12px;
 }
 
 .settings {
@@ -270,7 +270,7 @@ input.searchfield {
 
 .settings input.searchfield {
   margin-top: var(--border-radius-xl);
-  padding: 0.var(--border-radius-xl) var(--border-radius-xl);
+  padding: 0.1rem var(--border-radius-xl);
   width: calc(100% - 5rem);
 }
 
@@ -298,7 +298,7 @@ input.searchfield {
 
 .slider.loading:before {
   animation: rotation 1s linear infinite;
-  background-color: none !important;
+  background-color: transparent !important;
   border: var(--border-width-thick) solid var(--sidebar-fg);
   border-bottom-color: #46439b;
   box-sizing: border-box;

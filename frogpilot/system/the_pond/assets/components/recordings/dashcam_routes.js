@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core"
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6"
 import { getOrdinalSuffix } from "/assets/components/navigation/navigation_utilities.js"
 import { Modal } from "/assets/components/modal.js";
 
@@ -403,7 +403,7 @@ export function RouteRecordings() {
                     }}"
                   >
                     <div class="preserved-icon" @click="${e => togglePreserved(route, e)}">
-                      ${() => html`<i class="bi ${route.is_preserved ? "bi-heart-fill" : "bi-heart"}"></i>`}
+                      ${() => html`<i class="${route.is_preserved ? "bi bi-heart-fill" : "bi bi-heart"}"></i>`}
                     </div>
                     <div class="recording-preview-container">
                       <img

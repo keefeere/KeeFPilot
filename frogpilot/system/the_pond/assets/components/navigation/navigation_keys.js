@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core"
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6"
 import { Modal } from "/assets/components/modal.js";
 
 export function NavKeys() {
@@ -219,15 +219,17 @@ export function NavKeys() {
         ${kinds.map(kind => {
           const keyMeta = meta[kind]
           const label = kind[0].toUpperCase() + kind.slice(1).replace(/[0-9]/, d => " " + d)
+          const inputId = `${kind}-key`
+          const placeholder = `${keyMeta.prefix || ""}xxxxxx...`
 
           return html`
-            <label class="navkeys-label" for="${kind}-key">${label} Key</label>
+            <label class="navkeys-label" for="${inputId}">${label} Key</label>
             <div class="navkeys-row">
               <input
                 autocomplete="off"
                 class="navkeys-input"
-                id="${kind}-key"
-                placeholder="${keyMeta.prefix || ""}xxxxxx..."
+                id="${inputId}"
+                placeholder="${placeholder}"
                 value="${() => state[keyMeta.saved] ? util.mask(state[keyMeta.prop]) : state[keyMeta.prop]}"
                 @keydown="${(e) => {
                   if (state[keyMeta.saved] && !state[keyMeta.edit]) {

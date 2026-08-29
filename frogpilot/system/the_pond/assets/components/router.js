@@ -1,4 +1,4 @@
-import { html, reactive } from "https://esm.sh/@arrow-js/core"
+import { html, reactive } from "https://esm.sh/@arrow-js/core@1.0.6"
 import { createBrowserHistory, createRouter } from "https://esm.sh/@remix-run/router@1.3.1"
 import { hideSidebar } from "/assets/js/utils.js"
 import { DoorControl } from "/assets/components/tools/doors.js"
@@ -73,20 +73,22 @@ function Root() {
   })
 
   return html`
-    ${() => Sidebar(routerState.activePathFull)}
-    <div class="content">
-      ${() => {
-        if (!routerState.initialized || routerState.navigation.state === "loading") {
-          return html`<div>Loading...</div>`
-        }
+    <div class="app-shell">
+      ${Sidebar(routerState)}
+      <div class="content">
+        ${() => {
+          if (!routerState.initialized || routerState.navigation.state === "loading") {
+            return html`<div>Loading...</div>`
+          }
 
-        if (routerState.errors?.root?.status === 404) {
-          return html`<h1>Not Found</h1>`
-        }
+          if (routerState.errors?.root?.status === 404) {
+            return html`<h1>Not Found</h1>`
+          }
 
-        const match = routes.find(r => r.path === routerState.activePath)
-        return match.element({ params: routerState.params })
-      }}
+          const match = routes.find(r => r.path === routerState.activePath)
+          return match.element({ params: routerState.params })
+        }}
+      </div>
     </div>
   `
 }
